@@ -1,0 +1,39 @@
+name: Build asset release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Artifact version (without v prefix)
+        required: true
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests
+      - name: Build
+        env:
+          REF: ${{ github.ref_name }}
+          INPUT_VERSION: ${{ inputs.version }}
+        run: |
+          VERSION="${INPUT_VERSION:-${REF#v}}"
+          python tools/build.py --release --version "$VERSION"
+      - run: python tools/test_hd_factions.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: openciv2-assets
+          path: dist/*
+      - name: Publish tagged release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: gh release create "$TAG" dist/* --verify-tag --generate-notes

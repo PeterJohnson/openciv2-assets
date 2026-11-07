@@ -1,0 +1,5024 @@
+[
+  {
+    "id": "pedia-advances",
+    "title": "Civilopedia: Advance Index",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Civilization Advances",
+        "x": 50,
+        "y": 7,
+        "size": 24,
+        "width": 540,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "box",
+        "x": 14,
+        "y": 52,
+        "width": 306,
+        "height": 33,
+        "kind": "selection"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-19.png",
+          "new": "sprites/units/bomber.png",
+          "advanceId": 0
+        },
+        "x": 15,
+        "y": 53,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Advanced Flight",
+        "x": 74,
+        "y": 57,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-12.png",
+          "new": "sprites/buildings/library.png",
+          "advanceId": 1
+        },
+        "x": 15,
+        "y": 86,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Alphabet",
+        "x": 74,
+        "y": 90,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-3.png",
+          "new": "sprites/units/marines.png",
+          "advanceId": 2
+        },
+        "x": 15,
+        "y": 119,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Amphibious Warfare",
+        "x": 74,
+        "y": 123,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-13.png",
+          "new": "sprites/wonders/copernicus-observatory.png",
+          "advanceId": 3
+        },
+        "x": 15,
+        "y": 152,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Astronomy",
+        "x": 74,
+        "y": 156,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-14.png",
+          "new": "sprites/buildings/nuclear-plant.png",
+          "advanceId": 4
+        },
+        "x": 15,
+        "y": 185,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Atomic Theory",
+        "x": 74,
+        "y": 189,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-19.png",
+          "new": "sprites/buildings/superhighways.png",
+          "advanceId": 5
+        },
+        "x": 15,
+        "y": 218,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Automobile",
+        "x": 74,
+        "y": 222,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-5.png",
+          "new": "interface/economy/gold.png",
+          "advanceId": 6
+        },
+        "x": 15,
+        "y": 251,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Banking",
+        "x": 74,
+        "y": 255,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-16.png",
+          "new": "sprites/buildings/aqueduct.png",
+          "advanceId": 7
+        },
+        "x": 15,
+        "y": 284,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Bridge Building",
+        "x": 74,
+        "y": 288,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-16.png",
+          "new": "sprites/units/phalanx.png",
+          "advanceId": 8
+        },
+        "x": 15,
+        "y": 317,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Bronze Working",
+        "x": 74,
+        "y": 321,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-8.png",
+          "new": "sprites/buildings/temple.png",
+          "advanceId": 9
+        },
+        "x": 325,
+        "y": 53,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Ceremonial Burial",
+        "x": 384,
+        "y": 57,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-13.png",
+          "new": "interface/economy/science.png",
+          "advanceId": 10
+        },
+        "x": 325,
+        "y": 86,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Chemistry",
+        "x": 384,
+        "y": 90,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-1.png",
+          "new": "sprites/units/knights.png",
+          "advanceId": 11
+        },
+        "x": 325,
+        "y": 119,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Chivalry",
+        "x": 384,
+        "y": 123,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-8.png",
+          "new": "sprites/buildings/courthouse.png",
+          "advanceId": 12
+        },
+        "x": 325,
+        "y": 152,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Code of Laws",
+        "x": 384,
+        "y": 156,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-3.png",
+          "new": "sprites/units/mechanized-infantry.png",
+          "advanceId": 13
+        },
+        "x": 325,
+        "y": 185,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Combined Arms",
+        "x": 384,
+        "y": 189,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-18.png",
+          "new": "sprites/units/armor.png",
+          "advanceId": 14
+        },
+        "x": 325,
+        "y": 218,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Combustion",
+        "x": 384,
+        "y": 222,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-10.png",
+          "new": "sprites/wonders/womens-suffrage.png",
+          "advanceId": 15
+        },
+        "x": 325,
+        "y": 251,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Communism",
+        "x": 384,
+        "y": 255,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-19.png",
+          "new": "sprites/buildings/research-lab.png",
+          "advanceId": 16
+        },
+        "x": 325,
+        "y": 284,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Computers",
+        "x": 384,
+        "y": 288,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-2.png",
+          "new": "sprites/units/riflemen.png",
+          "advanceId": 17
+        },
+        "x": 325,
+        "y": 317,
+        "width": 54,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Conscription",
+        "x": 384,
+        "y": 321,
+        "size": 21,
+        "width": 244,
+        "clip": true
+      },
+      {
+        "op": "button",
+        "text": "Info",
+        "x": 6,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Tree",
+        "x": 215,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 424,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "id": "pedia-advance",
+    "title": "Civilopedia: Railroad",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Railroad",
+        "x": 55,
+        "y": 7,
+        "size": 24,
+        "width": 530,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-6.png",
+          "new": "interface/symbols/rail.png",
+          "advanceId": 67
+        },
+        "x": 22,
+        "y": 56,
+        "width": 70,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Prerequisites",
+        "x": 110,
+        "y": 53,
+        "size": 18,
+        "width": 500
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-14.png",
+          "new": "sprites/units/ironclad.png",
+          "advanceId": 78
+        },
+        "x": 112,
+        "y": 79,
+        "width": 40,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Steam Engine",
+        "x": 160,
+        "y": 83,
+        "size": 17,
+        "width": 200,
+        "link": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-16.png",
+          "new": "sprites/buildings/aqueduct.png",
+          "advanceId": 7
+        },
+        "x": 354,
+        "y": 79,
+        "width": 40,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Bridge Building",
+        "x": 402,
+        "y": 83,
+        "size": 17,
+        "width": 200,
+        "link": true
+      },
+      {
+        "op": "box",
+        "x": 18,
+        "y": 130,
+        "width": 604,
+        "height": 88,
+        "kind": "card"
+      },
+      {
+        "op": "text",
+        "text": "Allows",
+        "x": 30,
+        "y": 139,
+        "size": 18,
+        "width": 570
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-6.png",
+          "new": "sprites/buildings/factory.png",
+          "advanceId": 37
+        },
+        "x": 30,
+        "y": 171,
+        "width": 38,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Industrialization",
+        "x": 76,
+        "y": 173,
+        "size": 17,
+        "width": 225,
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "with",
+        "x": 302,
+        "y": 173,
+        "size": 17,
+        "width": 52
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-5.png",
+          "new": "interface/economy/gold.png",
+          "advanceId": 6
+        },
+        "x": 355,
+        "y": 171,
+        "width": 32,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Banking",
+        "x": 397,
+        "y": 173,
+        "size": 17,
+        "width": 200,
+        "link": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/wonder-18.png",
+          "new": "sprites/wonders/darwin-voyage.png"
+        },
+        "x": 30,
+        "y": 244,
+        "width": 90,
+        "height": 62
+      },
+      {
+        "op": "text",
+        "text": "Darwin's Voyage",
+        "x": 140,
+        "y": 261,
+        "size": 21,
+        "width": 450,
+        "link": true
+      },
+      {
+        "op": "button",
+        "text": "Go Back",
+        "x": 6,
+        "y": 364,
+        "width": 156,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Tree",
+        "x": 162,
+        "y": 364,
+        "width": 156,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Description",
+        "x": 318,
+        "y": 364,
+        "width": 156,
+        "height": 32,
+        "disabled": true
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 474,
+        "y": 364,
+        "width": 156,
+        "height": 32,
+        "disabled": false
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-pedia-advance.json",
+    "sourceTraceSha256": "85b64ba869441807690321355a0756d2e13f55c1d5ab6a9d478cb4edfb9a9a0f"
+  },
+  {
+    "id": "pedia-tree",
+    "title": "Civilopedia: Advance Tree",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Railroad",
+        "x": 55,
+        "y": 7,
+        "size": 24,
+        "width": 530,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "paths",
+        "paths": [
+          "M157 119L307 177",
+          "M465 119L307 177",
+          "M307 231V282"
+        ]
+      },
+      {
+        "op": "box",
+        "x": 42,
+        "y": 65,
+        "width": 230,
+        "height": 54,
+        "kind": "card"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-14.png",
+          "new": "sprites/units/ironclad.png",
+          "advanceId": 78
+        },
+        "x": 48,
+        "y": 75,
+        "width": 38,
+        "height": 32
+      },
+      {
+        "op": "text",
+        "text": "Steam Engine",
+        "x": 93,
+        "y": 82,
+        "size": 17,
+        "width": 173,
+        "link": true
+      },
+      {
+        "op": "box",
+        "x": 350,
+        "y": 65,
+        "width": 230,
+        "height": 54,
+        "kind": "card"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-16.png",
+          "new": "sprites/buildings/aqueduct.png",
+          "advanceId": 7
+        },
+        "x": 356,
+        "y": 75,
+        "width": 38,
+        "height": 32
+      },
+      {
+        "op": "text",
+        "text": "Bridge Building",
+        "x": 401,
+        "y": 82,
+        "size": 17,
+        "width": 173,
+        "link": true
+      },
+      {
+        "op": "box",
+        "x": 196,
+        "y": 177,
+        "width": 230,
+        "height": 54,
+        "kind": "selection"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-6.png",
+          "new": "interface/symbols/rail.png",
+          "advanceId": 67
+        },
+        "x": 202,
+        "y": 187,
+        "width": 38,
+        "height": 32
+      },
+      {
+        "op": "text",
+        "text": "Railroad",
+        "x": 247,
+        "y": 194,
+        "size": 17,
+        "width": 173,
+        "link": true
+      },
+      {
+        "op": "box",
+        "x": 196,
+        "y": 282,
+        "width": 230,
+        "height": 54,
+        "kind": "card"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-6.png",
+          "new": "sprites/buildings/factory.png",
+          "advanceId": 37
+        },
+        "x": 202,
+        "y": 292,
+        "width": 38,
+        "height": 32
+      },
+      {
+        "op": "text",
+        "text": "Industrialization",
+        "x": 247,
+        "y": 299,
+        "size": 17,
+        "width": 173,
+        "link": true
+      },
+      {
+        "op": "button",
+        "text": "Go Back",
+        "x": 6,
+        "y": 364,
+        "width": 313,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 319,
+        "y": 364,
+        "width": 313,
+        "height": 32,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "id": "pedia-unit",
+    "title": "Civilopedia: Riflemen",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Riflemen",
+        "x": 50,
+        "y": 7,
+        "size": 24,
+        "width": 540,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/11.png",
+          "new": "sprites/units/riflemen.png"
+        },
+        "x": 18,
+        "y": 55,
+        "width": 128,
+        "height": 96
+      },
+      {
+        "op": "text",
+        "text": "Requires: Conscription",
+        "x": 220,
+        "y": 96,
+        "size": 21,
+        "width": 400,
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "Cost:",
+        "x": 18,
+        "y": 165,
+        "size": 21,
+        "width": 170
+      },
+      {
+        "op": "text",
+        "text": "40",
+        "x": 237,
+        "y": 165,
+        "size": 21,
+        "width": 60
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/production.png",
+          "new": "interface/economy/production.png"
+        },
+        "x": 268,
+        "y": 171,
+        "width": 14,
+        "height": 14
+      },
+      {
+        "op": "text",
+        "text": "Attack:",
+        "x": 18,
+        "y": 192,
+        "size": 21,
+        "width": 170
+      },
+      {
+        "op": "text",
+        "text": "5",
+        "x": 237,
+        "y": 192,
+        "size": 21,
+        "width": 60
+      },
+      {
+        "op": "text",
+        "text": "Defense:",
+        "x": 18,
+        "y": 219,
+        "size": 21,
+        "width": 170
+      },
+      {
+        "op": "text",
+        "text": "4",
+        "x": 237,
+        "y": 219,
+        "size": 21,
+        "width": 60
+      },
+      {
+        "op": "text",
+        "text": "Hit Points:",
+        "x": 18,
+        "y": 246,
+        "size": 21,
+        "width": 170
+      },
+      {
+        "op": "text",
+        "text": "2",
+        "x": 237,
+        "y": 246,
+        "size": 21,
+        "width": 60
+      },
+      {
+        "op": "text",
+        "text": "Firepower:",
+        "x": 18,
+        "y": 273,
+        "size": 21,
+        "width": 170
+      },
+      {
+        "op": "text",
+        "text": "1",
+        "x": 237,
+        "y": 273,
+        "size": 21,
+        "width": 60
+      },
+      {
+        "op": "text",
+        "text": "Movement:",
+        "x": 18,
+        "y": 300,
+        "size": 21,
+        "width": 170
+      },
+      {
+        "op": "text",
+        "text": "1",
+        "x": 237,
+        "y": 300,
+        "size": 21,
+        "width": 60
+      },
+      {
+        "op": "text",
+        "text": "Infantry with rifles.",
+        "x": 330,
+        "y": 178,
+        "size": 18,
+        "width": 288
+      },
+      {
+        "op": "text",
+        "text": "Strong on defense.",
+        "x": 330,
+        "y": 207,
+        "size": 18,
+        "width": 288
+      },
+      {
+        "op": "button",
+        "text": "Go Back",
+        "x": 6,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Description",
+        "x": 215,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 424,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "id": "pedia-improvement",
+    "title": "Civilopedia: Library",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Library",
+        "x": 50,
+        "y": 7,
+        "size": 24,
+        "width": 540,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/206.png",
+          "new": "sprites/buildings/library.png"
+        },
+        "x": 18,
+        "y": 56,
+        "width": 72,
+        "height": 40
+      },
+      {
+        "op": "text",
+        "text": "Requires:",
+        "x": 18,
+        "y": 110,
+        "size": 21,
+        "width": 164
+      },
+      {
+        "op": "text",
+        "text": "Writing",
+        "x": 188,
+        "y": 110,
+        "size": 21,
+        "width": 330,
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "Cost:",
+        "x": 18,
+        "y": 139,
+        "size": 21,
+        "width": 164
+      },
+      {
+        "op": "text",
+        "text": "80",
+        "x": 188,
+        "y": 139,
+        "size": 21,
+        "width": 330,
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/production.png",
+          "new": "interface/economy/production.png"
+        },
+        "x": 235,
+        "y": 146,
+        "width": 14,
+        "height": 14
+      },
+      {
+        "op": "text",
+        "text": "Upkeep:",
+        "x": 18,
+        "y": 168,
+        "size": 21,
+        "width": 164
+      },
+      {
+        "op": "text",
+        "text": "1",
+        "x": 188,
+        "y": 168,
+        "size": 21,
+        "width": 330,
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/gold.png",
+          "new": "interface/economy/gold.png"
+        },
+        "x": 235,
+        "y": 175,
+        "width": 14,
+        "height": 14
+      },
+      {
+        "op": "text",
+        "text": "Increases science production in this city.",
+        "x": 18,
+        "y": 225,
+        "size": 21,
+        "width": 604
+      },
+      {
+        "op": "text",
+        "text": "A place to preserve knowledge and train scholars.",
+        "x": 18,
+        "y": 259,
+        "size": 21,
+        "width": 604
+      },
+      {
+        "op": "button",
+        "text": "Go Back",
+        "x": 6,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Description",
+        "x": 215,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 424,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "id": "pedia-wonder",
+    "title": "Civilopedia: Pyramids",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Pyramids",
+        "x": 50,
+        "y": 7,
+        "size": 24,
+        "width": 540,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/wonder-0.png",
+          "new": "sprites/wonders/pyramids.png"
+        },
+        "x": 18,
+        "y": 56,
+        "width": 72,
+        "height": 40
+      },
+      {
+        "op": "text",
+        "text": "Requires:",
+        "x": 18,
+        "y": 110,
+        "size": 21,
+        "width": 164
+      },
+      {
+        "op": "text",
+        "text": "Masonry",
+        "x": 188,
+        "y": 110,
+        "size": 21,
+        "width": 330,
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "Cost:",
+        "x": 18,
+        "y": 139,
+        "size": 21,
+        "width": 164
+      },
+      {
+        "op": "text",
+        "text": "200",
+        "x": 188,
+        "y": 139,
+        "size": 21,
+        "width": 330,
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/production.png",
+          "new": "interface/economy/production.png"
+        },
+        "x": 235,
+        "y": 146,
+        "width": 14,
+        "height": 14
+      },
+      {
+        "op": "text",
+        "text": "Upkeep:",
+        "x": 18,
+        "y": 168,
+        "size": 21,
+        "width": 164
+      },
+      {
+        "op": "text",
+        "text": "0",
+        "x": 188,
+        "y": 168,
+        "size": 21,
+        "width": 330,
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/gold.png",
+          "new": "interface/economy/gold.png"
+        },
+        "x": 235,
+        "y": 175,
+        "width": 14,
+        "height": 14
+      },
+      {
+        "op": "text",
+        "text": "Provides a Granary in every city.",
+        "x": 18,
+        "y": 225,
+        "size": 21,
+        "width": 604
+      },
+      {
+        "op": "text",
+        "text": "A major achievement of the ancient world.",
+        "x": 18,
+        "y": 259,
+        "size": 21,
+        "width": 604
+      },
+      {
+        "op": "button",
+        "text": "Go Back",
+        "x": 6,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Description",
+        "x": 215,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 424,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "id": "pedia-terrain",
+    "title": "Civilopedia: Forest",
+    "width": 640,
+    "height": 400,
+    "family": "pedia",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 400,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 636,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 48,
+        "width": 624,
+        "height": 310,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Forest",
+        "x": 50,
+        "y": 7,
+        "size": 24,
+        "width": 540,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/terrain/3.png",
+          "new": "compatibility/terrain/3.png"
+        },
+        "x": 18,
+        "y": 56,
+        "width": 128,
+        "height": 64
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/feature/forest/0.png",
+          "new": "compatibility/feature/forest/0.png"
+        },
+        "x": 18,
+        "y": 56,
+        "width": 128,
+        "height": 64
+      },
+      {
+        "op": "text",
+        "text": "Movement cost:",
+        "x": 18,
+        "y": 126,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Move Cost: "
+      },
+      {
+        "op": "text",
+        "text": "2",
+        "x": 222,
+        "y": 126,
+        "size": 17,
+        "width": 84,
+        "sourceText": "2",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Defense bonus:",
+        "x": 18,
+        "y": 150,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Unit Defense Bonus: "
+      },
+      {
+        "op": "text",
+        "text": "+50%",
+        "x": 222,
+        "y": 150,
+        "size": 17,
+        "width": 84,
+        "sourceText": "+50%",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Food:",
+        "x": 18,
+        "y": 174,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Food: "
+      },
+      {
+        "op": "text",
+        "text": "1",
+        "x": 222,
+        "y": 174,
+        "size": 17,
+        "width": 84,
+        "sourceText": "1",
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/food.png",
+          "new": "sprites/resources/wheat.png"
+        },
+        "x": 262,
+        "y": 176,
+        "width": 18,
+        "height": 18
+      },
+      {
+        "op": "text",
+        "text": "Shields:",
+        "x": 18,
+        "y": 198,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Shields: "
+      },
+      {
+        "op": "text",
+        "text": "2",
+        "x": 222,
+        "y": 198,
+        "size": 17,
+        "width": 84,
+        "sourceText": "2",
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/production.png",
+          "new": "interface/economy/production.png"
+        },
+        "x": 262,
+        "y": 200,
+        "width": 18,
+        "height": 18
+      },
+      {
+        "op": "text",
+        "text": "Trade:",
+        "x": 18,
+        "y": 222,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Trade: "
+      },
+      {
+        "op": "text",
+        "text": "0",
+        "x": 222,
+        "y": 222,
+        "size": 17,
+        "width": 84,
+        "sourceText": "0",
+        "link": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/trade.png",
+          "new": "interface/economy/trade.png"
+        },
+        "x": 262,
+        "y": 224,
+        "width": 18,
+        "height": 18
+      },
+      {
+        "op": "text",
+        "text": "Irrigation:",
+        "x": 18,
+        "y": 246,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Effects of Irrigation: "
+      },
+      {
+        "op": "text",
+        "text": "Plains",
+        "x": 222,
+        "y": 246,
+        "size": 17,
+        "width": 84,
+        "sourceText": "Plains",
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "Turns to irrigate:",
+        "x": 18,
+        "y": 270,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Turns to Irrigate: "
+      },
+      {
+        "op": "text",
+        "text": "5",
+        "x": 222,
+        "y": 270,
+        "size": 17,
+        "width": 84,
+        "sourceText": "5",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Mining:",
+        "x": 18,
+        "y": 294,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Effects of Mining: "
+      },
+      {
+        "op": "text",
+        "text": "(N/A)",
+        "x": 222,
+        "y": 294,
+        "size": 17,
+        "width": 84,
+        "sourceText": "(N/A)",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Turns to mine:",
+        "x": 18,
+        "y": 318,
+        "size": 17,
+        "width": 196,
+        "sourceText": "Turns to Mine: "
+      },
+      {
+        "op": "text",
+        "text": "5",
+        "x": 222,
+        "y": 318,
+        "size": 17,
+        "width": 84,
+        "sourceText": "5",
+        "link": false
+      },
+      {
+        "op": "box",
+        "x": 318,
+        "y": 122,
+        "width": 302,
+        "height": 220,
+        "kind": "card"
+      },
+      {
+        "op": "text",
+        "text": "Engineer transformation:",
+        "x": 330,
+        "y": 131,
+        "size": 17,
+        "width": 278,
+        "sourceText": "Effect of Engineer Transformation: ",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Grassland",
+        "x": 342,
+        "y": 158,
+        "size": 17,
+        "width": 266,
+        "sourceText": "Grassland",
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "Effects of Roads:",
+        "x": 330,
+        "y": 185,
+        "size": 17,
+        "width": 278,
+        "sourceText": "Effects of Roads: ",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Move Cost:  1/3 of a point",
+        "x": 342,
+        "y": 212,
+        "size": 17,
+        "width": 266,
+        "sourceText": "Move Cost:  1/3 of a point",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Possible Resources:",
+        "x": 330,
+        "y": 239,
+        "size": 17,
+        "width": 278,
+        "sourceText": "Possible Resources: ",
+        "link": false
+      },
+      {
+        "op": "text",
+        "text": "Pheasant",
+        "x": 342,
+        "y": 266,
+        "size": 17,
+        "width": 266,
+        "sourceText": "Pheasant",
+        "link": true
+      },
+      {
+        "op": "text",
+        "text": "Silk",
+        "x": 342,
+        "y": 293,
+        "size": 17,
+        "width": 266,
+        "sourceText": "Silk",
+        "link": true
+      },
+      {
+        "op": "button",
+        "text": "Go Back",
+        "x": 6,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Description",
+        "x": 215,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 424,
+        "y": 364,
+        "width": 209,
+        "height": 32,
+        "disabled": false
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-pedia-terrain.json",
+    "sourceTraceSha256": "8dae9c66dc992e4014793c060998f3d3be2f0875e4d4fb89c3871f2a45440489"
+  },
+  {
+    "id": "powergraph",
+    "title": "Powergraph",
+    "width": 600,
+    "height": 425,
+    "family": "power",
+    "commands": [
+      {
+        "op": "background",
+        "key": "tiles.dll/51",
+        "replacement": "backgrounds/history-gallery-native.png"
+      },
+      {
+        "op": "box",
+        "x": 8,
+        "y": 2,
+        "width": 584,
+        "height": 366,
+        "kind": "graph"
+      },
+      {
+        "op": "graph",
+        "x": 8,
+        "y": 2,
+        "width": 584,
+        "height": 366
+      },
+      {
+        "op": "text",
+        "text": "Celts",
+        "x": 10,
+        "y": 3,
+        "size": 14,
+        "width": 150,
+        "faction": 1,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 10,
+        "y": 17,
+        "size": 14,
+        "width": 150,
+        "faction": 2,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "French",
+        "x": 10,
+        "y": 31,
+        "size": 14,
+        "width": 150,
+        "faction": 3,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Egyptians",
+        "x": 10,
+        "y": 45,
+        "size": 14,
+        "width": 150,
+        "faction": 4,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Americans",
+        "x": 10,
+        "y": 59,
+        "size": 14,
+        "width": 150,
+        "faction": 5,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "English",
+        "x": 10,
+        "y": 73,
+        "size": 14,
+        "width": 150,
+        "faction": 6,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Sioux",
+        "x": 10,
+        "y": 87,
+        "size": 14,
+        "width": 150,
+        "faction": 7,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "4000 B.C.",
+        "x": 8,
+        "y": 372,
+        "size": 12,
+        "width": 116
+      },
+      {
+        "op": "text",
+        "text": "1500 B.C.",
+        "x": 124,
+        "y": 372,
+        "size": 12,
+        "width": 116
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1",
+        "x": 240,
+        "y": 372,
+        "size": 12,
+        "width": 116
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1000",
+        "x": 356,
+        "y": 372,
+        "size": 12,
+        "width": 116
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1788",
+        "x": 472,
+        "y": 372,
+        "size": 12,
+        "width": 116
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 2,
+        "y": 400,
+        "width": 596,
+        "height": 23
+      }
+    ]
+  },
+  {
+    "id": "high-council",
+    "title": "English High Council",
+    "width": 474,
+    "height": 302,
+    "family": "council",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 474,
+        "height": 302,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 470,
+        "height": 22,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "English High Council",
+        "x": 12,
+        "y": 2,
+        "size": 16,
+        "width": 450,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "box",
+        "x": 4,
+        "y": 25,
+        "width": 92,
+        "height": 124,
+        "kind": "portrait"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": null,
+          "new": "sprites/advisors/advisor-10.png"
+        },
+        "x": 5,
+        "y": 26,
+        "width": 90,
+        "height": 122,
+        "media": true
+      },
+      {
+        "op": "button",
+        "text": "Military",
+        "x": 11,
+        "y": 149,
+        "width": 75,
+        "height": 22
+      },
+      {
+        "op": "box",
+        "x": 98,
+        "y": 25,
+        "width": 92,
+        "height": 124,
+        "kind": "portrait"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": null,
+          "new": "sprites/advisors/advisor-11.png"
+        },
+        "x": 99,
+        "y": 26,
+        "width": 90,
+        "height": 122,
+        "media": true
+      },
+      {
+        "op": "button",
+        "text": "Science",
+        "x": 105,
+        "y": 149,
+        "width": 75,
+        "height": 22
+      },
+      {
+        "op": "box",
+        "x": 192,
+        "y": 25,
+        "width": 92,
+        "height": 124,
+        "kind": "portrait"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": null,
+          "new": "sprites/advisors/advisor-12.png"
+        },
+        "x": 193,
+        "y": 26,
+        "width": 90,
+        "height": 122,
+        "media": true
+      },
+      {
+        "op": "button",
+        "text": "Trade",
+        "x": 199,
+        "y": 149,
+        "width": 75,
+        "height": 22
+      },
+      {
+        "op": "box",
+        "x": 286,
+        "y": 25,
+        "width": 92,
+        "height": 124,
+        "kind": "portrait"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": null,
+          "new": "sprites/advisors/advisor-13.png"
+        },
+        "x": 287,
+        "y": 26,
+        "width": 90,
+        "height": 122,
+        "media": true
+      },
+      {
+        "op": "button",
+        "text": "Foreign",
+        "x": 293,
+        "y": 149,
+        "width": 75,
+        "height": 22
+      },
+      {
+        "op": "box",
+        "x": 380,
+        "y": 25,
+        "width": 92,
+        "height": 124,
+        "kind": "portrait"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": null,
+          "new": "sprites/advisors/advisor-14.png"
+        },
+        "x": 381,
+        "y": 26,
+        "width": 90,
+        "height": 122,
+        "media": true
+      },
+      {
+        "op": "button",
+        "text": "Attitude",
+        "x": 387,
+        "y": 149,
+        "width": 75,
+        "height": 22
+      },
+      {
+        "op": "box",
+        "x": 4,
+        "y": 177,
+        "width": 466,
+        "height": 91,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Science: Our libraries need greater support.",
+        "x": 12,
+        "y": 187,
+        "size": 16,
+        "width": 450
+      },
+      {
+        "op": "text",
+        "text": "Consider increasing the science allocation.",
+        "x": 12,
+        "y": 216,
+        "size": 16,
+        "width": 450
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 4,
+        "y": 274,
+        "width": 466,
+        "height": 24
+      }
+    ],
+    "note": "Five 90 Ã— 122 advisor slots and native button/speech geometry. Original council AVI files are absent locally: black slots show the unfilled source frame, not original advisor portraits. Replacement uses still portraits; enhanced adds an active-advisor cue."
+  },
+  {
+    "id": "foreign-minister",
+    "title": "Foreign Minister",
+    "width": 680,
+    "height": 320,
+    "family": "foreign",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 680,
+        "height": 320,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 676,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "Foreign Minister",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 656,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 52,
+        "width": 656,
+        "height": 43,
+        "kind": "card"
+      },
+      {
+        "op": "text",
+        "text": "Sire, our power is Supreme and our reputation is Spotless.",
+        "x": 24,
+        "y": 64,
+        "size": 16,
+        "width": 632,
+        "sourceText": "Sire, our power is Supreme and our reputation is Spotless.",
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 111,
+        "width": 656,
+        "height": 84,
+        "kind": "selection"
+      },
+      {
+        "op": "native-glyph",
+        "command": {
+          "op": "city",
+          "text": "56",
+          "x": 26,
+          "y": 123,
+          "width": 80,
+          "height": 60,
+          "color": 0,
+          "face": 0,
+          "fontHeight": 18,
+          "style": 0,
+          "clip": [
+            11,
+            71,
+            879,
+            246
+          ]
+        }
+      },
+      {
+        "op": "text",
+        "text": "Consul Sitting Bull of the Sioux",
+        "x": 123,
+        "y": 123,
+        "size": 20,
+        "width": 530,
+        "sourceText": "Consul Sitting Bull of the Sioux (Enthusiastic, No Embassy)"
+      },
+      {
+        "op": "text",
+        "text": "Enthusiastic, No Embassy",
+        "x": 123,
+        "y": 156,
+        "size": 17,
+        "width": 530
+      },
+      {
+        "op": "button",
+        "text": "Check Intelligence",
+        "x": 6,
+        "y": 288,
+        "width": 219,
+        "height": 26,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Send Emissary",
+        "x": 229,
+        "y": 288,
+        "width": 219,
+        "height": 26,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Cancel",
+        "x": 451,
+        "y": 288,
+        "width": 219,
+        "height": 26,
+        "disabled": false
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-foreign-minister.json",
+    "sourceTraceSha256": "3ad98845703aa05c674bf2fd437cc9766b34a95d2392019eb5d1ab093eebee7e"
+  },
+  {
+    "id": "historian",
+    "title": "The Historian Reports",
+    "width": 480,
+    "height": 320,
+    "family": "foreign",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 320,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 476,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "The Historian Reports",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 456,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "The most powerful civilizations of the world",
+        "x": 18,
+        "y": 53,
+        "size": 18,
+        "width": 444,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 22,
+        "y": 90,
+        "width": 436,
+        "height": 32,
+        "kind": "row"
+      },
+      {
+        "op": "text",
+        "text": "1. English",
+        "x": 42,
+        "y": 94,
+        "size": 18,
+        "width": 396
+      },
+      {
+        "op": "box",
+        "x": 22,
+        "y": 124,
+        "width": 436,
+        "height": 32,
+        "kind": "row"
+      },
+      {
+        "op": "text",
+        "text": "2. Babylonians",
+        "x": 42,
+        "y": 128,
+        "size": 18,
+        "width": 396
+      },
+      {
+        "op": "box",
+        "x": 22,
+        "y": 158,
+        "width": 436,
+        "height": 32,
+        "kind": "row"
+      },
+      {
+        "op": "text",
+        "text": "3. Germans",
+        "x": 42,
+        "y": 162,
+        "size": 18,
+        "width": 396
+      },
+      {
+        "op": "box",
+        "x": 22,
+        "y": 192,
+        "width": 436,
+        "height": 32,
+        "kind": "row"
+      },
+      {
+        "op": "text",
+        "text": "4. Russians",
+        "x": 42,
+        "y": 196,
+        "size": 18,
+        "width": 396
+      },
+      {
+        "op": "box",
+        "x": 22,
+        "y": 226,
+        "width": 436,
+        "height": 32,
+        "kind": "row"
+      },
+      {
+        "op": "text",
+        "text": "5. Romans",
+        "x": 42,
+        "y": 230,
+        "size": 18,
+        "width": 396
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 6,
+        "y": 288,
+        "width": 465,
+        "height": 26
+      }
+    ]
+  },
+  {
+    "id": "casualty-timeline",
+    "title": "Defense Minister: Casualty Timeline",
+    "width": 600,
+    "height": 400,
+    "family": "casualties",
+    "commands": [
+      {
+        "op": "background",
+        "key": "tiles.dll/51",
+        "replacement": "backgrounds/history-gallery-native.png"
+      },
+      {
+        "op": "text",
+        "text": "Defense Minister: Casualty Timeline",
+        "x": 2,
+        "y": 2,
+        "size": 18,
+        "width": 596,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "Kingdom of the English",
+        "x": 2,
+        "y": 23,
+        "size": 18,
+        "width": 596,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "King Henry VIII: A.D. 1788",
+        "x": 2,
+        "y": 44,
+        "size": 18,
+        "width": 596,
+        "center": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/19.png",
+          "new": "sprites/units/knights.png"
+        },
+        "x": 2,
+        "y": 70,
+        "width": 64,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Knights",
+        "x": 140,
+        "y": 87,
+        "size": 14,
+        "width": 96,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1786",
+        "x": 236,
+        "y": 87,
+        "size": 14,
+        "width": 76,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "(42, 38) near London",
+        "x": 312,
+        "y": 87,
+        "size": 14,
+        "width": 170,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 482,
+        "y": 87,
+        "size": 14,
+        "width": 100,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/18.png",
+          "new": "sprites/units/crusaders.png"
+        },
+        "x": 66,
+        "y": 94,
+        "width": 64,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Crusaders",
+        "x": 140,
+        "y": 111,
+        "size": 14,
+        "width": 96,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1784",
+        "x": 236,
+        "y": 111,
+        "size": 14,
+        "width": 76,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "(42, 38) near London",
+        "x": 312,
+        "y": 111,
+        "size": 14,
+        "width": 170,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 482,
+        "y": 111,
+        "size": 14,
+        "width": 100,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/24.png",
+          "new": "sprites/units/cannon.png"
+        },
+        "x": 2,
+        "y": 118,
+        "width": 64,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Cannon",
+        "x": 140,
+        "y": 135,
+        "size": 14,
+        "width": 96,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1782",
+        "x": 236,
+        "y": 135,
+        "size": 14,
+        "width": 76,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "(42, 38) near London",
+        "x": 312,
+        "y": 135,
+        "size": 14,
+        "width": 170,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 482,
+        "y": 135,
+        "size": 14,
+        "width": 100,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/11.png",
+          "new": "sprites/units/riflemen.png"
+        },
+        "x": 66,
+        "y": 142,
+        "width": 64,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Riflemen",
+        "x": 140,
+        "y": 159,
+        "size": 14,
+        "width": 96,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1780",
+        "x": 236,
+        "y": 159,
+        "size": 14,
+        "width": 76,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "(42, 38) near London",
+        "x": 312,
+        "y": 159,
+        "size": 14,
+        "width": 170,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 482,
+        "y": 159,
+        "size": 14,
+        "width": 100,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/35.png",
+          "new": "sprites/units/frigate.png"
+        },
+        "x": 2,
+        "y": 166,
+        "width": 64,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Frigate",
+        "x": 140,
+        "y": 183,
+        "size": 14,
+        "width": 96,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1778",
+        "x": 236,
+        "y": 183,
+        "size": 14,
+        "width": 76,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "(42, 38) near London",
+        "x": 312,
+        "y": 183,
+        "size": 14,
+        "width": 170,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 482,
+        "y": 183,
+        "size": 14,
+        "width": 100,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/1.png",
+          "new": "sprites/units/engineers.png"
+        },
+        "x": 66,
+        "y": 190,
+        "width": 64,
+        "height": 48
+      },
+      {
+        "op": "text",
+        "text": "Engineers",
+        "x": 140,
+        "y": 207,
+        "size": 14,
+        "width": 96,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1776",
+        "x": 236,
+        "y": 207,
+        "size": 14,
+        "width": 76,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "(42, 38) near London",
+        "x": 312,
+        "y": 207,
+        "size": 14,
+        "width": 170,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Babylonians",
+        "x": 482,
+        "y": 207,
+        "size": 14,
+        "width": 100,
+        "clip": true,
+        "bold": true
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 6,
+        "y": 368,
+        "width": 585,
+        "height": 26
+      }
+    ]
+  },
+  {
+    "id": "destroyed-civilizations",
+    "title": "Destroyed Civilizations",
+    "width": 640,
+    "height": 480,
+    "family": "endgame",
+    "commands": [
+      {
+        "op": "background",
+        "key": "mk.dll/10000",
+        "replacement": "backgrounds/defeat-ruins-native.png"
+      },
+      {
+        "op": "box",
+        "x": 192,
+        "y": 42,
+        "width": 257,
+        "height": 305,
+        "kind": "scrim"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/mk.dll-220.png",
+          "new": "sprites/advisors/advisor-00.png"
+        },
+        "x": 208,
+        "y": 57,
+        "width": 225,
+        "height": 275,
+        "crop": [
+          1,
+          1,
+          225,
+          275
+        ]
+      },
+      {
+        "op": "box",
+        "x": 167,
+        "y": 356,
+        "width": 306,
+        "height": 103,
+        "kind": "scrim"
+      },
+      {
+        "op": "text",
+        "text": "The Romans",
+        "x": 177,
+        "y": 369,
+        "size": 24,
+        "width": 286,
+        "center": true,
+        "bold": true,
+        "sourceText": "The Romans:  Conquered in A.D. 1595"
+      },
+      {
+        "op": "text",
+        "text": "Conquered in A.D. 1595",
+        "x": 177,
+        "y": 414,
+        "size": 17,
+        "width": 286,
+        "center": true
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-destroyed-civilizations.json",
+    "sourceTraceSha256": "6cff50c5d0bb2e110448e79a832044f78ec87ea5449a3d95c88fa79b2d87fa5f"
+  },
+  {
+    "id": "credits",
+    "title": "Credits",
+    "width": 600,
+    "height": 400,
+    "family": "endgame",
+    "commands": [
+      {
+        "op": "background",
+        "key": "credits",
+        "replacement": "backgrounds/history-gallery-native.png"
+      },
+      {
+        "op": "text",
+        "text": "CIVILIZATION II",
+        "x": 2,
+        "y": 22,
+        "size": 26,
+        "width": 596,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "A game of exploration and civilization",
+        "x": 2,
+        "y": 57,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "",
+        "x": 2,
+        "y": 92,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "Design and Programming",
+        "x": 2,
+        "y": 127,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "Art and Animation",
+        "x": 2,
+        "y": 162,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "Music and Sound",
+        "x": 2,
+        "y": 197,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "Quality Assurance",
+        "x": 2,
+        "y": 232,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "",
+        "x": 2,
+        "y": 267,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "text",
+        "text": "Thank you for playing",
+        "x": 2,
+        "y": 302,
+        "size": 21,
+        "width": 596,
+        "center": true,
+        "bold": false
+      },
+      {
+        "op": "button",
+        "text": "Close",
+        "x": 6,
+        "y": 368,
+        "width": 585,
+        "height": 26
+      }
+    ]
+  },
+  {
+    "id": "status-panel",
+    "title": "Status",
+    "width": 320,
+    "height": 370,
+    "family": "status",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 370,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 316,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "Status",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 296,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "32,870,000 People",
+        "x": 18,
+        "y": 50,
+        "size": 17,
+        "width": 284,
+        "sourceText": "32,870,000 People"
+      },
+      {
+        "op": "text",
+        "text": "A.D. 1788",
+        "x": 18,
+        "y": 75,
+        "size": 17,
+        "width": 284,
+        "sourceText": "A.D. 1788"
+      },
+      {
+        "op": "text",
+        "text": "596 Gold  4.0.6",
+        "x": 18,
+        "y": 100,
+        "size": 17,
+        "width": 284,
+        "sourceText": "596 Gold  4.0.6"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/flask-1.png",
+          "new": "interface/economy/science.png"
+        },
+        "x": 263,
+        "y": 83,
+        "width": 28,
+        "height": 28
+      },
+      {
+        "op": "box",
+        "x": 10,
+        "y": 136,
+        "width": 300,
+        "height": 224,
+        "kind": "panel"
+      },
+      {
+        "op": "text",
+        "text": "Moving Units",
+        "x": 20,
+        "y": 146,
+        "size": 18,
+        "width": 280,
+        "sourceText": "Moving Units",
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "native-glyph",
+        "command": {
+          "op": "unit",
+          "text": "105",
+          "x": 20,
+          "y": 184,
+          "width": 80,
+          "height": 60,
+          "color": 4,
+          "face": 0,
+          "fontHeight": 18,
+          "style": 0,
+          "clip": [
+            8,
+            104,
+            248,
+            892
+          ]
+        }
+      },
+      {
+        "op": "text",
+        "text": "Moves: 1",
+        "x": 112,
+        "y": 184,
+        "size": 17,
+        "width": 192,
+        "sourceText": "Moves: 1"
+      },
+      {
+        "op": "text",
+        "text": "Leicester",
+        "x": 112,
+        "y": 210,
+        "size": 17,
+        "width": 192,
+        "sourceText": "Leicester"
+      },
+      {
+        "op": "text",
+        "text": "English",
+        "x": 112,
+        "y": 236,
+        "size": 17,
+        "width": 192,
+        "sourceText": "English"
+      },
+      {
+        "op": "text",
+        "text": "Knights (Veteran)",
+        "x": 22,
+        "y": 278,
+        "size": 18,
+        "width": 278,
+        "sourceText": "Knights (Veteran)"
+      },
+      {
+        "op": "text",
+        "text": "(Grassland)",
+        "x": 22,
+        "y": 307,
+        "size": 18,
+        "width": 278,
+        "sourceText": "(Grassland)"
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-status-panel.json",
+    "sourceTraceSha256": "2cfe34e2779304363abb7d9785a3fd767fe86adc103f333a9dd8edfd28e19990"
+  },
+  {
+    "id": "world-map",
+    "title": "World Map",
+    "width": 304,
+    "height": 264,
+    "family": "world",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 304,
+        "height": 264,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 300,
+        "height": 20,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "World Map",
+        "x": 12,
+        "y": 1,
+        "size": 14,
+        "width": 280,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "world",
+        "x": 2,
+        "y": 22,
+        "width": 300,
+        "height": 240
+      }
+    ]
+  },
+  {
+    "id": "tax-rates",
+    "title": "Tax Rates",
+    "width": 616,
+    "height": 428,
+    "family": "tax",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 616,
+        "height": 428,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 612,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "How Shall We Distribute The Wealth",
+        "x": 12,
+        "y": 5,
+        "size": 20,
+        "width": 592,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Government: Monarchy   Maximum Rate: 70%",
+        "x": 16,
+        "y": 52,
+        "size": 19,
+        "width": 584,
+        "sourceText": "Government: Monarchy   Maximum Rate: 70%",
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "Total Income: 215   Total Cost: 238",
+        "x": 16,
+        "y": 98,
+        "size": 19,
+        "width": 584,
+        "sourceText": "Total Income: 215   Total Cost: 238",
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "Discoveries: 7 Turns",
+        "x": 16,
+        "y": 126,
+        "size": 19,
+        "width": 584,
+        "sourceText": "Discoveries: 7 Turns",
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "Lock",
+        "x": 549,
+        "y": 175,
+        "size": 15,
+        "width": 56,
+        "center": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/gold.png",
+          "new": "interface/economy/gold.png"
+        },
+        "x": 190,
+        "y": 180,
+        "width": 24,
+        "height": 24,
+        "taxRole": "gold"
+      },
+      {
+        "op": "text",
+        "text": "Taxes: 40%",
+        "x": 222,
+        "y": 181,
+        "size": 19,
+        "width": 113,
+        "sourceText": "Taxes: 40%"
+      },
+      {
+        "op": "text",
+        "text": "0%",
+        "x": 24,
+        "y": 183,
+        "size": 17,
+        "width": 45
+      },
+      {
+        "op": "text",
+        "text": "100%",
+        "x": 464,
+        "y": 183,
+        "size": 17,
+        "width": 60
+      },
+      {
+        "op": "slider",
+        "x": 24,
+        "y": 208,
+        "width": 496,
+        "height": 23,
+        "value": 40,
+        "role": "gold"
+      },
+      {
+        "op": "checkbox",
+        "x": 561,
+        "y": 208,
+        "width": 20,
+        "height": 20,
+        "checked": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/science.png",
+          "new": "interface/economy/science.png"
+        },
+        "x": 180,
+        "y": 242,
+        "width": 24,
+        "height": 24,
+        "taxRole": "science"
+      },
+      {
+        "op": "text",
+        "text": "Science: 60%",
+        "x": 212,
+        "y": 243,
+        "size": 19,
+        "width": 132,
+        "sourceText": "Science: 60%"
+      },
+      {
+        "op": "text",
+        "text": "0%",
+        "x": 24,
+        "y": 245,
+        "size": 17,
+        "width": 45
+      },
+      {
+        "op": "text",
+        "text": "100%",
+        "x": 464,
+        "y": 245,
+        "size": 17,
+        "width": 60
+      },
+      {
+        "op": "slider",
+        "x": 24,
+        "y": 270,
+        "width": 496,
+        "height": 23,
+        "value": 60,
+        "role": "science"
+      },
+      {
+        "op": "checkbox",
+        "x": 561,
+        "y": 270,
+        "width": 20,
+        "height": 20,
+        "checked": false
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/economy/luxury.png",
+          "new": "interface/economy/luxury.png"
+        },
+        "x": 181,
+        "y": 304,
+        "width": 24,
+        "height": 24,
+        "taxRole": "luxury"
+      },
+      {
+        "op": "text",
+        "text": "Luxuries: 0%",
+        "x": 213,
+        "y": 305,
+        "size": 19,
+        "width": 130,
+        "sourceText": "Luxuries: 0%"
+      },
+      {
+        "op": "text",
+        "text": "0%",
+        "x": 24,
+        "y": 307,
+        "size": 17,
+        "width": 45
+      },
+      {
+        "op": "text",
+        "text": "100%",
+        "x": 464,
+        "y": 307,
+        "size": 17,
+        "width": 60
+      },
+      {
+        "op": "slider",
+        "x": 24,
+        "y": 332,
+        "width": 496,
+        "height": 23,
+        "value": 0,
+        "role": "luxury"
+      },
+      {
+        "op": "checkbox",
+        "x": 561,
+        "y": 332,
+        "width": 20,
+        "height": 20,
+        "checked": false
+      },
+      {
+        "op": "button",
+        "text": "OK",
+        "x": 10,
+        "y": 391,
+        "width": 596,
+        "height": 27,
+        "disabled": false
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-tax-rates.json",
+    "sourceTraceSha256": "6a614d453d002373fc78025d957bc7564b695531c7dd40e33ee1d13382608dfb"
+  },
+  {
+    "id": "dialog-research",
+    "title": "What shall we research?",
+    "width": 550,
+    "height": 430,
+    "family": "research",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 550,
+        "height": 430,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 546,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "What shall we research?",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 526,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 52,
+        "width": 526,
+        "height": 44,
+        "kind": "selection"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-6.png",
+          "new": "sprites/units/freight.png",
+          "advanceId": 19
+        },
+        "x": 24,
+        "y": 56,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "The Corporation",
+        "x": 86,
+        "y": 63,
+        "size": 21,
+        "width": 435,
+        "sourceText": "The Corporation"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 98,
+        "width": 526,
+        "height": 44,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-3.png",
+          "new": "sprites/units/spy.png",
+          "advanceId": 27
+        },
+        "x": 24,
+        "y": 102,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "Espionage",
+        "x": 86,
+        "y": 109,
+        "size": 21,
+        "width": 435,
+        "sourceText": "Espionage"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 144,
+        "width": 526,
+        "height": 44,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-10.png",
+          "new": "sprites/units/fanatics.png",
+          "advanceId": 31
+        },
+        "x": 24,
+        "y": 148,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "Fundamentalism",
+        "x": 86,
+        "y": 155,
+        "size": 21,
+        "width": 435,
+        "sourceText": "Fundamentalism"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 190,
+        "width": 526,
+        "height": 44,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-1.png",
+          "new": "sprites/units/dragoons.png",
+          "advanceId": 42
+        },
+        "x": 24,
+        "y": 194,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "Leadership",
+        "x": 86,
+        "y": 201,
+        "size": 21,
+        "width": 435,
+        "sourceText": "Leadership"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 236,
+        "width": 526,
+        "height": 44,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-7.png",
+          "new": "sprites/buildings/supermarket.png",
+          "advanceId": 70
+        },
+        "x": 24,
+        "y": 240,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "Refrigeration",
+        "x": 86,
+        "y": 247,
+        "size": 21,
+        "width": 435,
+        "sourceText": "Refrigeration"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 282,
+        "width": 526,
+        "height": 44,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-18.png",
+          "new": "sprites/units/cruiser.png",
+          "advanceId": 79
+        },
+        "x": 24,
+        "y": 286,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "Steel",
+        "x": 86,
+        "y": 293,
+        "size": 21,
+        "width": 435,
+        "sourceText": "Steel"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 328,
+        "width": 526,
+        "height": 44,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/advance-13.png",
+          "new": "sprites/wonders/newton-college.png",
+          "advanceId": 83
+        },
+        "x": 24,
+        "y": 332,
+        "width": 46,
+        "height": 34
+      },
+      {
+        "op": "text",
+        "text": "Theory of Gravity",
+        "x": 86,
+        "y": 339,
+        "size": 21,
+        "width": 435,
+        "sourceText": "Theory of Gravity"
+      },
+      {
+        "op": "button",
+        "text": "Help",
+        "x": 6,
+        "y": 398,
+        "width": 176,
+        "height": 26,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Goal",
+        "x": 185,
+        "y": 398,
+        "width": 176,
+        "height": 26,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "OK",
+        "x": 365,
+        "y": 398,
+        "width": 176,
+        "height": 26,
+        "disabled": false
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-dialog-research.json",
+    "sourceTraceSha256": "bcfbc82f56e17dbe0c3ceaaabda8f5e388d6ee4c606abe436830d519e31f71da"
+  },
+  {
+    "id": "dialog-production",
+    "title": "What shall we build in London?",
+    "width": 760,
+    "height": 640,
+    "family": "choice",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 760,
+        "height": 640,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 756,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "What shall we build in London?",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 736,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Production",
+        "x": 82,
+        "y": 48,
+        "size": 17,
+        "width": 300
+      },
+      {
+        "op": "text",
+        "text": "Turns",
+        "x": 385,
+        "y": 48,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "Attack / Defense / Move",
+        "x": 467,
+        "y": 48,
+        "size": 15,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "HP / FP",
+        "x": 675,
+        "y": 48,
+        "size": 15,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 76,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/1.png",
+          "new": "compatibility/unit/1.png"
+        },
+        "x": 20,
+        "y": 76,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Engineers",
+        "x": 82,
+        "y": 81,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Engineers "
+      },
+      {
+        "op": "text",
+        "text": "3",
+        "x": 385,
+        "y": 81,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(3 Turns, ADM: 0/2/2 HP: 2/1)"
+      },
+      {
+        "op": "text",
+        "text": "0/2/2",
+        "x": 467,
+        "y": 81,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "2/1",
+        "x": 675,
+        "y": 81,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 108,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/11.png",
+          "new": "compatibility/unit/11.png"
+        },
+        "x": 20,
+        "y": 108,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Riflemen",
+        "x": 82,
+        "y": 113,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Riflemen "
+      },
+      {
+        "op": "text",
+        "text": "3",
+        "x": 385,
+        "y": 113,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(3 Turns, ADM: 5/4/1 HP: 2/1)"
+      },
+      {
+        "op": "text",
+        "text": "5/4/1",
+        "x": 467,
+        "y": 113,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "2/1",
+        "x": 675,
+        "y": 113,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 140,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/18.png",
+          "new": "compatibility/unit/18.png"
+        },
+        "x": 20,
+        "y": 140,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Crusaders",
+        "x": 82,
+        "y": 145,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Crusaders "
+      },
+      {
+        "op": "text",
+        "text": "3",
+        "x": 385,
+        "y": 145,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(3 Turns, ADM: 5/1/2 HP: 1/1)"
+      },
+      {
+        "op": "text",
+        "text": "5/1/2",
+        "x": 467,
+        "y": 145,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "1/1",
+        "x": 675,
+        "y": 145,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 172,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/19.png",
+          "new": "compatibility/unit/19.png"
+        },
+        "x": 20,
+        "y": 172,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Knights",
+        "x": 82,
+        "y": 177,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Knights "
+      },
+      {
+        "op": "text",
+        "text": "3",
+        "x": 385,
+        "y": 177,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(3 Turns, ADM: 4/2/2 HP: 1/1)"
+      },
+      {
+        "op": "text",
+        "text": "4/2/2",
+        "x": 467,
+        "y": 177,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "1/1",
+        "x": 675,
+        "y": 177,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 204,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/24.png",
+          "new": "compatibility/unit/24.png"
+        },
+        "x": 20,
+        "y": 204,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Cannon",
+        "x": 82,
+        "y": 209,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Cannon "
+      },
+      {
+        "op": "text",
+        "text": "3",
+        "x": 385,
+        "y": 209,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(3 Turns, ADM: 8/1/1 HP: 2/1)"
+      },
+      {
+        "op": "text",
+        "text": "8/1/1",
+        "x": 467,
+        "y": 209,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "2/1",
+        "x": 675,
+        "y": 209,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 236,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/46.png",
+          "new": "compatibility/unit/46.png"
+        },
+        "x": 20,
+        "y": 236,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Diplomat",
+        "x": 82,
+        "y": 241,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Diplomat "
+      },
+      {
+        "op": "text",
+        "text": "2",
+        "x": 385,
+        "y": 241,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(2 Turns, ADM: 0/0/2 HP: 1/1)"
+      },
+      {
+        "op": "text",
+        "text": "0/0/2",
+        "x": 467,
+        "y": 241,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "1/1",
+        "x": 675,
+        "y": 241,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 268,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/48.png",
+          "new": "compatibility/unit/48.png"
+        },
+        "x": 20,
+        "y": 268,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Caravan",
+        "x": 82,
+        "y": 273,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Caravan "
+      },
+      {
+        "op": "text",
+        "text": "3",
+        "x": 385,
+        "y": 273,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(3 Turns, ADM: 0/1/1 HP: 1/1)"
+      },
+      {
+        "op": "text",
+        "text": "0/1/1",
+        "x": 467,
+        "y": 273,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "1/1",
+        "x": 675,
+        "y": 273,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 300,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/unit/50.png",
+          "new": "compatibility/unit/50.png"
+        },
+        "x": 20,
+        "y": 300,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Explorer",
+        "x": 82,
+        "y": 305,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Explorer "
+      },
+      {
+        "op": "text",
+        "text": "2",
+        "x": 385,
+        "y": 305,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(2 Turns, ADM: 0/1/1 HP: 1/1)"
+      },
+      {
+        "op": "text",
+        "text": "0/1/1",
+        "x": 467,
+        "y": 305,
+        "size": 17,
+        "width": 196,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "1/1",
+        "x": 675,
+        "y": 305,
+        "size": 17,
+        "width": 72,
+        "center": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 332,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/206.png",
+          "new": "sprites/buildings/library.png"
+        },
+        "x": 20,
+        "y": 332,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Library",
+        "x": 82,
+        "y": 337,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Library "
+      },
+      {
+        "op": "text",
+        "text": "5",
+        "x": 385,
+        "y": 337,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(5 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 364,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/208.png",
+          "new": "sprites/buildings/city-walls.png"
+        },
+        "x": 20,
+        "y": 364,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "City Walls",
+        "x": 82,
+        "y": 369,
+        "size": 17,
+        "width": 296,
+        "sourceText": "City Walls "
+      },
+      {
+        "op": "text",
+        "text": "5",
+        "x": 385,
+        "y": 369,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(5 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 396,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/214.png",
+          "new": "sprites/buildings/colosseum.png"
+        },
+        "x": 20,
+        "y": 396,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Colosseum",
+        "x": 82,
+        "y": 401,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Colosseum "
+      },
+      {
+        "op": "text",
+        "text": "6",
+        "x": 385,
+        "y": 401,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(6 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 428,
+        "width": 736,
+        "height": 31,
+        "kind": "selection"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/222.png",
+          "new": "sprites/buildings/stock-exchange.png"
+        },
+        "x": 20,
+        "y": 428,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Stock Exchange",
+        "x": 82,
+        "y": 433,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Stock Exchange "
+      },
+      {
+        "op": "text",
+        "text": "9",
+        "x": 385,
+        "y": 433,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(9 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 460,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/223.png",
+          "new": "sprites/buildings/sewer-system.png"
+        },
+        "x": 20,
+        "y": 460,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Sewer System",
+        "x": 82,
+        "y": 465,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Sewer System "
+      },
+      {
+        "op": "text",
+        "text": "7",
+        "x": 385,
+        "y": 465,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(7 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 492,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/230.png",
+          "new": "sprites/buildings/harbor.png"
+        },
+        "x": 20,
+        "y": 492,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "Harbor",
+        "x": 82,
+        "y": 497,
+        "size": 17,
+        "width": 296,
+        "sourceText": "Harbor "
+      },
+      {
+        "op": "text",
+        "text": "4",
+        "x": 385,
+        "y": 497,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(4 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 524,
+        "width": 736,
+        "height": 31,
+        "kind": "panel"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/wonder-15.png",
+          "new": "sprites/wonders/bach-cathedral.png"
+        },
+        "x": 20,
+        "y": 524,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "J. S. Bach's Cathedral",
+        "x": 82,
+        "y": 529,
+        "size": 17,
+        "width": 296,
+        "sourceText": "J. S. Bach's Cathedral "
+      },
+      {
+        "op": "text",
+        "text": "23",
+        "x": 385,
+        "y": 529,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(23 Turns)"
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 556,
+        "width": 736,
+        "height": 31,
+        "kind": "row"
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/other-windows/wonder-24.png",
+          "new": "sprites/wonders/united-nations.png"
+        },
+        "x": 20,
+        "y": 556,
+        "width": 48,
+        "height": 30
+      },
+      {
+        "op": "text",
+        "text": "United Nations",
+        "x": 82,
+        "y": 561,
+        "size": 17,
+        "width": 296,
+        "sourceText": "United Nations "
+      },
+      {
+        "op": "text",
+        "text": "34",
+        "x": 385,
+        "y": 561,
+        "size": 17,
+        "width": 72,
+        "center": true,
+        "sourceText": "(34 Turns)"
+      },
+      {
+        "op": "button",
+        "text": "Auto",
+        "x": 6,
+        "y": 608,
+        "width": 246,
+        "height": 26,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "Help",
+        "x": 255,
+        "y": 608,
+        "width": 246,
+        "height": 26,
+        "disabled": false
+      },
+      {
+        "op": "button",
+        "text": "OK",
+        "x": 505,
+        "y": 608,
+        "width": 246,
+        "height": 26,
+        "disabled": false
+      }
+    ],
+    "note": "Enhanced reflow of the same extracted source content and saved-state fixture as the original/HD views; no game renderer changes.",
+    "sourceTrace": "review/traces/other-dialog-production.json",
+    "sourceTraceSha256": "455f428882d1d7927f14eaa397f50203f593bd633933f77e19747ffd8bae5983"
+  },
+  {
+    "id": "dialog-options",
+    "title": "Game Options",
+    "width": 480,
+    "height": 410,
+    "family": "options",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 480,
+        "height": 410,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 476,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "Game Options",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 456,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 54,
+        "width": 16,
+        "height": 16,
+        "checked": true
+      },
+      {
+        "op": "text",
+        "text": "Sound Effects",
+        "x": 43,
+        "y": 51,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 82,
+        "width": 16,
+        "height": 16,
+        "checked": true
+      },
+      {
+        "op": "text",
+        "text": "Music",
+        "x": 43,
+        "y": 79,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 110,
+        "width": 16,
+        "height": 16,
+        "checked": false
+      },
+      {
+        "op": "text",
+        "text": "Always wait at end of turn.",
+        "x": 43,
+        "y": 107,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 138,
+        "width": 16,
+        "height": 16,
+        "checked": true
+      },
+      {
+        "op": "text",
+        "text": "Autosave each turn.",
+        "x": 43,
+        "y": 135,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 166,
+        "width": 16,
+        "height": 16,
+        "checked": true
+      },
+      {
+        "op": "text",
+        "text": "Show enemy moves.",
+        "x": 43,
+        "y": 163,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 194,
+        "width": 16,
+        "height": 16,
+        "checked": false
+      },
+      {
+        "op": "text",
+        "text": "No pause after enemy moves.",
+        "x": 43,
+        "y": 191,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 222,
+        "width": 16,
+        "height": 16,
+        "checked": false
+      },
+      {
+        "op": "text",
+        "text": "Fast piece slide.",
+        "x": 43,
+        "y": 219,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 250,
+        "width": 16,
+        "height": 16,
+        "checked": true
+      },
+      {
+        "op": "text",
+        "text": "Instant advice.",
+        "x": 43,
+        "y": 247,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 278,
+        "width": 16,
+        "height": 16,
+        "checked": false
+      },
+      {
+        "op": "text",
+        "text": "Tutorial help.",
+        "x": 43,
+        "y": 275,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 306,
+        "width": 16,
+        "height": 16,
+        "checked": false
+      },
+      {
+        "op": "text",
+        "text": "Move units w/ mouse (cursor arrows).",
+        "x": 43,
+        "y": 303,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "checkbox",
+        "x": 17,
+        "y": 334,
+        "width": 16,
+        "height": 16,
+        "checked": false
+      },
+      {
+        "op": "text",
+        "text": "ENTER key closes City Screen.",
+        "x": 43,
+        "y": 331,
+        "size": 16,
+        "width": 425
+      },
+      {
+        "op": "button",
+        "text": "OK",
+        "x": 6,
+        "y": 378,
+        "width": 231,
+        "height": 26
+      },
+      {
+        "op": "button",
+        "text": "Cancel",
+        "x": 240,
+        "y": 378,
+        "width": 231,
+        "height": 26
+      }
+    ]
+  },
+  {
+    "id": "dialog-setup",
+    "title": "Civilization II",
+    "width": 360,
+    "height": 360,
+    "family": "setup",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 360,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 356,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "Civilization II",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 336,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "box",
+        "x": 12,
+        "y": 50,
+        "width": 336,
+        "height": 31,
+        "kind": "selection"
+      },
+      {
+        "op": "text",
+        "text": "Start a New Game",
+        "x": 28,
+        "y": 54,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "Start on Premade World",
+        "x": 28,
+        "y": 86,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "Customize World",
+        "x": 28,
+        "y": 118,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "Begin Scenario",
+        "x": 28,
+        "y": 150,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "Load a Game",
+        "x": 28,
+        "y": 182,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "Multiplayer Game",
+        "x": 28,
+        "y": 214,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "View Hall of Fame",
+        "x": 28,
+        "y": 246,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "text",
+        "text": "View Credits",
+        "x": 28,
+        "y": 278,
+        "size": 18,
+        "width": 304
+      },
+      {
+        "op": "button",
+        "text": "OK",
+        "x": 6,
+        "y": 328,
+        "width": 171,
+        "height": 26
+      },
+      {
+        "op": "button",
+        "text": "Cancel",
+        "x": 180,
+        "y": 328,
+        "width": 171,
+        "height": 26
+      }
+    ]
+  },
+  {
+    "id": "dialog-confirmation",
+    "title": "Quit Civilization II?",
+    "width": 400,
+    "height": 220,
+    "family": "choice",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 220,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 396,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "Quit Civilization II?",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 376,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "text",
+        "text": "Do you really want to quit?",
+        "x": 20,
+        "y": 68,
+        "size": 21,
+        "width": 360,
+        "center": true
+      },
+      {
+        "op": "text",
+        "text": "Any unsaved progress will be lost.",
+        "x": 20,
+        "y": 105,
+        "size": 16,
+        "width": 360,
+        "center": true
+      },
+      {
+        "op": "button",
+        "text": "Yes",
+        "x": 6,
+        "y": 188,
+        "width": 191,
+        "height": 26
+      },
+      {
+        "op": "button",
+        "text": "No",
+        "x": 200,
+        "y": 188,
+        "width": 191,
+        "height": 26
+      }
+    ]
+  },
+  {
+    "id": "dialog-information",
+    "title": "City Improvement Complete",
+    "width": 400,
+    "height": 220,
+    "family": "choice",
+    "commands": [
+      {
+        "op": "box",
+        "x": 0,
+        "y": 0,
+        "width": 400,
+        "height": 220,
+        "kind": "background"
+      },
+      {
+        "op": "box",
+        "x": 2,
+        "y": 2,
+        "width": 396,
+        "height": 38,
+        "kind": "heading"
+      },
+      {
+        "op": "text",
+        "text": "City Improvement Complete",
+        "x": 12,
+        "y": 5,
+        "size": 24,
+        "width": 376,
+        "center": true,
+        "bold": true
+      },
+      {
+        "op": "image",
+        "binding": {
+          "old": "review/original-local/bindings/icon/206.png",
+          "new": "sprites/buildings/library.png"
+        },
+        "x": 24,
+        "y": 68,
+        "width": 72,
+        "height": 40
+      },
+      {
+        "op": "text",
+        "text": "London completed a Library.",
+        "x": 114,
+        "y": 65,
+        "size": 16,
+        "width": 272
+      },
+      {
+        "op": "text",
+        "text": "Choose what to build next.",
+        "x": 114,
+        "y": 102,
+        "size": 14,
+        "width": 272
+      },
+      {
+        "op": "button",
+        "text": "Zoom to City",
+        "x": 6,
+        "y": 188,
+        "width": 191,
+        "height": 26
+      },
+      {
+        "op": "button",
+        "text": "Continue",
+        "x": 200,
+        "y": 188,
+        "width": 191,
+        "height": 26
+      }
+    ]
+  }
+]

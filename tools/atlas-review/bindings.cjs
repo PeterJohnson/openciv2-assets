@@ -1,0 +1,285 @@
+// PNG bindings for the extracted renderer. These are explicit review adapters, not runtime loaders.
+const C = require('./common.cjs');
+const Finishing = require('./map-finishing.cjs');
+const Land = require('./terrain-blends.cjs');
+const Vegetation = require('./terrain-vegetation.cjs');
+const {fs, path, pack, art, sharp, svg, asset, entries, raw, clear, blit, png, fit} = C;
+const bank = new Map();
+const bindingIndex = {};
+
+async function save(name, bytes, w = 64, h = 32, source = null) {
+    bytes = await sharp(bytes).png().toBuffer();
+    const file = 'compatibility/' + name + '.png';
+    C.write(path.join(pack, file), bytes);
+    bindingIndex[name] = {file, nativeWidth : w, nativeHeight : h, source};
+    bank.set(name, bytes);
+}
+
+function entryFor(kind, index) {
+    const e = entries.find(e => e.mapping?.kind === kind && e.mapping.index === index);
+    if (!e)
+        throw Error(`No ${kind} ${index}`);
+    return path.join(pack, e.file);
+}
+
+async function bitmap(name, w, h, source, fill = .90) {
+    await save(name, await fit(source, w * 8, h * 8, fill), w, h,
+               path.relative(pack, source).replaceAll('\\', '/'));
+}
+
+async function centered(name, source, fill) {
+    const w = 512, h = 256;
+    const input = await sharp(source)
+                      .trim({threshold : 8})
+                      .resize(Math.round(w * fill), Math.round(h * fill), {fit : 'inside'})
+                      .png()
+                      .toBuffer();
+    const p = await raw(input), out = clear(w, h);
+    blit(out, p, Math.round((w - p.width) / 2), Math.round((h - p.height) / 2));
+    await save(name, await png(out), 64, 32, path.relative(pack, source).replaceAll('\\', '/'));
+}
+
+async function variationAssets() {
+    const file = path.join(pack, 'authoring/masters/surface-variations.png');
+    const meta = await sharp(file).metadata(), records = [];
+    for (const [row, name] of ['grassland', 'plains', 'desert', 'ocean'].entries())
+        for (let col = 0; col < 4; col++) {
+            const left = Math.floor(col * meta.width / 4) + 10, top = Math.floor(row * meta.height / 4) + 10;
+            const width = Math.floor((col + 1) * meta.width / 4) - left - 10,
+                  height = Math.floor((row + 1) * meta.height / 4) - top - 10;
+            const bytes = await sharp(file).extract({left, top, width, height}).png().toBuffer();
+            const p = `map/variations/${name}-${col}.png`;
+            C.write(path.join(pack, p), bytes);
+            records.push({
+                id : `map.variations.${name}-${col}`,
+                kind : 'map',
+                category : 'map / variations',
+                file : p,
+                width,
+                height,
+                sha256 : C.sha(bytes),
+                source :
+                    {master : 'authoring/masters/surface-variations.png', rect : {left, top, width, height}}
+            });
+            for (const size of [16, 32, 64, 128]) {
+                const mip = `map/variations/mips/${name}-${col}-${size}.png`;
+                C.write(path.join(pack, mip), await sharp(bytes).resize(size, size).png().toBuffer());
+            }
+        }
+    return records;
+}
+
+async function fieldBitmap(name) {
+    return sharp(asset('map-overlays.' + name)).resize(512, 256, {fit : 'fill'}).png().toBuffer();
+}
+
+async function buildBindings(traces) {
+    await Finishing.buildMarker();
+    await art.loadMaterials(path.join(pack, 'map'));
+    for (let t = 0; t < 11; t++)
+        await save(`terrain/${t}`,
+                   t === 10 ? await Finishing.oceanTile()
+                            : fs.readFileSync(path.join(pack, 'map/ground', C.terrainNames[t] + '.png')));
+    for (let q = 0; q < 4; q++)
+        for (let mask = 0; mask < 8; mask++)
+            await save(`coast/${q}/${mask}`, await Finishing.coastQuarter(q, mask), 32, 16);
+    // The source selects neighboring terrain and quadrants; artwork supplies the feathering.
+    for (let t = 0; t < 13; t++)
+        for (let q = 0; q < 4; q++) {
+            const source = 'map/ground/' + (C.terrainNames[t] || 'grassland') + '.png';
+            const bytes = await Land.dither(t, q, fs.readFileSync(path.join(pack, source)));
+            await save('dither/' + t + '/' + q, bytes, 32, 16,
+                       t < 10     ? source
+                       : t === 12 ? 'map/materials/grassland.png'
+                                  : null);
+        }
+    const roadTex = fs.readFileSync(path.join(pack, 'map/materials/road.png')).toString('base64');
+    for (const family of ['road', 'rail'])
+        for (let i = 0; i < 9; i++) {
+            const mask = i ? 1 << (i % 8) : 0; // Engine arm 1 is NE; authoring bit 0 is N.
+            const b = await sharp(Buffer.from(art.infrastructure(family, mask, roadTex, 0, 'all', true)))
+                          .png()
+                          .toBuffer();
+            await save(
+                `${family}/${i}`,
+                await sharp(b).extract({left : 32, top : 32, width : 512, height : 256}).png().toBuffer());
+        }
+    for (let i = 0; i < 16; i++) {
+        const file = path.join(pack, `map/networks/river/${i.toString(16).padStart(2, '0')}.png`);
+        // Resolve the canonical river bank by family/mask, including its authored bank textures.
+        const e = entries.find(e => e.family === 'river' && e.mask === i);
+        const input = e ? path.join(pack, e.file) : file;
+        if (fs.existsSync(input))
+            await save(`river/${i}`, await sharp(input)
+                                         .extract({left : 32, top : 32, width : 512, height : 256})
+                                         .png()
+                                         .toBuffer());
+        else {
+            const water = fs.readFileSync(path.join(pack, 'map/materials/ocean.png')).toString('base64'),
+                  sand = fs.readFileSync(path.join(pack, 'map/materials/sand.png')).toString('base64');
+            await save(`river/${i}`, await sharp(Buffer.from(art.river(i, water, sand)))
+                                         .extract({left : 32, top : 32, width : 512, height : 256})
+                                         .png()
+                                         .toBuffer());
+        }
+    }
+    for (let q = 0; q < 4; q++) {
+        await save(`mouth/${q}`, await Finishing.mouth(q, bank.get(`river/${1 << q}`)));
+        await save(`fog/${q}`, await require('./fog-edges.cjs').quarter(q), 32, 16);
+    }
+    for (const family of ['forest', 'hills', 'mountains'])
+        for (let i = 0; i < 16; i++) {
+            const variant = family === 'forest' ? Vegetation.forestVariant(i) : i % 4;
+            const source = asset(`features.${family}-${variant}`);
+            if (family === 'forest')
+                await save(`feature/${family}/${i}`, await Vegetation.forestBitmap(source, variant), 64, 32,
+                           path.relative(pack, source).replaceAll('\\', '/'));
+            else
+                await bitmap(`feature/${family}/${i}`, 64, 32, source);
+        }
+    // Flat field overlays occupy the full terrain frame; tall-object fitting hides them beneath cities.
+    for (const name of ['irrigation', 'farmland'])
+        await save(`improvement/${name}`, await fieldBitmap(name), 64, 32,
+                   `sprites/map-overlays/${name}.png`);
+    for (const name of ['mine', 'pollution', 'village', 'fortress', 'airbase'])
+        await bitmap(`improvement/${name}`, 64, [ 'fortress', 'airbase' ].includes(name) ? 48 : 32,
+                     asset('map-overlays.' + name), .80);
+    await save('improvement/airbase-occupied', bank.get('improvement/airbase'), 64, 48);
+    await save(
+        'improvement/fortified',
+        Buffer.from(svg(
+            512, 384,
+            '<path d="M70 230L256 140L442 230L256 320Z" fill="none" stroke="#a99b78" stroke-width="20"/>')),
+        64, 48);
+    await save('improvement/disorder',
+               Buffer.from(svg(512, 384, '<text x="220" y="210" font-size="120" fill="#e4ad54">!</text>')),
+               64, 48);
+    for (let n = 0; n < 64; n++) {
+        const e = entries.find(e => e.mapping?.kind === 'unit' && e.mapping.index === n) ||
+                  entries.find(e => e.id === (n === 62 ? 'units.scout-alt' : 'units.merchant-alt'));
+        await bitmap('unit/' + n, 64, 48, path.join(pack, e.file), .88);
+    }
+    for (let n = 0; n < 48; n++) {
+        const e =
+            entries.find(e => e.mapping?.kind === 'city' && e.mapping.style === Math.floor(n / 8) &&
+                              e.mapping.size === Math.floor((n % 8) / 2) && e.mapping.walled === !!(n % 2));
+        await bitmap('city/' + n, 64, 48, path.join(pack, e.file), .92);
+    }
+    for (let n = 0; n < 22; n++) {
+        // Source array is terrain*2+special-1; catalog slots are terrain+11*(special-1).
+        const slot = Math.floor(n / 2) + 11 * (n % 2),
+              e = entries.find(e => e.mapping?.terrainSpecialSlots?.includes(slot));
+        await centered('resource/' + n, path.join(pack, e.file), n >= 20 ? .72 : .58);
+    }
+    await centered('resource/shield', path.join(pack, Finishing.markerFile), .34);
+    await save('fog/full',
+               Buffer.from(svg(512, 256, '<path d="M256 0L512 128L256 256L0 128Z" fill="#0b1516"/>')));
+    for (const name of ['grid', 'grid/radius'])
+        await save(
+            name,
+            Buffer.from(svg(
+                512, 256,
+                '<path d="M256 0L512 128L256 256L0 128Z" fill="none" stroke="#47504a" stroke-width="2"/>')));
+    await save('shield', Buffer.from(require('./unit-banners.cjs').source()), 12, 20);
+    for (let i = 0; i < 8; i++)
+        await save(
+            'flag/' + i,
+            Buffer.from(svg(64, 128,
+                            '<path d="M8 128V6H60V48H8" fill="#bca46c" stroke="#1e2927" stroke-width="6"/>')),
+            8, 16);
+    for (const trace of traces)
+        if (trace.mode === 'city')
+            for (const c of trace.commands) {
+                if (bank.has(c.asset))
+                    continue;
+                const [family, id, variant] = c.asset.split('/');
+                if (family === 'building' || family === 'wonder')
+                    await bitmap(c.asset, c.width, c.height,
+                                 entryFor(family === 'building' ? 'improvement' : 'wonder', +id), .96);
+                else if (family === 'house')
+                    await bitmap(c.asset, c.width, c.height, asset(`city-details.industrial-${variant}`),
+                                 .88);
+                else if (family === 'lot')
+                    await save(
+                        c.asset,
+                        Buffer.from(
+                            svg(c.width * 8, c.height * 8,
+                                `<ellipse cx="${c.width * 4}" cy="${c.height * 7}" rx="${
+                                    c.width * 2.6}" ry="${c.height * .45}" fill="#67764f" opacity=".22"/>`)),
+                        c.width, c.height);
+                else
+                    throw Error('City binding ' + c.asset);
+            }
+    // Legacy throne slots impose very different rectangles. Fit the selected new pieces into
+    // those exact boxes; the paired proposal shows the recommended explicit-anchor layout.
+    const palaceFamilies =
+        [ 'arch', 'rug', 'dais', 'columns', 'tapestry', 'brazier', 'throne', 'ceiling-medallion' ];
+    for (const trace of traces)
+        if (trace.mode === 'throne')
+            for (const c of trace.commands) {
+                if (bank.has(c.asset))
+                    continue;
+                const id = +c.asset.split('/')[1];
+                let file;
+                let slot = -1;
+                if (id >= 160)
+                    file = asset('palace.bonus-' + (id - 160));
+                else {
+                    slot = Math.floor((id - 105) / 5);
+                    const level = (id - 105) % 5 + 1;
+                    file = asset(`palace.${palaceFamilies[slot]}-${level}`);
+                }
+                const scale = 4, im = clear(c.width * scale, c.height * scale);
+                const add = async (cx, base, w, h) => {
+                    w = Math.min(w, c.width);
+                    h = Math.min(h, c.height);
+                    const p = await raw(await fit(file, Math.round(w * scale), Math.round(h * scale), .96));
+                    const x = Math.max(0, Math.min(im.width - p.width, (cx - c.x) * scale - p.width / 2)),
+                          y = Math.max(0, Math.min(im.height - p.height, (base - c.y) * scale - p.height));
+                    blit(im, p, x, y);
+                };
+                if (slot === 0)
+                    await add(320, 315, 250, 290);
+                else if (slot === 1)
+                    await add(320, 460, 370, 170);
+                else if (slot === 2)
+                    await add(310, 350, 210, 45);
+                else if (slot === 3) {
+                    await add(125, 298, 115, 245);
+                    await add(515, 298, 115, 245);
+                } else if (slot === 4)
+                    await add(302, 260, 120, 195);
+                else if (slot === 5) {
+                    await add(180, 313, 65, 100);
+                    await add(460, 313, 65, 100);
+                } else if (slot === 6)
+                    await add(302, 304, 100, 140);
+                else if (slot === 7)
+                    await add(320, 70, 90, 65);
+                else {
+                    const i = id - 160;
+                    await add(i % 2 ? c.x + c.width * .8 : c.x + c.width * .2, c.y + c.height,
+                              Math.min(70, c.width * .28), Math.min(65, c.height));
+                }
+                await save(c.asset, await png(im), c.width, c.height,
+                           path.relative(pack, file).replaceAll('\\', '/'));
+            }
+    C.json(path.join(pack, 'compatibility/bindings.json'), {
+        schemaVersion : 1,
+        description : 'Review PNG adapter. Native boxes, new alpha pixels; not a production loader.',
+        terrainTransitions : 'map/terrain-transitions.json',
+        vegetation : 'map/vegetation.json',
+        directionOrder : [ 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW', 'N' ],
+        unitShieldAnchors : 'map/unit-anchors.json',
+        cityFlagAnchor : [ 48, 4 ],
+        citySizeBoxAnchors : 'map/city-anchors.json',
+        bindings : bindingIndex
+    });
+    return bindingIndex;
+}
+
+module.exports = {
+    variationAssets,
+    fieldBitmap,
+    buildBindings
+};

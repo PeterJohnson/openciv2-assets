@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "baselineCommit": "060de94",
+  "sourceFilesCompared": 148,
+  "originalScenePngsCompared": 26,
+  "changedSourceFiles": [],
+  "changedOriginalScenePngs": [],
+  "intentionalEnhancedChanges": "Restore final map city-name and panorama-title overlays; keep artwork and composition.",
+  "method": "SHA-256 of all src files and composed original-art scene PNGs captured before this typography correction; original scenes were regenerated."
+}

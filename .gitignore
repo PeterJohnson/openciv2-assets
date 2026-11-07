@@ -1,0 +1,8 @@
+/build/
+/dist/
+__pycache__/
+*.pyc
+node_modules/
+
+# Local original-game extraction inputs used only for review.
+/assets/atlas-hd/review/original-local/

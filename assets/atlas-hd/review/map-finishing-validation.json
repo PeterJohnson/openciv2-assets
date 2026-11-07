@@ -1,0 +1,81 @@
+{
+  "status": "pass",
+  "coastQuarters": 32,
+  "shoreBandMeanRGB": {
+    "deep": [
+      24.4375,
+      80.6875,
+      101
+    ],
+    "shallow": [
+      72.4375,
+      126.25,
+      121.6875
+    ],
+    "beach": [
+      181.25,
+      160,
+      114.0625
+    ],
+    "land": [
+      98.5,
+      104.25,
+      38.3125
+    ]
+  },
+  "coastlineChecks": "coast-audit-validation.json",
+  "newcastle": [
+    {
+      "stage": "current",
+      "protectedTipRGB": [
+        112,
+        108,
+        39
+      ],
+      "inlandRGB": [
+        207,
+        154,
+        85
+      ],
+      "waterRGB": [
+        18,
+        74,
+        93
+      ]
+    },
+    {
+      "stage": "hd",
+      "protectedTipRGB": [
+        84,
+        87,
+        27
+      ],
+      "inlandRGB": [
+        235,
+        179,
+        98
+      ],
+      "waterRGB": [
+        13,
+        72,
+        90
+      ]
+    }
+  ],
+  "terrainMarker": {
+    "opaquePixels": 4751,
+    "bounds": [
+      222,
+      85,
+      69,
+      87
+    ],
+    "meanRGB": [
+      125,
+      128,
+      92
+    ],
+    "cityProductionSha256": "4bc5f4d7cb1347aca8a42f999f605e21cc7bf54a7fb4561d562ff2cfffdda260"
+  },
+  "limits": "Rendered native/HD Newcastle land apron and terrain-marker checks. Full saved-map coverage, topology, zoom and mouth checks are in coast-audit-validation.json. Source draw commands and logical boxes are unchanged."
+}

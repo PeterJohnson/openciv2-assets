@@ -1,0 +1,90 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "Source hashes and 50 unchanged extracted function bodies",
+      "count": 50,
+      "status": "pass"
+    },
+    {
+      "name": "Window source hashes and 30 unchanged extracted function bodies",
+      "count": 30,
+      "status": "pass"
+    },
+    {
+      "name": "Debug/Release topology, remembered state, city endpoints and zoom audit",
+      "count": 787,
+      "status": "pass"
+    },
+    {
+      "name": "Saved scene traces equal fresh Debug and Release output",
+      "count": 21,
+      "status": "pass"
+    },
+    {
+      "name": "Detailed map object commands preserve native sprite size, placement and selection",
+      "count": 79,
+      "status": "pass"
+    },
+    {
+      "name": "Window HD-only preserves every bound artwork rectangle",
+      "count": 5,
+      "status": "pass"
+    },
+    {
+      "name": "All six economy roles and exact native 10px worked-tile yield counts",
+      "count": 2,
+      "status": "pass"
+    },
+    {
+      "name": "Real-save dimensions, live records, source hashes and all-tile native resource checks in both builds",
+      "count": 9000,
+      "status": "pass"
+    },
+    {
+      "name": "Committed original-art scene renders, dimensions and hashes",
+      "count": 22,
+      "status": "pass"
+    },
+    {
+      "name": "Canonical asset paths, recorded hashes and master references",
+      "count": 2271,
+      "status": "pass"
+    },
+    {
+      "name": "Overview icon and mip hashes",
+      "count": 67,
+      "status": "pass"
+    },
+    {
+      "name": "Inventory replacement references",
+      "count": 5182,
+      "status": "pass"
+    },
+    {
+      "name": "PNG compatibility bindings",
+      "count": 404,
+      "status": "pass"
+    },
+    {
+      "name": "Three replacement-stage review image dimensions",
+      "count": 66,
+      "status": "pass"
+    },
+    {
+      "name": "Proposed ground and network visibility isolation",
+      "count": 2,
+      "status": "pass"
+    },
+    {
+      "name": "NE-first engine to N-first authoring mask conversion",
+      "count": 256,
+      "status": "pass"
+    }
+  ],
+  "limits": [
+    "Renderer command selection, geometry and order are sourced; legacy palette blitting and game window typography are adapter boundaries.",
+    "Fixtures are supplied state, not initialized gameplay or a full runtime regression.",
+    "No frame-rate claim: image generation timings include CPU offline authoring."
+  ]
+}

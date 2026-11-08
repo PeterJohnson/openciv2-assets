@@ -231,7 +231,7 @@ def build():
     for i in range(8):
         crop(icons,1+33*i,356,32,32,f'sprites/effects/explosion-{i}.png')
     crop(icons,199,289,64,32,'grid');crop(icons,248,430,64,32,'grid/radius')
-    crop(icons,199,256,64,32,'interface/masks/tile.png')
+    crop(icons,199,256,64,32,'interface/map-ui/selection.png')
     crop(icons,166,223,30,30,'improvement/disorder')
     for i,name in enumerate(['close','maximize','restore','world']):
         crop(icons,1+17*i,389,16,16,f'interface/controls/{name}-normal.png')

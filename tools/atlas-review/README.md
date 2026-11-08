@@ -98,3 +98,19 @@ They use declared fixture state and drawing adapters. Debug/Release traces, inpu
 hashes, geometry and render sizes are checked. The retained runtime capture audit
 documents its separate limits; the rebuild does not claim pixel-equivalence to
 the original executable or validate current GPU-camera behavior.
+
+## Fortified-unit artwork
+
+The low foreground barricade is authored in
+`assets/atlas-hd/compatibility/improvement/fortified.svg`. Render it and update
+its retained PNG binding with:
+
+```sh
+node tools/atlas-review/fortification.cjs
+python tools/build.py
+```
+
+Keep its full 512x384 transparent canvas (64x48 logical pixels); cropping or
+centering its visible bounds moves it over the unit. The runtime consumes the
+PNG, while the SVG remains an authoring input. Full binding regeneration uses
+the same renderer.

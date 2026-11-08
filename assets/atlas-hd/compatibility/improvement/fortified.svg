@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="384" viewBox="0 0 512 384">
+  <title>Fortified unit: low sandbag barricade</title>
+  <desc>Two short banks across the foreground of a 64 by 48 unit frame. The upper field remains clear for the unit and its shield.</desc>
+  <defs>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b09a73"/>
+      <stop offset=".35" stop-color="#9c8058"/>
+      <stop offset="1" stop-color="#715739"/>
+    </linearGradient>
+    <g id="bank" stroke="#665039" stroke-width="1.5" stroke-linejoin="round">
+      <!-- Staggered courses give a low, irregular earthwork rather than a tile outline. -->
+      <g fill="url(#sand)">
+        <rect x="0" y="11" width="17" height="13" rx="4"/>
+        <rect x="14" y="11" width="34" height="13" rx="5"/>
+        <rect x="45" y="10" width="34" height="14" rx="5"/>
+        <rect x="76" y="11" width="34" height="13" rx="5"/>
+        <rect x="107" y="11" width="17" height="13" rx="4"/>
+        <rect x="1" y="1" width="32" height="13" rx="5"/>
+        <rect x="31" y="0" width="33" height="14" rx="5"/>
+        <rect x="62" y="1" width="33" height="13" rx="5"/>
+        <rect x="93" y="0" width="31" height="14" rx="5"/>
+      </g>
+      <path d="M7 4H26 M38 3H57 M69 4H88 M100 3H118" fill="none"
+            stroke="#c2ae89" stroke-width="2" stroke-linecap="round" opacity=".6"/>
+    </g>
+  </defs>
+  <path d="M136 315L256 372L376 315" fill="none" stroke="#241f17"
+        stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
+  <use href="#bank" transform="matrix(1 .46 0 1 132 286)"/>
+  <use href="#bank" transform="matrix(-1 .46 0 1 380 286)"/>
+</svg>

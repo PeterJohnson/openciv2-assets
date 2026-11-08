@@ -76,6 +76,9 @@ original textures.
 - `fog-edges.cjs` authors four directional unexplored-boundary alpha masks.
   Their native boxes follow source geometry; original imagery appears only in
   composed comparisons and is not an input to those masks.
+- `fortification.cjs` renders the editable sandbag geometry in
+  `compatibility/improvement/fortified.svg`. Its low foreground placement
+  leaves unit portraits clear, using newly authored shapes and colors.
 - `unit-banners.cjs` authors the faction-banner silhouette. Tint is applied to
   its filtered alpha independently of RGB. Naval registration is measured
   against replacement silhouettes; no original shield or ship pixels are used.

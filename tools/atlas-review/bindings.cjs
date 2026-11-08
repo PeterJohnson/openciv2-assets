@@ -3,6 +3,7 @@ const C = require('./common.cjs');
 const Finishing = require('./map-finishing.cjs');
 const Land = require('./terrain-blends.cjs');
 const Vegetation = require('./terrain-vegetation.cjs');
+const Fortification = require('./fortification.cjs');
 const {fs, path, pack, art, sharp, svg, asset, entries, raw, clear, blit, png, fit} = C;
 const bank = new Map();
 const bindingIndex = {};
@@ -147,10 +148,7 @@ async function buildBindings(traces) {
     await save('improvement/airbase-occupied', bank.get('improvement/airbase'), 64, 48);
     await save(
         'improvement/fortified',
-        Buffer.from(svg(
-            512, 384,
-            '<path d="M70 230L256 140L442 230L256 320Z" fill="none" stroke="#a99b78" stroke-width="20"/>')),
-        64, 48);
+        await Fortification.bitmap(), 64, 48, Fortification.source);
     await save('improvement/disorder',
                Buffer.from(svg(512, 384, '<text x="220" y="210" font-size="120" fill="#e4ad54">!</text>')),
                64, 48);

@@ -1178,7 +1178,7 @@
       "file": "compatibility/improvement/fortified.png",
       "nativeWidth": 64,
       "nativeHeight": 48,
-      "source": null
+      "source": "compatibility/improvement/fortified.svg"
     },
     "improvement/disorder": {
       "file": "compatibility/improvement/disorder.png",

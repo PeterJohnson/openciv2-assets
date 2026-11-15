@@ -2230,6 +2230,150 @@
       "nativeHeight": 114,
       "source": "sprites/city-details/industrial-2.png"
     },
+    "house/ancient/large/0": {
+      "file": "compatibility/house/ancient/large/0.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/ancient-0.png"
+    },
+    "house/ancient/large/1": {
+      "file": "compatibility/house/ancient/large/1.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/ancient-1.png"
+    },
+    "house/ancient/large/2": {
+      "file": "compatibility/house/ancient/large/2.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/ancient-2.png"
+    },
+    "house/ancient/large/3": {
+      "file": "compatibility/house/ancient/large/3.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/ancient-3.png"
+    },
+    "house/ancient/small/0": {
+      "file": "compatibility/house/ancient/small/0.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/ancient-0.png"
+    },
+    "house/ancient/small/1": {
+      "file": "compatibility/house/ancient/small/1.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/ancient-1.png"
+    },
+    "house/ancient/small/2": {
+      "file": "compatibility/house/ancient/small/2.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/ancient-2.png"
+    },
+    "house/ancient/small/3": {
+      "file": "compatibility/house/ancient/small/3.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/ancient-3.png"
+    },
+    "house/medieval/large/0": {
+      "file": "compatibility/house/medieval/large/0.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/medieval-0.png"
+    },
+    "house/medieval/large/1": {
+      "file": "compatibility/house/medieval/large/1.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/medieval-1.png"
+    },
+    "house/medieval/large/2": {
+      "file": "compatibility/house/medieval/large/2.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/medieval-2.png"
+    },
+    "house/medieval/large/3": {
+      "file": "compatibility/house/medieval/large/3.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/medieval-3.png"
+    },
+    "house/medieval/small/0": {
+      "file": "compatibility/house/medieval/small/0.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/medieval-0.png"
+    },
+    "house/medieval/small/1": {
+      "file": "compatibility/house/medieval/small/1.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/medieval-1.png"
+    },
+    "house/medieval/small/2": {
+      "file": "compatibility/house/medieval/small/2.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/medieval-2.png"
+    },
+    "house/medieval/small/3": {
+      "file": "compatibility/house/medieval/small/3.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/medieval-3.png"
+    },
+    "house/modern/large/0": {
+      "file": "compatibility/house/modern/large/0.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/modern-0.png"
+    },
+    "house/modern/large/1": {
+      "file": "compatibility/house/modern/large/1.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/modern-1.png"
+    },
+    "house/modern/large/2": {
+      "file": "compatibility/house/modern/large/2.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/modern-2.png"
+    },
+    "house/modern/large/3": {
+      "file": "compatibility/house/modern/large/3.png",
+      "nativeWidth": 158,
+      "nativeHeight": 114,
+      "source": "sprites/city-details/modern-3.png"
+    },
+    "house/modern/small/0": {
+      "file": "compatibility/house/modern/small/0.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/modern-0.png"
+    },
+    "house/modern/small/1": {
+      "file": "compatibility/house/modern/small/1.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/modern-1.png"
+    },
+    "house/modern/small/2": {
+      "file": "compatibility/house/modern/small/2.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/modern-2.png"
+    },
+    "house/modern/small/3": {
+      "file": "compatibility/house/modern/small/3.png",
+      "nativeWidth": 123,
+      "nativeHeight": 82,
+      "source": "sprites/city-details/modern-3.png"
+    },
     "building/12": {
       "file": "compatibility/building/12.png",
       "nativeWidth": 123,

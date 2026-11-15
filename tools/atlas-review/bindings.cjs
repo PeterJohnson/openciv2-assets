@@ -208,6 +208,12 @@ async function buildBindings(traces) {
                 else
                     throw Error('City binding ' + c.asset);
             }
+    // The fixtures draw the industrial houses (house/large|small/N). The other eras' sets
+    // use the same native boxes and fit, under house/<era>/large|small/N.
+    for (const era of [ 'ancient', 'medieval', 'modern' ])
+        for (const [size, w, h] of [ [ 'large', 158, 114 ], [ 'small', 123, 82 ] ])
+            for (let n = 0; n < 4; n++)
+                await bitmap(`house/${era}/${size}/${n}`, w, h, asset(`city-details.${era}-${n}`), .88);
     // Legacy throne slots impose very different rectangles. Fit the selected new pieces into
     // those exact boxes; the paired proposal shows the recommended explicit-anchor layout.
     const palaceFamilies =

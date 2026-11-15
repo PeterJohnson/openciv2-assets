@@ -29,6 +29,12 @@ the runtime builder consumes. Adding an image to this directory does not add it
 to the game. The coverage map describes image roles; it does not qualify every
 scenario, expansion, window or game state.
 
+City-view houses have one binding set per era of `sprites/city-details`.
+`house/large/0`-`3` and `house/small/0`-`3` are the industrial set, which the
+review fixtures draw; `house/<era>/large/0`-`3` and `house/<era>/small/0`-`3`
+hold the `ancient`, `medieval` and `modern` sets, fitted into the same 158x114
+and 123x82 boxes. The empty lots (`lot/...`) are shared by every era.
+
 ## Build the runtime assets
 
 From the `openciv2-assets` root:

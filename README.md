@@ -46,3 +46,10 @@ Authoring material lives in `assets/atlas-hd`. See
 [artwork provenance](assets/atlas-hd/PROVENANCE.md) for source records and the
 scope of comparison material, and [THIRD-PARTY.txt](THIRD-PARTY.txt) for font
 attribution and notices. Noto authoring fonts retain their original OFL files.
+
+## Optional tribe leader artwork
+
+[Review the male/female tribe portraits](assets/atlas-hd/review/tribal-leaders/index.html).
+The [selection map and usage notes](assets/atlas-hd/sprites/tribal-leaders/README.md)
+cover all 42 original roster slots, with 41 paintings available and Gandhi pending
+an image-service rejection. These assets are not selected into the runtime pack.

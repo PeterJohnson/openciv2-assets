@@ -114,3 +114,17 @@ Keep its full 512x384 transparent canvas (64x48 logical pixels); cropping or
 centering its visible bounds moves it over the unit. The runtime consumes the
 PNG, while the SVG remains an authoring input. Full binding regeneration uses
 the same renderer.
+
+## Optional tribe portrait review
+
+```sh
+node tools/atlas-review/tribal-leaders.cjs
+node tools/atlas-review/build-gallery.cjs
+```
+
+This art-only builder uses retained PNGs and `authoring/tribal-leaders.json`.
+It rebuilds the catalog entries, selection metadata and offline paired gallery,
+including 225x275 and 90x110 fitting previews and light/dark background checks.
+It does not need game source, original game files or a fresh generation request.
+The validation report distinguishes 41 available paintings from the pending
+Gandhi slot; it does not claim full 42-image coverage or runtime integration.

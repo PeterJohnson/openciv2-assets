@@ -1,0 +1,1343 @@
+{
+  "schemaVersion": 1,
+  "title": "Optional per-tribe leader portraits",
+  "authored": "2026-11-20/2026-11-21",
+  "tool": "built-in image_gen",
+  "runtimeSelected": false,
+  "source": {
+    "file": "LEADERS.TXT",
+    "sha256": "11d3b73da204fc6360af4cbeeefdd3fb3fda62bbbd4651de2e57e41795076411",
+    "crossCheck": {
+      "file": "RULES.TXT",
+      "section": "@LEADERS",
+      "rows": 21,
+      "firstSevenColumnsMatch": true,
+      "sha256": "8a6f98b8260405091cd41d574c30bb05aa805c99a1f4357c49a73cf382fc2c03"
+    }
+  },
+  "referencePolicy": "Written identity, clothing and portrait-tradition research. No online reference bitmap or original-game artwork was supplied to generation. Poses, lighting, color and brushwork are newly generated; unknown likenesses and game-specific identities remain interpretations.",
+  "tribes": [
+    {
+      "index": 0,
+      "tribe": "Romans",
+      "adjective": "Roman",
+      "male": "Caesar",
+      "female": "Livia",
+      "defaultSex": "male"
+    },
+    {
+      "index": 1,
+      "tribe": "Babylonians",
+      "adjective": "Babylonian",
+      "male": "Hammurabi",
+      "female": "Ishtari",
+      "defaultSex": "male"
+    },
+    {
+      "index": 2,
+      "tribe": "Germans",
+      "adjective": "German",
+      "male": "Frederick",
+      "female": "Maria Theresa",
+      "defaultSex": "male"
+    },
+    {
+      "index": 3,
+      "tribe": "Egyptians",
+      "adjective": "Egyptian",
+      "male": "Ramesses",
+      "female": "Cleopatra",
+      "defaultSex": "female"
+    },
+    {
+      "index": 4,
+      "tribe": "Americans",
+      "adjective": "American",
+      "male": "Abe Lincoln",
+      "female": "E. Roosevelt",
+      "defaultSex": "male"
+    },
+    {
+      "index": 5,
+      "tribe": "Greeks",
+      "adjective": "Greek",
+      "male": "Alexander",
+      "female": "Hippolyta",
+      "defaultSex": "female"
+    },
+    {
+      "index": 6,
+      "tribe": "Indians",
+      "adjective": "Indian",
+      "male": "Mohandas Gandhi",
+      "female": "Indira Gandhi",
+      "defaultSex": "male"
+    },
+    {
+      "index": 7,
+      "tribe": "Russians",
+      "adjective": "Russian",
+      "male": "Lenin",
+      "female": "Catherine the Great",
+      "defaultSex": "female"
+    },
+    {
+      "index": 8,
+      "tribe": "Zulus",
+      "adjective": "Zulu",
+      "male": "Shaka",
+      "female": "Shakala",
+      "defaultSex": "male"
+    },
+    {
+      "index": 9,
+      "tribe": "French",
+      "adjective": "French",
+      "male": "Louis XIV",
+      "female": "Joan of Arc",
+      "defaultSex": "male"
+    },
+    {
+      "index": 10,
+      "tribe": "Aztecs",
+      "adjective": "Aztec",
+      "male": "Montezuma",
+      "female": "Nazca",
+      "defaultSex": "male"
+    },
+    {
+      "index": 11,
+      "tribe": "Chinese",
+      "adjective": "Chinese",
+      "male": "Mao Tse Tung",
+      "female": "Wu Zhao",
+      "defaultSex": "male"
+    },
+    {
+      "index": 12,
+      "tribe": "English",
+      "adjective": "English",
+      "male": "Henry VIII",
+      "female": "Elizabeth I",
+      "defaultSex": "female"
+    },
+    {
+      "index": 13,
+      "tribe": "Mongols",
+      "adjective": "Mongol",
+      "male": "Genghis Khan",
+      "female": "Bortei",
+      "defaultSex": "male"
+    },
+    {
+      "index": 14,
+      "tribe": "Celts",
+      "adjective": "Celtic",
+      "male": "Cunobelin",
+      "female": "Boadicea",
+      "defaultSex": "female"
+    },
+    {
+      "index": 15,
+      "tribe": "Japanese",
+      "adjective": "Japanese",
+      "male": "Tokugawa",
+      "female": "Amaterasu",
+      "defaultSex": "male"
+    },
+    {
+      "index": 16,
+      "tribe": "Vikings",
+      "adjective": "Viking",
+      "male": "Canute",
+      "female": "Gunnhild",
+      "defaultSex": "female"
+    },
+    {
+      "index": 17,
+      "tribe": "Spanish",
+      "adjective": "Spanish",
+      "male": "Philip II",
+      "female": "Isabella",
+      "defaultSex": "female"
+    },
+    {
+      "index": 18,
+      "tribe": "Persians",
+      "adjective": "Persian",
+      "male": "Xerxes",
+      "female": "Scheherezade",
+      "defaultSex": "male"
+    },
+    {
+      "index": 19,
+      "tribe": "Carthaginians",
+      "adjective": "Carthaginian",
+      "male": "Hannibal",
+      "female": "Dido",
+      "defaultSex": "male"
+    },
+    {
+      "index": 20,
+      "tribe": "Sioux",
+      "adjective": "Sioux",
+      "male": "Sitting Bull",
+      "female": "Sacajawea",
+      "defaultSex": "male"
+    }
+  ],
+  "references": [
+    {
+      "id": "livia",
+      "title": "Getty: Portrait Bust of Livia",
+      "url": "https://www.getty.edu/art/collection/object/105XM4",
+      "role": "Roman sculptural portrait and hairstyle context.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "hammurabi",
+      "title": "Louvre: Code of Hammurabi",
+      "url": "https://www.louvre.fr/en/the-code-of-hammurabi",
+      "role": "Old Babylonian royal relief and clothing context; not a source of pixels.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "frederick",
+      "title": "Portraits of Frederick the Great",
+      "url": "https://en.wikipedia.org/wiki/Portraits_of_Frederick_the_Great",
+      "role": "Portrait traditions and uncertainty in likeness.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "cleopatra",
+      "title": "British Museum: bronze coin of Cleopatra VII",
+      "url": "https://artsandculture.google.com/asset/bronze-coin-of-cleopatra-vii/DwEg2DC7f0QwHg?hl=en",
+      "role": "Lifetime coin portrait as identity context.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "lincoln",
+      "title": "Smithsonian National Portrait Gallery: presidential collection guide",
+      "url": "https://npg.si.edu/sites/default/files/presidents_large_print_english2.pdf",
+      "role": "Presidential portrait context.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "alexander",
+      "title": "Cleveland Museum: Head of Alexander the Great",
+      "url": "https://www.clevelandart.org/art/1927.209",
+      "role": "Ancient sculptural portrait tradition.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "indira",
+      "title": "National Portrait Gallery: Indira Gandhi",
+      "url": "https://www.npg.org.uk/collections/search/portrait/mw08625/Indira-Gandhi",
+      "role": "Photographic identity and hairstyle context; copyrighted photograph not copied or supplied to generation.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "shaka",
+      "title": "South African History Online: Shaka Zulu",
+      "url": "https://sahistory.org.za/people/shaka-zulu?page=1",
+      "role": "Historical identity and later portrait tradition.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "louis",
+      "title": "Versailles: Louis XIV royal portrait",
+      "url": "https://www.chateauversailles.fr/ressources-pedagogiques/domaines-artistiques/peinture/louis-xiv-grand-costume-royal-hyacinthe-rigaud",
+      "role": "Royal portrait and court-dress context; composition not reproduced.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "wu",
+      "title": "Empress Wu Zetian",
+      "url": "https://www.travelchinaguide.com/intro/history/tang/emperor_wuzetian.htm",
+      "role": "Identity and later portrait tradition; period styling remains interpretive.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "tudor",
+      "title": "National Portrait Gallery: Tudor and Elizabethan portraits",
+      "url": "https://www.npg.org.uk/collections/explore/by-period/tudor.php",
+      "role": "Tudor facial and costume vocabulary.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "mongols",
+      "title": "Royal Armouries: The Family of Genghis Khan",
+      "url": "https://royalarmouries.org/objects-and-stories/stories/the-mongols/the-family-of-genghis-khan",
+      "role": "Genghis Khan and Borte identity and historical visual context.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "genghis-likeness",
+      "title": "Columbia University: images of Genghis Khan",
+      "url": "https://afe.easia.columbia.edu/mongols/pop/images_genghis.htm",
+      "role": "No surviving contemporary portrait; later depictions are interpretive.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "cunobelin",
+      "title": "Science Museum: gold coin of Cunobelinus",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8636239/ancient-british-gold-coin-of-cunobelinus",
+      "role": "Period and identity evidence, not a facial likeness.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "gunnhild",
+      "title": "Gunnhild, Mother of Kings",
+      "url": "https://en.wikipedia.org/wiki/Gunnhild,_Mother_of_Kings",
+      "role": "Saga identity and disputed biography.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "philip",
+      "title": "Museo del Prado portrait entry via University of Alabama Global Makers",
+      "url": "https://adhc.lib.ua.edu/makers/s/makers/item/159",
+      "role": "Spanish court portrait context.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "isabella",
+      "title": "Royal Collection: Queen Isabella I of Castile",
+      "url": "https://www.rct.uk/collection/403445/queen-isabella-i-of-spain-queen-of-castille-1451-1504",
+      "role": "Late-fifteenth-century royal portrait and veil context.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "xerxes",
+      "title": "Princeton: relief from the Palace of Xerxes I",
+      "url": "https://artmuseum.princeton.edu/art/collections/objects/23760",
+      "role": "Achaemenid period material-culture context; the depicted cupbearer is not claimed to be Xerxes.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "scheherazade",
+      "title": "Scheherazade",
+      "url": "https://en.wikipedia.org/wiki/Scheherazade",
+      "role": "Literary identity, not a historical likeness.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "sitting-bull",
+      "title": "Library of Congress: Sitting Bull portrait",
+      "url": "https://www.loc.gov/item/95510278/",
+      "role": "Historical photographic identity context; not copied or supplied as an image input.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "sacagawea",
+      "title": "National Park Service: Visual Representations of Sacagawea",
+      "url": "https://www.nps.gov/articles/000/visual-representations-of-sacagawea.htm",
+      "role": "No photographs or known authentic lifetime likeness; portraits are artistic interpretations.",
+      "referenceBitmapSupplied": false
+    },
+    {
+      "id": "shoshone",
+      "title": "National Park Service: Shoshone",
+      "url": "https://www.nps.gov/jeff/learn/historyculture/shoshone.htm",
+      "role": "Sacagawea's Shoshone identity, distinct from the game's Sioux slot.",
+      "referenceBitmapSupplied": false
+    }
+  ],
+  "portraits": [
+    {
+      "index": 0,
+      "tribeIndex": 0,
+      "sex": "male",
+      "id": "romans-male",
+      "tribe": "Romans",
+      "gameName": "Caesar",
+      "identity": "Julius Caesar",
+      "identityStatus": "historical",
+      "note": "Late Republican Roman statesman; likeness interpreted from sculptural tradition.",
+      "description": "Julius Caesar, male Roman statesman in his early fifties. Lean lined face, prominent long nose, receding short gray-brown hair, clean-shaven, composed and incisive. Restrained gold laurel wreath, ivory wool toga with deep burgundy fold and bronze clasp; late Republican clothing.",
+      "generation": {
+        "id": "romans-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Julius Caesar (game name Caesar), male Roman statesman in his early fifties. Lean lined face, prominent long nose, receding short gray-brown hair, clean-shaven, composed and incisive. Small restrained gold laurel wreath, ivory Roman wool toga with deep burgundy fold and a single bronze clasp. Late Roman Republic clothing, no imperial fantasy armor.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-f77e01b0-5ad2-44d5-83f0-cdb003fe5e68.png",
+        "sha256": "e12d0fed294efb3e1a7689db8059f2ca13bb74c69010fb9badd6c77f4400f290"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/romans-male.png"
+    },
+    {
+      "index": 1,
+      "tribeIndex": 0,
+      "sex": "female",
+      "id": "romans-female",
+      "tribe": "Romans",
+      "gameName": "Livia",
+      "identity": "Livia Drusilla",
+      "identityStatus": "historical",
+      "note": "Augustan Roman empress; sculptural hairstyle and draped dress.",
+      "description": "Livia Drusilla, Roman empress about forty. Oval face, long straight nose, alert brown eyes, dark brown hair arranged with a raised rolled nodus above the forehead and gathered at the back, as in Augustan Roman sculpture. Ivory stola with muted sage palla, small gold earrings and a simple clasp. Dignified and self-possessed, no giant crown.",
+      "generation": {
+        "id": "romans-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Livia Drusilla, Roman empress about forty. Oval face, long straight nose, alert brown eyes, dark brown hair arranged with a raised rolled nodus above the forehead and gathered at the back, as in Augustan Roman sculpture. Ivory stola with muted sage palla, small gold earrings and a simple clasp. Dignified and self-possessed, no giant crown.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-5c041047-e9e1-4e89-ba2c-f3d8a2f0a7b1.png",
+        "sha256": "680e59f1770a5bb85cfbd794dbbc8768c09d86095d1435b044e34a12282a9fdd"
+      },
+      "references": [
+        "livia"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/romans-female.png"
+    },
+    {
+      "index": 2,
+      "tribeIndex": 1,
+      "sex": "male",
+      "id": "babylonians-male",
+      "tribe": "Babylonians",
+      "gameName": "Hammurabi",
+      "identity": "Hammurabi",
+      "identityStatus": "historical",
+      "note": "Old Babylonian king; period dress informed by the law-stele relief, not an authenticated modern likeness.",
+      "description": "Hammurabi, mature Old Babylonian king, deep-set dark eyes, strong long nose, black beard in ordered curls threaded with gray, dark wavy hair under a low rounded royal cap. Cream wool robe draped over one shoulder with deep umber borders and restrained bronze jewelry, circa eighteenth century BCE. Human king, not the horn-crowned deity from the law stele.",
+      "generation": {
+        "id": "babylonians-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Hammurabi, mature Old Babylonian king, deep-set dark eyes, strong long nose, black beard in ordered curls threaded with gray, dark wavy hair under a low rounded royal cap. Cream wool robe draped over one shoulder with deep umber borders and restrained bronze jewelry, circa eighteenth century BCE. Human king, not the horn-crowned deity from the law stele.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-a81f8257-6379-4bad-beaf-b4e495b97aa0.png",
+        "sha256": "bdd54c4ec0afbb221abd4d04cd4aa2baa3975b267ed787fa0362081a14165c77"
+      },
+      "references": [
+        "hammurabi"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/babylonians-male.png"
+    },
+    {
+      "index": 3,
+      "tribeIndex": 1,
+      "sex": "female",
+      "id": "babylonians-female",
+      "tribe": "Babylonians",
+      "gameName": "Ishtari",
+      "identity": "Ishtari",
+      "identityStatus": "game-specific",
+      "note": "No specific historical identity assumed; original Old Babylonian court figure.",
+      "description": "Ishtari, an original imagined adult female court leader for the Babylonian game tribe, not a claimed historical person or the goddess Ishtar. Dark almond-shaped eyes, warm brown complexion, thick dark braided hair coiled neatly at the back, low gold band with lapis insets. Old Babylonian cream woven wool robe, terracotta trim and a restrained lapis and gold necklace. Strong mature individual face, no fantasy armor or horned crown.",
+      "generation": {
+        "id": "babylonians-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Ishtari, an original imagined adult female court leader for the Babylonian game tribe, not a claimed historical person or the goddess Ishtar. Dark almond-shaped eyes, warm brown complexion, thick dark braided hair coiled neatly at the back, low gold band with lapis insets. Old Babylonian cream woven wool robe, terracotta trim and a restrained lapis and gold necklace. Strong mature individual face, no fantasy armor or horned crown.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-039dd9c1-9efd-4353-b8e4-7701e39d0069.png",
+        "sha256": "193992aa152fcf8056e9a630e8b05630cb8e910a467b5854b21e6502ce0c3c07"
+      },
+      "references": [
+        "hammurabi"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/babylonians-female.png"
+    },
+    {
+      "index": 4,
+      "tribeIndex": 2,
+      "sex": "male",
+      "id": "germans-male",
+      "tribe": "Germans",
+      "gameName": "Frederick",
+      "identity": "Frederick II of Prussia",
+      "identityStatus": "historical interpretation",
+      "note": "The abbreviated game name is interpreted as Frederick the Great.",
+      "description": "Frederick II the Great of Prussia, male about fifty, lean lined face, prominent straight nose, gray-blue eyes, thin lips, clean-shaven, powdered pale hair gathered behind. Dark navy eighteenth-century military coat with red collar, restrained gold buttons and pale waistcoat, simple black tricorn fully visible. Intelligent slightly weary expression; no modern insignia.",
+      "generation": {
+        "id": "germans-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Frederick II the Great of Prussia, male about fifty, lean lined face, prominent straight nose, gray-blue eyes, thin lips, clean-shaven, powdered pale hair gathered behind. Dark navy eighteenth-century military coat with red collar, restrained gold buttons and pale waistcoat, simple black tricorn fully visible. Intelligent slightly weary expression; no modern insignia.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-72df7e14-299f-4e42-96f9-25fc924a226e.png",
+        "sha256": "5b85cc971c4909068be5e4456445543c37cb43c466c47608cd9e6d952bcf47c0"
+      },
+      "references": [
+        "frederick"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/germans-male.png"
+    },
+    {
+      "index": 5,
+      "tribeIndex": 2,
+      "sex": "female",
+      "id": "germans-female",
+      "tribe": "Germans",
+      "gameName": "Maria Theresa",
+      "identity": "Maria Theresa",
+      "identityStatus": "historical",
+      "note": "Habsburg ruler retained in the game's German pairing.",
+      "description": "Maria Theresa, Habsburg ruler about forty-five. Fuller mature face, pale skin, brown eyes, powdered curled eighteenth-century hair. Deep bottle-green and gold court bodice with ivory lace neckline, small pearl earrings and a restrained jeweled diadem, not an enormous crown. Authoritative calm expression, historically grounded Austrian court dress.",
+      "generation": {
+        "id": "germans-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Maria Theresa, Habsburg ruler about forty-five. Fuller mature face, pale skin, brown eyes, powdered curled eighteenth-century hair. Deep bottle-green and gold court bodice with ivory lace neckline, small pearl earrings and a restrained jeweled diadem, not an enormous crown. Authoritative calm expression, historically grounded Austrian court dress.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-6fd9d8e1-3496-4d71-968e-9948aeceb012.png",
+        "sha256": "5e4de4dae1a2ebec7386ba6b66f916e1ebee90a07f484a43522e266a4ee9c7be"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/germans-female.png"
+    },
+    {
+      "index": 6,
+      "tribeIndex": 3,
+      "sex": "male",
+      "id": "egyptians-male",
+      "tribe": "Egyptians",
+      "gameName": "Ramesses",
+      "identity": "Ramesses II",
+      "identityStatus": "historical interpretation",
+      "note": "The game name is interpreted as Ramesses II; royal sculpture and period costume inform the design.",
+      "description": "Ramesses II, Egyptian pharaoh in mature middle age. Copper-brown skin, long aquiline nose, dark focused eyes, strong jaw. Muted blue and antique-gold striped nemes headcloth fully in frame, small uraeus and short ceremonial false beard. Broad restrained blue-faience and gold collar over white linen. Egyptian New Kingdom royal appearance, no fantasy shoulder armor.",
+      "generation": {
+        "id": "egyptians-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Ramesses II, Egyptian pharaoh in mature middle age. Copper-brown skin, long aquiline nose, dark focused eyes, strong jaw. Muted blue and antique-gold striped nemes headcloth fully in frame, small uraeus and short ceremonial false beard. Broad restrained blue-faience and gold collar over white linen. Egyptian New Kingdom royal appearance, no fantasy shoulder armor.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-63d96c86-63ab-4e90-8b8b-eb191e02125b.png",
+        "sha256": "2c5ee0cf25a5190fc6375da1486e8d15c54504c3fb0ced107ecf4463d93f549f"
+      },
+      "references": [],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/egyptians-male.png"
+    },
+    {
+      "index": 7,
+      "tribeIndex": 3,
+      "sex": "female",
+      "id": "egyptians-female",
+      "tribe": "Egyptians",
+      "gameName": "Cleopatra",
+      "identity": "Cleopatra VII",
+      "identityStatus": "historical interpretation",
+      "note": "Ptolemaic ruler; diadem and Greek-Egyptian royal dress, not a modern film likeness.",
+      "description": "Cleopatra VII, Ptolemaic queen in her thirties. Olive complexion, prominent slightly aquiline nose and firm chin, intelligent dark eyes, dark wavy hair in melon-style braids drawn into a bun with a narrow gold royal diadem. Ivory Greek-style draped linen with muted teal mantle, restrained gold and pearl earrings. No Hollywood bob haircut, no nemes or fantasy crown.",
+      "generation": {
+        "id": "egyptians-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Cleopatra VII, Ptolemaic queen in her thirties. Olive complexion, prominent slightly aquiline nose and firm chin, intelligent dark eyes, dark wavy hair in melon-style braids drawn into a bun with a narrow gold royal diadem. Ivory Greek-style draped linen with muted teal mantle, restrained gold and pearl earrings. No Hollywood bob haircut, no nemes or fantasy crown.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-c5e4ff1b-34c3-489d-9a8b-30b5081ad6de.png",
+        "sha256": "90268976a41dc694629a442b9fcab4c0def61058f8fc48aa0f7cd6ee272e824b"
+      },
+      "references": [
+        "cleopatra"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/egyptians-female.png"
+    },
+    {
+      "index": 8,
+      "tribeIndex": 4,
+      "sex": "male",
+      "id": "americans-male",
+      "tribe": "Americans",
+      "gameName": "Abe Lincoln",
+      "identity": "Abraham Lincoln",
+      "identityStatus": "historical",
+      "note": "President-era beard, black coat and bow tie; original painted composition.",
+      "description": "Abraham Lincoln in his early fifties, distinctive long narrow lined face, deeply set gray eyes, high cheekbones, dark hair graying at temples, chin-curtain beard with NO moustache. Black nineteenth-century frock coat, ivory shirt and black bow tie. Bareheaded so face dominates, solemn humane expression, original pose and brushwork not a copy of a famous photograph.",
+      "generation": {
+        "id": "americans-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Abraham Lincoln in his early fifties, distinctive long narrow lined face, deeply set gray eyes, high cheekbones, dark hair graying at temples, chin-curtain beard with NO moustache. Black nineteenth-century frock coat, ivory shirt and black bow tie. Bareheaded so face dominates, solemn humane expression, original pose and brushwork not a copy of a famous photograph.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-3aaf326d-376d-4fb2-a566-0d8b06eaa656.png",
+        "sha256": "c231ac3e0cc174cf9b5e819e829196570253736bbd0a04deab262291a0d09079"
+      },
+      "references": [
+        "lincoln"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/americans-male.png"
+    },
+    {
+      "index": 9,
+      "tribeIndex": 4,
+      "sex": "female",
+      "id": "americans-female",
+      "tribe": "Americans",
+      "gameName": "E. Roosevelt",
+      "identity": "Eleanor Roosevelt",
+      "identityStatus": "historical interpretation",
+      "note": "The abbreviated game name is interpreted as Eleanor Roosevelt.",
+      "description": "Eleanor Roosevelt in her fifties, recognizably long mature face, strong chin, warm thoughtful eyes, gently waved brown hair graying at temples. Muted slate-blue 1930s tailored jacket, ivory blouse, single strand of pearls and small simple brooch. Slight closed-mouth smile, no hat or podium; original portrait informed by period appearance.",
+      "generation": {
+        "id": "americans-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Eleanor Roosevelt in her fifties, recognizably long mature face, strong chin, warm thoughtful eyes, gently waved brown hair graying at temples. Muted slate-blue 1930s tailored jacket, ivory blouse, single strand of pearls and small simple brooch. Slight closed-mouth smile, no hat or podium; original portrait informed by period appearance.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-bd5b8962-809b-442d-a4a8-6fce566b0ae2.png",
+        "sha256": "11fba1e8a503b9bdb7fa45da3e20c37f0a320299cb49f80733d5ea352e9761ee"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/americans-female.png"
+    },
+    {
+      "index": 10,
+      "tribeIndex": 5,
+      "sex": "male",
+      "id": "greeks-male",
+      "tribe": "Greeks",
+      "gameName": "Alexander",
+      "identity": "Alexander the Great",
+      "identityStatus": "historical interpretation",
+      "note": "Macedonian king; youthful sculptural portrait tradition.",
+      "description": "Alexander the Great about thirty, youthful clean-shaven Macedonian man, strong nose, deep-set gray eyes, thick tousled golden-brown curls lifted at the center forehead. Ivory linen cuirass with restrained bronze details and a deep plum cloak fastened at shoulder. No huge helmet, no beard, no fantasy armor; sculptural portrait tradition translated to an original warm painted likeness.",
+      "generation": {
+        "id": "greeks-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Alexander the Great about thirty, youthful clean-shaven Macedonian man, strong nose, deep-set gray eyes, thick tousled golden-brown curls lifted at the center forehead. Ivory linen cuirass with restrained bronze details and a deep plum cloak fastened at shoulder. No huge helmet, no beard, no fantasy armor; sculptural portrait tradition translated to an original warm painted likeness.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-30630dc3-53bf-420b-8404-1cf8da72087a.png",
+        "sha256": "5338b5bb3d4c146273dd2287181de6dbe1505c9c2c6e9785fd9178ddec58998a"
+      },
+      "references": [
+        "alexander"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/greeks-male.png"
+    },
+    {
+      "index": 11,
+      "tribeIndex": 5,
+      "sex": "female",
+      "id": "greeks-female",
+      "tribe": "Greeks",
+      "gameName": "Hippolyta",
+      "identity": "Hippolyta",
+      "identityStatus": "mythological",
+      "note": "Amazon queen from Greek mythology; original dignified interpretation.",
+      "description": "Hippolyta, adult Amazon queen of Greek mythology, about thirty-five. Olive skin, firm square jaw, dark wavy hair loosely gathered, intelligent determined brown eyes. Bronze Greek-style cuirass over muted cream tunic, simple leather shoulder straps and narrow bronze headband. Plausible classical heroic dress, restrained dignified interpretation, no sexualized armor or fantasy spikes.",
+      "generation": {
+        "id": "greeks-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Hippolyta, adult Amazon queen of Greek mythology, about thirty-five. Olive skin, firm square jaw, dark wavy hair loosely gathered, intelligent determined brown eyes. Bronze Greek-style cuirass over muted cream tunic, simple leather shoulder straps and narrow bronze headband. Plausible classical heroic dress, restrained dignified interpretation, no sexualized armor or fantasy spikes.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-e4d9d186-ac4f-4a65-89cb-90535e3078c7.png",
+        "sha256": "7ca6006e4066cb86a419ddceaa6721a5fa56153eca72b3c4be780cd5b534a2fb"
+      },
+      "references": [],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/greeks-female.png"
+    },
+    {
+      "index": 12,
+      "tribeIndex": 6,
+      "sex": "male",
+      "id": "indians-male",
+      "tribe": "Indians",
+      "gameName": "Mohandas Gandhi",
+      "identity": "Mohandas Gandhi",
+      "identityStatus": "historical",
+      "note": "Elderly Gandhi with round spectacles and plain khadi shawl.",
+      "description": "Mohandas Gandhi as an elderly Indian man, lean deeply lined face, bald head with sparse gray hair, slight white moustache, large ears, thin round wire spectacles. Plain off-white handwoven khadi shawl draped across both shoulders. Gentle steady gaze, upright bust, dignified and humane, no props or text.",
+      "generation": {
+        "id": "indians-male",
+        "status": "blocked",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Mohandas Gandhi as an elderly Indian man, lean deeply lined face, bald head with sparse gray hair, slight white moustache, large ears, thin round wire spectacles. Plain off-white handwoven khadi shawl draped across both shoulders. Gentle steady gaze, upright bust, dignified and humane, no props or text.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "error": "Built-in image generation rejected both respectful historical portrait requests under its public-figure filter.",
+        "requestIds": [
+          "ef859559-271e-4785-a0b0-b852661a71dd",
+          "036f4575-27ca-4f2c-b589-a64fa0de7ad0"
+        ],
+        "attempts": [
+          {
+            "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Mohandas Gandhi as an elderly Indian man, lean deeply lined face, bald head with sparse gray hair, slight white moustache, large ears, thin round wire spectacles. Plain off-white handwoven khadi shawl draped across both shoulders. Gentle steady gaze, upright bust, dignified and humane, no props or text.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+            "result": "public-figure moderation rejection",
+            "requestId": "ef859559-271e-4785-a0b0-b852661a71dd"
+          },
+          {
+            "prompt": "Create an original, respectful painted educational portrait of the historical figure Mahatma Gandhi for a civilization history game. Head and shoulders, wearing his simple white shawl and round spectacles, elderly and peacefully composed, on a transparent background. Warm painterly brushwork consistent with traditional illustrated history books. No text, symbols, scene or copied photograph.",
+            "result": "public-figure moderation rejection",
+            "requestId": "036f4575-27ca-4f2c-b589-a64fa0de7ad0"
+          }
+        ]
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "pending",
+      "file": null
+    },
+    {
+      "index": 13,
+      "tribeIndex": 6,
+      "sex": "female",
+      "id": "indians-female",
+      "tribe": "Indians",
+      "gameName": "Indira Gandhi",
+      "identity": "Indira Gandhi",
+      "identityStatus": "historical",
+      "note": "Prime minister; short hair with distinctive white streak and sari.",
+      "description": "Indira Gandhi in her fifties, Indian woman with strong aquiline nose, brown eyes and short dark hair with a clearly visible broad silver-white streak swept back above one temple. Cream handwoven sari with restrained deep rust border over a muted brown blouse. Poised firm expression, simple earrings, no crown or ceremonial fantasy jewelry.",
+      "generation": {
+        "id": "indians-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Indira Gandhi in her fifties, Indian woman with strong aquiline nose, brown eyes and short dark hair with a clearly visible broad silver-white streak swept back above one temple. Cream handwoven sari with restrained deep rust border over a muted brown blouse. Poised firm expression, simple earrings, no crown or ceremonial fantasy jewelry.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-019d1d4b-6da1-4906-a617-ac02a5b0e02d.png",
+        "sha256": "85fd5b5d72537a86fc3dd4922fafdbceb6472b28c558752879a3e351014197ab"
+      },
+      "references": [
+        "indira"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/indians-female.png"
+    },
+    {
+      "index": 14,
+      "tribeIndex": 7,
+      "sex": "male",
+      "id": "russians-male",
+      "tribe": "Russians",
+      "gameName": "Lenin",
+      "identity": "Vladimir Lenin",
+      "identityStatus": "historical",
+      "note": "Early twentieth-century civilian suit and recognizable beard.",
+      "description": "Vladimir Lenin in his fifties, pale mature face, bald crown, short reddish-brown side hair and small pointed reddish-brown beard with moustache, penetrating gray-brown eyes. Dark charcoal early-twentieth-century suit, ivory shirt and subdued dark tie. Bareheaded, composed analytical expression, no banners, slogans or ideological symbols.",
+      "generation": {
+        "id": "russians-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Vladimir Lenin in his fifties, pale mature face, bald crown, short reddish-brown side hair and small pointed reddish-brown beard with moustache, penetrating gray-brown eyes. Dark charcoal early-twentieth-century suit, ivory shirt and subdued dark tie. Bareheaded, composed analytical expression, no banners, slogans or ideological symbols.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-e3d43e6d-455c-42af-b164-35353b0f0191.png",
+        "sha256": "cf9c1c12ece27dba4584919540068c166bc2aacab18e3ff1d0a655d696d4bb30"
+      },
+      "references": [],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/russians-male.png"
+    },
+    {
+      "index": 15,
+      "tribeIndex": 7,
+      "sex": "female",
+      "id": "russians-female",
+      "tribe": "Russians",
+      "gameName": "Catherine the Great",
+      "identity": "Catherine II",
+      "identityStatus": "historical",
+      "note": "Eighteenth-century Russian court dress.",
+      "description": "Catherine II the Great about fifty, Russian empress with full mature face, gray-blue eyes, powdered silver curls. Deep crimson and ivory eighteenth-century silk court dress, small pearl necklace, blue sash and compact diamond tiara. Dignified authoritative bearing, subtle age and realistic fabric, no enormous fur cloak or full crown.",
+      "generation": {
+        "id": "russians-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Catherine II the Great about fifty, Russian empress with full mature face, gray-blue eyes, powdered silver curls. Deep crimson and ivory eighteenth-century silk court dress, small pearl necklace, blue sash and compact diamond tiara. Dignified authoritative bearing, subtle age and realistic fabric, no enormous fur cloak or full crown.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-454cca5f-08b4-42fb-9e71-39eb2e48037e.png",
+        "sha256": "00432a64716489707728c378db5bb9953ed44609023926abc02227fd35324aa7"
+      },
+      "references": [],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/russians-female.png"
+    },
+    {
+      "index": 16,
+      "tribeIndex": 8,
+      "sex": "male",
+      "id": "zulus-male",
+      "tribe": "Zulus",
+      "gameName": "Shaka",
+      "identity": "Shaka",
+      "identityStatus": "historical",
+      "note": "Early nineteenth-century Zulu king; no claim of an authenticated portrait likeness.",
+      "description": "Shaka, early-nineteenth-century Zulu king, adult African man in his thirties. Deep brown skin, strong cheekbones, broad jaw, closely cropped black hair with a simple dark isicoco headring. Historically grounded dignified Zulu appearance: warm brown leather and a modest leopard-pattern fur shoulder mantle with understated beads. No European crown, no Plains feathers or fantasy armor; no claim to an authenticated likeness.",
+      "generation": {
+        "id": "zulus-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Shaka, early-nineteenth-century Zulu king, adult African man in his thirties. Deep brown skin, strong cheekbones, broad jaw, closely cropped black hair with a simple dark isicoco headring. Historically grounded dignified Zulu appearance: warm brown leather and a modest leopard-pattern fur shoulder mantle with understated beads. No European crown, no Plains feathers or fantasy armor; no claim to an authenticated likeness.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-51b147be-79b1-4f0b-889a-c0c38848f28c.png",
+        "sha256": "de697c8f4c7f52da37c861c7c1525003d03a02c7a70369d22bba824fa75f8494"
+      },
+      "references": [
+        "shaka"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/zulus-male.png"
+    },
+    {
+      "index": 17,
+      "tribeIndex": 8,
+      "sex": "female",
+      "id": "zulus-female",
+      "tribe": "Zulus",
+      "gameName": "Shakala",
+      "identity": "Shakala",
+      "identityStatus": "game-specific",
+      "note": "No specific historical identity assumed; original Zulu court figure.",
+      "description": "Shakala, an original imagined mature female Zulu leader for the game, not a claimed historical person. Deep brown skin, oval face with strong cheekbones, thoughtful dark eyes, neatly styled dark hair. Restrained southern African beadwork necklace in ivory, ochre and dark blue, simple earth-colored wrapped cloth at shoulders and modest hide trim. Individual dignified face, historically inspired, no European crown, no giant modern hat or generic fantasy headdress.",
+      "generation": {
+        "id": "zulus-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Shakala, an original imagined mature female Zulu leader for the game, not a claimed historical person. Deep brown skin, oval face with strong cheekbones, thoughtful dark eyes, neatly styled dark hair. Restrained southern African beadwork necklace in ivory, ochre and dark blue, simple earth-colored wrapped cloth at shoulders and modest hide trim. Individual dignified face, historically inspired, no European crown, no giant modern hat or generic fantasy headdress.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-278f2d82-cbaa-4973-8c79-1a883866cc44.png",
+        "sha256": "e655b10ed81ca26bdccb2b7343741b3bd4dd72e8c75385ea70f9c6c02a12ab19"
+      },
+      "references": [
+        "shaka"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/zulus-female.png"
+    },
+    {
+      "index": 18,
+      "tribeIndex": 9,
+      "sex": "male",
+      "id": "french-male",
+      "tribe": "French",
+      "gameName": "Louis XIV",
+      "identity": "Louis XIV",
+      "identityStatus": "historical",
+      "note": "Seventeenth-century French royal court dress and long dark curls.",
+      "description": "Louis XIV of France about forty-five, long oval face, prominent nose, small thin moustache, long dark-brown curled seventeenth-century wig. Deep royal-blue velvet mantle with subtle gold embroidery, white lace cravat and restrained gold fastenings. Regal composed gaze, no full-body copied royal portrait, no towering crown.",
+      "generation": {
+        "id": "french-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Louis XIV of France about forty-five, long oval face, prominent nose, small thin moustache, long dark-brown curled seventeenth-century wig. Deep royal-blue velvet mantle with subtle gold embroidery, white lace cravat and restrained gold fastenings. Regal composed gaze, no full-body copied royal portrait, no towering crown.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-ef74a1e0-4b34-4dad-b754-01f505030700.png",
+        "sha256": "eb316837ef01684d4e21c8104b015d4acbe76f0908f6aaca3331f6087b0bc3aa"
+      },
+      "references": [
+        "louis"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/french-male.png"
+    },
+    {
+      "index": 19,
+      "tribeIndex": 9,
+      "sex": "female",
+      "id": "french-female",
+      "tribe": "French",
+      "gameName": "Joan of Arc",
+      "identity": "Joan of Arc",
+      "identityStatus": "historical",
+      "note": "Fifteenth-century French soldier in practical plate armor; no secure lifetime likeness.",
+      "description": "Joan of Arc, young adult French woman about nineteen, youthful but resolute face, gray-brown eyes, short dark-brown hair cut around ears and neck. Practical early-fifteenth-century steel plate breastplate and simple rounded pauldrons over a dark cloth collar. Bareheaded, no halo, no banner, no text, no makeup glamour; original interpretive likeness.",
+      "generation": {
+        "id": "french-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Joan of Arc, young adult French woman about nineteen, youthful but resolute face, gray-brown eyes, short dark-brown hair cut around ears and neck. Practical early-fifteenth-century steel plate breastplate and simple rounded pauldrons over a dark cloth collar. Bareheaded, no halo, no banner, no text, no makeup glamour; original interpretive likeness.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-096ebffb-a2c5-4b2c-9abf-3049af08ef19.png",
+        "sha256": "0e0a6243f1b8db23a296c2247a2bc43572a4eab191c50c24d2c37838a40a2e85"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/french-female.png"
+    },
+    {
+      "index": 20,
+      "tribeIndex": 10,
+      "sex": "male",
+      "id": "aztecs-male",
+      "tribe": "Aztecs",
+      "gameName": "Montezuma",
+      "identity": "Moctezuma II",
+      "identityStatus": "historical interpretation",
+      "note": "The game name is interpreted as Moctezuma II, a Mexica ruler.",
+      "description": "Moctezuma II, mature Mexica ruler in his forties. Warm brown skin, long straight black hair, strong cheekbones, dark eyes, clean-shaven. Restrained turquoise mosaic royal diadem, muted jade-green cotton tilmatli with geometric ochre woven border and gold clasp, modest ear ornaments. Historically inspired central Mexican royal attire, no giant fan of feathers and no Inca or Plains dress.",
+      "generation": {
+        "id": "aztecs-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Moctezuma II, mature Mexica ruler in his forties. Warm brown skin, long straight black hair, strong cheekbones, dark eyes, clean-shaven. Restrained turquoise mosaic royal diadem, muted jade-green cotton tilmatli with geometric ochre woven border and gold clasp, modest ear ornaments. Historically inspired central Mexican royal attire, no giant fan of feathers and no Inca or Plains dress.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-d791dbc3-60fc-463e-a293-7d736767c964.png",
+        "sha256": "a51837fda16ed4e8aea3dbcee11a148e398cf2eb105257a2c8246a0b80346b45"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/aztecs-male.png"
+    },
+    {
+      "index": 21,
+      "tribeIndex": 10,
+      "sex": "female",
+      "id": "aztecs-female",
+      "tribe": "Aztecs",
+      "gameName": "Nazca",
+      "identity": "Nazca",
+      "identityStatus": "game-specific",
+      "note": "No specific historical identity assumed. Uses Mexica dress for the game's Aztec slot, not the unrelated Nazca culture.",
+      "description": "Nazca, an original imagined adult woman for the game's Aztec tribe, no historical identity claimed and NOT the unrelated Andean Nazca culture. Mexica woman with warm brown skin, strong expressive face, dark eyes and black hair arranged in traditional raised side coils. Cream cotton huipil with restrained rust and teal geometric woven borders, small turquoise and gold necklace and ear ornaments. Dignified leader, no feather war bonnet.",
+      "generation": {
+        "id": "aztecs-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Nazca, an original imagined adult woman for the game's Aztec tribe, no historical identity claimed and NOT the unrelated Andean Nazca culture. Mexica woman with warm brown skin, strong expressive face, dark eyes and black hair arranged in traditional raised side coils. Cream cotton huipil with restrained rust and teal geometric woven borders, small turquoise and gold necklace and ear ornaments. Dignified leader, no feather war bonnet.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-04d2b29a-f6a7-4960-b0c5-4c41e732217b.png",
+        "sha256": "c2e488a960dcc3ca1d591ad593429f3d52d58d774f2fd00c983d53ec79bdab21"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/aztecs-female.png"
+    },
+    {
+      "index": 22,
+      "tribeIndex": 11,
+      "sex": "male",
+      "id": "chinese-male",
+      "tribe": "Chinese",
+      "gameName": "Mao Tse Tung",
+      "identity": "Mao Zedong",
+      "identityStatus": "historical",
+      "note": "Mid-twentieth-century civilian Zhongshan suit.",
+      "description": "Mao Zedong in his late fifties, broad rounded mature Chinese face, high forehead, swept-back dark hair with graying temples, prominent small mole below lower lip, calm serious eyes. Plain muted gray-green Zhongshan suit with standing collar and four visible upper buttons. Bareheaded, no insignia, slogans, red background or flags; original painted portrait, not a copy of the official image.",
+      "generation": {
+        "id": "chinese-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Mao Zedong in his late fifties, broad rounded mature Chinese face, high forehead, swept-back dark hair with graying temples, prominent small mole below lower lip, calm serious eyes. Plain muted gray-green Zhongshan suit with standing collar and four visible upper buttons. Bareheaded, no insignia, slogans, red background or flags; original painted portrait, not a copy of the official image.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-e6afc845-d127-48ab-bdbc-a3193afef9d0.png",
+        "sha256": "103509bcb3acfe9cf3ca458c12d7bd98e14b7a009a244e045947ab731db0b793"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/chinese-male.png"
+    },
+    {
+      "index": 23,
+      "tribeIndex": 11,
+      "sex": "female",
+      "id": "chinese-female",
+      "tribe": "Chinese",
+      "gameName": "Wu Zhao",
+      "identity": "Wu Zetian",
+      "identityStatus": "historical",
+      "note": "Tang/Zhou empress; period dress, no claim of an authenticated lifetime portrait.",
+      "description": "Wu Zetian, Chinese empress around fifty, mature oval face, dark almond-shaped eyes, black hair in a formal Tang-era updo. Restrained antique-gold hair ornaments and small jade earrings, layered cream and deep russet Tang silk court robes with subtle floral embroidery and broad collar. Regal intelligence and realistic age, not modern fashion, no giant ornate head structure.",
+      "generation": {
+        "id": "chinese-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Wu Zetian, Chinese empress around fifty, mature oval face, dark almond-shaped eyes, black hair in a formal Tang-era updo. Restrained antique-gold hair ornaments and small jade earrings, layered cream and deep russet Tang silk court robes with subtle floral embroidery and broad collar. Regal intelligence and realistic age, not modern fashion, no giant ornate head structure.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-ac1c155b-37dd-465e-a4ea-29542182e9b8.png",
+        "sha256": "8a65c969b0237a1de3f2a286bdd7a8640fb3f13795ae00abf1e2d916c72eb2bb"
+      },
+      "references": [
+        "wu"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/chinese-female.png"
+    },
+    {
+      "index": 24,
+      "tribeIndex": 12,
+      "sex": "male",
+      "id": "english-male",
+      "tribe": "English",
+      "gameName": "Henry VIII",
+      "identity": "Henry VIII",
+      "identityStatus": "historical",
+      "note": "Tudor king with broad face, short red-brown beard and square cap.",
+      "description": "Henry VIII of England in his forties, broad square face, small alert blue-gray eyes, short red-brown beard and moustache. Dark Tudor flat cap with restrained gold ornament, burgundy and black velvet doublet with gold woven detail, white shirt and modest fur shoulder trim. Strong stocky bust, composed expression; original pose rather than copying Holbein composition.",
+      "generation": {
+        "id": "english-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Henry VIII of England in his forties, broad square face, small alert blue-gray eyes, short red-brown beard and moustache. Dark Tudor flat cap with restrained gold ornament, burgundy and black velvet doublet with gold woven detail, white shirt and modest fur shoulder trim. Strong stocky bust, composed expression; original pose rather than copying Holbein composition.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-04cbf94f-9831-4e34-8173-a01872620120.png",
+        "sha256": "eef930513b7d07e8c5e66755047dea253447f1bf72d7dfc661ca797b6483289c"
+      },
+      "references": [
+        "tudor"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/english-male.png"
+    },
+    {
+      "index": 25,
+      "tribeIndex": 12,
+      "sex": "female",
+      "id": "english-female",
+      "tribe": "English",
+      "gameName": "Elizabeth I",
+      "identity": "Elizabeth I",
+      "identityStatus": "historical",
+      "note": "Tudor queen with auburn hair and Elizabethan ruff.",
+      "description": "Elizabeth I of England around forty-five, pale oval mature face, reddish-auburn curled hair, shrewd brown eyes. Restrained pearl hair ornaments, ivory Elizabethan ruff, dark plum silk bodice with small gold embroidered details and pearl necklace. Entire ruff inside frame; no huge crown or theatrical white makeup, original facial interpretation.",
+      "generation": {
+        "id": "english-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Elizabeth I of England around forty-five, pale oval mature face, reddish-auburn curled hair, shrewd brown eyes. Restrained pearl hair ornaments, ivory Elizabethan ruff, dark plum silk bodice with small gold embroidered details and pearl necklace. Entire ruff inside frame; no huge crown or theatrical white makeup, original facial interpretation.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-318582ea-c01c-471d-b481-1cff721cd428.png",
+        "sha256": "75cd748234cf186a2ed98629cb9656dd5c28a6c7f3427017ba974ca0e233a510"
+      },
+      "references": [
+        "tudor"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/english-female.png"
+    },
+    {
+      "index": 26,
+      "tribeIndex": 13,
+      "sex": "male",
+      "id": "mongols-male",
+      "tribe": "Mongols",
+      "gameName": "Genghis Khan",
+      "identity": "Genghis Khan",
+      "identityStatus": "historical",
+      "note": "Mongol ruler; later portrait tradition and steppe clothing, not an authenticated likeness.",
+      "description": "Genghis Khan, mature Mongol ruler in his fifties. Weathered tan face, broad cheekbones, narrow dark eyes, sparse moustache and pointed gray-black beard. Fur-trimmed rounded steppe cap, muted brown and indigo crossed-collar deel with restrained leather and woven trim. Dignified practical clothing, no fantasy armor, no giant horns.",
+      "generation": {
+        "id": "mongols-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Genghis Khan, mature Mongol ruler in his fifties. Weathered tan face, broad cheekbones, narrow dark eyes, sparse moustache and pointed gray-black beard. Fur-trimmed rounded steppe cap, muted brown and indigo crossed-collar deel with restrained leather and woven trim. Dignified practical clothing, no fantasy armor, no giant horns.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-cdad81ec-02f9-4529-a610-8cbd82bd1c1b.png",
+        "sha256": "6ac3ee25d17a4bd9e79e1ba6b9913690082214c034f8cac9b7b2bef79f18372a"
+      },
+      "references": [
+        "mongols",
+        "genghis-likeness"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/mongols-male.png"
+    },
+    {
+      "index": 27,
+      "tribeIndex": 13,
+      "sex": "female",
+      "id": "mongols-female",
+      "tribe": "Mongols",
+      "gameName": "Bortei",
+      "identity": "Börte",
+      "identityStatus": "historical interpretation",
+      "note": "The game spelling is interpreted as Börte, Genghis Khan's principal wife.",
+      "description": "Börte, principal wife of Genghis Khan, mature Mongol woman about forty-five. Weathered warm tan complexion, broad cheekbones, thoughtful dark eyes, dark braided hair. Compact red and brown Mongol royal headpiece suggested by early court traditions, modest gold earrings, rust and indigo crossed-collar deel with fine woven trim. All headgear contained, original interpretive portrait, no modern costume exaggeration.",
+      "generation": {
+        "id": "mongols-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Börte, principal wife of Genghis Khan, mature Mongol woman about forty-five. Weathered warm tan complexion, broad cheekbones, thoughtful dark eyes, dark braided hair. Compact red and brown Mongol royal headpiece suggested by early court traditions, modest gold earrings, rust and indigo crossed-collar deel with fine woven trim. All headgear contained, original interpretive portrait, no modern costume exaggeration.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-a9d8652d-2adf-4898-a537-8a852fed3ade.png",
+        "sha256": "b55a75f759085777b695cd37d38af92c825243b3efad2f17113ca3f7bc266a5d"
+      },
+      "references": [
+        "mongols"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/mongols-female.png"
+    },
+    {
+      "index": 28,
+      "tribeIndex": 14,
+      "sex": "male",
+      "id": "celts-male",
+      "tribe": "Celts",
+      "gameName": "Cunobelin",
+      "identity": "Cunobelinus",
+      "identityStatus": "historical",
+      "note": "First-century British king; period dress with no authenticated portrait likeness.",
+      "description": "Cunobelinus, first-century British Celtic king about forty-five. Weathered fair complexion, strong nose, gray-green eyes, wavy brown hair to neck, substantial neatly kept moustache with light chin stubble. Ochre wool tunic, dark green woven cloak fastened with bronze brooch, restrained gold neck torc. No horned helmet, fantasy blue face paint or medieval crown; original likeness without authenticated portrait claims.",
+      "generation": {
+        "id": "celts-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Cunobelinus, first-century British Celtic king about forty-five. Weathered fair complexion, strong nose, gray-green eyes, wavy brown hair to neck, substantial neatly kept moustache with light chin stubble. Ochre wool tunic, dark green woven cloak fastened with bronze brooch, restrained gold neck torc. No horned helmet, fantasy blue face paint or medieval crown; original likeness without authenticated portrait claims.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-f8b368ea-9edc-44b1-ae01-ea1a09c50edb.png",
+        "sha256": "718250974a72997c16fb79227441e36b5461c7a054b71d535bbdfaf1c1524395"
+      },
+      "references": [
+        "cunobelin"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/celts-male.png"
+    },
+    {
+      "index": 29,
+      "tribeIndex": 14,
+      "sex": "female",
+      "id": "celts-female",
+      "tribe": "Celts",
+      "gameName": "Boadicea",
+      "identity": "Boudica",
+      "identityStatus": "historical interpretation",
+      "note": "Iceni queen; game spelling retained and likeness explicitly interpretive.",
+      "description": "Boudica, Iceni queen of first-century Britain about forty. Strong mature face with light freckles, gray-green eyes, long copper-red hair partly braided and swept behind shoulders. Deep moss-green and russet wool cloak fastened with bronze brooch, cream woven tunic, simple gold neck torc. Composed fierce resolve, no face paint, horns or fantasy armor; original historical interpretation.",
+      "generation": {
+        "id": "celts-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Boudica, Iceni queen of first-century Britain about forty. Strong mature face with light freckles, gray-green eyes, long copper-red hair partly braided and swept behind shoulders. Deep moss-green and russet wool cloak fastened with bronze brooch, cream woven tunic, simple gold neck torc. Composed fierce resolve, no face paint, horns or fantasy armor; original historical interpretation.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-413cee09-cb63-4b4a-bc2a-a21e7df13d8a.png",
+        "sha256": "6dcdc52dfbb45df5f2a9406d2005eaedd67f90a58b2bfff434818f5425921398"
+      },
+      "references": [],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/celts-female.png"
+    },
+    {
+      "index": 30,
+      "tribeIndex": 15,
+      "sex": "male",
+      "id": "japanese-male",
+      "tribe": "Japanese",
+      "gameName": "Tokugawa",
+      "identity": "Tokugawa Ieyasu",
+      "identityStatus": "historical interpretation",
+      "note": "The abbreviated clan name is interpreted as Tokugawa Ieyasu.",
+      "description": "Tokugawa Ieyasu in mature later middle age, broad Japanese face, high forehead, short graying moustache and sparse small chin beard, observant dark eyes. Restrained black lacquered Japanese cap and layered dark indigo formal kimono with muted ochre outer robe, subtle textile pattern. Early Edo court attire, no oversized samurai helmet or swords, dignified practical ruler.",
+      "generation": {
+        "id": "japanese-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Tokugawa Ieyasu in mature later middle age, broad Japanese face, high forehead, short graying moustache and sparse small chin beard, observant dark eyes. Restrained black lacquered Japanese cap and layered dark indigo formal kimono with muted ochre outer robe, subtle textile pattern. Early Edo court attire, no oversized samurai helmet or swords, dignified practical ruler.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-542daef7-8556-4205-9797-5469c4d6e714.png",
+        "sha256": "9e3d01bee76edd6db8a94ffd720901466a7083d31e46065ec48e85e1832f8168"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/japanese-male.png"
+    },
+    {
+      "index": 31,
+      "tribeIndex": 15,
+      "sex": "female",
+      "id": "japanese-female",
+      "tribe": "Japanese",
+      "gameName": "Amaterasu",
+      "identity": "Amaterasu",
+      "identityStatus": "mythological",
+      "note": "Shinto sun deity; respectful symbolic court portrait, not a historical human likeness.",
+      "description": "Amaterasu, dignified adult female Shinto sun deity represented as a serene Japanese court figure, not a modern celebrity. Oval face, warm light complexion, dark eyes, long straight black hair gathered neatly. Layered ivory and muted vermilion early Japanese court robes, restrained antique-gold sun-disc hair ornament and small magatama necklace. Symbolic and respectful, no glowing halo, no scenery, no fantasy armor.",
+      "generation": {
+        "id": "japanese-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Amaterasu, dignified adult female Shinto sun deity represented as a serene Japanese court figure, not a modern celebrity. Oval face, warm light complexion, dark eyes, long straight black hair gathered neatly. Layered ivory and muted vermilion early Japanese court robes, restrained antique-gold sun-disc hair ornament and small magatama necklace. Symbolic and respectful, no glowing halo, no scenery, no fantasy armor.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "refinement": {
+          "prompt": "Edit this generated Amaterasu game portrait only to repair the cropped sun ornament: replace the large radiating sun ornament with a smaller, complete round antique-gold sun-disc hair ornament, with all of it visible and clear space above it. Preserve the same face, hair, clothing, warm painted style and transparent alpha background. Keep the entire head and bust silhouette inside the canvas, with a little transparent padding. Do not change the expression or add scenery, text or a halo.",
+          "inputGeneratedFile": "exec-2e329167-7f7e-461a-a286-497258711aea.png",
+          "inputSha256": "ca9bf76aec2a48cfd117f46bfc21aad2323949daaae8bbe503c718bd07227043",
+          "inputRole": "Earlier generated replacement portrait; no external reference pixels."
+        },
+        "generatedFile": "exec-9e375377-5c83-444c-9ff7-018bd6b7c32e.png",
+        "sha256": "c26ca588f5a14812944b7213f047da769b5ca875f311faae70292c5cd1b2a99c"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/japanese-female.png"
+    },
+    {
+      "index": 32,
+      "tribeIndex": 16,
+      "sex": "male",
+      "id": "vikings-male",
+      "tribe": "Vikings",
+      "gameName": "Canute",
+      "identity": "Cnut the Great",
+      "identityStatus": "historical interpretation",
+      "note": "Eleventh-century North Sea ruler; no authenticated naturalistic portrait.",
+      "description": "Cnut the Great, eleventh-century North Sea king in his forties. Weathered fair face, blue-gray eyes, brown hair to ears, neat brown beard and moustache flecked gray. Low plain gold circlet, deep indigo wool cloak over ochre tunic, bronze round brooch with restrained interlace. Historically inspired Norse-English court dress, no horned helmet or fantasy fur mountain.",
+      "generation": {
+        "id": "vikings-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Cnut the Great, eleventh-century North Sea king in his forties. Weathered fair face, blue-gray eyes, brown hair to ears, neat brown beard and moustache flecked gray. Low plain gold circlet, deep indigo wool cloak over ochre tunic, bronze round brooch with restrained interlace. Historically inspired Norse-English court dress, no horned helmet or fantasy fur mountain.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-9e4b36a1-2516-45bb-af61-50d26a0a8d7b.png",
+        "sha256": "3e51d18ba51e6a3d0dff231b2471a0d1239ce4a4ec154f4b09cd26bd63a6e124"
+      },
+      "references": [],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/vikings-male.png"
+    },
+    {
+      "index": 33,
+      "tribeIndex": 16,
+      "sex": "female",
+      "id": "vikings-female",
+      "tribe": "Vikings",
+      "gameName": "Gunnhild",
+      "identity": "Gunnhild, Mother of Kings",
+      "identityStatus": "saga interpretation",
+      "note": "Interprets the game name as the queen in Norse sagas; her biography and likeness are uncertain.",
+      "description": "Gunnhild, Mother of Kings, mature Norse saga queen about forty-five, interpretive not an authenticated likeness. Fair lined face, strong cheekbones, gray eyes, dark auburn hair in neat braids coiled behind. Dark teal wool overdress over cream linen, restrained oval bronze brooches, a small amber bead necklace and narrow woven headband. Practical tenth-century Norse dress, no horns or fantasy armor.",
+      "generation": {
+        "id": "vikings-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Gunnhild, Mother of Kings, mature Norse saga queen about forty-five, interpretive not an authenticated likeness. Fair lined face, strong cheekbones, gray eyes, dark auburn hair in neat braids coiled behind. Dark teal wool overdress over cream linen, restrained oval bronze brooches, a small amber bead necklace and narrow woven headband. Practical tenth-century Norse dress, no horns or fantasy armor.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-0b267f29-3a37-4130-ba58-427dc1816111.png",
+        "sha256": "23f16fbb24742d1841b24d3bdb4bcdcff9002cc018dc8f010de64d4b51e020eb"
+      },
+      "references": [
+        "gunnhild"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/vikings-female.png"
+    },
+    {
+      "index": 34,
+      "tribeIndex": 17,
+      "sex": "male",
+      "id": "spanish-male",
+      "tribe": "Spanish",
+      "gameName": "Philip II",
+      "identity": "Philip II of Spain",
+      "identityStatus": "historical",
+      "note": "Sixteenth-century Habsburg king with dark court dress and white ruff.",
+      "description": "Philip II of Spain in his forties, narrow mature Habsburg face, long nose, slightly prominent lower lip, neatly trimmed brown beard and moustache, short dark hair. Restrained black sixteenth-century court doublet, small white ruff, simple gold chain. Bareheaded, serious inward-looking gaze; no modern uniform or large jeweled crown.",
+      "generation": {
+        "id": "spanish-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Philip II of Spain in his forties, narrow mature Habsburg face, long nose, slightly prominent lower lip, neatly trimmed brown beard and moustache, short dark hair. Restrained black sixteenth-century court doublet, small white ruff, simple gold chain. Bareheaded, serious inward-looking gaze; no modern uniform or large jeweled crown.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-29f37a95-0a69-4033-bbc0-6cd96b17ebf5.png",
+        "sha256": "3906738e0fa2edfec168da0b1a248b221b430c52cb19fa777d55b51d4bed6065"
+      },
+      "references": [
+        "philip"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/spanish-male.png"
+    },
+    {
+      "index": 35,
+      "tribeIndex": 17,
+      "sex": "female",
+      "id": "spanish-female",
+      "tribe": "Spanish",
+      "gameName": "Isabella",
+      "identity": "Isabella I of Castile",
+      "identityStatus": "historical interpretation",
+      "note": "The abbreviated game name is interpreted as Isabella I.",
+      "description": "Isabella I of Castile in her forties, pale mature oval face, gray-brown eyes, auburn hair mostly covered by an ivory late-fifteenth-century veil with a narrow jeweled band. Burgundy velvet gown with restrained gold embroidered neckline and simple pearl pendant. Calm resolute expression, historically inspired Castilian court dress, not Elizabethan ruff.",
+      "generation": {
+        "id": "spanish-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Isabella I of Castile in her forties, pale mature oval face, gray-brown eyes, auburn hair mostly covered by an ivory late-fifteenth-century veil with a narrow jeweled band. Burgundy velvet gown with restrained gold embroidered neckline and simple pearl pendant. Calm resolute expression, historically inspired Castilian court dress, not Elizabethan ruff.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-6bf56a4d-eb98-40fb-98d2-d35229f559d5.png",
+        "sha256": "6b9d62d96e834eebedb6f75e156f95d6c302f5b445322fb55593ecf7d0c25315"
+      },
+      "references": [
+        "isabella"
+      ],
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/spanish-female.png"
+    },
+    {
+      "index": 36,
+      "tribeIndex": 18,
+      "sex": "male",
+      "id": "persians-male",
+      "tribe": "Persians",
+      "gameName": "Xerxes",
+      "identity": "Xerxes I",
+      "identityStatus": "historical interpretation",
+      "note": "Achaemenid king; royal relief tradition and period dress.",
+      "description": "Xerxes I, Achaemenid Persian king in mature middle age. Warm olive-brown skin, strong aquiline nose, deep dark eyes, thick dark beard in ordered curls and long dark hair. Low cylindrical royal tiara with restrained gold decoration, deep indigo Persian robe with ochre woven trim and modest gold collar. Inspired by Achaemenid relief costume, no Islamic turban or fantasy armor.",
+      "generation": {
+        "id": "persians-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Xerxes I, Achaemenid Persian king in mature middle age. Warm olive-brown skin, strong aquiline nose, deep dark eyes, thick dark beard in ordered curls and long dark hair. Low cylindrical royal tiara with restrained gold decoration, deep indigo Persian robe with ochre woven trim and modest gold collar. Inspired by Achaemenid relief costume, no Islamic turban or fantasy armor.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-2eb3860a-992f-491a-9dad-7ffa5c5f1ac3.png",
+        "sha256": "6e72c8e57f116e5bf58898cdb46eb2cd4efeca8fa4ef286bd33ed9a8d9c64c1e"
+      },
+      "references": [
+        "xerxes"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/persians-male.png"
+    },
+    {
+      "index": 37,
+      "tribeIndex": 18,
+      "sex": "female",
+      "id": "persians-female",
+      "tribe": "Persians",
+      "gameName": "Scheherezade",
+      "identity": "Scheherazade",
+      "identityStatus": "literary",
+      "note": "Storyteller of One Thousand and One Nights; game spelling retained, explicitly an imaginative Persian-court interpretation.",
+      "description": "Scheherazade, adult literary Persian court storyteller in her thirties, an imaginative literary portrait rather than a historical likeness. Warm olive-brown complexion, expressive dark eyes, dark wavy hair partly covered by a fine muted teal silk veil. Deep plum long-sleeved court robe with restrained gold embroidered neckline, small gold and lapis earrings. Intelligent composed storyteller, no sexualized harem costume, no book or hands in frame.",
+      "generation": {
+        "id": "persians-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Scheherazade, adult literary Persian court storyteller in her thirties, an imaginative literary portrait rather than a historical likeness. Warm olive-brown complexion, expressive dark eyes, dark wavy hair partly covered by a fine muted teal silk veil. Deep plum long-sleeved court robe with restrained gold embroidered neckline, small gold and lapis earrings. Intelligent composed storyteller, no sexualized harem costume, no book or hands in frame.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-8d506163-28be-46a3-baf2-f6690461ee8a.png",
+        "sha256": "6502b91e0122b4d77f3f02cf3e7ef57dcd666514fb4252c8d7250fad45338525"
+      },
+      "references": [
+        "scheherazade"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/persians-female.png"
+    },
+    {
+      "index": 38,
+      "tribeIndex": 19,
+      "sex": "male",
+      "id": "carthaginians-male",
+      "tribe": "Carthaginians",
+      "gameName": "Hannibal",
+      "identity": "Hannibal Barca",
+      "identityStatus": "historical interpretation",
+      "note": "Punic general; no securely authenticated portrait likeness.",
+      "description": "Hannibal Barca, Carthaginian general about forty-five. Mediterranean North African olive-brown complexion, strong lined brow, dark curly hair graying at temples, short dark beard, dark thoughtful eyes. Restrained bronze and leather Hellenistic-style military breastplate over ivory tunic, deep rust cloak clasped at shoulder. Bareheaded, no elephant, weapons or fantasy armor, no claim to a secure ancient portrait.",
+      "generation": {
+        "id": "carthaginians-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Hannibal Barca, Carthaginian general about forty-five. Mediterranean North African olive-brown complexion, strong lined brow, dark curly hair graying at temples, short dark beard, dark thoughtful eyes. Restrained bronze and leather Hellenistic-style military breastplate over ivory tunic, deep rust cloak clasped at shoulder. Bareheaded, no elephant, weapons or fantasy armor, no claim to a secure ancient portrait.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-c3b49beb-f64c-4244-be78-438d87decb98.png",
+        "sha256": "3ca6fee71c32a71f01e154d5d4be82646d254407f43bfd8c5f1fcab57e82f88d"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/carthaginians-male.png"
+    },
+    {
+      "index": 39,
+      "tribeIndex": 19,
+      "sex": "female",
+      "id": "carthaginians-female",
+      "tribe": "Carthaginians",
+      "gameName": "Dido",
+      "identity": "Dido",
+      "identityStatus": "legendary",
+      "note": "Legendary founder of Carthage; Phoenician dress, not an authenticated historical likeness.",
+      "description": "Dido, legendary Phoenician founder of Carthage, mature woman about thirty-five. Warm olive complexion, strong long nose, dark eyes, thick dark wavy hair gathered into coils. Narrow antique-gold diadem with modest carnelian stones, ivory woven dress under deep Tyrian-purple mantle, simple gold earrings. Dignified Phoenician royal styling, original interpretive likeness, no Roman laurel wreath.",
+      "generation": {
+        "id": "carthaginians-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Dido, legendary Phoenician founder of Carthage, mature woman about thirty-five. Warm olive complexion, strong long nose, dark eyes, thick dark wavy hair gathered into coils. Narrow antique-gold diadem with modest carnelian stones, ivory woven dress under deep Tyrian-purple mantle, simple gold earrings. Dignified Phoenician royal styling, original interpretive likeness, no Roman laurel wreath.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-2c0bc8ec-ca00-4f4b-8920-252354a35d12.png",
+        "sha256": "7b118c83acdce0d1f20ba0f29606ad5b950a2bd9780f64b48b6965078732b62d"
+      },
+      "references": [],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/carthaginians-female.png"
+    },
+    {
+      "index": 40,
+      "tribeIndex": 20,
+      "sex": "male",
+      "id": "sioux-male",
+      "tribe": "Sioux",
+      "gameName": "Sitting Bull",
+      "identity": "Sitting Bull",
+      "identityStatus": "historical",
+      "note": "Hunkpapa Lakota leader; late-nineteenth-century photographic references inform features and clothing.",
+      "description": "Sitting Bull, Hunkpapa Lakota leader in his fifties, recognizably broad lined face with strong cheekbones, dark steady eyes, long black hair in two braids, slight graying. Dignified tan buckskin shirt with modest blue-and-white beaded chest strip and red cloth at the shoulders, simple hair ties and NO giant war bonnet. Original painted pose informed by historical photographs without duplicating one. Accurate mature individual, no generic fantasy warrior.",
+      "generation": {
+        "id": "sioux-male",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Sitting Bull, Hunkpapa Lakota leader in his fifties, recognizably broad lined face with strong cheekbones, dark steady eyes, long black hair in two braids, slight graying. Dignified tan buckskin shirt with modest blue-and-white beaded chest strip and red cloth at the shoulders, simple hair ties and NO giant war bonnet. Original painted pose informed by historical photographs without duplicating one. Accurate mature individual, no generic fantasy warrior.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-23e0d164-d254-45c3-bf8b-f0709c425549.png",
+        "sha256": "64d35840db81391f82bb14ee3ed59a126e82b3b543d673f52085dc510eee35a8"
+      },
+      "references": [
+        "sitting-bull"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/sioux-male.png"
+    },
+    {
+      "index": 41,
+      "tribeIndex": 20,
+      "sex": "female",
+      "id": "sioux-female",
+      "tribe": "Sioux",
+      "gameName": "Sacajawea",
+      "identity": "Sacagawea",
+      "identityStatus": "historical",
+      "note": "Lemhi Shoshone, not Sioux. Preserves the game's slot without changing her identity. No known lifetime portrait; adult artistic interpretation.",
+      "description": "Sacagawea, Lemhi Shoshone woman (the game places her in the Sioux slot), represented as an adult in her twenties. Warm brown complexion, rounded youthful adult face, dark thoughtful eyes, long dark hair in two practical braids. Plain tan Shoshone buckskin dress with restrained shell and bead neckline, modest earth-red woven shoulder detail. No known lifetime likeness: original respectful interpretation, no Plains war bonnet, no crown, no baby or hands.",
+      "generation": {
+        "id": "sioux-female",
+        "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Sacagawea, Lemhi Shoshone woman (the game places her in the Sioux slot), represented as an adult in her twenties. Warm brown complexion, rounded youthful adult face, dark thoughtful eyes, long dark hair in two practical braids. Plain tan Shoshone buckskin dress with restrained shell and bead neckline, modest earth-red woven shoulder detail. No known lifetime likeness: original respectful interpretation, no Plains war bonnet, no crown, no baby or hands.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
+        "generatedFile": "exec-27dc6cc8-6339-4b46-8256-24d0893251ec.png",
+        "sha256": "55301ae2459a8e906166bd5e9c9082beb35f59f8ffcc62011af6a4fab75aee37"
+      },
+      "references": [
+        "sacagawea",
+        "shoshone"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/sioux-female.png"
+    }
+  ]
+}

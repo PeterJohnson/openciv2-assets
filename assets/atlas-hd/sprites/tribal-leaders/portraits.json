@@ -1,0 +1,1052 @@
+{
+  "schemaVersion": 1,
+  "title": "Optional per-tribe leader portraits",
+  "runtimeSelected": false,
+  "source": {
+    "file": "LEADERS.TXT",
+    "sha256": "11d3b73da204fc6360af4cbeeefdd3fb3fda62bbbd4651de2e57e41795076411",
+    "crossCheck": {
+      "file": "RULES.TXT",
+      "section": "@LEADERS",
+      "rows": 21,
+      "firstSevenColumnsMatch": true,
+      "sha256": "8a6f98b8260405091cd41d574c30bb05aa805c99a1f4357c49a73cf382fc2c03"
+    }
+  },
+  "selection": "Use zero-based tribeIndex plus sex; do not select by player slot or faction color.",
+  "display": {
+    "logicalFrame": {
+      "width": 225,
+      "height": 275
+    },
+    "thumbnailFrame": {
+      "width": 90,
+      "height": 110
+    },
+    "fit": "contain",
+    "preserveAspectRatio": true,
+    "alpha": "straight RGBA",
+    "note": "Retained native PNG sizes vary. Fit the whole image, do not stretch or crop faces."
+  },
+  "completeness": {
+    "requested": 42,
+    "available": 41,
+    "pending": [
+      "indians-male"
+    ],
+    "allAvailablePNGsValid": true,
+    "uniqueImageHashes": 41,
+    "rosterRows": 21,
+    "runtimeSelectionModified": false,
+    "legacyPortraitsReplaced": false
+  },
+  "portraits": [
+    {
+      "id": "romans-male",
+      "tribeIndex": 0,
+      "tribe": "Romans",
+      "sex": "male",
+      "gameName": "Caesar",
+      "identity": "Julius Caesar",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/romans-male.png",
+      "note": "Late Republican Roman statesman; likeness interpreted from sculptural tradition.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "e12d0fed294efb3e1a7689db8059f2ca13bb74c69010fb9badd6c77f4400f290",
+      "alpha": {
+        "transparent": 679506,
+        "opaque": 313,
+        "nearOpaque": 856113,
+        "translucent": 893269
+      }
+    },
+    {
+      "id": "romans-female",
+      "tribeIndex": 0,
+      "tribe": "Romans",
+      "sex": "female",
+      "gameName": "Livia",
+      "identity": "Livia Drusilla",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/romans-female.png",
+      "note": "Augustan Roman empress; sculptural hairstyle and draped dress.",
+      "references": [
+        "livia"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "680e59f1770a5bb85cfbd794dbbc8768c09d86095d1435b044e34a12282a9fdd",
+      "alpha": {
+        "transparent": 690652,
+        "opaque": 297,
+        "nearOpaque": 845504,
+        "translucent": 882139
+      }
+    },
+    {
+      "id": "babylonians-male",
+      "tribeIndex": 1,
+      "tribe": "Babylonians",
+      "sex": "male",
+      "gameName": "Hammurabi",
+      "identity": "Hammurabi",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/babylonians-male.png",
+      "note": "Old Babylonian king; period dress informed by the law-stele relief, not an authenticated modern likeness.",
+      "references": [
+        "hammurabi"
+      ],
+      "width": 1193,
+      "height": 1318,
+      "sha256": "bdd54c4ec0afbb221abd4d04cd4aa2baa3975b267ed787fa0362081a14165c77",
+      "alpha": {
+        "transparent": 629830,
+        "opaque": 205,
+        "nearOpaque": 908155,
+        "translucent": 942339
+      }
+    },
+    {
+      "id": "babylonians-female",
+      "tribeIndex": 1,
+      "tribe": "Babylonians",
+      "sex": "female",
+      "gameName": "Ishtari",
+      "identity": "Ishtari",
+      "identityStatus": "game-specific",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/babylonians-female.png",
+      "note": "No specific historical identity assumed; original Old Babylonian court figure.",
+      "references": [
+        "hammurabi"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "193992aa152fcf8056e9a630e8b05630cb8e910a467b5854b21e6502ce0c3c07",
+      "alpha": {
+        "transparent": 612931,
+        "opaque": 94,
+        "nearOpaque": 912310,
+        "translucent": 960063
+      }
+    },
+    {
+      "id": "germans-male",
+      "tribeIndex": 2,
+      "tribe": "Germans",
+      "sex": "male",
+      "gameName": "Frederick",
+      "identity": "Frederick II of Prussia",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/germans-male.png",
+      "note": "The abbreviated game name is interpreted as Frederick the Great.",
+      "references": [
+        "frederick"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "5b85cc971c4909068be5e4456445543c37cb43c466c47608cd9e6d952bcf47c0",
+      "alpha": {
+        "transparent": 630754,
+        "opaque": 344,
+        "nearOpaque": 900074,
+        "translucent": 941990
+      }
+    },
+    {
+      "id": "germans-female",
+      "tribeIndex": 2,
+      "tribe": "Germans",
+      "sex": "female",
+      "gameName": "Maria Theresa",
+      "identity": "Maria Theresa",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/germans-female.png",
+      "note": "Habsburg ruler retained in the game's German pairing.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "5e4de4dae1a2ebec7386ba6b66f916e1ebee90a07f484a43522e266a4ee9c7be",
+      "alpha": {
+        "transparent": 638300,
+        "opaque": 280,
+        "nearOpaque": 896063,
+        "translucent": 934508
+      }
+    },
+    {
+      "id": "egyptians-male",
+      "tribeIndex": 3,
+      "tribe": "Egyptians",
+      "sex": "male",
+      "gameName": "Ramesses",
+      "identity": "Ramesses II",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/egyptians-male.png",
+      "note": "The game name is interpreted as Ramesses II; royal sculpture and period costume inform the design.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "2c5ee0cf25a5190fc6375da1486e8d15c54504c3fb0ced107ecf4463d93f549f",
+      "alpha": {
+        "transparent": 480023,
+        "opaque": 235,
+        "nearOpaque": 1059720,
+        "translucent": 1092830
+      }
+    },
+    {
+      "id": "egyptians-female",
+      "tribeIndex": 3,
+      "tribe": "Egyptians",
+      "sex": "female",
+      "gameName": "Cleopatra",
+      "identity": "Cleopatra VII",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/egyptians-female.png",
+      "note": "Ptolemaic ruler; diadem and Greek-Egyptian royal dress, not a modern film likeness.",
+      "references": [
+        "cleopatra"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "90268976a41dc694629a442b9fcab4c0def61058f8fc48aa0f7cd6ee272e824b",
+      "alpha": {
+        "transparent": 639174,
+        "opaque": 123,
+        "nearOpaque": 889795,
+        "translucent": 933791
+      }
+    },
+    {
+      "id": "americans-male",
+      "tribeIndex": 4,
+      "tribe": "Americans",
+      "sex": "male",
+      "gameName": "Abe Lincoln",
+      "identity": "Abraham Lincoln",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/americans-male.png",
+      "note": "President-era beard, black coat and bow tie; original painted composition.",
+      "references": [
+        "lincoln"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "c231ac3e0cc174cf9b5e819e829196570253736bbd0a04deab262291a0d09079",
+      "alpha": {
+        "transparent": 703312,
+        "opaque": 143,
+        "nearOpaque": 825635,
+        "translucent": 869633
+      }
+    },
+    {
+      "id": "americans-female",
+      "tribeIndex": 4,
+      "tribe": "Americans",
+      "sex": "female",
+      "gameName": "E. Roosevelt",
+      "identity": "Eleanor Roosevelt",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/americans-female.png",
+      "note": "The abbreviated game name is interpreted as Eleanor Roosevelt.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "11fba1e8a503b9bdb7fa45da3e20c37f0a320299cb49f80733d5ea352e9761ee",
+      "alpha": {
+        "transparent": 743886,
+        "opaque": 141,
+        "nearOpaque": 786364,
+        "translucent": 829061
+      }
+    },
+    {
+      "id": "greeks-male",
+      "tribeIndex": 5,
+      "tribe": "Greeks",
+      "sex": "male",
+      "gameName": "Alexander",
+      "identity": "Alexander the Great",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/greeks-male.png",
+      "note": "Macedonian king; youthful sculptural portrait tradition.",
+      "references": [
+        "alexander"
+      ],
+      "width": 1134,
+      "height": 1387,
+      "sha256": "5338b5bb3d4c146273dd2287181de6dbe1505c9c2c6e9785fd9178ddec58998a",
+      "alpha": {
+        "transparent": 561393,
+        "opaque": 235,
+        "nearOpaque": 954229,
+        "translucent": 1011230
+      }
+    },
+    {
+      "id": "greeks-female",
+      "tribeIndex": 5,
+      "tribe": "Greeks",
+      "sex": "female",
+      "gameName": "Hippolyta",
+      "identity": "Hippolyta",
+      "identityStatus": "mythological",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/greeks-female.png",
+      "note": "Amazon queen from Greek mythology; original dignified interpretation.",
+      "references": [],
+      "width": 1198,
+      "height": 1313,
+      "sha256": "7ca6006e4066cb86a419ddceaa6721a5fa56153eca72b3c4be780cd5b534a2fb",
+      "alpha": {
+        "transparent": 614125,
+        "opaque": 140,
+        "nearOpaque": 861429,
+        "translucent": 958709
+      }
+    },
+    {
+      "id": "indians-male",
+      "tribeIndex": 6,
+      "tribe": "Indians",
+      "sex": "male",
+      "gameName": "Mohandas Gandhi",
+      "identity": "Mohandas Gandhi",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "pending",
+      "file": null,
+      "note": "Elderly Gandhi with round spectacles and plain khadi shawl.",
+      "references": []
+    },
+    {
+      "id": "indians-female",
+      "tribeIndex": 6,
+      "tribe": "Indians",
+      "sex": "female",
+      "gameName": "Indira Gandhi",
+      "identity": "Indira Gandhi",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/indians-female.png",
+      "note": "Prime minister; short hair with distinctive white streak and sari.",
+      "references": [
+        "indira"
+      ],
+      "width": 1193,
+      "height": 1319,
+      "sha256": "85fd5b5d72537a86fc3dd4922fafdbceb6472b28c558752879a3e351014197ab",
+      "alpha": {
+        "transparent": 619515,
+        "opaque": 153,
+        "nearOpaque": 912687,
+        "translucent": 953899
+      }
+    },
+    {
+      "id": "russians-male",
+      "tribeIndex": 7,
+      "tribe": "Russians",
+      "sex": "male",
+      "gameName": "Lenin",
+      "identity": "Vladimir Lenin",
+      "identityStatus": "historical",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/russians-male.png",
+      "note": "Early twentieth-century civilian suit and recognizable beard.",
+      "references": [],
+      "width": 1133,
+      "height": 1388,
+      "sha256": "cf9c1c12ece27dba4584919540068c166bc2aacab18e3ff1d0a655d696d4bb30",
+      "alpha": {
+        "transparent": 648733,
+        "opaque": 601,
+        "nearOpaque": 893092,
+        "translucent": 923270
+      }
+    },
+    {
+      "id": "russians-female",
+      "tribeIndex": 7,
+      "tribe": "Russians",
+      "sex": "female",
+      "gameName": "Catherine the Great",
+      "identity": "Catherine II",
+      "identityStatus": "historical",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/russians-female.png",
+      "note": "Eighteenth-century Russian court dress.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "00432a64716489707728c378db5bb9953ed44609023926abc02227fd35324aa7",
+      "alpha": {
+        "transparent": 665663,
+        "opaque": 365,
+        "nearOpaque": 869527,
+        "translucent": 907060
+      }
+    },
+    {
+      "id": "zulus-male",
+      "tribeIndex": 8,
+      "tribe": "Zulus",
+      "sex": "male",
+      "gameName": "Shaka",
+      "identity": "Shaka",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/zulus-male.png",
+      "note": "Early nineteenth-century Zulu king; no claim of an authenticated portrait likeness.",
+      "references": [
+        "shaka"
+      ],
+      "width": 1132,
+      "height": 1390,
+      "sha256": "de697c8f4c7f52da37c861c7c1525003d03a02c7a70369d22bba824fa75f8494",
+      "alpha": {
+        "transparent": 671464,
+        "opaque": 455,
+        "nearOpaque": 863607,
+        "translucent": 901561
+      }
+    },
+    {
+      "id": "zulus-female",
+      "tribeIndex": 8,
+      "tribe": "Zulus",
+      "sex": "female",
+      "gameName": "Shakala",
+      "identity": "Shakala",
+      "identityStatus": "game-specific",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/zulus-female.png",
+      "note": "No specific historical identity assumed; original Zulu court figure.",
+      "references": [
+        "shaka"
+      ],
+      "width": 1194,
+      "height": 1317,
+      "sha256": "e655b10ed81ca26bdccb2b7343741b3bd4dd72e8c75385ea70f9c6c02a12ab19",
+      "alpha": {
+        "transparent": 680154,
+        "opaque": 243,
+        "nearOpaque": 849185,
+        "translucent": 892101
+      }
+    },
+    {
+      "id": "french-male",
+      "tribeIndex": 9,
+      "tribe": "French",
+      "sex": "male",
+      "gameName": "Louis XIV",
+      "identity": "Louis XIV",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/french-male.png",
+      "note": "Seventeenth-century French royal court dress and long dark curls.",
+      "references": [
+        "louis"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "eb316837ef01684d4e21c8104b015d4acbe76f0908f6aaca3331f6087b0bc3aa",
+      "alpha": {
+        "transparent": 512099,
+        "opaque": 25,
+        "nearOpaque": 988666,
+        "translucent": 1060964
+      }
+    },
+    {
+      "id": "french-female",
+      "tribeIndex": 9,
+      "tribe": "French",
+      "sex": "female",
+      "gameName": "Joan of Arc",
+      "identity": "Joan of Arc",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/french-female.png",
+      "note": "Fifteenth-century French soldier in practical plate armor; no secure lifetime likeness.",
+      "references": [],
+      "width": 1132,
+      "height": 1389,
+      "sha256": "0e0a6243f1b8db23a296c2247a2bc43572a4eab191c50c24d2c37838a40a2e85",
+      "alpha": {
+        "transparent": 563000,
+        "opaque": 333,
+        "nearOpaque": 951155,
+        "translucent": 1009015
+      }
+    },
+    {
+      "id": "aztecs-male",
+      "tribeIndex": 10,
+      "tribe": "Aztecs",
+      "sex": "male",
+      "gameName": "Montezuma",
+      "identity": "Moctezuma II",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/aztecs-male.png",
+      "note": "The game name is interpreted as Moctezuma II, a Mexica ruler.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "a51837fda16ed4e8aea3dbcee11a148e398cf2eb105257a2c8246a0b80346b45",
+      "alpha": {
+        "transparent": 622427,
+        "opaque": 157,
+        "nearOpaque": 906604,
+        "translucent": 950504
+      }
+    },
+    {
+      "id": "aztecs-female",
+      "tribeIndex": 10,
+      "tribe": "Aztecs",
+      "sex": "female",
+      "gameName": "Nazca",
+      "identity": "Nazca",
+      "identityStatus": "game-specific",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/aztecs-female.png",
+      "note": "No specific historical identity assumed. Uses Mexica dress for the game's Aztec slot, not the unrelated Nazca culture.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "c2e488a960dcc3ca1d591ad593429f3d52d58d774f2fd00c983d53ec79bdab21",
+      "alpha": {
+        "transparent": 669554,
+        "opaque": 166,
+        "nearOpaque": 865089,
+        "translucent": 903368
+      }
+    },
+    {
+      "id": "chinese-male",
+      "tribeIndex": 11,
+      "tribe": "Chinese",
+      "sex": "male",
+      "gameName": "Mao Tse Tung",
+      "identity": "Mao Zedong",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/chinese-male.png",
+      "note": "Mid-twentieth-century civilian Zhongshan suit.",
+      "references": [],
+      "width": 1135,
+      "height": 1386,
+      "sha256": "103509bcb3acfe9cf3ca458c12d7bd98e14b7a009a244e045947ab731db0b793",
+      "alpha": {
+        "transparent": 603620,
+        "opaque": 354,
+        "nearOpaque": 932109,
+        "translucent": 969136
+      }
+    },
+    {
+      "id": "chinese-female",
+      "tribeIndex": 11,
+      "tribe": "Chinese",
+      "sex": "female",
+      "gameName": "Wu Zhao",
+      "identity": "Wu Zetian",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/chinese-female.png",
+      "note": "Tang/Zhou empress; period dress, no claim of an authenticated lifetime portrait.",
+      "references": [
+        "wu"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "8a65c969b0237a1de3f2a286bdd7a8640fb3f13795ae00abf1e2d916c72eb2bb",
+      "alpha": {
+        "transparent": 717271,
+        "opaque": 363,
+        "nearOpaque": 822103,
+        "translucent": 855454
+      }
+    },
+    {
+      "id": "english-male",
+      "tribeIndex": 12,
+      "tribe": "English",
+      "sex": "male",
+      "gameName": "Henry VIII",
+      "identity": "Henry VIII",
+      "identityStatus": "historical",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/english-male.png",
+      "note": "Tudor king with broad face, short red-brown beard and square cap.",
+      "references": [
+        "tudor"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "eef930513b7d07e8c5e66755047dea253447f1bf72d7dfc661ca797b6483289c",
+      "alpha": {
+        "transparent": 533438,
+        "opaque": 135,
+        "nearOpaque": 1002165,
+        "translucent": 1039515
+      }
+    },
+    {
+      "id": "english-female",
+      "tribeIndex": 12,
+      "tribe": "English",
+      "sex": "female",
+      "gameName": "Elizabeth I",
+      "identity": "Elizabeth I",
+      "identityStatus": "historical",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/english-female.png",
+      "note": "Tudor queen with auburn hair and Elizabethan ruff.",
+      "references": [
+        "tudor"
+      ],
+      "width": 1196,
+      "height": 1315,
+      "sha256": "75cd748234cf186a2ed98629cb9656dd5c28a6c7f3427017ba974ca0e233a510",
+      "alpha": {
+        "transparent": 537042,
+        "opaque": 258,
+        "nearOpaque": 993149,
+        "translucent": 1035440
+      }
+    },
+    {
+      "id": "mongols-male",
+      "tribeIndex": 13,
+      "tribe": "Mongols",
+      "sex": "male",
+      "gameName": "Genghis Khan",
+      "identity": "Genghis Khan",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/mongols-male.png",
+      "note": "Mongol ruler; later portrait tradition and steppe clothing, not an authenticated likeness.",
+      "references": [
+        "mongols",
+        "genghis-likeness"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6ac3ee25d17a4bd9e79e1ba6b9913690082214c034f8cac9b7b2bef79f18372a",
+      "alpha": {
+        "transparent": 649256,
+        "opaque": 170,
+        "nearOpaque": 885164,
+        "translucent": 923662
+      }
+    },
+    {
+      "id": "mongols-female",
+      "tribeIndex": 13,
+      "tribe": "Mongols",
+      "sex": "female",
+      "gameName": "Bortei",
+      "identity": "Börte",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/mongols-female.png",
+      "note": "The game spelling is interpreted as Börte, Genghis Khan's principal wife.",
+      "references": [
+        "mongols"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "b55a75f759085777b695cd37d38af92c825243b3efad2f17113ca3f7bc266a5d",
+      "alpha": {
+        "transparent": 721906,
+        "opaque": 200,
+        "nearOpaque": 808817,
+        "translucent": 850982
+      }
+    },
+    {
+      "id": "celts-male",
+      "tribeIndex": 14,
+      "tribe": "Celts",
+      "sex": "male",
+      "gameName": "Cunobelin",
+      "identity": "Cunobelinus",
+      "identityStatus": "historical",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/celts-male.png",
+      "note": "First-century British king; period dress with no authenticated portrait likeness.",
+      "references": [
+        "cunobelin"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "718250974a72997c16fb79227441e36b5461c7a054b71d535bbdfaf1c1524395",
+      "alpha": {
+        "transparent": 583241,
+        "opaque": 177,
+        "nearOpaque": 924217,
+        "translucent": 989670
+      }
+    },
+    {
+      "id": "celts-female",
+      "tribeIndex": 14,
+      "tribe": "Celts",
+      "sex": "female",
+      "gameName": "Boadicea",
+      "identity": "Boudica",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/celts-female.png",
+      "note": "Iceni queen; game spelling retained and likeness explicitly interpretive.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6dcdc52dfbb45df5f2a9406d2005eaedd67f90a58b2bfff434818f5425921398",
+      "alpha": {
+        "transparent": 475266,
+        "opaque": 40,
+        "nearOpaque": 989801,
+        "translucent": 1097782
+      }
+    },
+    {
+      "id": "japanese-male",
+      "tribeIndex": 15,
+      "tribe": "Japanese",
+      "sex": "male",
+      "gameName": "Tokugawa",
+      "identity": "Tokugawa Ieyasu",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/japanese-male.png",
+      "note": "The abbreviated clan name is interpreted as Tokugawa Ieyasu.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "9e3d01bee76edd6db8a94ffd720901466a7083d31e46065ec48e85e1832f8168",
+      "alpha": {
+        "transparent": 690166,
+        "opaque": 461,
+        "nearOpaque": 849221,
+        "translucent": 882461
+      }
+    },
+    {
+      "id": "japanese-female",
+      "tribeIndex": 15,
+      "tribe": "Japanese",
+      "sex": "female",
+      "gameName": "Amaterasu",
+      "identity": "Amaterasu",
+      "identityStatus": "mythological",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/japanese-female.png",
+      "note": "Shinto sun deity; respectful symbolic court portrait, not a historical human likeness.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "c26ca588f5a14812944b7213f047da769b5ca875f311faae70292c5cd1b2a99c",
+      "alpha": {
+        "transparent": 833543,
+        "opaque": 129,
+        "nearOpaque": 711661,
+        "translucent": 739416
+      }
+    },
+    {
+      "id": "vikings-male",
+      "tribeIndex": 16,
+      "tribe": "Vikings",
+      "sex": "male",
+      "gameName": "Canute",
+      "identity": "Cnut the Great",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/vikings-male.png",
+      "note": "Eleventh-century North Sea ruler; no authenticated naturalistic portrait.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3e51d18ba51e6a3d0dff231b2471a0d1239ce4a4ec154f4b09cd26bd63a6e124",
+      "alpha": {
+        "transparent": 608067,
+        "opaque": 14,
+        "nearOpaque": 862031,
+        "translucent": 965007
+      }
+    },
+    {
+      "id": "vikings-female",
+      "tribeIndex": 16,
+      "tribe": "Vikings",
+      "sex": "female",
+      "gameName": "Gunnhild",
+      "identity": "Gunnhild, Mother of Kings",
+      "identityStatus": "saga interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/vikings-female.png",
+      "note": "Interprets the game name as the queen in Norse sagas; her biography and likeness are uncertain.",
+      "references": [
+        "gunnhild"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "23f16fbb24742d1841b24d3bdb4bcdcff9002cc018dc8f010de64d4b51e020eb",
+      "alpha": {
+        "transparent": 639836,
+        "opaque": 143,
+        "nearOpaque": 877168,
+        "translucent": 933109
+      }
+    },
+    {
+      "id": "spanish-male",
+      "tribeIndex": 17,
+      "tribe": "Spanish",
+      "sex": "male",
+      "gameName": "Philip II",
+      "identity": "Philip II of Spain",
+      "identityStatus": "historical",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/spanish-male.png",
+      "note": "Sixteenth-century Habsburg king with dark court dress and white ruff.",
+      "references": [
+        "philip"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3906738e0fa2edfec168da0b1a248b221b430c52cb19fa777d55b51d4bed6065",
+      "alpha": {
+        "transparent": 706484,
+        "opaque": 83,
+        "nearOpaque": 829571,
+        "translucent": 866521
+      }
+    },
+    {
+      "id": "spanish-female",
+      "tribeIndex": 17,
+      "tribe": "Spanish",
+      "sex": "female",
+      "gameName": "Isabella",
+      "identity": "Isabella I of Castile",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "female",
+      "status": "available",
+      "file": "sprites/tribal-leaders/spanish-female.png",
+      "note": "The abbreviated game name is interpreted as Isabella I.",
+      "references": [
+        "isabella"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6b9d62d96e834eebedb6f75e156f95d6c302f5b445322fb55593ecf7d0c25315",
+      "alpha": {
+        "transparent": 596795,
+        "opaque": 398,
+        "nearOpaque": 950623,
+        "translucent": 975895
+      }
+    },
+    {
+      "id": "persians-male",
+      "tribeIndex": 18,
+      "tribe": "Persians",
+      "sex": "male",
+      "gameName": "Xerxes",
+      "identity": "Xerxes I",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/persians-male.png",
+      "note": "Achaemenid king; royal relief tradition and period dress.",
+      "references": [
+        "xerxes"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6e72c8e57f116e5bf58898cdb46eb2cd4efeca8fa4ef286bd33ed9a8d9c64c1e",
+      "alpha": {
+        "transparent": 616478,
+        "opaque": 330,
+        "nearOpaque": 925716,
+        "translucent": 956280
+      }
+    },
+    {
+      "id": "persians-female",
+      "tribeIndex": 18,
+      "tribe": "Persians",
+      "sex": "female",
+      "gameName": "Scheherezade",
+      "identity": "Scheherazade",
+      "identityStatus": "literary",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/persians-female.png",
+      "note": "Storyteller of One Thousand and One Nights; game spelling retained, explicitly an imaginative Persian-court interpretation.",
+      "references": [
+        "scheherazade"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6502b91e0122b4d77f3f02cf3e7ef57dcd666514fb4252c8d7250fad45338525",
+      "alpha": {
+        "transparent": 545850,
+        "opaque": 383,
+        "nearOpaque": 992543,
+        "translucent": 1026855
+      }
+    },
+    {
+      "id": "carthaginians-male",
+      "tribeIndex": 19,
+      "tribe": "Carthaginians",
+      "sex": "male",
+      "gameName": "Hannibal",
+      "identity": "Hannibal Barca",
+      "identityStatus": "historical interpretation",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/carthaginians-male.png",
+      "note": "Punic general; no securely authenticated portrait likeness.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3ca6fee71c32a71f01e154d5d4be82646d254407f43bfd8c5f1fcab57e82f88d",
+      "alpha": {
+        "transparent": 589664,
+        "opaque": 154,
+        "nearOpaque": 935145,
+        "translucent": 983270
+      }
+    },
+    {
+      "id": "carthaginians-female",
+      "tribeIndex": 19,
+      "tribe": "Carthaginians",
+      "sex": "female",
+      "gameName": "Dido",
+      "identity": "Dido",
+      "identityStatus": "legendary",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/carthaginians-female.png",
+      "note": "Legendary founder of Carthage; Phoenician dress, not an authenticated historical likeness.",
+      "references": [],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "7b118c83acdce0d1f20ba0f29606ad5b950a2bd9780f64b48b6965078732b62d",
+      "alpha": {
+        "transparent": 673360,
+        "opaque": 68,
+        "nearOpaque": 845910,
+        "translucent": 899660
+      }
+    },
+    {
+      "id": "sioux-male",
+      "tribeIndex": 20,
+      "tribe": "Sioux",
+      "sex": "male",
+      "gameName": "Sitting Bull",
+      "identity": "Sitting Bull",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/sioux-male.png",
+      "note": "Hunkpapa Lakota leader; late-nineteenth-century photographic references inform features and clothing.",
+      "references": [
+        "sitting-bull"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "64d35840db81391f82bb14ee3ed59a126e82b3b543d673f52085dc510eee35a8",
+      "alpha": {
+        "transparent": 623640,
+        "opaque": 290,
+        "nearOpaque": 904788,
+        "translucent": 949158
+      }
+    },
+    {
+      "id": "sioux-female",
+      "tribeIndex": 20,
+      "tribe": "Sioux",
+      "sex": "female",
+      "gameName": "Sacajawea",
+      "identity": "Sacagawea",
+      "identityStatus": "historical",
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/sioux-female.png",
+      "note": "Lemhi Shoshone, not Sioux. Preserves the game's slot without changing her identity. No known lifetime portrait; adult artistic interpretation.",
+      "references": [
+        "sacagawea",
+        "shoshone"
+      ],
+      "width": 1199,
+      "height": 1312,
+      "sha256": "55301ae2459a8e906166bd5e9c9082beb35f59f8ffcc62011af6a4fab75aee37",
+      "alpha": {
+        "transparent": 669493,
+        "opaque": 199,
+        "nearOpaque": 847742,
+        "translucent": 903396
+      }
+    }
+  ]
+}

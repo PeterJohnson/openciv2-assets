@@ -11,6 +11,22 @@ The runtime selection is maintained separately in
 runtime packages as `data/ATLAS-PROVENANCE.md`; linked authoring files and review
 material remain in the source repository. Paths below refer to that checkout.
 
+## Optional tribe leader portraits
+
+The [tribe portrait library](sprites/tribal-leaders/README.md) follows the 21
+male/female pairings in LEADERS.TXT, cross-checked against RULES.TXT. It currently
+contains 41 original transparent PNGs; the Mohandas Gandhi slot remains pending
+after two image-service rejections. The selection metadata records the gap.
+Existing generic portraits and runtime selection are unchanged.
+
+Each available portrait was generated separately with built-in `image_gen`.
+Written historical briefs and selected online research informed identities and
+costume; no external portrait bitmap or original-game artwork was supplied.
+The [authoring record](authoring/tribal-leaders.json) retains prompts, research
+roles, identity caveats and hashes, including the generated-image refinement
+for Amaterasu. Native files retain generated alpha; gallery previews are reduced
+derivatives. See the [paired review](review/tribal-leaders/index.html).
+
 ## City landscape road eras
 
 The six medieval/modern city landscape paintings are built-in `image_gen`

@@ -53624,6 +53624,1236 @@
         "sha256": "f91d7995ab38d720af63a1eef3208fc25352c2e6482691ead96f2b9b8ed5199e"
       },
       "export4k": "backgrounds/city-inland-modern-4k.png"
+    },
+    {
+      "id": "tribal-leaders.romans-male",
+      "label": "Romans · Caesar (male)",
+      "description": "Julius Caesar, male Roman statesman in his early fifties. Lean lined face, prominent long nose, receding short gray-brown hair, clean-shaven, composed and incisive. Restrained gold laurel wreath, ivory wool toga with deep burgundy fold and bronze clasp; late Republican clothing. Late Republican Roman statesman; likeness interpreted from sculptural tradition.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/romans-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "e12d0fed294efb3e1a7689db8059f2ca13bb74c69010fb9badd6c77f4400f290",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "romans-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 0,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 679506,
+        "opaque": 313,
+        "nearOpaque": 856113,
+        "translucent": 893269
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.romans-female",
+      "label": "Romans · Livia (female)",
+      "description": "Livia Drusilla, Roman empress about forty. Oval face, long straight nose, alert brown eyes, dark brown hair arranged with a raised rolled nodus above the forehead and gathered at the back, as in Augustan Roman sculpture. Ivory stola with muted sage palla, small gold earrings and a simple clasp. Dignified and self-possessed, no giant crown. Augustan Roman empress; sculptural hairstyle and draped dress.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/romans-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "680e59f1770a5bb85cfbd794dbbc8768c09d86095d1435b044e34a12282a9fdd",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "romans-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 0,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 690652,
+        "opaque": 297,
+        "nearOpaque": 845504,
+        "translucent": 882139
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.babylonians-male",
+      "label": "Babylonians · Hammurabi (male)",
+      "description": "Hammurabi, mature Old Babylonian king, deep-set dark eyes, strong long nose, black beard in ordered curls threaded with gray, dark wavy hair under a low rounded royal cap. Cream wool robe draped over one shoulder with deep umber borders and restrained bronze jewelry, circa eighteenth century BCE. Human king, not the horn-crowned deity from the law stele. Old Babylonian king; period dress informed by the law-stele relief, not an authenticated modern likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/babylonians-male.png",
+      "width": 1193,
+      "height": 1318,
+      "sha256": "bdd54c4ec0afbb221abd4d04cd4aa2baa3975b267ed787fa0362081a14165c77",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "babylonians-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 1,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 629830,
+        "opaque": 205,
+        "nearOpaque": 908155,
+        "translucent": 942339
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.babylonians-female",
+      "label": "Babylonians · Ishtari (female)",
+      "description": "Ishtari, an original imagined adult female court leader for the Babylonian game tribe, not a claimed historical person or the goddess Ishtar. Dark almond-shaped eyes, warm brown complexion, thick dark braided hair coiled neatly at the back, low gold band with lapis insets. Old Babylonian cream woven wool robe, terracotta trim and a restrained lapis and gold necklace. Strong mature individual face, no fantasy armor or horned crown. No specific historical identity assumed; original Old Babylonian court figure.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/babylonians-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "193992aa152fcf8056e9a630e8b05630cb8e910a467b5854b21e6502ce0c3c07",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "babylonians-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 1,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 612931,
+        "opaque": 94,
+        "nearOpaque": 912310,
+        "translucent": 960063
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.germans-male",
+      "label": "Germans · Frederick (male)",
+      "description": "Frederick II the Great of Prussia, male about fifty, lean lined face, prominent straight nose, gray-blue eyes, thin lips, clean-shaven, powdered pale hair gathered behind. Dark navy eighteenth-century military coat with red collar, restrained gold buttons and pale waistcoat, simple black tricorn fully visible. Intelligent slightly weary expression; no modern insignia. The abbreviated game name is interpreted as Frederick the Great.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/germans-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "5b85cc971c4909068be5e4456445543c37cb43c466c47608cd9e6d952bcf47c0",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "germans-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 2,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 630754,
+        "opaque": 344,
+        "nearOpaque": 900074,
+        "translucent": 941990
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.germans-female",
+      "label": "Germans · Maria Theresa (female)",
+      "description": "Maria Theresa, Habsburg ruler about forty-five. Fuller mature face, pale skin, brown eyes, powdered curled eighteenth-century hair. Deep bottle-green and gold court bodice with ivory lace neckline, small pearl earrings and a restrained jeweled diadem, not an enormous crown. Authoritative calm expression, historically grounded Austrian court dress. Habsburg ruler retained in the game's German pairing.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/germans-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "5e4de4dae1a2ebec7386ba6b66f916e1ebee90a07f484a43522e266a4ee9c7be",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "germans-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 2,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 638300,
+        "opaque": 280,
+        "nearOpaque": 896063,
+        "translucent": 934508
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.egyptians-male",
+      "label": "Egyptians · Ramesses (male)",
+      "description": "Ramesses II, Egyptian pharaoh in mature middle age. Copper-brown skin, long aquiline nose, dark focused eyes, strong jaw. Muted blue and antique-gold striped nemes headcloth fully in frame, small uraeus and short ceremonial false beard. Broad restrained blue-faience and gold collar over white linen. Egyptian New Kingdom royal appearance, no fantasy shoulder armor. The game name is interpreted as Ramesses II; royal sculpture and period costume inform the design.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/egyptians-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "2c5ee0cf25a5190fc6375da1486e8d15c54504c3fb0ced107ecf4463d93f549f",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "egyptians-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 3,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 480023,
+        "opaque": 235,
+        "nearOpaque": 1059720,
+        "translucent": 1092830
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.egyptians-female",
+      "label": "Egyptians · Cleopatra (female)",
+      "description": "Cleopatra VII, Ptolemaic queen in her thirties. Olive complexion, prominent slightly aquiline nose and firm chin, intelligent dark eyes, dark wavy hair in melon-style braids drawn into a bun with a narrow gold royal diadem. Ivory Greek-style draped linen with muted teal mantle, restrained gold and pearl earrings. No Hollywood bob haircut, no nemes or fantasy crown. Ptolemaic ruler; diadem and Greek-Egyptian royal dress, not a modern film likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/egyptians-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "90268976a41dc694629a442b9fcab4c0def61058f8fc48aa0f7cd6ee272e824b",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "egyptians-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 3,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 639174,
+        "opaque": 123,
+        "nearOpaque": 889795,
+        "translucent": 933791
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.americans-male",
+      "label": "Americans · Abe Lincoln (male)",
+      "description": "Abraham Lincoln in his early fifties, distinctive long narrow lined face, deeply set gray eyes, high cheekbones, dark hair graying at temples, chin-curtain beard with NO moustache. Black nineteenth-century frock coat, ivory shirt and black bow tie. Bareheaded so face dominates, solemn humane expression, original pose and brushwork not a copy of a famous photograph. President-era beard, black coat and bow tie; original painted composition.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/americans-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "c231ac3e0cc174cf9b5e819e829196570253736bbd0a04deab262291a0d09079",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "americans-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 4,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 703312,
+        "opaque": 143,
+        "nearOpaque": 825635,
+        "translucent": 869633
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.americans-female",
+      "label": "Americans · E. Roosevelt (female)",
+      "description": "Eleanor Roosevelt in her fifties, recognizably long mature face, strong chin, warm thoughtful eyes, gently waved brown hair graying at temples. Muted slate-blue 1930s tailored jacket, ivory blouse, single strand of pearls and small simple brooch. Slight closed-mouth smile, no hat or podium; original portrait informed by period appearance. The abbreviated game name is interpreted as Eleanor Roosevelt.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/americans-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "11fba1e8a503b9bdb7fa45da3e20c37f0a320299cb49f80733d5ea352e9761ee",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "americans-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 4,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 743886,
+        "opaque": 141,
+        "nearOpaque": 786364,
+        "translucent": 829061
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.greeks-male",
+      "label": "Greeks · Alexander (male)",
+      "description": "Alexander the Great about thirty, youthful clean-shaven Macedonian man, strong nose, deep-set gray eyes, thick tousled golden-brown curls lifted at the center forehead. Ivory linen cuirass with restrained bronze details and a deep plum cloak fastened at shoulder. No huge helmet, no beard, no fantasy armor; sculptural portrait tradition translated to an original warm painted likeness. Macedonian king; youthful sculptural portrait tradition.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/greeks-male.png",
+      "width": 1134,
+      "height": 1387,
+      "sha256": "5338b5bb3d4c146273dd2287181de6dbe1505c9c2c6e9785fd9178ddec58998a",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "greeks-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 5,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 561393,
+        "opaque": 235,
+        "nearOpaque": 954229,
+        "translucent": 1011230
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.greeks-female",
+      "label": "Greeks · Hippolyta (female)",
+      "description": "Hippolyta, adult Amazon queen of Greek mythology, about thirty-five. Olive skin, firm square jaw, dark wavy hair loosely gathered, intelligent determined brown eyes. Bronze Greek-style cuirass over muted cream tunic, simple leather shoulder straps and narrow bronze headband. Plausible classical heroic dress, restrained dignified interpretation, no sexualized armor or fantasy spikes. Amazon queen from Greek mythology; original dignified interpretation.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/greeks-female.png",
+      "width": 1198,
+      "height": 1313,
+      "sha256": "7ca6006e4066cb86a419ddceaa6721a5fa56153eca72b3c4be780cd5b534a2fb",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "greeks-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 5,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 614125,
+        "opaque": 140,
+        "nearOpaque": 861429,
+        "translucent": 958709
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.indians-female",
+      "label": "Indians · Indira Gandhi (female)",
+      "description": "Indira Gandhi in her fifties, Indian woman with strong aquiline nose, brown eyes and short dark hair with a clearly visible broad silver-white streak swept back above one temple. Cream handwoven sari with restrained deep rust border over a muted brown blouse. Poised firm expression, simple earrings, no crown or ceremonial fantasy jewelry. Prime minister; short hair with distinctive white streak and sari.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/indians-female.png",
+      "width": 1193,
+      "height": 1319,
+      "sha256": "85fd5b5d72537a86fc3dd4922fafdbceb6472b28c558752879a3e351014197ab",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "indians-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 6,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 619515,
+        "opaque": 153,
+        "nearOpaque": 912687,
+        "translucent": 953899
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.russians-male",
+      "label": "Russians · Lenin (male)",
+      "description": "Vladimir Lenin in his fifties, pale mature face, bald crown, short reddish-brown side hair and small pointed reddish-brown beard with moustache, penetrating gray-brown eyes. Dark charcoal early-twentieth-century suit, ivory shirt and subdued dark tie. Bareheaded, composed analytical expression, no banners, slogans or ideological symbols. Early twentieth-century civilian suit and recognizable beard.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/russians-male.png",
+      "width": 1133,
+      "height": 1388,
+      "sha256": "cf9c1c12ece27dba4584919540068c166bc2aacab18e3ff1d0a655d696d4bb30",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "russians-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 7,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 648733,
+        "opaque": 601,
+        "nearOpaque": 893092,
+        "translucent": 923270
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.russians-female",
+      "label": "Russians · Catherine the Great (female)",
+      "description": "Catherine II the Great about fifty, Russian empress with full mature face, gray-blue eyes, powdered silver curls. Deep crimson and ivory eighteenth-century silk court dress, small pearl necklace, blue sash and compact diamond tiara. Dignified authoritative bearing, subtle age and realistic fabric, no enormous fur cloak or full crown. Eighteenth-century Russian court dress.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/russians-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "00432a64716489707728c378db5bb9953ed44609023926abc02227fd35324aa7",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "russians-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 7,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 665663,
+        "opaque": 365,
+        "nearOpaque": 869527,
+        "translucent": 907060
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.zulus-male",
+      "label": "Zulus · Shaka (male)",
+      "description": "Shaka, early-nineteenth-century Zulu king, adult African man in his thirties. Deep brown skin, strong cheekbones, broad jaw, closely cropped black hair with a simple dark isicoco headring. Historically grounded dignified Zulu appearance: warm brown leather and a modest leopard-pattern fur shoulder mantle with understated beads. No European crown, no Plains feathers or fantasy armor; no claim to an authenticated likeness. Early nineteenth-century Zulu king; no claim of an authenticated portrait likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/zulus-male.png",
+      "width": 1132,
+      "height": 1390,
+      "sha256": "de697c8f4c7f52da37c861c7c1525003d03a02c7a70369d22bba824fa75f8494",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "zulus-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 8,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 671464,
+        "opaque": 455,
+        "nearOpaque": 863607,
+        "translucent": 901561
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.zulus-female",
+      "label": "Zulus · Shakala (female)",
+      "description": "Shakala, an original imagined mature female Zulu leader for the game, not a claimed historical person. Deep brown skin, oval face with strong cheekbones, thoughtful dark eyes, neatly styled dark hair. Restrained southern African beadwork necklace in ivory, ochre and dark blue, simple earth-colored wrapped cloth at shoulders and modest hide trim. Individual dignified face, historically inspired, no European crown, no giant modern hat or generic fantasy headdress. No specific historical identity assumed; original Zulu court figure.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/zulus-female.png",
+      "width": 1194,
+      "height": 1317,
+      "sha256": "e655b10ed81ca26bdccb2b7343741b3bd4dd72e8c75385ea70f9c6c02a12ab19",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "zulus-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 8,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 680154,
+        "opaque": 243,
+        "nearOpaque": 849185,
+        "translucent": 892101
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.french-male",
+      "label": "French · Louis XIV (male)",
+      "description": "Louis XIV of France about forty-five, long oval face, prominent nose, small thin moustache, long dark-brown curled seventeenth-century wig. Deep royal-blue velvet mantle with subtle gold embroidery, white lace cravat and restrained gold fastenings. Regal composed gaze, no full-body copied royal portrait, no towering crown. Seventeenth-century French royal court dress and long dark curls.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/french-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "eb316837ef01684d4e21c8104b015d4acbe76f0908f6aaca3331f6087b0bc3aa",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "french-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 9,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 512099,
+        "opaque": 25,
+        "nearOpaque": 988666,
+        "translucent": 1060964
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.french-female",
+      "label": "French · Joan of Arc (female)",
+      "description": "Joan of Arc, young adult French woman about nineteen, youthful but resolute face, gray-brown eyes, short dark-brown hair cut around ears and neck. Practical early-fifteenth-century steel plate breastplate and simple rounded pauldrons over a dark cloth collar. Bareheaded, no halo, no banner, no text, no makeup glamour; original interpretive likeness. Fifteenth-century French soldier in practical plate armor; no secure lifetime likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/french-female.png",
+      "width": 1132,
+      "height": 1389,
+      "sha256": "0e0a6243f1b8db23a296c2247a2bc43572a4eab191c50c24d2c37838a40a2e85",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "french-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 9,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 563000,
+        "opaque": 333,
+        "nearOpaque": 951155,
+        "translucent": 1009015
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.aztecs-male",
+      "label": "Aztecs · Montezuma (male)",
+      "description": "Moctezuma II, mature Mexica ruler in his forties. Warm brown skin, long straight black hair, strong cheekbones, dark eyes, clean-shaven. Restrained turquoise mosaic royal diadem, muted jade-green cotton tilmatli with geometric ochre woven border and gold clasp, modest ear ornaments. Historically inspired central Mexican royal attire, no giant fan of feathers and no Inca or Plains dress. The game name is interpreted as Moctezuma II, a Mexica ruler.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/aztecs-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "a51837fda16ed4e8aea3dbcee11a148e398cf2eb105257a2c8246a0b80346b45",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "aztecs-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 10,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 622427,
+        "opaque": 157,
+        "nearOpaque": 906604,
+        "translucent": 950504
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.aztecs-female",
+      "label": "Aztecs · Nazca (female)",
+      "description": "Nazca, an original imagined adult woman for the game's Aztec tribe, no historical identity claimed and NOT the unrelated Andean Nazca culture. Mexica woman with warm brown skin, strong expressive face, dark eyes and black hair arranged in traditional raised side coils. Cream cotton huipil with restrained rust and teal geometric woven borders, small turquoise and gold necklace and ear ornaments. Dignified leader, no feather war bonnet. No specific historical identity assumed. Uses Mexica dress for the game's Aztec slot, not the unrelated Nazca culture.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/aztecs-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "c2e488a960dcc3ca1d591ad593429f3d52d58d774f2fd00c983d53ec79bdab21",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "aztecs-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 10,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 669554,
+        "opaque": 166,
+        "nearOpaque": 865089,
+        "translucent": 903368
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.chinese-male",
+      "label": "Chinese · Mao Tse Tung (male)",
+      "description": "Mao Zedong in his late fifties, broad rounded mature Chinese face, high forehead, swept-back dark hair with graying temples, prominent small mole below lower lip, calm serious eyes. Plain muted gray-green Zhongshan suit with standing collar and four visible upper buttons. Bareheaded, no insignia, slogans, red background or flags; original painted portrait, not a copy of the official image. Mid-twentieth-century civilian Zhongshan suit.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/chinese-male.png",
+      "width": 1135,
+      "height": 1386,
+      "sha256": "103509bcb3acfe9cf3ca458c12d7bd98e14b7a009a244e045947ab731db0b793",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "chinese-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 11,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 603620,
+        "opaque": 354,
+        "nearOpaque": 932109,
+        "translucent": 969136
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.chinese-female",
+      "label": "Chinese · Wu Zhao (female)",
+      "description": "Wu Zetian, Chinese empress around fifty, mature oval face, dark almond-shaped eyes, black hair in a formal Tang-era updo. Restrained antique-gold hair ornaments and small jade earrings, layered cream and deep russet Tang silk court robes with subtle floral embroidery and broad collar. Regal intelligence and realistic age, not modern fashion, no giant ornate head structure. Tang/Zhou empress; period dress, no claim of an authenticated lifetime portrait.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/chinese-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "8a65c969b0237a1de3f2a286bdd7a8640fb3f13795ae00abf1e2d916c72eb2bb",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "chinese-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 11,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 717271,
+        "opaque": 363,
+        "nearOpaque": 822103,
+        "translucent": 855454
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.english-male",
+      "label": "English · Henry VIII (male)",
+      "description": "Henry VIII of England in his forties, broad square face, small alert blue-gray eyes, short red-brown beard and moustache. Dark Tudor flat cap with restrained gold ornament, burgundy and black velvet doublet with gold woven detail, white shirt and modest fur shoulder trim. Strong stocky bust, composed expression; original pose rather than copying Holbein composition. Tudor king with broad face, short red-brown beard and square cap.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/english-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "eef930513b7d07e8c5e66755047dea253447f1bf72d7dfc661ca797b6483289c",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "english-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 12,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 533438,
+        "opaque": 135,
+        "nearOpaque": 1002165,
+        "translucent": 1039515
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.english-female",
+      "label": "English · Elizabeth I (female)",
+      "description": "Elizabeth I of England around forty-five, pale oval mature face, reddish-auburn curled hair, shrewd brown eyes. Restrained pearl hair ornaments, ivory Elizabethan ruff, dark plum silk bodice with small gold embroidered details and pearl necklace. Entire ruff inside frame; no huge crown or theatrical white makeup, original facial interpretation. Tudor queen with auburn hair and Elizabethan ruff.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/english-female.png",
+      "width": 1196,
+      "height": 1315,
+      "sha256": "75cd748234cf186a2ed98629cb9656dd5c28a6c7f3427017ba974ca0e233a510",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "english-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 12,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 537042,
+        "opaque": 258,
+        "nearOpaque": 993149,
+        "translucent": 1035440
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.mongols-male",
+      "label": "Mongols · Genghis Khan (male)",
+      "description": "Genghis Khan, mature Mongol ruler in his fifties. Weathered tan face, broad cheekbones, narrow dark eyes, sparse moustache and pointed gray-black beard. Fur-trimmed rounded steppe cap, muted brown and indigo crossed-collar deel with restrained leather and woven trim. Dignified practical clothing, no fantasy armor, no giant horns. Mongol ruler; later portrait tradition and steppe clothing, not an authenticated likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/mongols-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6ac3ee25d17a4bd9e79e1ba6b9913690082214c034f8cac9b7b2bef79f18372a",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "mongols-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 13,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 649256,
+        "opaque": 170,
+        "nearOpaque": 885164,
+        "translucent": 923662
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.mongols-female",
+      "label": "Mongols · Bortei (female)",
+      "description": "Börte, principal wife of Genghis Khan, mature Mongol woman about forty-five. Weathered warm tan complexion, broad cheekbones, thoughtful dark eyes, dark braided hair. Compact red and brown Mongol royal headpiece suggested by early court traditions, modest gold earrings, rust and indigo crossed-collar deel with fine woven trim. All headgear contained, original interpretive portrait, no modern costume exaggeration. The game spelling is interpreted as Börte, Genghis Khan's principal wife.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/mongols-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "b55a75f759085777b695cd37d38af92c825243b3efad2f17113ca3f7bc266a5d",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "mongols-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 13,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 721906,
+        "opaque": 200,
+        "nearOpaque": 808817,
+        "translucent": 850982
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.celts-male",
+      "label": "Celts · Cunobelin (male)",
+      "description": "Cunobelinus, first-century British Celtic king about forty-five. Weathered fair complexion, strong nose, gray-green eyes, wavy brown hair to neck, substantial neatly kept moustache with light chin stubble. Ochre wool tunic, dark green woven cloak fastened with bronze brooch, restrained gold neck torc. No horned helmet, fantasy blue face paint or medieval crown; original likeness without authenticated portrait claims. First-century British king; period dress with no authenticated portrait likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/celts-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "718250974a72997c16fb79227441e36b5461c7a054b71d535bbdfaf1c1524395",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "celts-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 14,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 583241,
+        "opaque": 177,
+        "nearOpaque": 924217,
+        "translucent": 989670
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.celts-female",
+      "label": "Celts · Boadicea (female)",
+      "description": "Boudica, Iceni queen of first-century Britain about forty. Strong mature face with light freckles, gray-green eyes, long copper-red hair partly braided and swept behind shoulders. Deep moss-green and russet wool cloak fastened with bronze brooch, cream woven tunic, simple gold neck torc. Composed fierce resolve, no face paint, horns or fantasy armor; original historical interpretation. Iceni queen; game spelling retained and likeness explicitly interpretive.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/celts-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6dcdc52dfbb45df5f2a9406d2005eaedd67f90a58b2bfff434818f5425921398",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "celts-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 14,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 475266,
+        "opaque": 40,
+        "nearOpaque": 989801,
+        "translucent": 1097782
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.japanese-male",
+      "label": "Japanese · Tokugawa (male)",
+      "description": "Tokugawa Ieyasu in mature later middle age, broad Japanese face, high forehead, short graying moustache and sparse small chin beard, observant dark eyes. Restrained black lacquered Japanese cap and layered dark indigo formal kimono with muted ochre outer robe, subtle textile pattern. Early Edo court attire, no oversized samurai helmet or swords, dignified practical ruler. The abbreviated clan name is interpreted as Tokugawa Ieyasu.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/japanese-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "9e3d01bee76edd6db8a94ffd720901466a7083d31e46065ec48e85e1832f8168",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "japanese-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 15,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 690166,
+        "opaque": 461,
+        "nearOpaque": 849221,
+        "translucent": 882461
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.japanese-female",
+      "label": "Japanese · Amaterasu (female)",
+      "description": "Amaterasu, dignified adult female Shinto sun deity represented as a serene Japanese court figure, not a modern celebrity. Oval face, warm light complexion, dark eyes, long straight black hair gathered neatly. Layered ivory and muted vermilion early Japanese court robes, restrained antique-gold sun-disc hair ornament and small magatama necklace. Symbolic and respectful, no glowing halo, no scenery, no fantasy armor. Shinto sun deity; respectful symbolic court portrait, not a historical human likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/japanese-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "c26ca588f5a14812944b7213f047da769b5ca875f311faae70292c5cd1b2a99c",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "japanese-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 15,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 833543,
+        "opaque": 129,
+        "nearOpaque": 711661,
+        "translucent": 739416
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.vikings-male",
+      "label": "Vikings · Canute (male)",
+      "description": "Cnut the Great, eleventh-century North Sea king in his forties. Weathered fair face, blue-gray eyes, brown hair to ears, neat brown beard and moustache flecked gray. Low plain gold circlet, deep indigo wool cloak over ochre tunic, bronze round brooch with restrained interlace. Historically inspired Norse-English court dress, no horned helmet or fantasy fur mountain. Eleventh-century North Sea ruler; no authenticated naturalistic portrait.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/vikings-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3e51d18ba51e6a3d0dff231b2471a0d1239ce4a4ec154f4b09cd26bd63a6e124",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "vikings-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 16,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 608067,
+        "opaque": 14,
+        "nearOpaque": 862031,
+        "translucent": 965007
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.vikings-female",
+      "label": "Vikings · Gunnhild (female)",
+      "description": "Gunnhild, Mother of Kings, mature Norse saga queen about forty-five, interpretive not an authenticated likeness. Fair lined face, strong cheekbones, gray eyes, dark auburn hair in neat braids coiled behind. Dark teal wool overdress over cream linen, restrained oval bronze brooches, a small amber bead necklace and narrow woven headband. Practical tenth-century Norse dress, no horns or fantasy armor. Interprets the game name as the queen in Norse sagas; her biography and likeness are uncertain.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/vikings-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "23f16fbb24742d1841b24d3bdb4bcdcff9002cc018dc8f010de64d4b51e020eb",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "vikings-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 16,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 639836,
+        "opaque": 143,
+        "nearOpaque": 877168,
+        "translucent": 933109
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.spanish-male",
+      "label": "Spanish · Philip II (male)",
+      "description": "Philip II of Spain in his forties, narrow mature Habsburg face, long nose, slightly prominent lower lip, neatly trimmed brown beard and moustache, short dark hair. Restrained black sixteenth-century court doublet, small white ruff, simple gold chain. Bareheaded, serious inward-looking gaze; no modern uniform or large jeweled crown. Sixteenth-century Habsburg king with dark court dress and white ruff.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/spanish-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3906738e0fa2edfec168da0b1a248b221b430c52cb19fa777d55b51d4bed6065",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "spanish-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 17,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 706484,
+        "opaque": 83,
+        "nearOpaque": 829571,
+        "translucent": 866521
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.spanish-female",
+      "label": "Spanish · Isabella (female)",
+      "description": "Isabella I of Castile in her forties, pale mature oval face, gray-brown eyes, auburn hair mostly covered by an ivory late-fifteenth-century veil with a narrow jeweled band. Burgundy velvet gown with restrained gold embroidered neckline and simple pearl pendant. Calm resolute expression, historically inspired Castilian court dress, not Elizabethan ruff. The abbreviated game name is interpreted as Isabella I.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/spanish-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6b9d62d96e834eebedb6f75e156f95d6c302f5b445322fb55593ecf7d0c25315",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "spanish-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 17,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 596795,
+        "opaque": 398,
+        "nearOpaque": 950623,
+        "translucent": 975895
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.persians-male",
+      "label": "Persians · Xerxes (male)",
+      "description": "Xerxes I, Achaemenid Persian king in mature middle age. Warm olive-brown skin, strong aquiline nose, deep dark eyes, thick dark beard in ordered curls and long dark hair. Low cylindrical royal tiara with restrained gold decoration, deep indigo Persian robe with ochre woven trim and modest gold collar. Inspired by Achaemenid relief costume, no Islamic turban or fantasy armor. Achaemenid king; royal relief tradition and period dress.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/persians-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6e72c8e57f116e5bf58898cdb46eb2cd4efeca8fa4ef286bd33ed9a8d9c64c1e",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "persians-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 18,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 616478,
+        "opaque": 330,
+        "nearOpaque": 925716,
+        "translucent": 956280
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.persians-female",
+      "label": "Persians · Scheherezade (female)",
+      "description": "Scheherazade, adult literary Persian court storyteller in her thirties, an imaginative literary portrait rather than a historical likeness. Warm olive-brown complexion, expressive dark eyes, dark wavy hair partly covered by a fine muted teal silk veil. Deep plum long-sleeved court robe with restrained gold embroidered neckline, small gold and lapis earrings. Intelligent composed storyteller, no sexualized harem costume, no book or hands in frame. Storyteller of One Thousand and One Nights; game spelling retained, explicitly an imaginative Persian-court interpretation.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/persians-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "6502b91e0122b4d77f3f02cf3e7ef57dcd666514fb4252c8d7250fad45338525",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "persians-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 18,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 545850,
+        "opaque": 383,
+        "nearOpaque": 992543,
+        "translucent": 1026855
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.carthaginians-male",
+      "label": "Carthaginians · Hannibal (male)",
+      "description": "Hannibal Barca, Carthaginian general about forty-five. Mediterranean North African olive-brown complexion, strong lined brow, dark curly hair graying at temples, short dark beard, dark thoughtful eyes. Restrained bronze and leather Hellenistic-style military breastplate over ivory tunic, deep rust cloak clasped at shoulder. Bareheaded, no elephant, weapons or fantasy armor, no claim to a secure ancient portrait. Punic general; no securely authenticated portrait likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/carthaginians-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3ca6fee71c32a71f01e154d5d4be82646d254407f43bfd8c5f1fcab57e82f88d",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "carthaginians-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 19,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 589664,
+        "opaque": 154,
+        "nearOpaque": 935145,
+        "translucent": 983270
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.carthaginians-female",
+      "label": "Carthaginians · Dido (female)",
+      "description": "Dido, legendary Phoenician founder of Carthage, mature woman about thirty-five. Warm olive complexion, strong long nose, dark eyes, thick dark wavy hair gathered into coils. Narrow antique-gold diadem with modest carnelian stones, ivory woven dress under deep Tyrian-purple mantle, simple gold earrings. Dignified Phoenician royal styling, original interpretive likeness, no Roman laurel wreath. Legendary founder of Carthage; Phoenician dress, not an authenticated historical likeness.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/carthaginians-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "7b118c83acdce0d1f20ba0f29606ad5b950a2bd9780f64b48b6965078732b62d",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "carthaginians-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 19,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 673360,
+        "opaque": 68,
+        "nearOpaque": 845910,
+        "translucent": 899660
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.sioux-male",
+      "label": "Sioux · Sitting Bull (male)",
+      "description": "Sitting Bull, Hunkpapa Lakota leader in his fifties, recognizably broad lined face with strong cheekbones, dark steady eyes, long black hair in two braids, slight graying. Dignified tan buckskin shirt with modest blue-and-white beaded chest strip and red cloth at the shoulders, simple hair ties and NO giant war bonnet. Original painted pose informed by historical photographs without duplicating one. Accurate mature individual, no generic fantasy warrior. Hunkpapa Lakota leader; late-nineteenth-century photographic references inform features and clothing.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/sioux-male.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "64d35840db81391f82bb14ee3ed59a126e82b3b543d673f52085dc510eee35a8",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "sioux-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 20,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 623640,
+        "opaque": 290,
+        "nearOpaque": 904788,
+        "translucent": 949158
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
+      "id": "tribal-leaders.sioux-female",
+      "label": "Sioux · Sacajawea (female)",
+      "description": "Sacagawea, Lemhi Shoshone woman (the game places her in the Sioux slot), represented as an adult in her twenties. Warm brown complexion, rounded youthful adult face, dark thoughtful eyes, long dark hair in two practical braids. Plain tan Shoshone buckskin dress with restrained shell and bead neckline, modest earth-red woven shoulder detail. No known lifetime likeness: original respectful interpretation, no Plains war bonnet, no crown, no baby or hands. Lemhi Shoshone, not Sioux. Preserves the game's slot without changing her identity. No known lifetime portrait; adult artistic interpretation.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/sioux-female.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "55301ae2459a8e906166bd5e9c9082beb35f59f8ffcc62011af6a4fab75aee37",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "sioux-female"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 20,
+        "sex": "female"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 669493,
+        "opaque": 199,
+        "nearOpaque": 847742,
+        "translucent": 903396
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
     }
   ],
   "runtimeDocumentation": "https://github.com/PeterJohnson/openciv2/blob/main/docs/HD-GRAPHICS.md",

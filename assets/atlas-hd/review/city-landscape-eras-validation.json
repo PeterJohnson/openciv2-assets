@@ -1,0 +1,56 @@
+{
+  "status": "pass",
+  "nativeLandscapes": 6,
+  "displayExports": 6,
+  "originalLandscapesPreserved": 3,
+  "runtimeInputsConsumed": 6,
+  "logicalSize": [
+    1280,
+    480
+  ],
+  "records": [
+    {
+      "file": "backgrounds/city-coastal-medieval-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "495c9f26ee9793d5bf5536ca47e15c0680181c42bc67ef4c654936d2ae7d2fc2",
+      "binding": "city/landscape/coastal/medieval"
+    },
+    {
+      "file": "backgrounds/city-coastal-modern-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dd8f428c14f52d2819b298177101c2afee226c70048ca98c683a64972583587e",
+      "binding": "city/landscape/coastal/modern"
+    },
+    {
+      "file": "backgrounds/city-river-medieval-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5208250df7679ed068444f31c55759ee7f0d5373505fe4ac0f20935b2b25902f",
+      "binding": "city/landscape/river/medieval"
+    },
+    {
+      "file": "backgrounds/city-river-modern-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e1dfd548c23de6d03b369d17f8432846dadd4239b1a87711f9b4b08b8ab34a32",
+      "binding": "city/landscape/river/modern"
+    },
+    {
+      "file": "backgrounds/city-inland-medieval-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d5636a2ede9cc25a55778f9eae4a815c2e8ae97cac67a20b59521fbddc924479",
+      "binding": "city/landscape/inland/medieval"
+    },
+    {
+      "file": "backgrounds/city-inland-modern-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4b10cc32add006a15ca3f9516a917b1cbb6441a40c39ed461858665e87afcb7f",
+      "binding": "city/landscape/inland/modern"
+    }
+  ],
+  "scope": "Asset hashes, opacity, dimensions, binding/selection integrity, successful runtime pack build and review links. Game-side era selection is unchanged."
+}

@@ -31,9 +31,46 @@ scenario, expansion, window or game state.
 
 City-view houses have one binding set per era of `sprites/city-details`.
 `house/large/0`-`3` and `house/small/0`-`3` are the industrial set, which the
-review fixtures draw; `house/<era>/large/0`-`3` and `house/<era>/small/0`-`3`
+base panorama fixtures draw; `house/<era>/large/0`-`3` and `house/<era>/small/0`-`3`
 hold the `ancient`, `medieval` and `modern` sets, fitted into the same 158x114
 and 123x82 boxes. The empty lots (`lot/...`) are shared by every era.
+
+## City landscape road eras
+
+The [landscape comparison](review/city-landscape-eras.html) shows the existing
+dirt tracks alongside medieval stone paving and modern divided highways for
+coastal, river and inland sites. Highway approaches near water taper into
+smaller coastal or riverbank roads. The six new paintings and resampled 4K
+exports are cataloged in place; the existing dirt-track files are retained.
+
+The same page now includes six populated medieval/modern panoramas in all four
+comparison stages, with matching house sets and representative building inventories.
+Use **Hide buildings** to compare the replacement scenes against their road beds.
+Original/native/HD positions and draw order come from the extracted game routines;
+the enhanced stage retains the separate relative-scale/depth layout. Neither layout
+avoids painted roads dynamically. The revised landscape roads follow gaps between
+the fixed building ground bands, with compact modern highway-to-local-road tapers.
+These are fixtures, not live-game
+captures; they retain the standard fixture title/date. The original uses two house
+sheet rows, while the replacement has distinct medieval and modern sets.
+
+Rebuild the populated scenes after configuring/building the standalone renderer and
+preparing local original inputs with `tools/review.py`:
+
+```sh
+node tools/atlas-review/city-era-mockups.cjs
+node tools/atlas-review/city-road-clearance.cjs
+```
+
+Set `PYTHON` if the extractor's Python interpreter is not on PATH. Only composed
+original-art mockups are retained; extracted original sprites stay in ignored
+`review/original-local`. Fixtures, traces, inventories, layout plans and verification
+results accompany the images in `review/city-era-*.json`.
+
+[Landscape metadata](city/panorama/landscapes.json) lists the files and six
+additional runtime keys, `city/landscape/<site>/<medieval|modern>`. They use
+the existing 1280×480 logical panorama box. Existing resource bindings remain
+unchanged; game-side era selection is separate from this asset addition.
 
 ## Build the runtime assets
 

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "method": "built-in image_gen precise-object edits of the selected replacement landscapes",
+  "date": "2026-11-20",
+  "edits": [
+    {
+      "site": "coastal",
+      "era": "medieval",
+      "tool": "built-in image_gen",
+      "input": {
+        "role": "edit target",
+        "file": "backgrounds/city-coastal-native.png",
+        "revision": "480b6830639d415f472cc15ad499e30f1a58fd94",
+        "sha256": "82a0d78ceb1fb8f642ff50470acea2ce25cf959d6dab22b6d70180d59d9db5f5",
+        "width": 1672,
+        "height": 941
+      },
+      "prompts": [
+        {
+          "step": "road-era edit",
+          "text": "Use case: precise-object-edit.\nAsset type: high-resolution painted landscape background for a sprite-based historical strategy game's city panorama.\nInput image 1 is the EDIT TARGET, the selected original coastal city landscape.\nPreserve the same wide 16:9 canvas, elevated isometric camera, composition, crop, terrain topography, grass texture, sunlight, color palette and all water/rocks/riverbanks/coastlines. This is an era variation of the SAME place, not a redesign. Keep the existing road centerlines, perspective, crossing locations and reserved open grassy areas for building sprites.\nChange only the road corridors and the central paved meeting area into a clearly MEDIEVAL PAVED-ROAD version. Replace ALL bare dirt track segments with continuous fitted gray-buff cobblestone/stone-sett paving of modest period-appropriate width. Show individual uneven worn stones, restrained curb edging, softened grassy verges and subdued wheel wear. The central junction/plaza uses matching stone paving, smoothly joined to every approach. The route should read as a maintained medieval stone road end to end, not a mostly dirt path with scattered stones. No asphalt, lane markings, concrete barriers, modern sidewalks or modern objects.\nKeep the established softly painted game-art finish with convincing material texture, not photographic roads pasted onto a painting. Large empty grassy building plots must remain. Full-bleed opaque landscape, no border or transparency, no buildings, people, vehicles, city sprites, text, labels or UI. Preserve water completely; roads must not run over the sea or river. High resolution and crisp native detail, matching the input's aspect ratio."
+        },
+        {
+          "step": "fixed-slot road clearance",
+          "tool": "built-in image_gen",
+          "replaces": {
+            "file": "backgrounds/city-coastal-medieval-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "3b2911a94a02cac6f6d0eb972b6dc3950dc5f2064fc3111fb5d951504ccff676"
+          },
+          "text": "Use case: precise-object-edit. Create the MEDIEVAL paved-road variant of this coastal city-view landscape.\nImage 1 is the EDIT TARGET and authoritative NEW ROAD ALIGNMENT. Its carefully positioned narrow roads avoid fixed building plots. Image 2 is a MATERIAL/PALETTE reference for medieval worn cobblestone paving ONLY; do NOT copy image 2's obsolete diagonal roads or central junction.\nPreserve image 1's exact canvas, framing, terrain, water, shoreline, rocks, grass, lighting, painterly style, road centerlines, gentle curves, branch positions, and route continuity. Change ONLY its asphalt/markings/road verges into medieval paved streets. Every road is continuous gray-buff irregular dressed-stone/cobblestone paving, individual worn stones, modest stone edging with soft grassy margins. Remove every painted lane marking, median, asphalt/concrete section, modern traffic feature. On the wider divided left approach replace both carriageways with ONE modest-width stone route centered within the old corridor, restoring grass along any freed shoulders. The already narrow local streets must NOT grow in width. Small branch turnarounds can become modest organic stone forecourts, not oversized plazas. Keep ALL remaining land naturally mottled grass, without rectangular empty-lot patches. No central X intersection, added roads, broad paved areas, new branches, buildings, vehicles, text, people, guides, colored overlays or UI. Water remains untouched. Opaque high-resolution PNG with the same aspect ratio.",
+          "routeReference": {
+            "file": "backgrounds/city-coastal-modern-native.png",
+            "sha256": "dd8f428c14f52d2819b298177101c2afee226c70048ca98c683a64972583587e"
+          },
+          "materialReference": {
+            "file": "backgrounds/city-coastal-medieval-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "3b2911a94a02cac6f6d0eb972b6dc3950dc5f2064fc3111fb5d951504ccff676"
+          }
+        }
+      ],
+      "output": {
+        "file": "backgrounds/city-coastal-medieval-native.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "495c9f26ee9793d5bf5536ca47e15c0680181c42bc67ef4c654936d2ae7d2fc2",
+        "transparentBackground": false,
+        "pixels": "Unmodified generated PNG; 4K presentation exports are separate resamples"
+      }
+    },
+    {
+      "site": "coastal",
+      "era": "modern",
+      "tool": "built-in image_gen",
+      "input": {
+        "role": "edit target",
+        "file": "backgrounds/city-coastal-native.png",
+        "revision": "480b6830639d415f472cc15ad499e30f1a58fd94",
+        "sha256": "82a0d78ceb1fb8f642ff50470acea2ce25cf959d6dab22b6d70180d59d9db5f5",
+        "width": 1672,
+        "height": 941
+      },
+      "prompts": [
+        {
+          "step": "road-era edit",
+          "text": "Use case: precise-object-edit.\nAsset type: high-resolution painted landscape background for a sprite-based historical strategy game's city panorama.\nInput image 1 is the EDIT TARGET, the selected original coastal city landscape.\nPreserve the same wide 16:9 canvas, elevated isometric camera, composition, crop, terrain topography, grass texture, sunlight, color palette and all water/rocks/riverbanks/coastlines. This is an era variation of the SAME place, not a redesign. Keep the existing road centerlines, perspective, crossing locations and reserved open grassy areas for building sprites.\nChange only the road corridors and existing central paved meeting area into a clearly MODERN SUPERHIGHWAY version. Replace every dirt/stone road with a coherent dark charcoal-gray asphalt highway: two marked lanes in each direction, a narrow restrained divider/median, continuous pale edge lines and correctly spaced broken white lane stripes that follow the perspective. Widen the existing corridors moderately, preserving abundant grassy building space. At existing road crossings, join all approaches in one clean, legible compact paved junction; lane marks stop appropriately inside the junction, and medians terminate before it. Do not build a large cloverleaf, complex ramps or elevated structures that would conflict with building sprites. Use softly painted asphalt texture, modest light concrete shoulders and grass verges. No dirt sections, disconnected lanes, oversize signs, cars or buildings.\nKeep the established softly painted game-art finish with convincing material texture, not photographic roads pasted onto a painting. Large empty grassy building plots must remain. Full-bleed opaque landscape, no border or transparency, no buildings, people, vehicles, city sprites, text, labels or UI. Preserve water completely; roads must not run over the sea or river. High resolution and crisp native detail, matching the input's aspect ratio."
+        },
+        {
+          "step": "waterfront road-termination refinement",
+          "text": "Use case: precise-object-edit. Input image 1 is the EDIT TARGET: the newly painted modern coastal city landscape.\nFix the unrealistic highway termination near the upper-right shoreline. Keep the main crossing and the three highway approaches that leave the image unchanged. On the northeast branch, well BEFORE the rocks or water, use a plausible gradual lane-reduction taper from the four-lane divided highway into a modest two-lane undivided local road. End the median cleanly, merge lanes smoothly, and reduce the road width and marking scale. This smaller road must bend right/south to follow the coastline on GRASSY LAND, leaving a clear grassy/rocky buffer to the water. Continue it along the right-hand coast and connect it neatly into the southeast highway approach near the lower-right, creating a believable coastal-road connection. No road should point into water, stop at a cliff, dissolve into grass, or end in a blunt cut. Road edges must be continuous; intersections/merges should make physical sense.\nPreserve the 16:9 framing, painted material style, full background terrain, water, rock formations, lighting, existing principal road alignments and large open building plots. Change only the shoreline approach and the narrow new coast-road connection. No bridges, elevated structures, buildings, cars, signs, people, text or UI. Opaque PNG.",
+          "inputSha256": "c6dd700b3c89113a0605e7b361771b578728c3ccad06b0e675d34599d8c8610e"
+        },
+        {
+          "step": "fixed-slot road clearance",
+          "tool": "built-in image_gen",
+          "replaces": {
+            "file": "backgrounds/city-coastal-modern-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "040ce7d5f7de14beb3fd9251e2c1aeb0adae52a7250147bc0057a481ac8e9252"
+          },
+          "text": "Use case: precise-object-edit. Asset: opaque painted city-panorama background for a sprite-based strategy game. Image 1 is the EDIT TARGET. Image 2 is a DIAGNOSTIC REFERENCE at identical framing: pink/red rectangles mark reserved native building ground footprints, including empty house slots; amber marks bases in the separate enhanced view. Those rectangles are constraints, NOT things to paint. Preserve image 1's exact framing, coastline/river/water, rocks, ground texture, lighting, painterly style, and canvas aspect ratio. Change ONLY the roads and their immediate verges. Fully erase the old roads and old central X junction wherever they conflict with reserved plots, restoring matching natural grass there. Re-plan routes through unmarked gaps. Keep every red footprint grassy and unpaved, with breathing room; avoid amber footprints where possible. Do NOT move terrain or shrink reserved plots. No buildings, sprites, boxes, overlays, text, cars, signs, UI, borders or transparency in the final image.\nMODERN COASTAL: Remove the huge central crossing and its diagonal highway arms. Use one restrained continuous main asphalt route entering the LEFT EDGE around halfway down, running across the broad open strip BELOW the upper city plots, gently bending below the central reserved plots, then turning through the open lower-right-central gap and leaving the BOTTOM EDGE around 70% of the image width. Keep it mostly in the open band around 50\u00e2\u20ac\u201c65% of image height, sweeping downward near the right-hand end, NOT through the red rectangles. Keep visible divided four-lane highway only on the spacious outside approach; taper well before tight plots into a much narrower ordinary two-lane city road. Use small, modest local access branches only where there is clear space, with compact T connections outside building footprints. Remove the old coast loop wherever it crosses port plots. A coastal access street may curve around plots on dry land but must not enter the sea or cliff or end at the water. Prioritize generous grass plots over adding road branches. The road must be far narrower than the old motorway: do not replace the X with another broad paved plaza. Natural painted asphalt, subtle markings and soft grass shoulders; continuous connected edges and plausible mergers.",
+          "guide": {
+            "source": "review/traces/city-coastal-modern.json",
+            "sha256": "636b36aa0544815fdfb40f84b072729b8a33d2d9cbf744bc8acd2fd3e767b372",
+            "method": "Native sprite/lot lower 27% ground bands, horizontal inset 12%; enhanced lower 20% ground bands, horizontal inset 10%, scaled from 2560x960 to 1280x480, in amber. Approximate visual reservations, not collision geometry.",
+            "enhancedPlan": "review/city-era-plans.json",
+            "enhancedPlanSha256": "55f0675e0832f7cc4c4feaa825068fd031a25d4159eec2fdb532514e6124bbaa"
+          },
+          "refinements": [
+            {
+              "text": "Use case: precise-object-edit. Image 1 is the current road-layout EDIT TARGET; image 2 is a footprint constraint guide only. Keep the exact terrain, grass, water, rocks, camera, framing, style, and absence of buildings. Make a small road-clearance correction. Keep the left-hand highway taper and the main road west of the center. Move the middle/east main street slightly NORTH so it stays around y=560 to 575 pixels on this 1672x941 canvas between x=700 and x=1180. It must pass ABOVE the reserved plots at x=980\u00e2\u20ac\u201c1240, y=610\u00e2\u20ac\u201c665, not through their upper corners. Delay its southward bend until east of those plots, roughly x=1250. The narrow road should then curl around the outside of that block, passing just below y=670 before bending southwest into the existing bottom exit corridor; do not intersect the port plots at x=1240\u00e2\u20ac\u201c1600,y=685\u00e2\u20ac\u201c810. Make the bend compact, smooth and slightly narrower if necessary. Remove the upper-middle T-shaped spur near x=1020,y=520 entirely, restoring continuous grass there; it is too near a building. Keep the other clear small access stubs. No colored guide rectangles, tan rectangular patches, extra roads, bridges, new buildings, labels or UI. Road paths must stay connected and off the water; grass plots take priority over road width. Opaque PNG.",
+              "inputSha256": "5a229ab5e707e528fe40101a94b2e07fc2d1e79d51ac0dc04ed9dc0b3c1d8061"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "file": "backgrounds/city-coastal-modern-native.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "dd8f428c14f52d2819b298177101c2afee226c70048ca98c683a64972583587e",
+        "transparentBackground": false,
+        "pixels": "Unmodified generated PNG; 4K presentation exports are separate resamples"
+      }
+    },
+    {
+      "site": "river",
+      "era": "medieval",
+      "tool": "built-in image_gen",
+      "input": {
+        "role": "edit target",
+        "file": "backgrounds/city-river-native.png",
+        "revision": "480b6830639d415f472cc15ad499e30f1a58fd94",
+        "sha256": "0e5aa51641cd207b12b0528702128776fc63a55a458e942aa0e5ea66d7a65246",
+        "width": 1672,
+        "height": 941
+      },
+      "prompts": [
+        {
+          "step": "road-era edit",
+          "text": "Use case: precise-object-edit.\nAsset type: high-resolution painted landscape background for a sprite-based historical strategy game's city panorama.\nInput image 1 is the EDIT TARGET, the selected original river city landscape.\nPreserve the same wide 16:9 canvas, elevated isometric camera, composition, crop, terrain topography, grass texture, sunlight, color palette and all water/rocks/riverbanks/coastlines. This is an era variation of the SAME place, not a redesign. Keep the existing road centerlines, perspective, crossing locations and reserved open grassy areas for building sprites.\nChange only the road corridors and the central paved meeting area into a clearly MEDIEVAL PAVED-ROAD version. Replace ALL bare dirt track segments with continuous fitted gray-buff cobblestone/stone-sett paving of modest period-appropriate width. Show individual uneven worn stones, restrained curb edging, softened grassy verges and subdued wheel wear. The central junction/plaza uses matching stone paving, smoothly joined to every approach. The route should read as a maintained medieval stone road end to end, not a mostly dirt path with scattered stones. No asphalt, lane markings, concrete barriers, modern sidewalks or modern objects.\nKeep the established softly painted game-art finish with convincing material texture, not photographic roads pasted onto a painting. Large empty grassy building plots must remain. Full-bleed opaque landscape, no border or transparency, no buildings, people, vehicles, city sprites, text, labels or UI. Preserve water completely; roads must not run over the sea or river. High resolution and crisp native detail, matching the input's aspect ratio."
+        },
+        {
+          "step": "fixed-slot road clearance",
+          "tool": "built-in image_gen",
+          "replaces": {
+            "file": "backgrounds/city-river-medieval-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "a084b8f7e16a7ac659d75ad51327f9ce55feb1bd15b8f8a58de4c69ee8d823d3"
+          },
+          "text": "Use case: precise-object-edit. Create the MEDIEVAL paved-road variant of this river city-view landscape.\nImage 1 is the EDIT TARGET and authoritative NEW ROAD ALIGNMENT. Its carefully positioned narrow roads avoid fixed building plots. Image 2 is a MATERIAL/PALETTE reference for medieval worn cobblestone paving ONLY; do NOT copy image 2's obsolete diagonal roads or central junction.\nPreserve image 1's exact canvas, framing, terrain, water, shoreline, rocks, grass, lighting, painterly style, road centerlines, gentle curves, branch positions, and route continuity. Change ONLY its asphalt/markings/road verges into medieval paved streets. Every road is continuous gray-buff irregular dressed-stone/cobblestone paving, individual worn stones, modest stone edging with soft grassy margins. Remove every painted lane marking, median, asphalt/concrete section, modern traffic feature. On the wider divided left approach replace both carriageways with ONE modest-width stone route centered within the old corridor, restoring grass along any freed shoulders. The already narrow local streets must NOT grow in width. Small branch turnarounds can become modest organic stone forecourts, not oversized plazas. Keep ALL remaining land naturally mottled grass, without rectangular empty-lot patches. No central X intersection, added roads, broad paved areas, new branches, buildings, vehicles, text, people, guides, colored overlays or UI. Water remains untouched. Opaque high-resolution PNG with the same aspect ratio.",
+          "routeReference": {
+            "file": "backgrounds/city-river-modern-native.png",
+            "sha256": "e1dfd548c23de6d03b369d17f8432846dadd4239b1a87711f9b4b08b8ab34a32"
+          },
+          "materialReference": {
+            "file": "backgrounds/city-river-medieval-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "a084b8f7e16a7ac659d75ad51327f9ce55feb1bd15b8f8a58de4c69ee8d823d3"
+          }
+        }
+      ],
+      "output": {
+        "file": "backgrounds/city-river-medieval-native.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "5208250df7679ed068444f31c55759ee7f0d5373505fe4ac0f20935b2b25902f",
+        "transparentBackground": false,
+        "pixels": "Unmodified generated PNG; 4K presentation exports are separate resamples"
+      }
+    },
+    {
+      "site": "river",
+      "era": "modern",
+      "tool": "built-in image_gen",
+      "input": {
+        "role": "edit target",
+        "file": "backgrounds/city-river-native.png",
+        "revision": "480b6830639d415f472cc15ad499e30f1a58fd94",
+        "sha256": "0e5aa51641cd207b12b0528702128776fc63a55a458e942aa0e5ea66d7a65246",
+        "width": 1672,
+        "height": 941
+      },
+      "prompts": [
+        {
+          "step": "road-era edit",
+          "text": "Use case: precise-object-edit.\nAsset type: high-resolution painted landscape background for a sprite-based historical strategy game's city panorama.\nInput image 1 is the EDIT TARGET, the selected original river city landscape.\nPreserve the same wide 16:9 canvas, elevated isometric camera, composition, crop, terrain topography, grass texture, sunlight, color palette and all water/rocks/riverbanks/coastlines. This is an era variation of the SAME place, not a redesign. Keep the existing road centerlines, perspective, crossing locations and reserved open grassy areas for building sprites.\nChange only the road corridors and existing central paved meeting area into a clearly MODERN SUPERHIGHWAY version. Replace every dirt/stone road with a coherent dark charcoal-gray asphalt highway: two marked lanes in each direction, a narrow restrained divider/median, continuous pale edge lines and correctly spaced broken white lane stripes that follow the perspective. Widen the existing corridors moderately, preserving abundant grassy building space. At existing road crossings, join all approaches in one clean, legible compact paved junction; lane marks stop appropriately inside the junction, and medians terminate before it. Do not build a large cloverleaf, complex ramps or elevated structures that would conflict with building sprites. Use softly painted asphalt texture, modest light concrete shoulders and grass verges. No dirt sections, disconnected lanes, oversize signs, cars or buildings.\nKeep the established softly painted game-art finish with convincing material texture, not photographic roads pasted onto a painting. Large empty grassy building plots must remain. Full-bleed opaque landscape, no border or transparency, no buildings, people, vehicles, city sprites, text, labels or UI. Preserve water completely; roads must not run over the sea or river. High resolution and crisp native detail, matching the input's aspect ratio."
+        },
+        {
+          "step": "waterfront road-termination refinement",
+          "text": "Use case: precise-object-edit. Input image 1 is the EDIT TARGET: the newly painted modern river city landscape.\nFix the unrealistic dead highway ends. Keep the two main diagonal highway corridors, their visible frame-edge exits, the river, terrain and entire 16:9 composition.\n1. The divided highway approach at upper center currently stops toward the river. Well before the riverbank, taper its four lanes smoothly into a modest two-lane undivided local road; terminate the median and merge the lanes coherently. Curve this smaller road toward the upper right ALONG the dry riverbank and continue it to leave the top edge on land. Keep a clear grassy bank between road and water. Never point a highway into water or let asphalt dissolve into grass.\n2. Replace the oversized connector between the two principal highway corridors with a narrower two-lane local connector in the same position. Remove the two short dead stubs that protrude from the middle of this connector into empty grass; restore ordinary grassy land there. Use simple plausible T-junctions where the connector meets each main highway, with legible continuous pavement and appropriate lane-marking gaps. The central area must not contain a disconnected paved cross.\nPreserve the main highways' painted asphalt finish, established road/terrain colors, soft upper-left sunlight, water and bank shapes, scale and open grassy building plots. No overpasses, buildings, vehicles, signs, bridges, text, UI, borders or transparency. Full opaque background PNG.",
+          "inputSha256": "e53a9e35418f6160fa21fc4226c23ea4fd5181095b9ff73e6d940a6b9d02b5ba"
+        },
+        {
+          "step": "fixed-slot road clearance",
+          "tool": "built-in image_gen",
+          "replaces": {
+            "file": "backgrounds/city-river-modern-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "4bbf3bcffd45aea438ce323151bdf92a96f4326bce118545c245a4b51dd972cb"
+          },
+          "text": "Use case: precise-object-edit. Asset: opaque painted city-panorama background for a sprite-based strategy game. Image 1 is the EDIT TARGET. Image 2 is a DIAGNOSTIC REFERENCE at identical framing: pink/red rectangles mark reserved native building ground footprints, including empty house slots; amber marks bases in the separate enhanced view. Those rectangles are constraints, NOT things to paint. Preserve image 1's exact framing, coastline/river/water, rocks, ground texture, lighting, painterly style, and canvas aspect ratio. Change ONLY the roads and their immediate verges. Fully erase the old roads and old central X junction wherever they conflict with reserved plots, restoring matching natural grass there. Re-plan routes through unmarked gaps. Keep every red footprint grassy and unpaved, with breathing room; avoid amber footprints where possible. Do NOT move terrain or shrink reserved plots. No buildings, sprites, boxes, overlays, text, cars, signs, UI, borders or transparency in the final image.\nMODERN RIVER SITE: Erase BOTH long diagonal motorways and the diagonal middle connector. Restore grassy building plots over their old alignments. Instead draw one restrained main route entering the LEFT EDGE about 53% down, crossing the broad clear band below the upper plots, dipping gently below the central red plot at about 57\u00e2\u20ac\u201c62% height, then curving through the open right-hand gap and leaving the RIGHT EDGE around 80\u00e2\u20ac\u201c84% height. Leave the bottom-right red plot clear. Avoid the red rectangles exactly. A four-lane divided asphalt approach may remain ONLY at the spacious left edge; transition smoothly to a modest narrow two-lane city road before the building cluster. Prefer no junction over a junction underneath buildings. A few very short narrow access lanes can terminate with modest turnarounds next to plots, never under them. Keep all roads below and clear of the river, no bridges or dead ends in water. Maintain broad unpaved grass space, subtle pale lane marks, coherent road widths and connected curves. No broad central plaza or giant junction.",
+          "guide": {
+            "source": "review/traces/city-river-modern.json",
+            "sha256": "456eb58d62bcee6c655040ebcdf9918fbfcef33f4d27fe33b5231bd475280412",
+            "method": "Native sprite/lot lower 27% ground bands, horizontal inset 12%; enhanced lower 20% ground bands, horizontal inset 10%, scaled from 2560x960 to 1280x480, in amber. Approximate visual reservations, not collision geometry.",
+            "enhancedPlan": "review/city-era-plans.json",
+            "enhancedPlanSha256": "55f0675e0832f7cc4c4feaa825068fd031a25d4159eec2fdb532514e6124bbaa"
+          },
+          "refinements": [
+            {
+              "text": "Use case: precise-object-edit. Image 1 is the road-layout EDIT TARGET; image 2 is a footprint constraint guide, never paint its rectangles. Preserve terrain/water/rocks/camera/style exactly. The new main road is too far south and still crosses the lower row of building reservations. Move the LEFT AND MIDDLE ROAD run NORTH by roughly 60\u00e2\u20ac\u201c90 image pixels. On this 1672x941 canvas, the left approach should be centered around y=505\u00e2\u20ac\u201c520 and its ENTIRE bottom edge must stay above y=575. Taper the divided highway to a compact two-lane road BEFORE x=200. Continue its narrow centerline through approximately (400,535), (650,565), (850,580), (1100,580), then (1300,600). This lies between the upper and lower building footprint rows; do NOT put pavement in the red blocks around x=30\u00e2\u20ac\u201c600,y=600\u00e2\u20ac\u201c660 or x=980\u00e2\u20ac\u201c1240,y=610\u00e2\u20ac\u201c665. After x=1300, smoothly connect down to the existing right-edge exit around y=790, using the free right-hand strip. Remove both round cul-de-sac spurs, which are unnecessary and can conflict with houses. This should be one slim continuous gently curved road, generous grass on both sides, no junction, no giant plaza, no buildings or markers. Keep all roads away from the river. Restore matching natural meadow over the abandoned road alignments and avoid all rectangular clearing artifacts. Opaque PNG.",
+              "inputSha256": "b4ae40c6c75d596a2bb88db9a69653b369093e70b437912a7e4f6ea0513ba0f2"
+            },
+            {
+              "text": "Use case: precise-object-edit. Preserve this entire river landscape and exact road placement. Change ONLY the leftmost 250 pixels of the road on this 1672-pixel-wide canvas: make that short entry segment read as a four-lane divided highway approach with two lanes in each direction, fine dashed lane markings and a very narrow planted central divider. Fit it within essentially the existing pavement footprint, expanding at most slightly northward; its southern edge must not move south. Smoothly merge down to the unchanged narrow two-lane local road before x=300. All road pixels after x=300, the continuous road bends, all grass plots, water, rocks, textures, framing and lighting must remain unchanged. No other road branches, junctions, buildings, graphics, overlays or text. This is only a small era cue at the left frame edge, not a wide motorway through the town. Opaque PNG.",
+              "inputSha256": "0d3551f3988e58995135020089adcb778814427f56ba56f6545859040e38e4a6"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "file": "backgrounds/city-river-modern-native.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "e1dfd548c23de6d03b369d17f8432846dadd4239b1a87711f9b4b08b8ab34a32",
+        "transparentBackground": false,
+        "pixels": "Unmodified generated PNG; 4K presentation exports are separate resamples"
+      }
+    },
+    {
+      "site": "inland",
+      "era": "medieval",
+      "tool": "built-in image_gen",
+      "input": {
+        "role": "edit target",
+        "file": "backgrounds/city-inland-native.png",
+        "revision": "480b6830639d415f472cc15ad499e30f1a58fd94",
+        "sha256": "ddda97b76c294ccb1573470f7c6324cfb2f9df5469b35531d18d5b20c671c3cc",
+        "width": 1672,
+        "height": 941
+      },
+      "prompts": [
+        {
+          "step": "road-era edit",
+          "text": "Use case: precise-object-edit.\nAsset type: high-resolution painted landscape background for a sprite-based historical strategy game's city panorama.\nInput image 1 is the EDIT TARGET, the selected original inland city landscape.\nPreserve the same wide 16:9 canvas, elevated isometric camera, composition, crop, terrain topography, grass texture, sunlight, color palette and all water/rocks/riverbanks/coastlines. This is an era variation of the SAME place, not a redesign. Keep the existing road centerlines, perspective, crossing locations and reserved open grassy areas for building sprites.\nChange only the road corridors and the central paved meeting area into a clearly MEDIEVAL PAVED-ROAD version. Replace ALL bare dirt track segments with continuous fitted gray-buff cobblestone/stone-sett paving of modest period-appropriate width. Show individual uneven worn stones, restrained curb edging, softened grassy verges and subdued wheel wear. The central junction/plaza uses matching stone paving, smoothly joined to every approach. The route should read as a maintained medieval stone road end to end, not a mostly dirt path with scattered stones. No asphalt, lane markings, concrete barriers, modern sidewalks or modern objects.\nKeep the established softly painted game-art finish with convincing material texture, not photographic roads pasted onto a painting. Large empty grassy building plots must remain. Full-bleed opaque landscape, no border or transparency, no buildings, people, vehicles, city sprites, text, labels or UI. Preserve water completely; roads must not run over the sea or river. High resolution and crisp native detail, matching the input's aspect ratio."
+        },
+        {
+          "step": "fixed-slot road clearance",
+          "tool": "built-in image_gen",
+          "replaces": {
+            "file": "backgrounds/city-inland-medieval-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "46d807208428afde048da1a0d1ce5aae50b7ea1c4157a520579fdc231d25136c"
+          },
+          "text": "Use case: precise-object-edit. Create the MEDIEVAL paved-road variant of this inland city-view landscape.\nImage 1 is the EDIT TARGET and authoritative NEW ROAD ALIGNMENT. Its carefully positioned narrow roads avoid fixed building plots. Image 2 is a MATERIAL/PALETTE reference for medieval worn cobblestone paving ONLY; do NOT copy image 2's obsolete diagonal roads or central junction.\nPreserve image 1's exact canvas, framing, terrain, water, shoreline, rocks, grass, lighting, painterly style, road centerlines, gentle curves, branch positions, and route continuity. Change ONLY its asphalt/markings/road verges into medieval paved streets. Every road is continuous gray-buff irregular dressed-stone/cobblestone paving, individual worn stones, modest stone edging with soft grassy margins. Remove every painted lane marking, median, asphalt/concrete section, modern traffic feature. On the wider divided left approach replace both carriageways with ONE modest-width stone route centered within the old corridor, restoring grass along any freed shoulders. The already narrow local streets must NOT grow in width. Small branch turnarounds can become modest organic stone forecourts, not oversized plazas. Keep ALL remaining land naturally mottled grass, without rectangular empty-lot patches. No central X intersection, added roads, broad paved areas, new branches, buildings, vehicles, text, people, guides, colored overlays or UI. Water remains untouched. Opaque high-resolution PNG with the same aspect ratio.",
+          "routeReference": {
+            "file": "backgrounds/city-inland-modern-native.png",
+            "sha256": "4b10cc32add006a15ca3f9516a917b1cbb6441a40c39ed461858665e87afcb7f"
+          },
+          "materialReference": {
+            "file": "backgrounds/city-inland-medieval-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "46d807208428afde048da1a0d1ce5aae50b7ea1c4157a520579fdc231d25136c"
+          }
+        }
+      ],
+      "output": {
+        "file": "backgrounds/city-inland-medieval-native.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "d5636a2ede9cc25a55778f9eae4a815c2e8ae97cac67a20b59521fbddc924479",
+        "transparentBackground": false,
+        "pixels": "Unmodified generated PNG; 4K presentation exports are separate resamples"
+      }
+    },
+    {
+      "site": "inland",
+      "era": "modern",
+      "tool": "built-in image_gen",
+      "input": {
+        "role": "edit target",
+        "file": "backgrounds/city-inland-native.png",
+        "revision": "480b6830639d415f472cc15ad499e30f1a58fd94",
+        "sha256": "ddda97b76c294ccb1573470f7c6324cfb2f9df5469b35531d18d5b20c671c3cc",
+        "width": 1672,
+        "height": 941
+      },
+      "prompts": [
+        {
+          "step": "road-era edit",
+          "text": "Use case: precise-object-edit.\nAsset type: high-resolution painted landscape background for a sprite-based historical strategy game's city panorama.\nInput image 1 is the EDIT TARGET, the selected original inland city landscape.\nPreserve the same wide 16:9 canvas, elevated isometric camera, composition, crop, terrain topography, grass texture, sunlight, color palette and all water/rocks/riverbanks/coastlines. This is an era variation of the SAME place, not a redesign. Keep the existing road centerlines, perspective, crossing locations and reserved open grassy areas for building sprites.\nChange only the road corridors and existing central paved meeting area into a clearly MODERN SUPERHIGHWAY version. Replace every dirt/stone road with a coherent dark charcoal-gray asphalt highway: two marked lanes in each direction, a narrow restrained divider/median, continuous pale edge lines and correctly spaced broken white lane stripes that follow the perspective. Widen the existing corridors moderately, preserving abundant grassy building space. At existing road crossings, join all approaches in one clean, legible compact paved junction; lane marks stop appropriately inside the junction, and medians terminate before it. Do not build a large cloverleaf, complex ramps or elevated structures that would conflict with building sprites. Use softly painted asphalt texture, modest light concrete shoulders and grass verges. No dirt sections, disconnected lanes, oversize signs, cars or buildings.\nKeep the established softly painted game-art finish with convincing material texture, not photographic roads pasted onto a painting. Large empty grassy building plots must remain. Full-bleed opaque landscape, no border or transparency, no buildings, people, vehicles, city sprites, text, labels or UI. Preserve water completely; roads must not run over the sea or river. High resolution and crisp native detail, matching the input's aspect ratio."
+        },
+        {
+          "step": "fixed-slot road clearance",
+          "tool": "built-in image_gen",
+          "replaces": {
+            "file": "backgrounds/city-inland-modern-native.png",
+            "revision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+            "sha256": "55babdc7a6156b02c0adf39a34f4c41c25b22caa8be63600d8ff1cb08e5830a8"
+          },
+          "text": "Use case: precise-object-edit. Asset: opaque painted city-panorama background for a sprite-based strategy game. Image 1 is the EDIT TARGET. Image 2 is a DIAGNOSTIC REFERENCE at identical framing: pink/red rectangles mark reserved native building ground footprints, including empty house slots; amber marks bases in the separate enhanced view. Those rectangles are constraints, NOT things to paint. Preserve image 1's exact framing, coastline/river/water, rocks, ground texture, lighting, painterly style, and canvas aspect ratio. Change ONLY the roads and their immediate verges. Fully erase the old roads and old central X junction wherever they conflict with reserved plots, restoring matching natural grass there. Re-plan routes through unmarked gaps. Keep every red footprint grassy and unpaved, with breathing room; avoid amber footprints where possible. Do NOT move terrain or shrink reserved plots. No buildings, sprites, boxes, overlays, text, cars, signs, UI, borders or transparency in the final image.\nMODERN INLAND SITE: Erase all four diagonal motorway arms and the huge central X junction. Replace them with a slim gently meandering main asphalt road threaded through the broad clear horizontal corridor between the building rows: enter the LEFT EDGE at about 52\u00e2\u20ac\u201c55% height, dip just below the central red plots around 60\u00e2\u20ac\u201c63% height, and continue toward the RIGHT EDGE around 63\u00e2\u20ac\u201c65% height, staying ABOVE the red lower-right row. It must curve around red reservations, never through them. Only at the roomy left exterior approach show a short divided four-lane section; smoothly merge it into a considerably narrower ordinary two-lane street before the dense plots. A few restrained local access branches can follow clear gaps and meet at small T junctions or modest turnarounds, with generous unpaved grass around each building plot. No oversized intersection, roundabout, cloverleaf, highway X, or large paved central area. Use painted charcoal asphalt, fine pale markings, natural grassy verges. Roads stay fully connected and all through routes leave the frame.",
+          "guide": {
+            "source": "review/traces/city-inland-modern.json",
+            "sha256": "75f9efb7f3839625445a83500c043252e42f9c46ea6edc46e4e4faae6d1b9f8a",
+            "method": "Native sprite/lot lower 27% ground bands, horizontal inset 12%; enhanced lower 20% ground bands, horizontal inset 10%, scaled from 2560x960 to 1280x480, in amber. Approximate visual reservations, not collision geometry.",
+            "enhancedPlan": "review/city-era-plans.json",
+            "enhancedPlanSha256": "55f0675e0832f7cc4c4feaa825068fd031a25d4159eec2fdb532514e6124bbaa"
+          },
+          "refinements": [
+            {
+              "text": "Use case: precise-object-edit. This is an edit of image 1. Remove ALL the pale rectangular plot-shaped patches from the grass. They are accidental leftovers from a diagnostic guide and must not exist in the final landscape. Restore continuous naturally mottled green meadow throughout, matching the original texture between those rectangles, with no rectangular borders, grids, straight-edged tan clearings, overlays or repeated patches. Preserve EVERY road's exact alignment, size, connected topology, turnarounds, highway taper, pavement and markings. Change only the grass so it is one seamless natural meadow. Preserve framing, painterly style and lighting. No buildings, text, labels or UI. Opaque PNG.",
+              "inputSha256": "4dcaccee67d9ce8e677e9fe8da2fcb20dab7730ca11d2391c1cd5f2cf0fa0dec"
+            }
+          ]
+        }
+      ],
+      "output": {
+        "file": "backgrounds/city-inland-modern-native.png",
+        "width": 1672,
+        "height": 941,
+        "sha256": "4b10cc32add006a15ca3f9516a917b1cbb6441a40c39ed461858665e87afcb7f",
+        "transparentBackground": false,
+        "pixels": "Unmodified generated PNG; 4K presentation exports are separate resamples"
+      }
+    }
+  ],
+  "roadLayoutRevision": {
+    "date": "2026-11-20",
+    "baselineRevision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+    "description": "Narrow plot-aware routes replace diagonal city crossings; modern highway entries taper into local streets. Source placements and enhanced plans are unchanged."
+  }
+}

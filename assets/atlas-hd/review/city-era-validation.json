@@ -1,0 +1,105 @@
+{
+  "sourceRevision": "bd89036fc339f0c44f7788b17f9765c377cc8a55",
+  "originalSources": {
+    "cv.dll": "f3b96918f09ac281b5480af548084264c845747fdc8a7e3b178df72e1a237c80",
+    "TERRAIN1.GIF": "1562bfaf6b0a2982c00f7dc59dac7c5e990a0cca44d2d8f071982195b2fac248"
+  },
+  "sourceFunctions": [
+    "CityViewWindow::classify_site",
+    "CityViewWindow::layout_buildings",
+    "CityViewWindow::draw_buildings"
+  ],
+  "scope": "Six era/site fixtures; original/native/HD geometry and D/R trace equality. Visual inspection is separate; no integrated-game execution capture is claimed.",
+  "scenes": [
+    {
+      "id": "city-coastal-medieval",
+      "commands": 56,
+      "debugReleaseEqual": true,
+      "originalReplacementGeometryEqual": true,
+      "originalBackground": 341,
+      "enhancedObjectsRetained": 35,
+      "replacementHouseEra": "medieval",
+      "variants": [
+        "original",
+        "current",
+        "hd",
+        "proposed"
+      ]
+    },
+    {
+      "id": "city-coastal-modern",
+      "commands": 56,
+      "debugReleaseEqual": true,
+      "originalReplacementGeometryEqual": true,
+      "originalBackground": 343,
+      "enhancedObjectsRetained": 45,
+      "replacementHouseEra": "modern",
+      "variants": [
+        "original",
+        "current",
+        "hd",
+        "proposed"
+      ]
+    },
+    {
+      "id": "city-river-medieval",
+      "commands": 54,
+      "debugReleaseEqual": true,
+      "originalReplacementGeometryEqual": true,
+      "originalBackground": 346,
+      "enhancedObjectsRetained": 34,
+      "replacementHouseEra": "medieval",
+      "variants": [
+        "original",
+        "current",
+        "hd",
+        "proposed"
+      ]
+    },
+    {
+      "id": "city-river-modern",
+      "commands": 53,
+      "debugReleaseEqual": true,
+      "originalReplacementGeometryEqual": true,
+      "originalBackground": 348,
+      "enhancedObjectsRetained": 42,
+      "replacementHouseEra": "modern",
+      "variants": [
+        "original",
+        "current",
+        "hd",
+        "proposed"
+      ]
+    },
+    {
+      "id": "city-inland-medieval",
+      "commands": 58,
+      "debugReleaseEqual": true,
+      "originalReplacementGeometryEqual": true,
+      "originalBackground": 351,
+      "enhancedObjectsRetained": 34,
+      "replacementHouseEra": "medieval",
+      "variants": [
+        "original",
+        "current",
+        "hd",
+        "proposed"
+      ]
+    },
+    {
+      "id": "city-inland-modern",
+      "commands": 57,
+      "debugReleaseEqual": true,
+      "originalReplacementGeometryEqual": true,
+      "originalBackground": 353,
+      "enhancedObjectsRetained": 44,
+      "replacementHouseEra": "modern",
+      "variants": [
+        "original",
+        "current",
+        "hd",
+        "proposed"
+      ]
+    }
+  ]
+}

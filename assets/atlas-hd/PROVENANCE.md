@@ -11,6 +11,24 @@ The runtime selection is maintained separately in
 runtime packages as `data/ATLAS-PROVENANCE.md`; linked authoring files and review
 material remain in the source repository. Paths below refer to that checkout.
 
+## City landscape road eras
+
+The six medieval/modern city landscape paintings are built-in `image_gen`
+edits of the three retained replacement landscapes. Medieval routes use
+continuous stone paving; modern roads use divided asphalt carriageways with
+smaller coastal/riverbank connections near water. No original-game image was
+an input. [The authoring record](authoring/city-landscape-eras.json) preserves
+input revisions/hashes, all prompts, refinement-input hashes and the selected
+output hashes. Native PNGs retain generated pixels unchanged; separately
+labeled 4K display copies are resampled.
+
+The road-clearance revision routes narrower roads between source-derived building
+ground bands, replacing the broad central junctions. The guides include empty lots;
+they use approximate ground bands from the standalone traces, not copied game art.
+Modern highway entries taper into local streets, and medieval versions use the
+same routes with stone paving. Source placement traces and enhanced placement plans
+are preserved. The authoring record retains each replacement input and prompt.
+
 ## Generated and authored artwork
 
 Painted images were created with the built-in `image_gen` tool from written

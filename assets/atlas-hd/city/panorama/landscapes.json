@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "logicalSize": [
+    1280,
+    480
+  ],
+  "note": "Additional era artwork. Existing resource/cv.dll/gifs/* bindings remain unchanged. The game must select the new named keys to use these variants.",
+  "eras": {
+    "ancient": "Existing dirt-track landscape",
+    "medieval": "Stone-paved roads",
+    "modern": "Divided highways; local road transitions near water"
+  },
+  "sites": {
+    "coastal": {
+      "ancient": {
+        "file": "backgrounds/city-coastal-native.png",
+        "binding": "resource/cv.dll/gifs/340"
+      },
+      "medieval": {
+        "file": "backgrounds/city-coastal-medieval-native.png",
+        "binding": "city/landscape/coastal/medieval"
+      },
+      "modern": {
+        "file": "backgrounds/city-coastal-modern-native.png",
+        "binding": "city/landscape/coastal/modern"
+      }
+    },
+    "river": {
+      "ancient": {
+        "file": "backgrounds/city-river-native.png",
+        "binding": "resource/cv.dll/gifs/345"
+      },
+      "medieval": {
+        "file": "backgrounds/city-river-medieval-native.png",
+        "binding": "city/landscape/river/medieval"
+      },
+      "modern": {
+        "file": "backgrounds/city-river-modern-native.png",
+        "binding": "city/landscape/river/modern"
+      }
+    },
+    "inland": {
+      "ancient": {
+        "file": "backgrounds/city-inland-native.png",
+        "binding": "resource/cv.dll/gifs/350"
+      },
+      "medieval": {
+        "file": "backgrounds/city-inland-medieval-native.png",
+        "binding": "city/landscape/inland/medieval"
+      },
+      "modern": {
+        "file": "backgrounds/city-inland-modern-native.png",
+        "binding": "city/landscape/inland/modern"
+      }
+    }
+  }
+}

@@ -1,0 +1,2313 @@
+{
+  "baselineRevision": "ac01ec7e942db3165e79482c604e1c58cc991f07",
+  "scope": "Six retained era fixtures. Placement traces, enhanced plans and original renders are identical to the baseline. Guides approximate ground occupancy from sprite rectangles, including empty lots; they are visual review aids, not collision masks or a guarantee for every possible city inventory.",
+  "rendererImplementationsUnchanged": true,
+  "dirtLandscapesUnchanged": 3,
+  "records": [
+    {
+      "id": "city-coastal-medieval",
+      "landscape": "backgrounds/city-coastal-medieval-native.png",
+      "sha256": "495c9f26ee9793d5bf5536ca47e15c0680181c42bc67ef4c654936d2ae7d2fc2",
+      "traceSha256": "235d22209f904aa9a751b3b775284885f6a0760e96e9b65026264d2e6834e938",
+      "sourceTraceUnchanged": true,
+      "originalRenderUnchanged": true,
+      "enhancedPlanUnchanged": true,
+      "guide": "review/images/city-coastal-medieval-slots.png",
+      "reservedGroundBands": [
+        {
+          "asset": "lot/large/1",
+          "x": 24.96,
+          "y": 82.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 179.76,
+          "y": 106.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/2",
+          "x": 286.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 419.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/5",
+          "x": 560.76,
+          "y": 62.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 665.76,
+          "y": 59.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 744.96,
+          "y": 90.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 867.96,
+          "y": 89.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 997.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 1133.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 73.76,
+          "y": 166.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 184.76,
+          "y": 157.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 282.76,
+          "y": 155.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/11",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/1",
+          "x": 527.76,
+          "y": 122.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/3",
+          "x": 636.76,
+          "y": 109.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/0",
+          "x": 110.76,
+          "y": 214.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/14",
+          "x": 206.76,
+          "y": 213.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 305.76,
+          "y": 210.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/7",
+          "x": 474.76,
+          "y": 179.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/4",
+          "x": 599.76,
+          "y": 162.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/2",
+          "x": 689.76,
+          "y": 172.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 789.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 885.76,
+          "y": 161.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 972.76,
+          "y": 174.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 1074.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/3",
+          "x": 1170.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/6",
+          "x": 553.76,
+          "y": 209.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 550.76,
+          "y": 256.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 675.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 798.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/3",
+          "x": 929.76,
+          "y": 227.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 1051.96,
+          "y": 257.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/0",
+          "x": 1171.76,
+          "y": 272.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 19.96,
+          "y": 295.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/2",
+          "x": 124.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 227.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 350.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 31.96,
+          "y": 380.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 188.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/10",
+          "x": 311.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 22.96,
+          "y": 446.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 149.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/11",
+          "x": 271.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 469.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 590.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 429.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 551.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/12",
+          "x": 746.76,
+          "y": 310.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/3",
+          "x": 697.96,
+          "y": 366.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/9",
+          "x": 856.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/8",
+          "x": 411.84,
+          "y": 446.15999999999997,
+          "width": 271.32,
+          "height": 21.060000000000002
+        },
+        {
+          "asset": "building/30",
+          "x": 950.4,
+          "y": 348,
+          "width": 167.2,
+          "height": 27
+        }
+      ]
+    },
+    {
+      "id": "city-coastal-modern",
+      "landscape": "backgrounds/city-coastal-modern-native.png",
+      "sha256": "dd8f428c14f52d2819b298177101c2afee226c70048ca98c683a64972583587e",
+      "traceSha256": "d265383e3aea5e44f12611e965ae1aeb97cc1ba060a5f567bd61141bd8b76cfa",
+      "sourceTraceUnchanged": true,
+      "originalRenderUnchanged": true,
+      "enhancedPlanUnchanged": true,
+      "guide": "review/images/city-coastal-modern-slots.png",
+      "reservedGroundBands": [
+        {
+          "asset": "lot/large/1",
+          "x": 24.96,
+          "y": 82.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/24",
+          "x": 179.76,
+          "y": 106.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 286.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 419.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/5",
+          "x": 560.76,
+          "y": 62.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/10",
+          "x": 665.76,
+          "y": 59.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 744.96,
+          "y": 90.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 867.96,
+          "y": 89.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 997.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/26",
+          "x": 1133.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/29",
+          "x": 73.76,
+          "y": 166.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 184.76,
+          "y": 157.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/13",
+          "x": 282.76,
+          "y": 155.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/1",
+          "x": 527.76,
+          "y": 122.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 636.76,
+          "y": 109.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/26",
+          "x": 110.76,
+          "y": 214.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 206.76,
+          "y": 213.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/15",
+          "x": 305.76,
+          "y": 210.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/7",
+          "x": 474.76,
+          "y": 179.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 599.76,
+          "y": 162.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 689.76,
+          "y": 172.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 789.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/18",
+          "x": 885.76,
+          "y": 161.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 972.76,
+          "y": 174.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/23",
+          "x": 1074.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 553.76,
+          "y": 209.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 550.76,
+          "y": 256.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 675.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 798.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/3",
+          "x": 929.76,
+          "y": 227.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 1051.96,
+          "y": 257.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/0",
+          "x": 1171.76,
+          "y": 272.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 19.96,
+          "y": 295.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/22",
+          "x": 124.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/3",
+          "x": 227.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 350.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/24",
+          "x": 31.96,
+          "y": 380.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 188.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 311.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 22.96,
+          "y": 446.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 149.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 271.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 469.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 590.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 429.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 551.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/12",
+          "x": 746.76,
+          "y": 310.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/3",
+          "x": 697.96,
+          "y": 366.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/0",
+          "x": 856.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/30",
+          "x": 950.4,
+          "y": 348,
+          "width": 167.2,
+          "height": 27
+        },
+        {
+          "asset": "building/34",
+          "x": 942.04,
+          "y": 380.96,
+          "width": 278.92,
+          "height": 31.860000000000003
+        }
+      ]
+    },
+    {
+      "id": "city-river-medieval",
+      "landscape": "backgrounds/city-river-medieval-native.png",
+      "sha256": "5208250df7679ed068444f31c55759ee7f0d5373505fe4ac0f20935b2b25902f",
+      "traceSha256": "7f3614e2b19c909d870980839507a13d84002786aca6554016f1e1b094ac27b7",
+      "sourceTraceUnchanged": true,
+      "originalRenderUnchanged": true,
+      "enhancedPlanUnchanged": true,
+      "guide": "review/images/city-river-medieval-slots.png",
+      "reservedGroundBands": [
+        {
+          "asset": "lot/large/0",
+          "x": 24.96,
+          "y": 82.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 179.76,
+          "y": 106.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 286.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/5",
+          "x": 560.76,
+          "y": 62.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 665.76,
+          "y": 59.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 744.96,
+          "y": 90.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 867.96,
+          "y": 89.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 997.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 1133.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 73.76,
+          "y": 166.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 184.76,
+          "y": 157.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 282.76,
+          "y": 155.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/11",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/1",
+          "x": 527.76,
+          "y": 122.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/7",
+          "x": 474.76,
+          "y": 179.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/3",
+          "x": 636.76,
+          "y": 109.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/4",
+          "x": 599.76,
+          "y": 162.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/2",
+          "x": 689.76,
+          "y": 172.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/6",
+          "x": 553.76,
+          "y": 209.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 550.76,
+          "y": 256.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/9",
+          "x": 789.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 885.76,
+          "y": 161.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 972.76,
+          "y": 174.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 1074.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/3",
+          "x": 1170.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/0",
+          "x": 110.76,
+          "y": 214.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/14",
+          "x": 206.76,
+          "y": 213.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 305.76,
+          "y": 210.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 19.96,
+          "y": 295.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/2",
+          "x": 124.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 227.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 350.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 31.96,
+          "y": 380.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 188.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 311.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 22.96,
+          "y": 446.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/2",
+          "x": 149.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/11",
+          "x": 271.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 675.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 798.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/3",
+          "x": 929.76,
+          "y": 227.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 1051.96,
+          "y": 257.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 469.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 590.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 429.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/10",
+          "x": 551.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/12",
+          "x": 746.76,
+          "y": 310.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 697.96,
+          "y": 366.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/1",
+          "x": 856.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/8",
+          "x": 411.84,
+          "y": 446.15999999999997,
+          "width": 271.32,
+          "height": 21.060000000000002
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 1135.96,
+          "y": 447.08,
+          "width": 120.08,
+          "height": 30.78
+        }
+      ]
+    },
+    {
+      "id": "city-river-modern",
+      "landscape": "backgrounds/city-river-modern-native.png",
+      "sha256": "e1dfd548c23de6d03b369d17f8432846dadd4239b1a87711f9b4b08b8ab34a32",
+      "traceSha256": "17ecd7f37a6a2b7783adc7b5c3d741bd199015204c47814a1822b73cce326c8d",
+      "sourceTraceUnchanged": true,
+      "originalRenderUnchanged": true,
+      "enhancedPlanUnchanged": true,
+      "guide": "review/images/city-river-modern-slots.png",
+      "reservedGroundBands": [
+        {
+          "asset": "lot/large/0",
+          "x": 24.96,
+          "y": 82.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/24",
+          "x": 179.76,
+          "y": 106.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 286.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/5",
+          "x": 560.76,
+          "y": 62.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/10",
+          "x": 665.76,
+          "y": 59.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 744.96,
+          "y": 90.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 867.96,
+          "y": 89.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 997.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 1133.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/29",
+          "x": 73.76,
+          "y": 166.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 184.76,
+          "y": 157.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/13",
+          "x": 282.76,
+          "y": 155.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/1",
+          "x": 527.76,
+          "y": 122.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/7",
+          "x": 474.76,
+          "y": 179.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 636.76,
+          "y": 109.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 599.76,
+          "y": 162.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 689.76,
+          "y": 172.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 553.76,
+          "y": 209.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 550.76,
+          "y": 256.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 789.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/18",
+          "x": 885.76,
+          "y": 161.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 972.76,
+          "y": 174.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/23",
+          "x": 1074.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/26",
+          "x": 110.76,
+          "y": 214.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 206.76,
+          "y": 213.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/15",
+          "x": 305.76,
+          "y": 210.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 19.96,
+          "y": 295.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/22",
+          "x": 124.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 227.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 350.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/24",
+          "x": 31.96,
+          "y": 380.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 188.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 311.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 22.96,
+          "y": 446.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/2",
+          "x": 149.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 271.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 675.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 798.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/3",
+          "x": 929.76,
+          "y": 227.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 1051.96,
+          "y": 257.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 469.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 590.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 429.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 551.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/12",
+          "x": 746.76,
+          "y": 310.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 697.96,
+          "y": 366.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/1",
+          "x": 856.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "wonder/26",
+          "x": 1135.96,
+          "y": 447.08,
+          "width": 120.08,
+          "height": 30.78
+        }
+      ]
+    },
+    {
+      "id": "city-inland-medieval",
+      "landscape": "backgrounds/city-inland-medieval-native.png",
+      "sha256": "d5636a2ede9cc25a55778f9eae4a815c2e8ae97cac67a20b59521fbddc924479",
+      "traceSha256": "33523eb583a2a50f80395425083e8756b423c05b94a6d661d69209623b9c03bd",
+      "sourceTraceUnchanged": true,
+      "originalRenderUnchanged": true,
+      "enhancedPlanUnchanged": true,
+      "guide": "review/images/city-inland-medieval-slots.png",
+      "reservedGroundBands": [
+        {
+          "asset": "house/small/2",
+          "x": 179.76,
+          "y": 106.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 286.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/3",
+          "x": 560.76,
+          "y": 62.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/5",
+          "x": 665.76,
+          "y": 59.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 744.96,
+          "y": 90.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 867.96,
+          "y": 89.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 997.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/2",
+          "x": 1133.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/0",
+          "x": 73.76,
+          "y": 166.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 184.76,
+          "y": 157.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 282.76,
+          "y": 155.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/11",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/1",
+          "x": 527.76,
+          "y": 122.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/12",
+          "x": 474.76,
+          "y": 179.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/6",
+          "x": 636.76,
+          "y": 109.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/4",
+          "x": 599.76,
+          "y": 162.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/2",
+          "x": 689.76,
+          "y": 172.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 789.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 885.76,
+          "y": 161.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 972.76,
+          "y": 174.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 1074.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 1170.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/1",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 110.76,
+          "y": 214.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 206.76,
+          "y": 213.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/9",
+          "x": 305.76,
+          "y": 210.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 553.76,
+          "y": 209.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 550.76,
+          "y": 256.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/3",
+          "x": 675.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 798.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/14",
+          "x": 929.76,
+          "y": 227.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 1051.96,
+          "y": 257.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 1171.76,
+          "y": 272.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 19.96,
+          "y": 295.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/3",
+          "x": 124.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 227.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 350.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 31.96,
+          "y": 380.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 188.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 311.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 22.96,
+          "y": 446.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 149.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 271.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/11",
+          "x": 469.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/10",
+          "x": 590.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/7",
+          "x": 746.76,
+          "y": 310.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 697.96,
+          "y": 366.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/0",
+          "x": 856.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 429.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 551.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/8",
+          "x": 411.84,
+          "y": 446.15999999999997,
+          "width": 271.32,
+          "height": 21.060000000000002
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 1038.96,
+          "y": 338.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 1061.96,
+          "y": 410.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 941.76,
+          "y": 332.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 1170.76,
+          "y": 347.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/3",
+          "x": 1170.76,
+          "y": 456.04,
+          "width": 93.48,
+          "height": 22.14
+        }
+      ]
+    },
+    {
+      "id": "city-inland-modern",
+      "landscape": "backgrounds/city-inland-modern-native.png",
+      "sha256": "4b10cc32add006a15ca3f9516a917b1cbb6441a40c39ed461858665e87afcb7f",
+      "traceSha256": "e463136667e3286fc992408f9ebb556993501a0cc687ed8f6c5a0bee551ae07f",
+      "sourceTraceUnchanged": true,
+      "originalRenderUnchanged": true,
+      "enhancedPlanUnchanged": true,
+      "guide": "review/images/city-inland-modern-slots.png",
+      "reservedGroundBands": [
+        {
+          "asset": "building/22",
+          "x": 179.76,
+          "y": 106.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 286.96,
+          "y": 92.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/0",
+          "x": 560.76,
+          "y": 62.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/5",
+          "x": 665.76,
+          "y": 59.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 744.96,
+          "y": 90.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 867.96,
+          "y": 89.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/1",
+          "x": 997.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/2",
+          "x": 1133.96,
+          "y": 85.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/26",
+          "x": 73.76,
+          "y": 166.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 184.76,
+          "y": 157.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/13",
+          "x": 282.76,
+          "y": 155.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/1",
+          "x": 527.76,
+          "y": 122.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/12",
+          "x": 474.76,
+          "y": 179.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 636.76,
+          "y": 109.03999999999999,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 599.76,
+          "y": 162.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/2",
+          "x": 689.76,
+          "y": 172.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 789.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/18",
+          "x": 885.76,
+          "y": 161.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/23",
+          "x": 972.76,
+          "y": 174.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 1074.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/24",
+          "x": 1170.76,
+          "y": 163.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 384.76,
+          "y": 156.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/29",
+          "x": 110.76,
+          "y": 214.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/3",
+          "x": 206.76,
+          "y": 213.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/0",
+          "x": 305.76,
+          "y": 210.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/small/1",
+          "x": 553.76,
+          "y": 209.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "building/10",
+          "x": 550.76,
+          "y": 256.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/3",
+          "x": 675.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 798.96,
+          "y": 238.07999999999998,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/3",
+          "x": 929.76,
+          "y": 227.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 1051.96,
+          "y": 257.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/small/2",
+          "x": 1171.76,
+          "y": 272.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "wonder/24",
+          "x": 19.96,
+          "y": 295.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 227.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 350.96,
+          "y": 308.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 31.96,
+          "y": 380.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 188.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 311.96,
+          "y": 373.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/3",
+          "x": 22.96,
+          "y": 446.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/2",
+          "x": 149.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 271.96,
+          "y": 438.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/1",
+          "x": 469.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/3",
+          "x": 590.96,
+          "y": 339.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/7",
+          "x": 746.76,
+          "y": 310.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/2",
+          "x": 697.96,
+          "y": 366.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/15",
+          "x": 856.76,
+          "y": 319.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "house/large/1",
+          "x": 429.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "house/large/0",
+          "x": 551.96,
+          "y": 406.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "lot/large/0",
+          "x": 1038.96,
+          "y": 338.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "wonder/26",
+          "x": 1061.96,
+          "y": 410.08,
+          "width": 120.08,
+          "height": 30.78
+        },
+        {
+          "asset": "building/33",
+          "x": 941.76,
+          "y": 332.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/2",
+          "x": 1170.76,
+          "y": 347.04,
+          "width": 93.48,
+          "height": 22.14
+        },
+        {
+          "asset": "lot/small/3",
+          "x": 1170.76,
+          "y": 456.04,
+          "width": 93.48,
+          "height": 22.14
+        }
+      ]
+    }
+  ]
+}

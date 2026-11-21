@@ -2583,6 +2583,42 @@
       "nativeWidth": 640,
       "nativeHeight": 342,
       "source": "sprites/palace/bonus-6.png"
+    },
+    "city/landscape/coastal/medieval": {
+      "file": "backgrounds/city-coastal-medieval-native.png",
+      "nativeWidth": 1280,
+      "nativeHeight": 480,
+      "source": "backgrounds/city-coastal-medieval-native.png"
+    },
+    "city/landscape/coastal/modern": {
+      "file": "backgrounds/city-coastal-modern-native.png",
+      "nativeWidth": 1280,
+      "nativeHeight": 480,
+      "source": "backgrounds/city-coastal-modern-native.png"
+    },
+    "city/landscape/river/medieval": {
+      "file": "backgrounds/city-river-medieval-native.png",
+      "nativeWidth": 1280,
+      "nativeHeight": 480,
+      "source": "backgrounds/city-river-medieval-native.png"
+    },
+    "city/landscape/river/modern": {
+      "file": "backgrounds/city-river-modern-native.png",
+      "nativeWidth": 1280,
+      "nativeHeight": 480,
+      "source": "backgrounds/city-river-modern-native.png"
+    },
+    "city/landscape/inland/medieval": {
+      "file": "backgrounds/city-inland-medieval-native.png",
+      "nativeWidth": 1280,
+      "nativeHeight": 480,
+      "source": "backgrounds/city-inland-medieval-native.png"
+    },
+    "city/landscape/inland/modern": {
+      "file": "backgrounds/city-inland-modern-native.png",
+      "nativeWidth": 1280,
+      "nativeHeight": 480,
+      "source": "backgrounds/city-inland-modern-native.png"
     }
   },
   "citySizeBoxAnchors": "map/city-anchors.json",

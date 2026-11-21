@@ -17,12 +17,12 @@ async function layout(trace, scene) {
     const objects = [];
     for (let index = 0; index < trace.commands.length; index++) {
         const c = trace.commands[index];
-        if (c.asset.startsWith('lot/') || c.asset === 'text')
+        if (c.asset.startsWith('lot/') || c.asset === 'text' || c.width <= 0 || c.height <= 0)
             continue;
         const [family, id, variant] = c.asset.split('/'), isHouse = family === 'house',
                            sizeId =
                                isHouse
-                                   ? `city-details.industrial-${variant}`
+                                   ? `city-details.${scene.era || 'industrial'}-${variant}`
                                    : C.entries
                                          .find(e => e.mapping?.kind ===
                                                         (family === 'wonder' ? 'wonder' : 'improvement') &&
@@ -197,8 +197,9 @@ function wallSVG(siteName, part) {
 
 async function render(trace, scene) {
     const plan = await layout(trace, scene),
-          dst = await C.raw(C.path.join(C.pack, `backgrounds/city-${scene.site}-native.png`), plan.width,
-                            plan.height);
+          dst = await C.raw(
+              C.path.join(C.pack, scene.background || `backgrounds/city-${scene.site}-native.png`),
+              plan.width, plan.height);
     const wall = async part => C.blit(dst, await C.raw(Buffer.from(wallSVG(scene.site, part))), 0, 0);
     if (plan.walls)
         await wall('rear');

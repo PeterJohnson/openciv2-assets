@@ -268,6 +268,7 @@ async function buildBindings(traces) {
                 await save(c.asset, await png(im), c.width, c.height,
                            path.relative(pack, file).replaceAll('\\', '/'));
             }
+    Object.assign(bindingIndex, require('./city-landscapes.cjs').eraBindings());
     C.json(path.join(pack, 'compatibility/bindings.json'), {
         schemaVersion : 1,
         description : 'Review PNG adapter. Native boxes, new alpha pixels; not a production loader.',

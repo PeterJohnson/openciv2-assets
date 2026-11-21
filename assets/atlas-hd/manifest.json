@@ -53492,6 +53492,138 @@
       "height": 1600,
       "sha256": "7f07c0145e4bc6503fecd36382b3d02317193aeb5172d587146ae55ef6b2bf49",
       "sourceSha256": "0a295144a4f2f791139e5aeda70f7a91f7726ac7c529c7cfd7fd3f546de7382f"
+    },
+    {
+      "id": "city-coastal-medieval",
+      "description": "coastal city landscape with medieval stone-paved roads",
+      "file": "backgrounds/city-coastal-medieval-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "495c9f26ee9793d5bf5536ca47e15c0680181c42bc67ef4c654936d2ae7d2fc2",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "built-in image_gen edit",
+        "record": "authoring/city-landscape-eras.json"
+      },
+      "displayExport": {
+        "file": "backgrounds/city-coastal-medieval-4k.png",
+        "width": 3840,
+        "height": 2160,
+        "resampled": true,
+        "sha256": "9745af207b3c3726afb36e45964f6bd27fdbd48f7cff6b3802e52539f82c3349"
+      },
+      "export4k": "backgrounds/city-coastal-medieval-4k.png"
+    },
+    {
+      "id": "city-coastal-modern",
+      "description": "coastal city landscape with modern divided highways and local road transitions",
+      "file": "backgrounds/city-coastal-modern-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dd8f428c14f52d2819b298177101c2afee226c70048ca98c683a64972583587e",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "built-in image_gen edit",
+        "record": "authoring/city-landscape-eras.json"
+      },
+      "displayExport": {
+        "file": "backgrounds/city-coastal-modern-4k.png",
+        "width": 3840,
+        "height": 2160,
+        "resampled": true,
+        "sha256": "2d0a343a6230c03f1d4a24a6f1b6a10e0c2254e0bc10b3aff0383e51e4bf5fbe"
+      },
+      "export4k": "backgrounds/city-coastal-modern-4k.png"
+    },
+    {
+      "id": "city-river-medieval",
+      "description": "river city landscape with medieval stone-paved roads",
+      "file": "backgrounds/city-river-medieval-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5208250df7679ed068444f31c55759ee7f0d5373505fe4ac0f20935b2b25902f",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "built-in image_gen edit",
+        "record": "authoring/city-landscape-eras.json"
+      },
+      "displayExport": {
+        "file": "backgrounds/city-river-medieval-4k.png",
+        "width": 3840,
+        "height": 2160,
+        "resampled": true,
+        "sha256": "d50b5093addadb484d8d6216772555f6d0cca169b0c54999a5af13e97179e533"
+      },
+      "export4k": "backgrounds/city-river-medieval-4k.png"
+    },
+    {
+      "id": "city-river-modern",
+      "description": "river city landscape with modern divided highways and local road transitions",
+      "file": "backgrounds/city-river-modern-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e1dfd548c23de6d03b369d17f8432846dadd4239b1a87711f9b4b08b8ab34a32",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "built-in image_gen edit",
+        "record": "authoring/city-landscape-eras.json"
+      },
+      "displayExport": {
+        "file": "backgrounds/city-river-modern-4k.png",
+        "width": 3840,
+        "height": 2160,
+        "resampled": true,
+        "sha256": "5ef11431d155659924bf81253286bac8ee6737465880c868ed98462657d4161e"
+      },
+      "export4k": "backgrounds/city-river-modern-4k.png"
+    },
+    {
+      "id": "city-inland-medieval",
+      "description": "inland city landscape with medieval stone-paved roads",
+      "file": "backgrounds/city-inland-medieval-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d5636a2ede9cc25a55778f9eae4a815c2e8ae97cac67a20b59521fbddc924479",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "built-in image_gen edit",
+        "record": "authoring/city-landscape-eras.json"
+      },
+      "displayExport": {
+        "file": "backgrounds/city-inland-medieval-4k.png",
+        "width": 3840,
+        "height": 2160,
+        "resampled": true,
+        "sha256": "af2edfc05d0b92b5a04109fc37e2258a1a51141ee298c11e7892a8641e138fdb"
+      },
+      "export4k": "backgrounds/city-inland-medieval-4k.png"
+    },
+    {
+      "id": "city-inland-modern",
+      "description": "inland city landscape with modern divided highways and local road transitions",
+      "file": "backgrounds/city-inland-modern-native.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4b10cc32add006a15ca3f9516a917b1cbb6441a40c39ed461858665e87afcb7f",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "built-in image_gen edit",
+        "record": "authoring/city-landscape-eras.json"
+      },
+      "displayExport": {
+        "file": "backgrounds/city-inland-modern-4k.png",
+        "width": 3840,
+        "height": 2160,
+        "resampled": true,
+        "sha256": "f91d7995ab38d720af63a1eef3208fc25352c2e6482691ead96f2b9b8ed5199e"
+      },
+      "export4k": "backgrounds/city-inland-modern-4k.png"
     }
   ],
   "runtimeDocumentation": "https://github.com/PeterJohnson/openciv2/blob/main/docs/HD-GRAPHICS.md",

@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "bd89036fc339f0c44f7788b17f9765c377cc8a55",
+  "note": "Rendered fixtures, not game execution captures. Road paintings are routed around fixed source ground bands; source and enhanced placement rules remain unchanged. Original pixels occur only in composed review scenes, never the replacement/runtime catalogs.",
+  "variants": {
+    "original": "Original game art",
+    "current": "Replacement · native",
+    "hd": "HD only · source slots",
+    "proposed": "Enhanced · relative scale"
+  },
+  "scenes": [
+    {
+      "id": "city-coastal-medieval",
+      "site": "coastal",
+      "era": "medieval",
+      "mode": "city",
+      "background": "backgrounds/city-coastal-medieval-native.png",
+      "fixture": "review/fixtures/city-coastal-medieval.txt",
+      "artEra": 1,
+      "population": 8,
+      "seed": 17,
+      "buildings": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        30
+      ],
+      "wonders": [
+        10,
+        11
+      ],
+      "trace": "review/traces/city-coastal-medieval.json",
+      "originalTrace": "review/original-local/city-eras/city-coastal-medieval-trace.json",
+      "images": {
+        "original": "review/images/city-coastal-medieval-original.png",
+        "current": "review/images/city-coastal-medieval-current.png",
+        "hd": "review/images/city-coastal-medieval-hd.png",
+        "proposed": "review/images/city-coastal-medieval-proposed.png"
+      },
+      "bare": {
+        "original": "review/images/city-coastal-medieval-original.png",
+        "current": "backgrounds/city-coastal-medieval-native.png",
+        "hd": "backgrounds/city-coastal-medieval-native.png",
+        "proposed": "backgrounds/city-coastal-medieval-native.png"
+      },
+      "hashes": {
+        "original": "3f8e38acc5c258708ac9377ee7d2c9e1e292773e051e96995e9a3e5b5fa807e8",
+        "current": "3346b19411ebcc8fd1689361f9327331e0c8348a756f1f895f566a0c0d135243",
+        "hd": "2528271f4a47d5a5c2df9ec8e9400345aa244a415f348de4445d23fd7a414ce9",
+        "proposed": "d527ecea46f3b9504f925a7f9733904dca5ac5a10a590816325ad26a287e4307"
+      },
+      "houseCount": 20,
+      "buildingCount": 13,
+      "wonderCount": 2,
+      "inventory": [
+        "marketplace",
+        "cathedral",
+        "palace",
+        "granary",
+        "colosseum",
+        "courthouse",
+        "temple",
+        "barracks",
+        "library",
+        "chapel",
+        "copernicus observatory",
+        "university",
+        "aqueduct",
+        "city walls",
+        "harbor"
+      ]
+    },
+    {
+      "id": "city-coastal-modern",
+      "site": "coastal",
+      "era": "modern",
+      "mode": "city",
+      "background": "backgrounds/city-coastal-modern-native.png",
+      "fixture": "review/fixtures/city-coastal-modern.txt",
+      "artEra": 3,
+      "population": 12,
+      "seed": 17,
+      "buildings": [
+        1,
+        5,
+        7,
+        10,
+        12,
+        13,
+        15,
+        18,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        33,
+        30,
+        34
+      ],
+      "wonders": [
+        24,
+        26
+      ],
+      "trace": "review/traces/city-coastal-modern.json",
+      "originalTrace": "review/original-local/city-eras/city-coastal-modern-trace.json",
+      "images": {
+        "original": "review/images/city-coastal-modern-original.png",
+        "current": "review/images/city-coastal-modern-current.png",
+        "hd": "review/images/city-coastal-modern-hd.png",
+        "proposed": "review/images/city-coastal-modern-proposed.png"
+      },
+      "bare": {
+        "original": "review/images/city-coastal-modern-original.png",
+        "current": "backgrounds/city-coastal-modern-native.png",
+        "hd": "backgrounds/city-coastal-modern-native.png",
+        "proposed": "backgrounds/city-coastal-modern-native.png"
+      },
+      "hashes": {
+        "original": "db99b7e21806e84ea1cfd233bfbf02ed204dd33f20a30bce68d12440824bab43",
+        "current": "a491063bf72ab469e8239946b93a79923f27b84410aa1b75813102343ea27e61",
+        "hd": "9d7922f929d07869a5c79f09869480ab1929c62aba67410bb210db98b5616db0",
+        "proposed": "b48e01b50c0fdaae6b0660f30f391a66d5712e1e46da4e606ff90c2da32bb23d"
+      },
+      "houseCount": 28,
+      "buildingCount": 16,
+      "wonderCount": 2,
+      "inventory": [
+        "supermarket",
+        "marketplace",
+        "bank",
+        "seti program",
+        "solar plant",
+        "mass transit",
+        "palace",
+        "research lab",
+        "factory",
+        "courthouse",
+        "recycling center",
+        "sewer system",
+        "superhighways",
+        "stock exchange",
+        "united nations",
+        "university",
+        "harbor",
+        "port facility"
+      ]
+    },
+    {
+      "id": "city-river-medieval",
+      "site": "river",
+      "era": "medieval",
+      "mode": "city",
+      "background": "backgrounds/city-river-medieval-native.png",
+      "fixture": "review/fixtures/city-river-medieval.txt",
+      "artEra": 1,
+      "population": 8,
+      "seed": 17,
+      "buildings": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "wonders": [
+        10,
+        11
+      ],
+      "trace": "review/traces/city-river-medieval.json",
+      "originalTrace": "review/original-local/city-eras/city-river-medieval-trace.json",
+      "images": {
+        "original": "review/images/city-river-medieval-original.png",
+        "current": "review/images/city-river-medieval-current.png",
+        "hd": "review/images/city-river-medieval-hd.png",
+        "proposed": "review/images/city-river-medieval-proposed.png"
+      },
+      "bare": {
+        "original": "review/images/city-river-medieval-original.png",
+        "current": "backgrounds/city-river-medieval-native.png",
+        "hd": "backgrounds/city-river-medieval-native.png",
+        "proposed": "backgrounds/city-river-medieval-native.png"
+      },
+      "hashes": {
+        "original": "d712a3acac492967447b4a85d49c7a260714e01ad51eb073bee7160efd088bdb",
+        "current": "10f509be186dc681db5615d93c7bc90f013512c8b36630af4e78a70dbaded534",
+        "hd": "d92e2abbe319d42691fd88077d78ffe37956503c71eb21af4e2aba27af0e4d4f",
+        "proposed": "6f70b121a1a32424d79aaf037bafa7aba5132fe07a538ca416f1c6fd8140b759"
+      },
+      "houseCount": 20,
+      "buildingCount": 12,
+      "wonderCount": 2,
+      "inventory": [
+        "marketplace",
+        "cathedral",
+        "palace",
+        "courthouse",
+        "granary",
+        "temple",
+        "barracks",
+        "library",
+        "aqueduct",
+        "colosseum",
+        "copernicus observatory",
+        "chapel",
+        "university",
+        "city walls"
+      ]
+    },
+    {
+      "id": "city-river-modern",
+      "site": "river",
+      "era": "modern",
+      "mode": "city",
+      "background": "backgrounds/city-river-modern-native.png",
+      "fixture": "review/fixtures/city-river-modern.txt",
+      "artEra": 3,
+      "population": 12,
+      "seed": 17,
+      "buildings": [
+        1,
+        5,
+        7,
+        10,
+        12,
+        13,
+        15,
+        18,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        33
+      ],
+      "wonders": [
+        24,
+        26
+      ],
+      "trace": "review/traces/city-river-modern.json",
+      "originalTrace": "review/original-local/city-eras/city-river-modern-trace.json",
+      "images": {
+        "original": "review/images/city-river-modern-original.png",
+        "current": "review/images/city-river-modern-current.png",
+        "hd": "review/images/city-river-modern-hd.png",
+        "proposed": "review/images/city-river-modern-proposed.png"
+      },
+      "bare": {
+        "original": "review/images/city-river-modern-original.png",
+        "current": "backgrounds/city-river-modern-native.png",
+        "hd": "backgrounds/city-river-modern-native.png",
+        "proposed": "backgrounds/city-river-modern-native.png"
+      },
+      "hashes": {
+        "original": "beaa8bc230262aacf923d2b105bb0a7cbe3a3a21cc4fd38991077959542cd756",
+        "current": "d13e14f7ace3bc21f64d88c32e0ca9aca5083e1c65db24017afd6f2bfed68895",
+        "hd": "6dfcd62cf2cf83e3bddbb31706a5db7146357cd20fb3d4eef65f26b8d9e67830",
+        "proposed": "1c572280f955542cc2b530269a526428bc80fa82da1a98e9cd1bb00d88e4ebb7"
+      },
+      "houseCount": 27,
+      "buildingCount": 14,
+      "wonderCount": 2,
+      "inventory": [
+        "supermarket",
+        "marketplace",
+        "bank",
+        "solar plant",
+        "mass transit",
+        "palace",
+        "courthouse",
+        "recycling center",
+        "sewer system",
+        "superhighways",
+        "research lab",
+        "factory",
+        "stock exchange",
+        "united nations",
+        "university",
+        "seti program"
+      ]
+    },
+    {
+      "id": "city-inland-medieval",
+      "site": "inland",
+      "era": "medieval",
+      "mode": "city",
+      "background": "backgrounds/city-inland-medieval-native.png",
+      "fixture": "review/fixtures/city-inland-medieval.txt",
+      "artEra": 1,
+      "population": 8,
+      "seed": 17,
+      "buildings": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14
+      ],
+      "wonders": [
+        10,
+        11
+      ],
+      "trace": "review/traces/city-inland-medieval.json",
+      "originalTrace": "review/original-local/city-eras/city-inland-medieval-trace.json",
+      "images": {
+        "original": "review/images/city-inland-medieval-original.png",
+        "current": "review/images/city-inland-medieval-current.png",
+        "hd": "review/images/city-inland-medieval-hd.png",
+        "proposed": "review/images/city-inland-medieval-proposed.png"
+      },
+      "bare": {
+        "original": "review/images/city-inland-medieval-original.png",
+        "current": "backgrounds/city-inland-medieval-native.png",
+        "hd": "backgrounds/city-inland-medieval-native.png",
+        "proposed": "backgrounds/city-inland-medieval-native.png"
+      },
+      "hashes": {
+        "original": "b21b08a75be4009673cf5cd855d0e8abf5287be553d9634a4f6c3fdedc14f367",
+        "current": "0dbca8d439190c798b28ee68d7d716c1e7b1a9ca790bb1a572468e95925f504d",
+        "hd": "8a0e2ad2f7f2025b7bd1d9b5ae0e9cc85019f148616d462ba31fc5f33518d2b5",
+        "proposed": "737e5fffc3ea10c2c8935e7b86837fa4c192f198c4168896d242fa22a6d8e94a"
+      },
+      "houseCount": 20,
+      "buildingCount": 12,
+      "wonderCount": 2,
+      "inventory": [
+        "granary",
+        "marketplace",
+        "cathedral",
+        "palace",
+        "university",
+        "library",
+        "temple",
+        "barracks",
+        "aqueduct",
+        "colosseum",
+        "copernicus observatory",
+        "chapel",
+        "courthouse",
+        "city walls"
+      ]
+    },
+    {
+      "id": "city-inland-modern",
+      "site": "inland",
+      "era": "modern",
+      "mode": "city",
+      "background": "backgrounds/city-inland-modern-native.png",
+      "fixture": "review/fixtures/city-inland-modern.txt",
+      "artEra": 3,
+      "population": 12,
+      "seed": 17,
+      "buildings": [
+        1,
+        5,
+        7,
+        10,
+        12,
+        13,
+        15,
+        18,
+        22,
+        23,
+        24,
+        25,
+        26,
+        29,
+        33
+      ],
+      "wonders": [
+        24,
+        26
+      ],
+      "trace": "review/traces/city-inland-modern.json",
+      "originalTrace": "review/original-local/city-eras/city-inland-modern-trace.json",
+      "images": {
+        "original": "review/images/city-inland-modern-original.png",
+        "current": "review/images/city-inland-modern-current.png",
+        "hd": "review/images/city-inland-modern-hd.png",
+        "proposed": "review/images/city-inland-modern-proposed.png"
+      },
+      "bare": {
+        "original": "review/images/city-inland-modern-original.png",
+        "current": "backgrounds/city-inland-modern-native.png",
+        "hd": "backgrounds/city-inland-modern-native.png",
+        "proposed": "backgrounds/city-inland-modern-native.png"
+      },
+      "hashes": {
+        "original": "182e8b6885a785f8b13de7e3220b377e7afd10490dbace226833685980e1851c",
+        "current": "3a7dfc47eb81a0b68cca0432472986d23e23cc385628e3fd80b60d521c5a9919",
+        "hd": "ef52db0e32580008fe2d46ebc79c618eab01ca7f0e1bd09cbbd93dd2ba2e9873",
+        "proposed": "1c45a4f56aa66532240b3d01e4c67d586dca5893827bab0de432dd9b98634202"
+      },
+      "houseCount": 28,
+      "buildingCount": 15,
+      "wonderCount": 2,
+      "inventory": [
+        "stock exchange",
+        "marketplace",
+        "research lab",
+        "mass transit",
+        "palace",
+        "university",
+        "recycling center",
+        "sewer system",
+        "supermarket",
+        "solar plant",
+        "bank",
+        "united nations",
+        "superhighways",
+        "courthouse",
+        "factory",
+        "seti program",
+        "police station"
+      ]
+    }
+  ]
+}

@@ -126,5 +126,6 @@ This art-only builder uses retained PNGs and `authoring/tribal-leaders.json`.
 It rebuilds the catalog entries, selection metadata and offline paired gallery,
 including 225x275 and 90x110 fitting previews and light/dark background checks.
 It does not need game source, original game files or a fresh generation request.
-The validation report distinguishes 41 available paintings from the pending
-Gandhi slot; it does not claim full 42-image coverage or runtime integration.
+The validation report covers all 42 portraits. The gallery and contact sheets
+use selected display names, including Ashoka for the Indian male slot. Source
+names and substitution metadata remain available in the selection map.

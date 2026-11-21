@@ -73,7 +73,7 @@ async function sheet(people, name, small = false, light = false) {
         }
         const size = small ? 11 : 16;
         const ty = y + (small ? 130 : 301);
-        labels += '<text x="' + (x + 10) + '" y="' + ty + '" font-size="' + size + '">' + esc(p.gameName) +
+        labels += '<text x="' + (x + 10) + '" y="' + ty + '" font-size="' + size + '">' + esc(p.displayName) +
                   '</text><text x="' + (x + 10) + '" y="' + (ty + (small ? 16 : 25)) + '" font-size="' +
                   (small ? 10 : 13) + '">' + esc(p.tribe + ' · ' + p.sex) + '</text>';
     }
@@ -99,6 +99,7 @@ async function main() {
             tribe : p.tribe,
             sex : p.sex,
             gameName : p.gameName,
+            displayName : p.displayName || p.gameName,
             identity : p.identity,
             identityStatus : p.identityStatus,
             defaultSex : p.defaultSex,
@@ -107,6 +108,8 @@ async function main() {
             note : p.note,
             references : p.references
         };
+        if (p.substitution)
+            item.substitution = p.substitution;
         if (p.status === 'available') {
             const file = path.join(C.pack, p.file), bytes = fs.readFileSync(file);
             const hash = C.sha(bytes), meta = await sharp(bytes).metadata();
@@ -140,7 +143,7 @@ async function main() {
                 .toFile(path.join(output, 'previews', p.id + '.webp'));
             entries.push({
                 id : 'tribal-leaders.' + p.id,
-                label : p.tribe + ' · ' + p.gameName + ' (' + p.sex + ')',
+                label : p.tribe + ' · ' + item.displayName + ' (' + p.sex + ')',
                 description : p.description + ' ' + p.note,
                 category : 'tribal-leaders',
                 file : p.file,
@@ -166,7 +169,7 @@ async function main() {
     const pendingNotice =
         pending.length
             ? 'Pending: ' +
-                  portraits.filter(p => p.status !== 'available').map(p => esc(p.gameName)).join(', ') +
+                  portraits.filter(p => p.status !== 'available').map(p => esc(p.displayName)).join(', ') +
                   '. The authoring record documents the generation failure; the mapping records empty slots explicitly. '
             : 'All roster slots have available portraits. ';
     const summary = {
@@ -217,7 +220,7 @@ async function main() {
                                      '</a>: ' + esc(r.role) + '</li>';
                           })
                           .join('');
-        return '<article><div class="portrait">' + visual + '</div><h3>' + esc(p.gameName) + ' <small>· ' +
+        return '<article><div class="portrait">' + visual + '</div><h3>' + esc(p.displayName) + ' <small>· ' +
                p.sex + '</small></h3><p class="identity">' + esc(p.identity) + '</p><p class="status">' +
                esc(p.identityStatus) + '</p><p>' + esc(p.note) + '</p>' +
                (p.status === 'available' ? '<p class="muted">' + p.width + ' × ' + p.height +
@@ -231,35 +234,37 @@ async function main() {
     const groups =
         record.tribes
             .map(t => '<section data-search="' +
-                      esc((t.tribe + ' ' + t.male + ' ' + t.female).toLowerCase()) + '"><h2>' + esc(t.tribe) +
-                      ' <small>tribe ' + t.index + '</small></h2><div class="pair">' +
+                      esc((t.tribe + ' ' + t.male + ' ' + t.female + ' ' +
+                           portraits.filter(p => p.tribeIndex === t.index).map(p => p.displayName).join(' '))
+                              .toLowerCase()) +
+                      '"><h2>' + esc(t.tribe) + ' <small>tribe ' + t.index +
+                      '</small></h2><div class="pair">' +
                       portraits.filter(p => p.tribeIndex === t.index).map(card).join('') + '</div></section>')
             .join('\n');
-    C
-        .write(path.join(output, 'index.html'), '<!doctype html><html lang="en"><meta charset="utf-8">' +
-                                                    '<meta name="viewport" content="width=device-width,initial-scale=1"><title>Atlas HD · tribe leaders</title>' +
-                                                    '<style>:root{color-scheme:dark;--back:#233632}*{box-sizing:border-box}body{margin:0;background:#101c1c;color:#eee5cf;font:16px/1.5 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:32px}h1{font:42px Georgia,serif}h2{font:27px Georgia,serif;border-bottom:1px solid #456054;padding-bottom:12px}h3{margin:12px 0 2px;font-size:19px}a{color:#e3bd73}small,.muted{color:#b8c5b9}p{max-width:1050px}.notice{background:#27372f;border-left:3px solid #d6ad66;padding:15px}.controls{display:flex;gap:20px;flex-wrap:wrap;position:sticky;top:0;z-index:1;background:#101c1cf5;padding:15px 0}label{display:grid;gap:4px}input,select{font:inherit;color:inherit;background:#20332e;border:1px solid #597064;padding:8px}.tribes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}article{min-width:0;padding:14px;border:1px solid #3c5549;background:#182b26;border-radius:6px}article p{font-size:13px}article .identity{font-size:15px;margin:0}.status{color:#d2b980}.portrait{display:flex;justify-content:center;background:var(--back);min-height:275px;align-items:center}.portrait img{display:block;width:225px;height:275px;max-width:100%;object-fit:contain}.small .portrait{min-height:130px}.small .portrait img{width:90px;height:110px}.pending{text-align:center;padding:24px;font-size:18px}.pending small{font-size:12px}details{font-size:12px}ul{padding-left:18px}.light{--back:#e7ddc8}.checker{--back:repeating-conic-gradient(#30443e 0% 25%,#6d8076 0% 50%) 50%/20px 20px}footer{margin-top:36px;border-top:1px solid #456054;padding-top:16px;font-size:13px}[hidden]{display:none!important}@media(max-width:1050px){.tribes{grid-template-columns:1fr}}@media(max-width:500px){main{padding:16px}.pair{grid-template-columns:1fr}}</style>' +
-                                                    '<main><a href="../../index.html">← Atlas HD</a><h1>Leaders of the 21 tribes</h1>' +
-                                                    '<p>Optional painted portraits following the male/female pairings and order in LEADERS.TXT, cross-checked against the first 21 @LEADERS rows in RULES.TXT. ' +
-                                                    'Original compositions, transparent backgrounds and retained high-resolution pixels.</p>' +
-                                                    '<p class="notice"><strong>' + entries.length +
-                                                    ' of 42 portraits available.</strong> ' + pendingNotice +
-                                                    'Existing generic portraits and runtime selection are unchanged.</p>' +
-                                                    '<p>Display sizes below are fitting previews, not captures from the game. ' +
-                                                    '<a href="../../sprites/tribal-leaders/portraits.json">Selection map</a> · ' +
-                                                    '<a href="../../authoring/tribal-leaders.json">Prompts and provenance</a> · ' +
-                                                    '<a href="../../sprites/tribal-leaders/README.md">Usage and identity notes</a> · ' +
-                                                    '<a href="small-light.png">All portraits at thumbnail size</a></p>' +
-                                                    '<div class="controls"><label>Find a tribe or leader<input id="search" type="search"></label>' +
-                                                    '<label>Background<select id="background"><option value="">Dark green</option><option value="light">Light parchment</option><option value="checker">Transparency checker</option></select></label>' +
-                                                    '<label>Preview size<select id="size"><option value="">225 × 275 portrait frame</option><option value="small">90 × 110 thumbnail frame</option></select></label></div>' +
-                                                    '<div class="tribes">' + groups + '</div>' +
-                                                    '<footer>Built-in image_gen illustrations from written briefs. Historical references guide identity and period dress; no reference bitmap was copied into the artwork. ' +
-                                                    'Legendary, literary and invented game characters are labeled. In particular, the game assigns Sacagawea to the Sioux slot; she was Lemhi Shoshone. ' +
-                                                    'These are artistic interpretations, not reconstructions of undocumented facial likenesses.</footer></main>' +
-                                                    '<script>const search=document.getElementById("search"),bg=document.getElementById("background"),size=document.getElementById("size");' +
-                                                    'search.oninput=()=>document.querySelectorAll("section[data-search]").forEach(s=>s.hidden=!s.dataset.search.includes(search.value.toLowerCase()));' +
-                                                    'function display(){document.body.className=bg.value+" "+size.value}bg.onchange=size.onchange=display;</script></html>');
+    C.write(path.join(output, 'index.html'), '<!doctype html><html lang="en"><meta charset="utf-8">' +
+                                                 '<meta name="viewport" content="width=device-width,initial-scale=1"><title>Atlas HD · tribe leaders</title>' +
+                                                 '<style>:root{color-scheme:dark;--back:#233632}*{box-sizing:border-box}body{margin:0;background:#101c1c;color:#eee5cf;font:16px/1.5 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:32px}h1{font:42px Georgia,serif}h2{font:27px Georgia,serif;border-bottom:1px solid #456054;padding-bottom:12px}h3{margin:12px 0 2px;font-size:19px}a{color:#e3bd73}small,.muted{color:#b8c5b9}p{max-width:1050px}.notice{background:#27372f;border-left:3px solid #d6ad66;padding:15px}.controls{display:flex;gap:20px;flex-wrap:wrap;position:sticky;top:0;z-index:1;background:#101c1cf5;padding:15px 0}label{display:grid;gap:4px}input,select{font:inherit;color:inherit;background:#20332e;border:1px solid #597064;padding:8px}.tribes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}article{min-width:0;padding:14px;border:1px solid #3c5549;background:#182b26;border-radius:6px}article p{font-size:13px}article .identity{font-size:15px;margin:0}.status{color:#d2b980}.portrait{display:flex;justify-content:center;background:var(--back);min-height:275px;align-items:center}.portrait img{display:block;width:225px;height:275px;max-width:100%;object-fit:contain}.small .portrait{min-height:130px}.small .portrait img{width:90px;height:110px}.pending{text-align:center;padding:24px;font-size:18px}.pending small{font-size:12px}details{font-size:12px}ul{padding-left:18px}.light{--back:#e7ddc8}.checker{--back:repeating-conic-gradient(#30443e 0% 25%,#6d8076 0% 50%) 50%/20px 20px}footer{margin-top:36px;border-top:1px solid #456054;padding-top:16px;font-size:13px}[hidden]{display:none!important}@media(max-width:1050px){.tribes{grid-template-columns:1fr}}@media(max-width:500px){main{padding:16px}.pair{grid-template-columns:1fr}}</style>' +
+                                                 '<main><a href="../../index.html">← Atlas HD</a><h1>Leaders of the 21 tribes</h1>' +
+                                                 '<p>Optional painted portraits for the 21-tribe male/female roster from LEADERS.TXT, cross-checked against RULES.TXT. Ashoka is the selected Indian male leader in the original Gandhi slot. ' +
+                                                 'Original compositions, transparent backgrounds and retained high-resolution pixels.</p>' +
+                                                 '<p class="notice"><strong>' + entries.length +
+                                                 ' of 42 portraits available.</strong> ' + pendingNotice +
+                                                 'Existing generic portraits and runtime selection are unchanged.</p>' +
+                                                 '<p>Display sizes below are fitting previews, not captures from the game. ' +
+                                                 '<a href="../../sprites/tribal-leaders/portraits.json">Selection map</a> · ' +
+                                                 '<a href="../../authoring/tribal-leaders.json">Prompts and provenance</a> · ' +
+                                                 '<a href="../../sprites/tribal-leaders/README.md">Usage and identity notes</a> · ' +
+                                                 '<a href="small-light.png">All portraits at thumbnail size</a></p>' +
+                                                 '<div class="controls"><label>Find a tribe or leader<input id="search" type="search"></label>' +
+                                                 '<label>Background<select id="background"><option value="">Dark green</option><option value="light">Light parchment</option><option value="checker">Transparency checker</option></select></label>' +
+                                                 '<label>Preview size<select id="size"><option value="">225 × 275 portrait frame</option><option value="small">90 × 110 thumbnail frame</option></select></label></div>' +
+                                                 '<div class="tribes">' + groups + '</div>' +
+                                                 '<footer>Built-in image_gen illustrations from written briefs. Historical references guide identity and period dress; no reference bitmap was copied into the artwork. ' +
+                                                 'Legendary, literary and invented game characters are labeled. In particular, the game assigns Sacagawea to the Sioux slot; she was Lemhi Shoshone. ' +
+                                                 'These are artistic interpretations, not reconstructions of undocumented facial likenesses.</footer></main>' +
+                                                 '<script>const search=document.getElementById("search"),bg=document.getElementById("background"),size=document.getElementById("size");' +
+                                                 'search.oninput=()=>document.querySelectorAll("section[data-search]").forEach(s=>s.hidden=!s.dataset.search.includes(search.value.toLowerCase()));' +
+                                                 'function display(){document.body.className=bg.value+" "+size.value}bg.onchange=size.onchange=display;</script></html>');
     C.json(path.join(output, 'validation.json'), summary);
     console.log(JSON.stringify(summary, null, 2));
 }

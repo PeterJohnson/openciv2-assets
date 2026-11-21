@@ -340,6 +340,13 @@
       "url": "https://www.nps.gov/jeff/learn/historyculture/shoshone.htm",
       "role": "Sacagawea's Shoshone identity, distinct from the game's Sioux slot.",
       "referenceBitmapSupplied": false
+    },
+    {
+      "id": "ashoka-edicts",
+      "title": "UNESCO: Ashokan Edict sites along the Mauryan Routes",
+      "url": "https://whc.unesco.org/en/tentativelists/6803/",
+      "role": "Identity, Mauryan chronology and edict context. Facial likeness and costume details remain artistic interpretations.",
+      "referenceBitmapSupplied": false
     }
   ],
   "portraits": [
@@ -628,11 +635,26 @@
       "id": "indians-male",
       "tribe": "Indians",
       "gameName": "Mohandas Gandhi",
-      "identity": "Mohandas Gandhi",
-      "identityStatus": "historical",
-      "note": "Elderly Gandhi with round spectacles and plain khadi shawl.",
-      "description": "Mohandas Gandhi as an elderly Indian man, lean deeply lined face, bald head with sparse gray hair, slight white moustache, large ears, thin round wire spectacles. Plain off-white handwoven khadi shawl draped across both shoulders. Gentle steady gaze, upright bust, dignified and humane, no props or text.",
+      "identity": "Emperor Ashoka",
+      "identityStatus": "historical interpretation",
+      "note": "Third-century BCE Mauryan emperor selected by the user for the Indian male leader slot. The face and court clothing are an artistic interpretation. The original LEADERS.TXT slot names Mohandas Gandhi.",
+      "description": "Mature Indian emperor with dark attentive eyes, a short moustache, cream cloth headwrap with a restrained gold band, ivory drape, saffron and russet shoulder cloth, and modest gold ornaments.",
       "generation": {
+        "id": "indians-male",
+        "tool": "built-in image_gen",
+        "authored": "2026-11-21",
+        "prompt": "Use case: historical-scene.\nAsset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of Emperor Ashoka, the third-century BCE Mauryan ruler of ancient India. Depict him as a mature Indian man in his forties with warm brown skin, a strong broad face, dark attentive eyes, a slightly aquiline nose, dark hair drawn back, and a neatly kept short moustache. Calm, humane authority and resolve. Ancient northern Indian court attire inspired by early South Asian sculpture: a low cream cloth headwrap secured with a restrained gold band, an ivory cotton drape over one shoulder, a deep saffron-ochre and muted russet shoulder cloth with a narrow woven border, modest gold ear ornaments and a simple gold neck ornament. This is a historically inspired original interpretation of an ancient ruler whose exact likeness is uncertain. The clothes should feel like draped ancient Indian textiles, without medieval Mughal fashions or European crowns.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with fine visible brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection.\nComposition: portrait format about 9:11, 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38 percent down. Entire headwrap and both shoulders inside the frame with at least 5 percent clear margin. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, writing, scenery, glow or drop shadow.\nActual transparent alpha background around hair and shoulders. Create new lighting, pose, brushwork and facial interpretation; do not reproduce an existing painting, sculpture or film portrayal.",
+        "generatedFile": "exec-5b1ce313-9e49-4604-a430-75cd87534631.png",
+        "sha256": "08dcc6a164968aaf70efc37959fefec08e0039b33945cc632ca9dafb7dd216a6",
+        "referenceBitmapSupplied": false
+      },
+      "references": [
+        "ashoka-edicts"
+      ],
+      "defaultSex": "male",
+      "status": "available",
+      "file": "sprites/tribal-leaders/indians-male.png",
+      "previousGeneration": {
         "id": "indians-male",
         "status": "blocked",
         "prompt": "Use case: historical-scene. Asset type: high-resolution painted leader portrait for a classic sprite-based civilization strategy game.\nCreate ONE original painted head-and-shoulders bust of the following subject. Subject: Mohandas Gandhi as an elderly Indian man, lean deeply lined face, bald head with sparse gray hair, slight white moustache, large ears, thin round wire spectacles. Plain off-white handwoven khadi shawl draped across both shoulders. Gentle steady gaze, upright bust, dignified and humane, no props or text.\nStyle: refined hand-painted historical game illustration, realistic facial anatomy with visible fine brush texture, softly modeled forms, warm upper-left light, muted rich earth and jewel colors, detailed fabric and restrained metal highlights. Match a coherent illustrated strategy-game portrait collection, not a photograph, cartoon, 3D render or movie poster.\nComposition: portrait format about 9:11, ideally 1024 pixels wide or larger. Head, shoulders and upper chest, almost frontal with a slight three-quarter turn toward viewer's left and eyes toward the viewer. Head occupies about half the canvas height; eye line around 38% down. Entire headgear and both shoulders inside the frame with at least 5% clear margin. Composed, intelligent expression. Clothing tapers naturally at the lower bust edge. No hands, weapons, flags, pedestal, picture frame, text, badges with letters, scenery, glow, drop shadow, or background panel.\nActual transparent alpha background, including around hair and shoulders; never a painted checkerboard. Historical references inform identity and clothing only: create new lighting, pose, brushwork and facial interpretation, do not reproduce any existing painting or photograph.",
@@ -654,10 +676,13 @@
           }
         ]
       },
-      "references": [],
-      "defaultSex": "male",
-      "status": "pending",
-      "file": null
+      "displayName": "Ashoka",
+      "substitution": {
+        "originalGameName": "Mohandas Gandhi",
+        "selectedLeader": "Ashoka",
+        "reason": "User selected Emperor Ashoka after repeated Gandhi image-generation rejections.",
+        "approved": "2026-11-21"
+      }
     },
     {
       "index": 13,

@@ -1,9 +1,9 @@
 # Optional tribe leader portraits
 
-41 transparent painted portraits are available for the 42 male/female slots
-in the original game's 21-tribe roster. Mohandas Gandhi is **pending**: the
-built-in image service rejected two respectful historical portrait requests
-under its public-figure filter. No substitute image is labeled as Gandhi.
+42 transparent painted portraits cover the male/female slots of the original
+game's 21-tribe roster. Emperor Ashoka is the selected Indian male leader,
+paired with Indira Gandhi. The user chose Ashoka after Gandhi image generation
+was repeatedly rejected. His face and period clothing are artistic interpretations.
 
 [Review all pairs](../../review/tribal-leaders/index.html) and inspect the
 [selection map](portraits.json). The main [Atlas HD catalog](../../index.html)
@@ -12,11 +12,12 @@ also includes every available portrait under `tribal-leaders`.
 ## Selection and display
 
 Select by **zero-based tribe index plus sex**, as recorded in `portraits.json`.
-The index follows LEADERS.TXT, not player number or faction color. Keep the
-game spelling in `gameName`; `identity` records the fuller interpretation.
-Check `status == "available"` before reading `file`; the pending entry has
-`file: null`. The default sex is recorded but both options are intended to be
-available independently.
+The index follows LEADERS.TXT. Use `displayName` for the selected leader's
+visible label. `gameName` retains the original table spelling, while `identity`
+records the fuller interpretation. Ashoka's `substitution` identifies the
+original Gandhi slot and the user's selection. All entries currently have
+`status: "available"` and a PNG `file`. The default sex is recorded and both
+options are available independently.
 
 The PNGs are retained generated outputs with their original alpha and varying
 native dimensions (at least 1000 pixels on both axes). Fit the complete image,
@@ -43,7 +44,7 @@ file. The game's extra non-roster rules rows are excluded.
 | 3 | Egyptians | Ramesses | Cleopatra |
 | 4 | Americans | Abe Lincoln | E. Roosevelt |
 | 5 | Greeks | Alexander | Hippolyta |
-| 6 | Indians | Mohandas Gandhi (pending) | Indira Gandhi |
+| 6 | Indians | Mohandas Gandhi → **Ashoka selected** | Indira Gandhi |
 | 7 | Russians | Lenin | Catherine the Great |
 | 8 | Zulus | Shaka | Shakala |
 | 9 | French | Louis XIV | Joan of Arc |
@@ -89,9 +90,9 @@ node tools/atlas-review/build-gallery.cjs
 The review builder needs Node and Sharp, following the existing review-tool
 setup. It needs neither the original game installation nor image-generation
 access. It validates roster consistency, file hashes, native resolution,
-actual transparency and unique images; the report explicitly retains the
-incomplete slot. Filling that slot later requires a new reviewed portrait
-and an updated authoring record, not a hidden fallback to a generic leader.
+actual transparency and unique images. The report now confirms all 42 slots
+have available portraits. The source roster remains traceable through the
+selected leader names and substitution metadata.
 
 Validation here covers artwork and metadata, not an in-game integration or
 scholarly authentication of undocumented likenesses.

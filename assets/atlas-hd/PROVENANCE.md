@@ -13,11 +13,12 @@ material remain in the source repository. Paths below refer to that checkout.
 
 ## Optional tribe leader portraits
 
-The [tribe portrait library](sprites/tribal-leaders/README.md) follows the 21
-male/female pairings in LEADERS.TXT, cross-checked against RULES.TXT. It currently
-contains 41 original transparent PNGs; the Mohandas Gandhi slot remains pending
-after two image-service rejections. The selection metadata records the gap.
-Existing generic portraits and runtime selection are unchanged.
+The [tribe portrait library](sprites/tribal-leaders/README.md) contains 42
+original transparent PNGs for the 21-tribe male/female roster. Ashoka occupies
+the Indian male slot at the user's request, paired with Indira Gandhi.
+The source mapping retains Mohandas Gandhi as the original LEADERS.TXT name,
+cross-checked against RULES.TXT. The selected name and substitution are explicit
+in the metadata. Ashoka's face and period dress are artistic interpretations.
 
 Each available portrait was generated separately with built-in `image_gen`.
 Written historical briefs and selected online research informed identities and

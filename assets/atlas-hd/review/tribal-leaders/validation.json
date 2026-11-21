@@ -1,11 +1,9 @@
 {
   "requested": 42,
-  "available": 41,
-  "pending": [
-    "indians-male"
-  ],
+  "available": 42,
+  "pending": [],
   "allAvailablePNGsValid": true,
-  "uniqueImageHashes": 41,
+  "uniqueImageHashes": 42,
   "rosterRows": 21,
   "runtimeSelectionModified": false,
   "legacyPortraitsReplaced": false

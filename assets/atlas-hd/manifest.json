@@ -53986,6 +53986,36 @@
       "runtimeSelected": false
     },
     {
+      "id": "tribal-leaders.indians-male",
+      "label": "Indians · Ashoka (male)",
+      "description": "Mature Indian emperor with dark attentive eyes, a short moustache, cream cloth headwrap with a restrained gold band, ivory drape, saffron and russet shoulder cloth, and modest gold ornaments. Third-century BCE Mauryan emperor selected by the user for the Indian male leader slot. The face and court clothing are an artistic interpretation. The original LEADERS.TXT slot names Mohandas Gandhi.",
+      "category": "tribal-leaders",
+      "file": "sprites/tribal-leaders/indians-male.png",
+      "width": 1133,
+      "height": 1388,
+      "sha256": "08dcc6a164968aaf70efc37959fefec08e0039b33945cc632ca9dafb7dd216a6",
+      "source": {
+        "kind": "generated-original",
+        "tool": "built-in image_gen",
+        "record": "authoring/tribal-leaders.json",
+        "portraitId": "indians-male"
+      },
+      "mapping": {
+        "kind": "optional-tribe-leader",
+        "index": 6,
+        "sex": "male"
+      },
+      "suggestedAnchor": "center",
+      "alpha": {
+        "transparent": 587462,
+        "opaque": 512,
+        "nearOpaque": 937683,
+        "translucent": 984630
+      },
+      "kind": "sprite",
+      "runtimeSelected": false
+    },
+    {
       "id": "tribal-leaders.indians-female",
       "label": "Indians · Indira Gandhi (female)",
       "description": "Indira Gandhi in her fifties, Indian woman with strong aquiline nose, brown eyes and short dark hair with a clearly visible broad silver-white streak swept back above one temple. Cream handwoven sari with restrained deep rust border over a muted brown blouse. Poised firm expression, simple earrings, no crown or ceremonial fantasy jewelry. Prime minister; short hair with distinctive white streak and sari.",

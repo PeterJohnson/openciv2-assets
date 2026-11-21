@@ -51,5 +51,6 @@ attribution and notices. Noto authoring fonts retain their original OFL files.
 
 [Review the male/female tribe portraits](assets/atlas-hd/review/tribal-leaders/index.html).
 The [selection map and usage notes](assets/atlas-hd/sprites/tribal-leaders/README.md)
-cover all 42 original roster slots, with 41 paintings available and Gandhi pending
-an image-service rejection. These assets are not selected into the runtime pack.
+cover all 42 roster slots. Ashoka represents India in the male slot, paired
+with Indira Gandhi. This optional library includes the selected leader names
+and the original LEADERS.TXT mapping.

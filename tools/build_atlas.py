@@ -299,7 +299,11 @@ def build():
             crop(key,1+step*i,1 if w==158 else 346,w,h,Image.new('RGBA',(w,h)))
     # Native plates keep interactive content coordinates; enhanced reports add
     # quiet text panels and section divisions without baking in fixture text.
-    for name,file in [('city','interface/native-backgrounds/city.png'),('scredits','backgrounds/history-gallery-native.png')]:
+    # The scenario editors' backdrops (EDITORAS/EDITORSA/EDITORSQ.GIF) are
+    # authoring/editor-backdrops-wonder-border.json's paintings.
+    for name,file in [('city','interface/native-backgrounds/city.png'),('scredits','backgrounds/history-gallery-native.png'),
+                      ('editoras','backgrounds/editor-improvements-native.png'),('editorsa','backgrounds/editor-units-native.png'),
+                      ('editorsq','backgrounds/editor-cities-native.png')]:
         im=rgba(file);w,h=(636,421) if name=='city' else (640,480)
         add('file/'+name,fit(im,w,h,False,2),w,h,True)
     # Live window enhancements consume art and geometry, never saved trace text.
@@ -318,6 +322,10 @@ def build():
     for i in range(42):
         key=f'resource/mk.dll/gifs/{220+i}'
         crop(key,1,1,225,275,f'sprites/leaders/leader-{i:02}.png')
+    # The wonder window tiles its border from each wonder.dll picture's
+    # 1,1,64,32; the resources themselves are the wonders' paintings.
+    for i in range(28):
+        crop(f'resource/wonder.dll/gifs/{20000+i}',1,1,64,32,'interface/textures/wonder-marble.png',False)
     for resource,offset in [(210,0),(211,21)]:
         key=f'resource/mk.dll/gifs/{resource}';sheet(key,638,334)
         for i in range(21):crop(key,1+91*(i%7),1+111*(i//7),90,110,f'sprites/leaders/leader-{i+offset:02}.png')

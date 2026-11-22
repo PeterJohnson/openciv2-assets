@@ -8086,7 +8086,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/pyramids.png"
+        "sprites/wonders/pyramids.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8105,7 +8106,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/hanging-gardens.png"
+        "sprites/wonders/hanging-gardens.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8124,7 +8126,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/colossus.png"
+        "sprites/wonders/colossus.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8143,7 +8146,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/lighthouse.png"
+        "sprites/wonders/lighthouse.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8162,7 +8166,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/great-library.png"
+        "sprites/wonders/great-library.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8181,7 +8186,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/oracle.png"
+        "sprites/wonders/oracle.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8200,7 +8206,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/great-wall.png"
+        "sprites/wonders/great-wall.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8219,7 +8226,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/war-academy.png"
+        "sprites/wonders/war-academy.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8238,7 +8246,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/crusade.png"
+        "sprites/wonders/crusade.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8257,7 +8266,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/embassy.png"
+        "sprites/wonders/embassy.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8276,7 +8286,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/chapel.png"
+        "sprites/wonders/chapel.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8295,7 +8306,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/copernicus-observatory.png"
+        "sprites/wonders/copernicus-observatory.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8314,7 +8326,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/expedition.png"
+        "sprites/wonders/expedition.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8333,7 +8346,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/theatre.png"
+        "sprites/wonders/theatre.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8352,7 +8366,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/leonardo-workshop.png"
+        "sprites/wonders/leonardo-workshop.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8371,7 +8386,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/bach-cathedral.png"
+        "sprites/wonders/bach-cathedral.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8390,7 +8406,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/newton-college.png"
+        "sprites/wonders/newton-college.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8409,7 +8426,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/trading-company.png"
+        "sprites/wonders/trading-company.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8428,7 +8446,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/darwin-voyage.png"
+        "sprites/wonders/darwin-voyage.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8447,7 +8466,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/liberty.png"
+        "sprites/wonders/liberty.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8466,7 +8486,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/eiffel-tower.png"
+        "sprites/wonders/eiffel-tower.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8485,7 +8506,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/womens-suffrage.png"
+        "sprites/wonders/womens-suffrage.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8504,7 +8526,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/hoover-dam.png"
+        "sprites/wonders/hoover-dam.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8523,7 +8546,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/manhattan-project.png"
+        "sprites/wonders/manhattan-project.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8542,7 +8566,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/united-nations.png"
+        "sprites/wonders/united-nations.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8561,7 +8586,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/apollo-program.png"
+        "sprites/wonders/apollo-program.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8580,7 +8606,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/seti-program.png"
+        "sprites/wonders/seti-program.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -8599,7 +8626,8 @@
       "role": "wonder thumbnail",
       "representation": "new artwork",
       "replacements": [
-        "sprites/wonders/cure-for-cancer.png"
+        "sprites/wonders/cure-for-cancer.png",
+        "interface/textures/wonder-marble.png"
       ],
       "evidence": [
         "src/auto/city.cpp:7394"
@@ -10603,6 +10631,7 @@
       "source": "EDITORAS.GIF",
       "role": "editor backdrops, tools, selectors and state variants",
       "replacements": [
+        "backgrounds/editor-improvements-native.png",
         "interface/panels/frame-normal.png",
         "interface/controls/close-normal.png",
         "interface/controls/close-hover.png",
@@ -11285,6 +11314,7 @@
       "source": "EDITORSA.GIF",
       "role": "editor backdrops, tools, selectors and state variants",
       "replacements": [
+        "backgrounds/editor-units-native.png",
         "interface/panels/frame-normal.png",
         "interface/controls/close-normal.png",
         "interface/controls/close-hover.png",
@@ -11626,6 +11656,7 @@
       "source": "EDITORSQ.GIF",
       "role": "editor backdrops, tools, selectors and state variants",
       "replacements": [
+        "backgrounds/editor-cities-native.png",
         "interface/panels/frame-normal.png",
         "interface/controls/close-normal.png",
         "interface/controls/close-hover.png",

@@ -19513,6 +19513,48 @@
       "export4k": "backgrounds/history-gallery-4k.png"
     },
     {
+      "id": "editor-improvements",
+      "description": "scenario improvements editor backdrop (EDITORAS.GIF): a floating astronaut as a faint bas-relief in dark slate",
+      "file": "backgrounds/editor-improvements-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "dee30cd31ac4bd4dfb478976de1e46054dc2dac39fc8d1f0c92ebd2032cea5de",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/editor-backdrops-wonder-border.json"
+      }
+    },
+    {
+      "id": "editor-units",
+      "description": "scenario units editor backdrop (EDITORSA.GIF): a leaping warrior with a spear as a faint bas-relief in dark slate",
+      "file": "backgrounds/editor-units-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "5396a7ae3888a7f4d976cd6f78b8b92b184b263b355edc1a2710390dcf8aff42",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/editor-backdrops-wonder-border.json"
+      }
+    },
+    {
+      "id": "editor-cities",
+      "description": "scenario cities editor backdrop (EDITORSQ.GIF): a sea serpent's coils in the lower right corner as a faint bas-relief in dark slate",
+      "file": "backgrounds/editor-cities-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "d678a121f711362ff679dfc58881cdb0756ddf858b732dfc0665c27401a69d75",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/editor-backdrops-wonder-border.json"
+      }
+    },
+    {
       "id": "research-library",
       "description": "a beautiful scholarly library and observatory, tall shelves and brass instruments along the sides, a broad empty central desk, distant daylight through a round window, quiet scholarly atmosphere",
       "file": "backgrounds/research-library-native.png",
@@ -27112,6 +27154,21 @@
       "repeat": true,
       "kind": "vector",
       "category": "textures"
+    },
+    {
+      "id": "textures.wonder-marble",
+      "description": "seamless grey marble tile: the wonder window's border (wonder.dll 20000-20027, crop 1,1,64,32)",
+      "file": "interface/textures/wonder-marble.png",
+      "width": 256,
+      "height": 128,
+      "sha256": "153587c5082727b5ec188efc2187419df11de2900f0b6f13ccc1c0940c4413bf",
+      "repeat": true,
+      "kind": "generated",
+      "category": "textures",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/editor-backdrops-wonder-border.json"
+      }
     },
     {
       "id": "cursors.select",

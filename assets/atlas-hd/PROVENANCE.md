@@ -90,6 +90,25 @@ Mood/profession cues and diplomacy's power scale are authored geometry; military
 and knowledge indicators reuse replacement catalog art. Numeric categories,
 advance IDs and label meanings come from game code/rules, not original artwork.
 
+## Scenario editor backdrops and wonder border
+
+The three scenario editors' backdrops (`EDITORAS.GIF`, `EDITORSA.GIF`,
+`EDITORSQ.GIF`) and the wonder window's marble border tile (`wonder.dll`
+20000-20027, crop `1,1,64,32`) were contributed by Richard Penman. They are
+AI-generated with Google's Gemini 3 Pro Image (`gemini-3-pro-image`), one
+written prompt each: the backdrops at 3:2, 2K, with
+`backgrounds/council-room-native.png` and
+`backgrounds/diplomacy-monarchy-native.png` as style references; the marble at
+1:1, 1K, with `backgrounds/council-room-native.png` alone. No original-game
+image was an input; the original editors were used only to measure the
+contrast of the game's text. Each backdrop fills the 1120x760 area the
+editors show at density 2 and mirrors it into the hidden margins; the marble's
+margins are cross-faded into its edges so that it tiles, then it is scaled to
+256x128. The masters reproduce pixel-for-pixel from the generated outputs with
+those steps. [The authoring record](authoring/editor-backdrops-wonder-border.json)
+keeps the prompts, reference hashes, generated-output hashes and the
+measurements. They are under the repository's MIT licence.
+
 ## Procedural graphics and derived assets
 
 `art.cjs` defines shared terrain and transport geometry. Coast, road, rail,

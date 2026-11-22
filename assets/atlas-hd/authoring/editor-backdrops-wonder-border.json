@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "title": "Scenario editor backdrops (EDITORAS/EDITORSA/EDITORSQ.GIF) and the wonder window's border tile (wonder.dll 20000-20027)",
+  "author": "Richard Penman",
+  "date": "2026-11-20",
+  "license": "MIT, as the rest of this repository (LICENSE)",
+  "method": "AI-generated: Google Gemini 3 Pro Image (model id gemini-3-pro-image) via the Gemini API generateContent endpoint, responseModalities IMAGE, one prompt plus this collection's paintings as style references (two for the editors' backdrops at 3:2, 2K; one for the marble at 1:1, 1K); then prepared deterministically with Pillow",
+  "aiGenerated": true,
+  "originalGameArtwork": "No original-game image was supplied to the model or used as a pixel source. Screenshots of the original editors were used only to measure the contrast of the game's text.",
+  "references": [
+    {
+      "role": "style reference (brushwork and palette)",
+      "file": "backgrounds/council-room-native.png",
+      "revision": "1457a7fe3d19c5bec575f1320cd48bb485fb3de4",
+      "sha256": "23e796f03b9eac37e498d00bbdd5e7bf5c507df8b6582aa03fad5e53af4f99e1",
+      "supplied as": "JPEG re-encoding of the PNG"
+    },
+    {
+      "role": "style reference (brushwork and palette)",
+      "file": "backgrounds/diplomacy-monarchy-native.png",
+      "revision": "1457a7fe3d19c5bec575f1320cd48bb485fb3de4",
+      "sha256": "c8584ff5abf2d6cbd56df191c9f49ea9bc193892d222fb9d63a4d2ea394442fa",
+      "supplied as": "JPEG re-encoding of the PNG"
+    }
+  ],
+  "promptTemplate": "A backdrop for a strategy game's {editor} window, in the same painterly digital-illustration style as the two reference images. Subject: {subject}, shown as a faint, low bas-relief carved into a flat wall of dark slate stone, barely raised and the same colour as the stone. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight {tint} tint (average colour near RGB 80, 80, 80, nowhere brighter than RGB 120); low contrast; soft, even lighting with no bright highlights. Composition: {where}; the rest is plain, calm stone, because rows of white text, input boxes and buttons are drawn all over the picture. No text, letters, numbers, labels, logos, frames, borders or vignette. Landscape, 3:2.",
+  "preparation": {
+    "editors": "The editors' window shows the top-left 560x380 of the 640x480 picture, so the generated image is scaled (Lanczos) to cover 1120x760 (density 2), cropped about its centre and placed top-left on a 1280x960 canvas; the right margin is the area mirrored about its right edge and the bottom margin the resulting rows mirrored about their bottom edge.",
+    "marble": "The 1024x1024 output's top-left 896x448 with margins of 128 (right) and 64 (bottom) beyond it; the margins are cross-faded (linear ramp) into its left and top edges so the tile continues itself when repeated, then scaled (Lanczos) to 256x128, a 64x32 tile at density 4.",
+    "reproducible": "The masters here reproduce pixel-for-pixel from the generated outputs with these steps (Pillow 13.0.0)."
+  },
+  "images": [
+    {
+      "key": "file/editoras",
+      "replaces": "EDITORAS.GIF",
+      "window": "scenario editor: city improvements",
+      "file": "backgrounds/editor-improvements-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "dee30cd31ac4bd4dfb478976de1e46054dc2dac39fc8d1f0c92ebd2032cea5de",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1120,
+        "height": 760
+      },
+      "subject": "an astronaut in a spacesuit floating weightless, arms and legs spread, a tether curling away from the suit",
+      "tint": "cool",
+      "composition": "the astronaut large, a little above and right of the middle, the tether trailing to the left",
+      "references": [
+        "backgrounds/council-room-native.png",
+        "backgrounds/diplomacy-monarchy-native.png"
+      ],
+      "prompt": "A backdrop for a strategy game's city improvements editor window, in the same painterly digital-illustration style as the two reference images. Subject: an astronaut in a spacesuit floating weightless, arms and legs spread, a tether curling away from the suit, shown as a faint, low bas-relief carved into a flat wall of dark slate stone, barely raised and the same colour as the stone. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight cool tint (average colour near RGB 80, 80, 80, nowhere brighter than RGB 120); low contrast; soft, even lighting with no bright highlights. Composition: the astronaut large, a little above and right of the middle, the tether trailing to the left; the rest is plain, calm stone, because rows of white text, input boxes and buttons are drawn all over the picture. No text, letters, numbers, labels, logos, frames, borders or vignette. Landscape, 3:2.",
+      "generated": {
+        "output": "editoras-a1.jpg",
+        "aspectRatio": "3:2",
+        "imageSize": "2K",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "2f98aedfaf5a7ccd834f53e219b5cfb7498fc8ba0c0b75db012f5fa764095f14",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of the editors' white labels against the client area's ground (p95 to median luminance, controls and text excluded), measured in the running game",
+        "originalGameArt": "3.2-4.2",
+        "thisBackground": "7.7-10.1"
+      }
+    },
+    {
+      "key": "file/editorsa",
+      "replaces": "EDITORSA.GIF",
+      "window": "scenario editor: units",
+      "file": "backgrounds/editor-units-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "5396a7ae3888a7f4d976cd6f78b8b92b184b263b355edc1a2710390dcf8aff42",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1120,
+        "height": 760
+      },
+      "subject": "a leaping ancient warrior in light armour holding a long spear diagonally across his body",
+      "tint": "warm",
+      "composition": "the warrior large, a little right of the middle, the spear reaching from the lower left towards the upper right",
+      "references": [
+        "backgrounds/council-room-native.png",
+        "backgrounds/diplomacy-monarchy-native.png"
+      ],
+      "prompt": "A backdrop for a strategy game's units editor window, in the same painterly digital-illustration style as the two reference images. Subject: a leaping ancient warrior in light armour holding a long spear diagonally across his body, shown as a faint, low bas-relief carved into a flat wall of dark slate stone, barely raised and the same colour as the stone. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint (average colour near RGB 80, 80, 80, nowhere brighter than RGB 120); low contrast; soft, even lighting with no bright highlights. Composition: the warrior large, a little right of the middle, the spear reaching from the lower left towards the upper right; the rest is plain, calm stone, because rows of white text, input boxes and buttons are drawn all over the picture. No text, letters, numbers, labels, logos, frames, borders or vignette. Landscape, 3:2.",
+      "generated": {
+        "output": "editorsa-a1.jpg",
+        "aspectRatio": "3:2",
+        "imageSize": "2K",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "dfde195e5d6ef00d6498abb0113303093aaa4c3ec5b7934fb58507876e9ca6e3",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of the editors' white labels against the client area's ground (p95 to median luminance, controls and text excluded), measured in the running game",
+        "originalGameArt": "3.6-4.2",
+        "thisBackground": "8.6-13.2"
+      }
+    },
+    {
+      "key": "file/editorsq",
+      "replaces": "EDITORSQ.GIF",
+      "window": "scenario editor: cities",
+      "file": "backgrounds/editor-cities-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "d678a121f711362ff679dfc58881cdb0756ddf858b732dfc0665c27401a69d75",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1120,
+        "height": 760
+      },
+      "subject": "a coiling sea serpent with curling tentacles, like an old map's sea monster",
+      "tint": "cool",
+      "composition": "the creature only in the lower right corner, its body curling along the bottom edge and a tentacle rising along the right edge; the upper left two thirds empty",
+      "references": [
+        "backgrounds/council-room-native.png",
+        "backgrounds/diplomacy-monarchy-native.png"
+      ],
+      "prompt": "A backdrop for a strategy game's cities editor window, in the same painterly digital-illustration style as the two reference images. Subject: a coiling sea serpent with curling tentacles, like an old map's sea monster, shown as a faint, low bas-relief carved into a flat wall of dark slate stone, barely raised and the same colour as the stone. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight cool tint (average colour near RGB 80, 80, 80, nowhere brighter than RGB 120); low contrast; soft, even lighting with no bright highlights. Composition: the creature only in the lower right corner, its body curling along the bottom edge and a tentacle rising along the right edge; the upper left two thirds empty; the rest is plain, calm stone, because rows of white text, input boxes and buttons are drawn all over the picture. No text, letters, numbers, labels, logos, frames, borders or vignette. Landscape, 3:2.",
+      "generated": {
+        "output": "editorsq-a1.jpg",
+        "aspectRatio": "3:2",
+        "imageSize": "2K",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "09556f31cc79ad77166cec807c480aacdbb22c43c0213a27ba74678859e36829",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of the editors' white labels against the client area's ground (p95 to median luminance, controls and text excluded), measured in the running game",
+        "originalGameArt": "3.2-4.2",
+        "thisBackground": "11.0-12.2"
+      }
+    },
+    {
+      "key": "crop/resource/wonder.dll/gifs/20000/1,1,64,32 to crop/resource/wonder.dll/gifs/20027/1,1,64,32",
+      "replaces": "Wonder.dll GIFS 20000-20027, the 64x32 tile at 1,1 that the wonder window repeats as its border",
+      "window": "Wonder of the World window (the wonder's movie window) border",
+      "file": "interface/textures/wonder-marble.png",
+      "width": 256,
+      "height": 128,
+      "density": 4,
+      "sha256": "153587c5082727b5ec188efc2187419df11de2900f0b6f13ccc1c0940c4413bf",
+      "references": [
+        "backgrounds/council-room-native.png"
+      ],
+      "prompt": "A seamless, tileable texture of polished grey marble seen flat and straight on, filling the whole image edge to edge, in the same painterly digital-illustration style as the reference image. Soft light-to-medium grey stone (average colour near RGB 160, 160, 160) with fine darker grey veins and faint lighter mottling, evenly spread over the whole image with no focal point; even, flat lighting with no shading gradient, highlights or reflections. No border, frame, bevel, seams, cracks, text or objects. The texture must tile seamlessly: its left edge continues its right edge and its top edge continues its bottom edge. Square, 1:1.",
+      "generated": {
+        "output": "marble-a1.jpg",
+        "aspectRatio": "1:1",
+        "imageSize": "1K",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "4efc7f7b8c8c16e54e0ceda9731ae400a7b7ce11f21dbb4a10d343beecf1cfba",
+        "candidatesGenerated": 1
+      },
+      "seamCheck": "mean absolute difference across the wrap 1.9 (x) and 2.2 (y), against 2.1 and 2.0 between neighbouring pixels inside the tile; no seam by eye in the running game"
+    }
+  ]
+}

@@ -72,6 +72,22 @@ additional runtime keys, `city/landscape/<site>/<medieval|modern>`. They use
 the existing 1280×480 logical panorama box. Existing resource bindings remain
 unchanged; game-side era selection is separate from this asset addition.
 
+## Scenario editor backdrops and wonder border
+
+The scenario editors' backdrops, `file/editoras`, `file/editorsa` and
+`file/editorsq` (`EDITORAS.GIF`: improvements, `EDITORSA.GIF`: units,
+`EDITORSQ.GIF`: cities), are painted reliefs in dark slate,
+`backgrounds/editor-{improvements,units,cities}-native.png`. Each is 1280x960
+(640x480 at density 2). The editors' window shows only the top-left 560x380,
+so the painting fills that area and the margins are mirrored.
+
+The wonder window repeats a 64x32 tile from each `wonder.dll` picture
+(`crop/resource/wonder.dll/gifs/20000`-`20027` at `1,1,64,32`) as its border.
+The pack's `wonder.dll` pictures are the wonders' paintings, so these crops
+take a seamless grey marble instead, `interface/textures/wonder-marble.png`
+(256x128, density 4). See
+[the authoring record](authoring/editor-backdrops-wonder-border.json).
+
 ## Build the runtime assets
 
 From the `openciv2-assets` root:

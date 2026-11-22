@@ -53626,6 +53626,174 @@
       "export4k": "backgrounds/city-inland-modern-4k.png"
     },
     {
+      "id": "report-domestic",
+      "description": "domestic advisor background: a steward's table with a closed ledger, grain sacks, an oil lamp and keys",
+      "file": "backgrounds/report-domestic-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "48d6686b991ae3b0b397c5977baaa36654a1cea9e89c840974c9b681110d59f1",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-defense",
+      "description": "defense minister background: a war-room table with an antique world map, dividers and army markers",
+      "file": "backgrounds/report-defense-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "09b44a3ff2585a8aa1a3eda826d2727870df3d52ba3ed0dd48703ac2a742a6e2",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-foreign",
+      "description": "foreign minister background: an envoy's desk with sealed letters, wax and a quill",
+      "file": "backgrounds/report-foreign-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "77aeebb5b83da41bb5e8aa73305701aac4ebf8b7747cd9cb1fafebf69f24020d",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-attitude",
+      "description": "attitude advisor background: a town square at dusk seen from above",
+      "file": "backgrounds/report-attitude-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "cdbb1a8af20635bf20aa35fe57747d03e13eb4bf09eadfa04a42356bb02cbf3b",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-trade",
+      "description": "trade advisor background: plain coins, a balance scale, cloth and spice jars",
+      "file": "backgrounds/report-trade-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "17503ac2192ea5373977e9900779520adc33731288ec894d5bd8c2834ea3819a",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-science",
+      "description": "science advisor background: an astrolabe, a telescope and star charts",
+      "file": "backgrounds/report-science-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "19e46107473060d818dc70bcd549d1b58e1d116911bec659e003ed14c6bed428",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-wonders",
+      "description": "wonders of the world background: statues, a model pyramid and columns in a dim gallery",
+      "file": "backgrounds/report-wonders-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "cc69bb167633de808b223c13578c8e65ed85dc2bc36d7db663d391c379e7fee5",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-top-cities",
+      "description": "top five cities and hall of fame background: a night skyline of buildings from every era",
+      "file": "backgrounds/report-top-cities-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "eef31b11a5d0fd3c107222a78af0d0986378cd53c8ffa590edb3383c060275f6",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-demographics",
+      "description": "demographics background: census ledgers, record books and an abacus",
+      "file": "backgrounds/report-demographics-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "48027c9718fd48d6b90605b061d599fb682725f4b4c0fda06a0eb16e3f0511b0",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "report-score",
+      "description": "civilization score background: laurel wreaths, a silver cup and trophies on a plinth",
+      "file": "backgrounds/report-score-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "fdafa1c1517e8666403aa0887b9be82b6c440f645d1711ef4c89930d49931c42",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "tax-rate-small",
+      "description": "tax-rate background, small screens: a treasury table with coin chests and a tally board",
+      "file": "backgrounds/tax-rate-small-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "e8b1a3212bff845bb3d49ef865eb7169e284d1375899047e0e1e737878acdff8",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
+      "id": "tax-rate-large",
+      "description": "tax-rate background, large screens: a treasury table with coin chests and a tally board",
+      "file": "backgrounds/tax-rate-large-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "daa5cb4ea4f30272fb9874e5069523529751627ca91e40245c124ce98eb8a8fb",
+      "kind": "background",
+      "category": "backgrounds",
+      "source": {
+        "method": "Gemini 3 Pro Image generation with collection style references",
+        "record": "authoring/advisor-backgrounds.json"
+      }
+    },
+    {
       "id": "tribal-leaders.romans-male",
       "label": "Romans · Caesar (male)",
       "description": "Julius Caesar, male Roman statesman in his early fifties. Lean lined face, prominent long nose, receding short gray-brown hair, clean-shaven, composed and incisive. Restrained gold laurel wreath, ivory wool toga with deep burgundy fold and bronze clasp; late Republican clothing. Late Republican Roman statesman; likeness interpreted from sculptural tradition.",

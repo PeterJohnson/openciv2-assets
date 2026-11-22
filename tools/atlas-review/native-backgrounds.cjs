@@ -3,6 +3,12 @@ const C = require('./common.cjs');
 const governments =
     [ 'anarchy', 'despotism', 'monarchy', 'communism', 'fundamentalism', 'republic', 'democracy' ];
 const prefix = 'interface/native-backgrounds/';
+// tiles.dll report/tax-rate backdrops with their own painted backgrounds
+const advisorBackgrounds = {
+    50 : 'report-domestic', 51 : 'report-defense', 52 : 'report-foreign', 53 : 'report-attitude',
+    54 : 'report-trade', 55 : 'report-science', 56 : 'report-wonders', 57 : 'report-top-cities',
+    58 : 'report-demographics', 59 : 'report-score', 65 : 'tax-rate-small', 66 : 'tax-rate-large'
+};
 const cityRegions = [
     [ 'citizens', 0, 0, 436, 61 ], [ 'resource-map', 0, 61, 436, 153 ], [ 'food', 436, 0, 200, 167 ],
     [ 'production', 436, 167, 200, 189 ], [ 'controls', 436, 356, 200, 65 ],
@@ -165,6 +171,10 @@ async function build() {
             r.replacements = [ preferred, ...r.replacements.filter(p => p !== preferred) ];
         } else if (r.role === 'spaceship assembly background') {
             const preferred = file('spaceship');
+            r.replacements = [ preferred, ...r.replacements.filter(p => p !== preferred) ];
+        } else if (r.source.file === 'Tiles.dll' && advisorBackgrounds[r.source.id]) {
+            // Painted advisor/report backgrounds (authoring/advisor-backgrounds.json).
+            const preferred = `backgrounds/${advisorBackgrounds[r.source.id]}-native.png`;
             r.replacements = [ preferred, ...r.replacements.filter(p => p !== preferred) ];
         }
     }

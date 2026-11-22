@@ -35,6 +35,15 @@ base panorama fixtures draw; `house/<era>/large/0`-`3` and `house/<era>/small/0`
 hold the `ancient`, `medieval` and `modern` sets, fitted into the same 158x114
 and 123x82 boxes. The empty lots (`lot/...`) are shared by every era.
 
+The report and tax-rate backdrops (`resource/tiles.dll/gifs/50`-`59`, `65`,
+`66`) are painted backgrounds, `backgrounds/report-*-native.png` and
+`backgrounds/tax-rate-{small,large}-native.png`, in place of the shared panel.
+Each is 1280x960 (640x480 at density 2). The windows show only the top-left
+part, 600x400 for the reports, 400x256 (65) or 600x384 (66) for the tax rates,
+so the painting fills that area and the margins are mirrored. They are dark and
+quiet on the left and top so that the game's white, yellow and coloured text
+stays readable. See [the authoring record](authoring/advisor-backgrounds.json).
+
 ## City landscape road eras
 
 The [landscape comparison](review/city-landscape-eras.html) shows the existing

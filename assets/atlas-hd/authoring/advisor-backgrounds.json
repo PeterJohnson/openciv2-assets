@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "title": "Advisor and report backgrounds (tiles.dll 50-59, 65, 66)",
+  "author": "Richard Penman",
+  "date": "2026-11-20",
+  "license": "MIT, as the rest of this repository (LICENSE)",
+  "method": "AI-generated: Google Gemini 3 Pro Image (model id gemini-3-pro-image) via the Gemini API generateContent endpoint, responseModalities IMAGE, aspectRatio 3:2, imageSize 2K (2528x1696 JPEG), one prompt plus two reference images per request; then prepared deterministically with Pillow",
+  "aiGenerated": true,
+  "originalGameArtwork": "No original-game image was supplied to the model or used as a pixel source. Screenshots of the original reports were used only to measure the contrast of the game's text colours.",
+  "references": [
+    {
+      "role": "style reference (brushwork and palette)",
+      "file": "backgrounds/diplomacy-monarchy-native.png",
+      "revision": "1457a7fe3d19c5bec575f1320cd48bb485fb3de4",
+      "sha256": "c8584ff5abf2d6cbd56df191c9f49ea9bc193892d222fb9d63a4d2ea394442fa",
+      "supplied as": "JPEG re-encoding of the PNG"
+    },
+    {
+      "role": "style reference (brushwork and palette)",
+      "file": "backgrounds/council-room-native.png",
+      "revision": "1457a7fe3d19c5bec575f1320cd48bb485fb3de4",
+      "sha256": "23e796f03b9eac37e498d00bbdd5e7bf5c507df8b6582aa03fad5e53af4f99e1",
+      "supplied as": "JPEG re-encoding of the PNG"
+    }
+  ],
+  "promptTemplate": "A painted background for a strategy game's {report}, in the same painterly digital-illustration style as the first two reference images. Subject: {subject} Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight {tint} tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; {nowriting} Landscape, 3:2. Match the brushwork and palette of the reference images.",
+  "preparation": "The generated image is scaled (Lanczos) to cover the area the window shows of the 640x480 picture at density 2 (the advisors' top-left 600x400 logical pixels: 1200x800; the tax-rate dialog's 400x256 on small screens: 800x512, and 600x384 on large ones, prepared as the advisors'), cropped about its centre and placed top-left on a 1280x960 canvas; the remaining right margin is the area mirrored about its right edge and the remaining bottom margin the resulting rows mirrored about their bottom edge. The masters here reproduce pixel-for-pixel from the generated outputs with that step (Pillow 13.0.0). 65 and 66 are one painting.",
+  "selection": "Each background was chosen for the legibility of the game's text drawn over it: at least 4.5:1 WCAG contrast for every text colour of its window except the civilizations' blue (0,115,255), which cannot reach 4.5:1 on any ground lighter than near-black (2.9 to 3.4:1 on these against 1.6 to 1.9:1 on the original game art), and by eye; a new painting was requested where a candidate fell short (56 and 57 are the third).",
+  "images": [
+    {
+      "resource": "resource/tiles.dll/gifs/50",
+      "window": "Domestic Advisor (F1, city status)",
+      "file": "backgrounds/report-domestic-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "48d6686b991ae3b0b397c5977baaa36654a1cea9e89c840974c9b681110d59f1",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a steward's closed leather ledger and household goods on a long wooden table: a few grain sacks, an unlit oil lamp and a ring of iron keys, gathered at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's domestic advisor's city report, in the same painterly digital-illustration style as the first two reference images. Subject: a steward's closed leather ledger and household goods on a long wooden table: a few grain sacks, an unlit oil lamp and a ring of iron keys, gathered at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the ledger is closed and nothing has writing on it. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "50-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "8e64af39d36e3d3d5d73bf0fa1de9162676a2e465fa885416045e063b29163e2",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "light grey": 4.27,
+          "beige": 4.68,
+          "white 239": 4.92,
+          "orange": 2.94,
+          "white 245": 4.58,
+          "yellow": 3.71,
+          "white": 4.98
+        },
+        "thisBackground": {
+          "light grey": 9.53,
+          "beige": 9.2,
+          "white 239": 9.55,
+          "orange": 6.91,
+          "white 245": 14.85,
+          "yellow": 9.92,
+          "white": 16.26
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/51",
+      "window": "Defense Minister (F2); also the casualty timeline and the power graph",
+      "file": "backgrounds/report-defense-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "09b44a3ff2585a8aa1a3eda826d2727870df3d52ba3ed0dd48703ac2a742a6e2",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "an antique world map spread on a war-room table, with faint brass dividers, a few wooden army markers and a rolled campaign chart at the far right edge.",
+      "tint": "cool",
+      "prompt": "A painted background for a strategy game's military advisor report, in the same painterly digital-illustration style as the first two reference images. Subject: an antique world map spread on a war-room table, with faint brass dividers, a few wooden army markers and a rolled campaign chart at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight cool tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small unit icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the map has no writing on it. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "note": "generated first, with the same template except \"small unit icons\" for \"small icons\"; the generated output was not retained, only this prepared master"
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "cyan": 3.03,
+          "light grey": 5.58,
+          "white 239": 6.66,
+          "white 245": 7.25,
+          "yellow": 5.55,
+          "white": 7.6
+        },
+        "thisBackground": {
+          "cyan": 5.29,
+          "light grey": 10.19,
+          "white 239": 14.02,
+          "white 245": 12.2,
+          "yellow": 8.7,
+          "white": 14.17
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/52",
+      "window": "Foreign Minister's intelligence report (F3)",
+      "file": "backgrounds/report-foreign-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "77aeebb5b83da41bb5e8aa73305701aac4ebf8b7747cd9cb1fafebf69f24020d",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "an envoy's writing desk with a few folded, sealed letters, red wax seals, a stick of sealing wax and a quill in an inkwell, at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's foreign minister's intelligence report, in the same painterly digital-illustration style as the first two reference images. Subject: an envoy's writing desk with a few folded, sealed letters, red wax seals, a stick of sealing wax and a quill in an inkwell, at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the letters are folded and sealed, with no writing visible. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "52-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "00d54ba2a47a47ed3dce2254380851d2711a153737111197ae4a27cdcc07e945",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "civ blue": 1.72,
+          "cyan": 3.31,
+          "green": 4.27,
+          "civ lilac": 3.06,
+          "light grey": 5.13,
+          "orange": 4.13,
+          "white 245": 6.97,
+          "yellow": 5.29,
+          "civ yellow": 6.92,
+          "white": 7.58
+        },
+        "thisBackground": {
+          "civ blue": 3.28,
+          "cyan": 5.66,
+          "green": 7.96,
+          "civ lilac": 5.59,
+          "light grey": 9.64,
+          "orange": 7.73,
+          "white 245": 14.81,
+          "yellow": 10.32,
+          "civ yellow": 13.38,
+          "white": 14.07
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/53",
+      "window": "Attitude Advisor (F4)",
+      "file": "backgrounds/report-attitude-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "cdbb1a8af20635bf20aa35fe57747d03e13eb4bf09eadfa04a42356bb02cbf3b",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a crowded town square seen from high above at dusk: small figures among market stalls and a fountain, the houses' roofs around it, the crowd thickest towards the right and bottom edges.",
+      "tint": "cool",
+      "prompt": "A painted background for a strategy game's attitude advisor's report on the people's mood, in the same painterly digital-illustration style as the first two reference images. Subject: a crowded town square seen from high above at dusk: small figures among market stalls and a fountain, the houses' roofs around it, the crowd thickest towards the right and bottom edges. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight cool tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; no signs or banners with writing. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "53-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "716c72dd02ef59cb153911115e46c27fd4e78a7d73b2f625d1ddb690d80e812a",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "light grey": 5.5,
+          "beige": 6.0,
+          "white 239": 6.67,
+          "white 245": 7.28,
+          "white": 7.86
+        },
+        "thisBackground": {
+          "light grey": 7.95,
+          "beige": 8.33,
+          "white 239": 10.23,
+          "white 245": 13.42,
+          "white": 14.69
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/54",
+      "window": "Trade Advisor (F5)",
+      "file": "backgrounds/report-trade-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "17503ac2192ea5373977e9900779520adc33731288ec894d5bd8c2834ea3819a",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a merchant's table with stacks of plain gold and silver coins, a brass balance scale and trade goods: bolts of cloth and a few spice jars, at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's trade advisor report, in the same painterly digital-illustration style as the first two reference images. Subject: a merchant's table with stacks of plain gold and silver coins, a brass balance scale and trade goods: bolts of cloth and a few spice jars, at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the coins are plain, with no markings, and nothing has writing on it. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "54-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "2d856276d511befd0b5edff697bb57244cac8c7864775b46d6bfbd813edcbc2c",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "pale blue": 4.99,
+          "light grey": 5.52,
+          "beige": 5.93,
+          "white 239": 6.37,
+          "orange": 3.94,
+          "white 245": 7.27,
+          "yellow": 5.35,
+          "civ yellow": 6.47,
+          "white": 7.18
+        },
+        "thisBackground": {
+          "pale blue": 7.44,
+          "light grey": 8.98,
+          "beige": 9.94,
+          "white 239": 10.07,
+          "orange": 5.35,
+          "white 245": 10.24,
+          "yellow": 7.23,
+          "civ yellow": 8.78,
+          "white": 11.47
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/55",
+      "window": "Science Advisor (F6)",
+      "file": "backgrounds/report-science-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "19e46107473060d818dc70bcd549d1b58e1d116911bec659e003ed14c6bed428",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a scholar's table with a brass astrolabe, a brass telescope on a stand and star charts drawn only as dots and faint lines, the instruments at the far right edge.",
+      "tint": "cool",
+      "prompt": "A painted background for a strategy game's science advisor report, in the same painterly digital-illustration style as the first two reference images. Subject: a scholar's table with a brass astrolabe, a brass telescope on a stand and star charts drawn only as dots and faint lines, the instruments at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight cool tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the charts have no writing or numbers on them. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "55-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "faaddf4dec35b0c3915f1c99db88941a42ba76365607299c2fb59ff7344ddf84",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "cyan": 3.24,
+          "light grey": 5.5,
+          "white 245": 6.38,
+          "white": 6.98
+        },
+        "thisBackground": {
+          "cyan": 6.02,
+          "light grey": 11.78,
+          "white 245": 13.17,
+          "white": 14.47
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/56",
+      "window": "Wonders of the World (F7)",
+      "file": "backgrounds/report-wonders-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "cc69bb167633de808b223c13578c8e65ed85dc2bc36d7db663d391c379e7fee5",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "monuments in a dim museum gallery: classical statues on pedestals, a small model pyramid and a row of columns, receding towards the right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's wonders of the world report, in the same painterly digital-illustration style as the first two reference images. Subject: monuments in a dim museum gallery: classical statues on pedestals, a small model pyramid and a row of columns, receding towards the right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; no plaques or inscriptions. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "56-a3.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "f64757c9b1f1f17d281cdb439d88b8797ca81852eba978d1791821362f6bc18a",
+        "candidatesGenerated": 3
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "civ blue": 1.57,
+          "civ lilac": 3.54,
+          "orange": 2.67,
+          "white 245": 3.49,
+          "white": 3.97
+        },
+        "thisBackground": {
+          "civ blue": 2.88,
+          "civ lilac": 5.65,
+          "orange": 8.05,
+          "white 245": 9.7,
+          "white": 15.12
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/57",
+      "window": "Top 5 Cities (F8); also the Hall of Fame",
+      "file": "backgrounds/report-top-cities-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "eef31b11a5d0fd3c107222a78af0d0986378cd53c8ffa590edb3383c060275f6",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a city skyline at night seen across a river, its buildings from every era side by side: an ancient temple, medieval towers, domes and modern skyscrapers, few and dim lit windows, the tallest buildings towards the right edge.",
+      "tint": "cool",
+      "prompt": "A painted background for a strategy game's report of the five greatest cities, in the same painterly digital-illustration style as the first two reference images. Subject: a city skyline at night seen across a river, its buildings from every era side by side: an ancient temple, medieval towers, domes and modern skyscrapers, few and dim lit windows, the tallest buildings towards the right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight cool tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; no signs or billboards. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "57-a3.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "cc38a345bfc62feb632e2980866b39ae0d6520286d57a966cca4f7377d5566a3",
+        "candidatesGenerated": 3
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "civ blue": 1.93,
+          "cyan": 2.83,
+          "civ lilac": 2.94,
+          "light grey": 5.51,
+          "orange": 4.34,
+          "civ yellow": 5.23
+        },
+        "thisBackground": {
+          "civ blue": 3.38,
+          "cyan": 4.8,
+          "civ lilac": 5.09,
+          "light grey": 9.07,
+          "orange": 7.31,
+          "civ yellow": 8.39
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/58",
+      "window": "Demographics (F11)",
+      "file": "backgrounds/report-demographics-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "48027c9718fd48d6b90605b061d599fb682725f4b4c0fda06a0eb16e3f0511b0",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a clerk's table with tall stacks of closed census ledgers and record books, a wooden abacus and a rolled scroll, at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's demographics report, in the same painterly digital-illustration style as the first two reference images. Subject: a clerk's table with tall stacks of closed census ledgers and record books, a wooden abacus and a rolled scroll, at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the books are closed and nothing has writing on it. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "58-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "cd7df311940cae0ece17d5ffdc1c3b29ea6380ad29aa829ece27b15155095fca",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "civ blue": 1.67,
+          "cyan": 2.65,
+          "green": 3.66,
+          "light grey": 5.06,
+          "orange": 4.1
+        },
+        "thisBackground": {
+          "civ blue": 2.92,
+          "cyan": 7.15,
+          "green": 6.35,
+          "light grey": 11.63,
+          "orange": 6.72
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/59",
+      "window": "Civilization Score (F9); also the civilization rating",
+      "file": "backgrounds/report-score-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "fdafa1c1517e8666403aa0887b9be82b6c440f645d1711ef4c89930d49931c42",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "laurel wreaths, a silver cup and small bronze trophies standing on a dark stone plinth, at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's civilization score report, in the same painterly digital-illustration style as the first two reference images. Subject: laurel wreaths, a silver cup and small bronze trophies standing on a dark stone plinth, at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; no engravings or inscriptions. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "59-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "aad5a51560ec2744108d5a8948b0d7293fb10c829fe705ac36af4a9fe9c6632a",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "cyan": 2.99,
+          "light grey": 4.86,
+          "yellow": 4.91
+        },
+        "thisBackground": {
+          "cyan": 5.21,
+          "light grey": 9.11,
+          "yellow": 8.76
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/65",
+      "window": "Tax Rate dialog, small screens",
+      "file": "backgrounds/tax-rate-small-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "e8b1a3212bff845bb3d49ef865eb7169e284d1375899047e0e1e737878acdff8",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 800,
+        "height": 512
+      },
+      "subject": "a treasury table with open wooden coin chests full of plain coins, a few coin stacks and a wooden tally board with notches, at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's tax rate dialog, in the same painterly digital-illustration style as the first two reference images. Subject: a treasury table with open wooden coin chests full of plain coins, a few coin stacks and a wooden tally board with notches, at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the coins are plain and the tally board has only notches, no writing. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "65-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "9aaf4ef953d6cdada940408a7e2f4d35abefb613419bdd3e6d1cc6a0ca2d629a",
+        "candidatesGenerated": 1
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "light grey": 5.55,
+          "white 245": 6.73,
+          "white": 7.36
+        },
+        "thisBackground": {
+          "light grey": 10.37,
+          "white 245": 11.9,
+          "white": 13.04
+        }
+      }
+    },
+    {
+      "resource": "resource/tiles.dll/gifs/66",
+      "window": "Tax Rate dialog, large screens (1000 pixels wide or more)",
+      "file": "backgrounds/tax-rate-large-native.png",
+      "width": 1280,
+      "height": 960,
+      "sha256": "daa5cb4ea4f30272fb9874e5069523529751627ca91e40245c124ce98eb8a8fb",
+      "paintedArea": {
+        "left": 0,
+        "top": 0,
+        "width": 1200,
+        "height": 800
+      },
+      "subject": "a treasury table with open wooden coin chests full of plain coins, a few coin stacks and a wooden tally board with notches, at the far right edge.",
+      "tint": "warm",
+      "prompt": "A painted background for a strategy game's tax rate dialog, in the same painterly digital-illustration style as the first two reference images. Subject: a treasury table with open wooden coin chests full of plain coins, a few coin stacks and a wooden tally board with notches, at the far right edge. Treatment: very dark and muted, almost monochrome charcoal and slate grey with a slight warm tint; low contrast; soft, even lighting with no bright highlights; overall brightness about 35% (average colour near RGB 90, 90, 90). Composition: the left two thirds and the top quarter must be calm, empty, low-detail areas, because rows of white and yellow text and small icons are drawn over them; keep the busier details near the right and bottom edges. No text, letters, numbers, labels, logos, frames, borders or vignette; the coins are plain and the tally board has only notches, no writing. Landscape, 3:2. Match the brushwork and palette of the reference images.",
+      "generated": {
+        "output": "65-a1.jpg",
+        "width": 2528,
+        "height": 1696,
+        "sha256": "9aaf4ef953d6cdada940408a7e2f4d35abefb613419bdd3e6d1cc6a0ca2d629a",
+        "candidatesGenerated": 1,
+        "note": "the same painting as 65, prepared for the large dialog's visible area"
+      },
+      "textContrast": {
+        "method": "WCAG contrast ratio of each of the window's text colours against the mean background colour 3-7 px around its glyphs, measured in the running game at density 2",
+        "originalGameArt": {
+          "light grey": 5.57,
+          "white 245": 6.99,
+          "white": 7.62
+        },
+        "thisBackground": {
+          "light grey": 10.54,
+          "white 245": 12.58,
+          "white": 13.66
+        }
+      }
+    }
+  ]
+}

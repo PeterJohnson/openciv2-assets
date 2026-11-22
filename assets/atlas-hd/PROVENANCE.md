@@ -46,6 +46,23 @@ Modern highway entries taper into local streets, and medieval versions use the
 same routes with stone paving. Source placement traces and enhanced placement plans
 are preserved. The authoring record retains each replacement input and prompt.
 
+## Advisor and report backgrounds
+
+The twelve painted backgrounds of `tiles.dll` 50-59, 65 and 66 (the advisors'
+reports, Wonders, Top 5 Cities and Hall of Fame, Demographics, Civilization
+Score and the tax-rate dialog) were contributed by Richard Penman. They are
+AI-generated with Google's Gemini 3 Pro Image (`gemini-3-pro-image`, 3:2,
+2K), one written prompt per subject, with two of this collection's paintings,
+`backgrounds/diplomacy-monarchy-native.png` and
+`backgrounds/council-room-native.png`, supplied as style references. No
+original-game image was an input; original reports were used only to measure
+the contrast of the game's text on each candidate. Each 1280x960 master fills
+the area the window shows at density 2 and mirrors it into the hidden margins;
+the masters reproduce pixel-for-pixel from the generated outputs with that
+step. [The authoring record](authoring/advisor-backgrounds.json) keeps the
+prompts, reference hashes, generated-output hashes and the contrast
+measurements. They are under the repository's MIT licence.
+
 ## Generated and authored artwork
 
 Painted images were created with the built-in `image_gen` tool from written

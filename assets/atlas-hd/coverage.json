@@ -7461,8 +7461,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-domestic-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7485,8 +7486,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-defense-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7509,8 +7511,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-foreign-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7533,8 +7536,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-attitude-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7557,8 +7561,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-trade-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7581,8 +7586,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-science-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7605,8 +7611,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-wonders-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7629,8 +7636,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-top-cities-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7653,8 +7661,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-demographics-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7677,8 +7686,9 @@
         ]
       },
       "role": "report backdrop",
-      "representation": "shared scalable panel replaces baked report backgrounds; content uses open fonts",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/report-score-native.png",
         "interface/panels/frame-normal.png",
         "interface/textures/parchment.png"
       ],
@@ -7701,8 +7711,9 @@
         ]
       },
       "role": "tax-rate backdrop",
-      "representation": "new artwork",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/tax-rate-small-native.png",
         "interface/panels/frame-normal.png",
         "interface/symbols/gold.png",
         "interface/symbols/luxury.png",
@@ -7727,8 +7738,9 @@
         ]
       },
       "role": "tax-rate backdrop",
-      "representation": "new artwork",
+      "representation": "new artwork: painted background (authoring/advisor-backgrounds.json)",
       "replacements": [
+        "backgrounds/tax-rate-large-native.png",
         "interface/panels/frame-normal.png",
         "interface/symbols/gold.png",
         "interface/symbols/luxury.png",

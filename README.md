@@ -21,6 +21,10 @@ OpenCiv2's own music, heralds and (later) sound effects for [OpenCiv2](https://g
 | `11 - Mars.ogg` | Track11 | 2:25 |
 | `12 - World of Jules Verne.ogg` | Track12 | 2:30 |
 
+### Game-ready music
+
+`game/music/track02.ogg` to `track12.ogg`: the same tracks as the game plays them, Ogg Vorbis (the game's decoder does not read Opus), made from `music/` by `opusdec --float` and `oggenc -q 5` (48 kHz stereo, 26 MB in all). OpenCiv2's builds fetch these as they are, so nothing needs converting on the build machine.
+
 ## Heralds
 
 `heralds/`: the diplomacy room's animated heralds, in the format the game reads (`heralds.txt`: one line a tribe, `CODE X Y W H FPS` then the first and last frame of the greeting, idle, pleased, refusal and angry segments, then the animated WebP).

@@ -13,7 +13,6 @@ from the HD art pack, [PeterJohnson/openciv2-assets](https://github.com/PeterJoh
 |---|---|---|
 | ~~Music~~ | `Music\Track02.wav`-`Track12.wav`: 11 CD tracks | ~~Done~~: [game/music](game/music) |
 | ~~Sound effects~~ | `Sound\*.WAV`: 78 effects | ~~Done~~: [sound](sound) (CC0; credits in [sound/SOURCES.md](sound/SOURCES.md)) |
-| Main-menu music (optional) | none: the CD's track 1 is data | A spare track, *Dorian Pastoral*, was made but is not used |
 
 ## Heralds (the diplomacy room's animated emissary)
 

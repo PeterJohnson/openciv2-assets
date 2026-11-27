@@ -3,16 +3,16 @@
 OpenCiv2 plays without the original Civilization II files when it has a stand-in for each of the
 original's assets. This list says which exist (crossed out, with a link) and which still need to be
 found or generated, with a suggested prompt for each. Everything here must be free to use: CC0 or
-public domain when found, or made for OpenCiv2 (MIT, as this folder's [LICENSE](LICENSE)) when
+public domain when found, or made for OpenCiv2 (MIT: [LICENSE-media](../LICENSE-media)) when
 generated. The HD pictures (map, units, cities, interface, leader portraits ...) are elsewhere in
-this repository: [assets/atlas-hd](../atlas-hd).
+this repository: [assets/atlas-hd](../assets/atlas-hd).
 
 ## Audio
 
 | Asset | In the original | Status |
 |---|---|---|
-| ~~Music~~ | `Music\Track02.wav`-`Track12.wav`: 11 CD tracks | ~~Done~~: [music](music) |
-| ~~Sound effects~~ | `Sound\*.WAV`: 78 effects | ~~Done~~: [sound](sound) (CC0; credits in [sound/SOURCES.md](sound/SOURCES.md)) |
+| ~~Music~~ | `Music\Track02.wav`-`Track12.wav`: 11 CD tracks | ~~Done~~: [music](../assets/music) |
+| ~~Sound effects~~ | `Sound\*.WAV`: 78 effects | ~~Done~~: [sound](../assets/sound) (CC0; credits in [sound/SOURCES.md](../assets/sound/SOURCES.md)) |
 
 ## Heralds (the diplomacy room's animated emissary)
 
@@ -22,7 +22,7 @@ he need not look like the tribe's leader portrait.
 
 | Tribe (video) | Status |
 |---|---|
-| ~~Russians (`HRLDRUS`)~~ | ~~Done~~: [heralds/herald-RUS.webp](heralds/herald-RUS.webp) ([source clips](heralds/RUS/clips)) |
+| ~~Russians (`HRLDRUS`)~~ | ~~Done~~: [heralds/herald-RUS.webp](../assets/heralds/herald-RUS.webp) ([source clips](../assets/heralds/RUS/clips)) |
 | The other 20 tribes (below) | To generate |
 
 How the Russian one was made (OpenCiv2's `docs/HD-GRAPHICS.md`, "Your own heralds"; its
@@ -143,7 +143,7 @@ and shorter.
 
 | Movie | In the original | Status |
 |---|---|---|
-| Wonder movies | `Video\WONDER00.AVI`-`WONDER27.AVI`, 31-48 s each, played when a wonder is built | ~~The Pyramids (11 s)~~: ~~Done~~: [wonders/wonder00.webp](wonders/wonder00.webp) and [wonder00.ogg](wonders/wonder00.ogg) ([sources](wonders/00)); 27 to generate |
+| Wonder movies | `Video\WONDER00.AVI`-`WONDER27.AVI`, 31-48 s each, played when a wonder is built | ~~The Pyramids (11 s)~~: ~~Done~~: [wonders/wonder00.webp](../assets/wonders/wonder00.webp) and [wonder00.ogg](../assets/wonders/wonder00.ogg) ([sources](../assets/wonders/00)); 27 to generate |
 | Spaceship launch | `Video\LAUNCH.AVI`, 10 s | To generate |
 | Victory | `Video\WINWIN.AVI`, 61 s: the colonists arrive at Alpha Centauri | To generate |
 | Defeat | `LOSER.AVI`, 16 s | To generate |
@@ -153,7 +153,7 @@ and shorter.
 ### Wonder movies
 
 How the Pyramids one was made (about $0.70; its still, shot, prompts and scripts are in
-[wonders/00](wonders/00)):
+[wonders/00](../assets/wonders/00)):
 
 1. **A still** (Gemini 3 Pro Image, 4:3, with two of the game's diplomacy rooms as style
    references): "A painting of [scene]. Painted in the same painterly digital-illustration style as

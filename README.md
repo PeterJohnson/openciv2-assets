@@ -2,7 +2,7 @@
 
 What is still to be found or generated: [NEEDED.md](NEEDED.md).
 
-OpenCiv2's own music, heralds and (later) sound effects for [OpenCiv2](https://github.com/openciv2/openciv2), used where a game folder lacks Civilization II's own. MIT licence (LICENSE).
+OpenCiv2's own music, heralds and sound effects for [OpenCiv2](https://github.com/openciv2/openciv2), used where a game folder lacks Civilization II's own. MIT licence (LICENSE).
 
 ## Music
 
@@ -30,4 +30,4 @@ OpenCiv2's own music, heralds and (later) sound effects for [OpenCiv2](https://g
 
 ## Sound effects
 
-To follow, once all of them are chosen.
+`sound/`: the 78 sound effects, one for each of the original's `Sound\NAME.WAV`, as `name.ogg` (Ogg Vorbis, 22,050 Hz mono, 2 MB in all), each level-matched to the original it stands in for. Every source is CC0 (public domain); `sound/SOURCES.md` credits each one's sources and says how it was made.

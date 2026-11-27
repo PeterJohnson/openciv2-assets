@@ -12,7 +12,7 @@ interface, leader portraits ...) are not in this repository: they come from the 
 | Asset | In the original | Status |
 |---|---|---|
 | ~~Music~~ | `Music\Track02.wav`-`Track12.wav`: 11 CD tracks | ~~Done~~: [game/music](game/music) |
-| ~~Sound effects~~ | `Sound\*.WAV`: 78 effects | ~~Done~~: all 78 chosen (CC0); being added as `sound/` with their credits |
+| ~~Sound effects~~ | `Sound\*.WAV`: 78 effects | ~~Done~~: [sound](sound) (CC0; credits in [sound/SOURCES.md](sound/SOURCES.md)) |
 | Main-menu music (optional) | none: the CD's track 1 is data | A spare track, *Dorian Pastoral*, was made but is not used |
 
 ## Heralds (the diplomacy room's animated emissary)

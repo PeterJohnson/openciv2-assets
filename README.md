@@ -54,3 +54,14 @@ The [selection map and usage notes](assets/atlas-hd/sprites/tribal-leaders/READM
 cover all 42 roster slots. Ashoka represents India in the male slot, paired
 with Indira Gandhi. This optional library includes the selected leader names
 and the original LEADERS.TXT mapping.
+
+## OpenCiv2's own media
+
+OpenCiv2's own [music](assets/music), [sound effects](assets/sound), animated
+diplomacy [heralds](assets/heralds) and [wonder movies](assets/wonders), with
+their sources and credits ([LICENSE-media](LICENSE-media); the sound effects'
+sources are CC0). The game uses them in place of the original's where a game
+folder lacks them, and with HD graphics in preference to them. OpenCiv2's build
+(`make own-assets`) fetches the game-ready files from a pinned commit.
+[What is still needed](docs/NEEDED.md) lists the media still to be found or
+generated, with suggested prompts.

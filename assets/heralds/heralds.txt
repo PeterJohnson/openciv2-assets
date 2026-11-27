@@ -1,0 +1,6 @@
+# OpenCiv2's own heralds (docs/HD-GRAPHICS.md, Your own heralds; src/platform/video.c, hd.c):
+# CODE X Y W H FPS G0 G1 I0 I1 P0 P1 D0 D1 A0 A1 FILE: the three letters of the original's
+# KINGS\HRLDCODE.AVI, its place and size in the diplomacy room (the game's pixels), frames a second,
+# the first and last frame of its segments (greeting, idle, pleased, refusal, angry), the animated WebP.
+# Made by tools/build_herald.py.
+RUS 64 73 237 399 12 0 35 36 71 72 107 108 143 144 179 herald-RUS.webp

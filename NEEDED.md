@@ -3,15 +3,15 @@
 OpenCiv2 plays without the original Civilization II files when it has a stand-in for each of the
 original's assets. This list says which exist (crossed out, with a link) and which still need to be
 found or generated, with a suggested prompt for each. Everything here must be free to use: CC0 or
-public domain when found, or made for OpenCiv2 (MIT, like this repository) when generated. The HD
-pictures (map, units, cities, interface, leader portraits ...) are not in this repository: they come
-from the HD art pack, [PeterJohnson/openciv2-assets](https://github.com/PeterJohnson/openciv2-assets).
+public domain when found, or made for OpenCiv2 (MIT, as this folder's [LICENSE](LICENSE)) when
+generated. The HD pictures (map, units, cities, interface, leader portraits ...) are elsewhere in
+this repository: [assets/atlas-hd](../atlas-hd).
 
 ## Audio
 
 | Asset | In the original | Status |
 |---|---|---|
-| ~~Music~~ | `Music\Track02.wav`-`Track12.wav`: 11 CD tracks | ~~Done~~: [game/music](game/music) |
+| ~~Music~~ | `Music\Track02.wav`-`Track12.wav`: 11 CD tracks | ~~Done~~: [music](music) |
 | ~~Sound effects~~ | `Sound\*.WAV`: 78 effects | ~~Done~~: [sound](sound) (CC0; credits in [sound/SOURCES.md](sound/SOURCES.md)) |
 
 ## Heralds (the diplomacy room's animated emissary)

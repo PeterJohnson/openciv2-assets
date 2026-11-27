@@ -1,12 +1,12 @@
-# OpenCiv2 assets
+# OpenCiv2's own media
 
 What is still to be found or generated: [NEEDED.md](NEEDED.md).
 
-OpenCiv2's own music, heralds, sound effects and wonder movies for [OpenCiv2](https://github.com/openciv2/openciv2), used where a game folder lacks Civilization II's own. MIT licence (LICENSE).
+OpenCiv2's own music, heralds, sound effects and wonder movies for [OpenCiv2](https://github.com/openciv2/openciv2), used where a game folder lacks Civilization II's own. MIT licence ([LICENSE](LICENSE)); the sound effects' sources are CC0 ([sound/SOURCES.md](sound/SOURCES.md)). OpenCiv2's build (`make own-assets`) fetches the game-ready files from here at a pinned commit.
 
 ## Music
 
-`game/music/track02.ogg` to `track12.ogg`: twelve tracks' worth of music for OpenCiv2, Ogg Vorbis, 48 kHz stereo (26 MB), as the game plays them. They take the place of the game's CD audio tracks (`Music\TrackNN.wav` in a Multiplayer Gold install), in the same order and of about the same length:
+`music/track02.ogg` to `track12.ogg`: twelve tracks' worth of music for OpenCiv2, Ogg Vorbis, 48 kHz stereo (26 MB), as the game plays them. They take the place of the game's CD audio tracks (`Music\TrackNN.wav` in a Multiplayer Gold install), in the same order and of about the same length:
 
 | File | Takes the place of | Title | Length |
 |---|---|---|---|

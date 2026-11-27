@@ -65,3 +65,12 @@ folder lacks them, and with HD graphics in preference to them. OpenCiv2's build
 (`make own-assets`) fetches the game-ready files from a pinned commit.
 [What is still needed](docs/NEEDED.md) lists the media still to be found or
 generated, with suggested prompts.
+
+## Historical leader portraits
+
+[An alternative set](assets/portraits-historical) of the diplomacy room's 42
+leader portraits, a man and a woman for each tribe, made from historical works
+of art in the public domain or under CC0 (six of them AI-generated), with each
+picture's source, licence and, for the generated ones, the prompt. OpenCiv2 does
+not load them: the game draws the art pack's own portraits. They are kept here
+for reference and possible later use.

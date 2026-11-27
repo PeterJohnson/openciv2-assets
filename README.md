@@ -1,5 +1,7 @@
 # OpenCiv2 assets
 
+What is still to be found or generated: [NEEDED.md](NEEDED.md).
+
 OpenCiv2's own music, heralds and (later) sound effects for [OpenCiv2](https://github.com/openciv2/openciv2), used where a game folder lacks Civilization II's own. MIT licence (LICENSE).
 
 ## Music

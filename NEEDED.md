@@ -144,7 +144,7 @@ and shorter.
 
 | Movie | In the original | Status |
 |---|---|---|
-| Wonder movies | `Video\WONDER00.AVI`-`WONDER27.AVI`, 31-48 s each, played when a wonder is built | The Pyramids (11 s) being added; 27 to generate |
+| Wonder movies | `Video\WONDER00.AVI`-`WONDER27.AVI`, 31-48 s each, played when a wonder is built | ~~The Pyramids (11 s)~~: ~~Done~~: [wonders/wonder00.webp](wonders/wonder00.webp) and [wonder00.ogg](wonders/wonder00.ogg) ([sources](wonders/00)); 27 to generate |
 | Spaceship launch | `Video\LAUNCH.AVI`, 10 s | To generate |
 | Victory | `Video\WINWIN.AVI`, 61 s: the colonists arrive at Alpha Centauri | To generate |
 | Defeat | `LOSER.AVI`, 16 s | To generate |
@@ -153,7 +153,8 @@ and shorter.
 
 ### Wonder movies
 
-How the Pyramids one was made (about $0.70):
+How the Pyramids one was made (about $0.70; its still, shot, prompts and scripts are in
+[wonders/00](wonders/00)):
 
 1. **A still** (Gemini 3 Pro Image, 4:3, with two of the game's diplomacy rooms as style
    references): "A painting of [scene]. Painted in the same painterly digital-illustration style as

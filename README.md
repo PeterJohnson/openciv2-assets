@@ -60,8 +60,8 @@ and the original LEADERS.TXT mapping.
 OpenCiv2's own [music](assets/music), [sound effects](assets/sound), animated
 diplomacy [heralds](assets/heralds) and [wonder movies](assets/wonders), with
 their sources and credits ([LICENSE-media](LICENSE-media); the sound effects'
-sources are CC0; ten of the eleven music tracks are excerpts of public-domain or
-CC0 recordings, credited in [assets/music](assets/music/README.md)). The game uses them in place of the original's where a game
+sources are CC0; the music tracks are excerpts of public-domain or CC0
+recordings, credited in [assets/music](assets/music/README.md)). The game uses them in place of the original's where a game
 folder lacks them, and with HD graphics in preference to them. OpenCiv2's build
 (`make own-assets`) fetches the game-ready files from a pinned commit.
 [What is still needed](docs/NEEDED.md) lists the media still to be found or

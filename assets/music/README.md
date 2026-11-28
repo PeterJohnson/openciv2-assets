@@ -1,21 +1,25 @@
 # OpenCiv2's own music
 
-Made for [OpenCiv2](https://github.com/openciv2/openciv2), which uses these in place of the original's where a game folder lacks them, and with HD graphics in preference to them; its build (`make own-assets`) fetches the game-ready files from a pinned commit. MIT licence ([LICENSE-media](../../LICENSE-media)).
+Played by [OpenCiv2](https://github.com/openciv2/openciv2) in place of the original's where a game folder lacks it, and with HD graphics in preference to it; its build (`make own-assets`) fetches the game-ready files from a pinned commit.
 
-`track02.ogg` to `track12.ogg`: eleven tracks of music for OpenCiv2, Ogg Vorbis, 48 kHz stereo (26 MB), as the game plays them. They take the place of the game's CD audio tracks (`Music\TrackNN.wav` in a Multiplayer Gold install), in the same order and of about the same length, and each as loud as the track it replaces (its integrated loudness, EBU R128, matched to the original's to within 0.1 LU, peaks at most -1 dBTP; World of Jules Verne 0.9 LU short of its original, so as not to limit it more):
+`track02.ogg` to `track12.ogg`: eleven tracks, Ogg Vorbis, 48 kHz stereo (libvorbis quality 5), as the game plays them. They take the place of the game's CD audio tracks (`Music\TrackNN.wav` in a Multiplayer Gold install), in the same order. All eleven are excerpts of recordings in the public domain or under CC0, listed below with their sources. No attribution is required; their composers and performers are credited here all the same.
 
-| File | Takes the place of | Title | Length |
-|---|---|---|---|
-| `track02.ogg` | Track02 | Funeral March | 0:35 |
-| `track03.ogg` | Track03 | Ode to Joy | 0:42 |
-| `track04.ogg` | Track04 | The Crusades | 1:29 |
-| `track05.ogg` | Track05 | Alien Invasion | 1:50 |
-| `track06.ogg` | Track06 | Mongol Horde | 2:41 |
-| `track07.ogg` | Track07 | Apocalypse | 3:25 |
-| `track08.ogg` | Track08 | Primeval World | 2:45 |
-| `track09.ogg` | Track09 | New World | 2:30 |
-| `track10.ogg` | Track10 | Fantasy | 2:45 |
-| `track11.ogg` | Track11 | Mars | 2:25 |
-| `track12.ogg` | Track12 | World of Jules Verne | 2:30 |
+Each excerpt was cut from its source with ffmpeg and faded in and out; its integrated loudness (EBU R128) was matched to the original track's (within 0.2 LU), with true peaks at most -1 dBTP (limited where the target needed it, most of all in the Blue Danube, which matches a very loud original); then it was resampled to 48 kHz stereo and encoded. Each file's Vorbis comments name its title, composer, performer, licence and source.
+
+| File | Takes the place of | In the original | Piece | Composer; performer | Source | Licence | Length |
+|---|---|---|---|---|---|---|---|
+| `track02.ogg` | Track02 | Funeral March | Missa Papae Marcelli, I. Kyrie | Giovanni Pierluigi da Palestrina; Unnamed choir (European Archive recording, released by Musopen) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac) | CC0 (Commons: cc-zero) | 0:46 |
+| `track03.ogg` | Track03 | Ode to Joy | European anthem (Ode to Joy, from Symphony No. 9) | Ludwig van Beethoven; United States Navy Band | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:European_continental_anthem,_performed_by_the_United_States_Navy_Band.wav) | Public domain (Commons: PD-USGov-Military-Navy; composition PD) | 0:57 |
+| `track04.ogg` | Track04 | The Crusades | Puer natus est nobis (Gregorian introit) | Traditional (plainchant); United States Air Force Band, 1999 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Puer_natus_est_nobis_-_Concert_Band_-_United_States_Air_Force_Band.mp3) | Public domain (Commons: PD-USGov-Military-Air Force) | 1:30 |
+| `track05.ogg` | Track05 | Alien Invasion | The Magnificent Cosmos | Adiutorium | [OpenGameArt](https://opengameart.org/content/the-magnificent-cosmos) | CC0 (OpenGameArt) | 2:26 |
+| `track06.ogg` | Track06 | Mongol Horde | In the Steppes of Central Asia (opening) | Alexander Borodin; Musopen Symphony (Musopen Kickstarter project), 2012 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Borodin_-_In_the_Steppes_of_Central_Asia_(Musopen_Symphony).flac) | Public domain (Commons: recording PD-author, released by Musopen; composition PD-old) | 2:52 |
+| `track07.ogg` | Track07 | Apocalypse | Peer Gynt Suite No. 1, II. The Death of Aase | Edvard Grieg; Musopen Symphony (Musopen Kickstarter project), 2012 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grieg_-_Peer_Gynt_Suite_No._1,_Op._46_-_II._The_Death_of_Aase_(Musopen_Symphony).flac) | Public domain (Commons: recording PD-author, released by Musopen; composition PD-old) | 4:32 |
+| `track08.ogg` | Track08 | Primeval World | Peer Gynt Suite No. 1, I. Morning Mood | Edvard Grieg; Musopen Symphony (Musopen Kickstarter project), 2012 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Grieg_-_Peer_Gynt_Suite_No._1,_Op._46_-_I._Morning_Mood_(Musopen_Symphony).flac) | Public domain (Commons: recording PD-author, released by Musopen; composition PD-old) | 2:35 |
+| `track09.ogg` | Track09 | New World | Goin' Home (Largo theme from Symphony No. 9 'From the New World') | Antonín Dvořák; United States Air Force Band (concert band) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Goin%27_Home_-_Concert_Band_-_United_States_Air_Force_Band.mp3) | Public domain (Commons: PD-USGov-Military-Air Force for arrangement, performance, recording; composition PD) | 3:07 |
+| `track10.ogg` | Track10 | Fantasy | Fantasy: Rising Moon | RandomMind | [OpenGameArt](https://opengameart.org/content/fantasy-rising-moon) | CC0 (OpenGameArt) | 3:36 |
+| `track11.ogg` | Track11 | Mars | Fantasy: Lament for a Warrior's Soul (from the start, the REUPLOAD version) | RandomMind | [OpenGameArt](https://opengameart.org/content/fantasy-lament-for-a-warriors-soul) | CC0 (OpenGameArt) | 2:25 |
+| `track12.ogg` | Track12 | World of Jules Verne | An der schönen blauen Donau (The Blue Danube): introduction and first waltz | Johann Strauss II; United States Marine Band | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:%22An_der_sch%C3%B6nen,_blauen_Donau%22_performed_by_the_U.S._Marine_Band.flac) | Public domain (Commons: PD-USGov-Military-Marines; composition PD-old) | 2:17 |
+
+The licences were checked on each item's own page: on Wikimedia Commons, the US military bands' recordings are works of the US Government (PD-USGov-Military) of compositions in the public domain; the Musopen Symphony's recordings were released into the public domain by Musopen (PD-author); the Palestrina Kyrie is CC0. The OpenGameArt pieces are marked CC0 by their authors.
 
 What is still to be found or generated: [docs/NEEDED.md](../../docs/NEEDED.md).
